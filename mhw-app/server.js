@@ -12,7 +12,8 @@ require('dotenv').config()
 // Setting up a static directory for the html file in /pub
 // using Express middleware
 app.use(express.static(__dirname + '/pub'))
-
+// Serve the build
+app.use(express.static(__dirname + "/client/build"));
 
 //parsers and session 
 app.use(bodyParser.json())
@@ -42,7 +43,10 @@ const { ObjectID } = require('mongodb')
 
 
 
-
+// All routes other than above will go to index.html
+app.get("*", (req, res) => {
+    res.sendFile(__dirname + "/client/build/index.html");
+});
 
 //start listening
 const port = process.env.PORT || 5000
