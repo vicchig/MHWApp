@@ -15,11 +15,11 @@
     min-height: 130px;
     max-height: 130px;
     border-style: solid;
-    border-style: solid;
     border-color: rgb(164, 164, 164);
     border-width: 4px;
     border-radius: 20px;
     justify-content: center;
+    margin-bottom: 5px;
 }
 
 .mainHeader{
