@@ -15,6 +15,10 @@ class HomePage extends React.Component{
                     </header>
                 </div>
                 <Navbar id={"navbar"}/>
+
+                <div id="newsfeedContainer">
+                    
+                </div>
             </div>
         )
     }

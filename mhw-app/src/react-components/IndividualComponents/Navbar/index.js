@@ -4,6 +4,13 @@ import CustomButton from "./../CustomButton"
 import { withRouter } from 'react-router-dom';
 
 class Navbar extends React.Component{
+
+    switchpage = (pagename) => {
+        const { history } = this.props;
+		console.log(this)
+		history.push('/'+pagename, this.state)
+    }
+
 	render(){
 		return (
 			<div id="navbarDiv">
@@ -19,7 +26,8 @@ class Navbar extends React.Component{
 							  position={"relative"}
 							  borderRadius={"10px"}
 							  hoverColor={"rgb(74, 74, 74)"}
-							  hoverTextColor={"rgb(161, 184, 98)"}
+                              hoverTextColor={"rgb(161, 184, 98)"}
+                              onClick={() => {this.switchpage("")}}
                 ></CustomButton>
 				<CustomButton id={"monstHpButton"}
                               border={"solid"}
@@ -33,9 +41,10 @@ class Navbar extends React.Component{
 							  position={"relative"}
 							  borderRadius={"10px"}
 							  hoverColor={"rgb(74, 74, 74)"}
-							  hoverTextColor={"rgb(161, 184, 98)"}
+                              hoverTextColor={"rgb(161, 184, 98)"}
+                              onClick={() => {this.switchpage("MonstHP")}}
                 ></CustomButton>
-				<CustomButton id={"monstHpButton"}
+				<CustomButton id={"armourMatsButton"}
                               border={"solid"}
                               textColor={"rgb(161, 184, 98)"}
                               height={"30px"}
@@ -47,9 +56,10 @@ class Navbar extends React.Component{
 							  position={"relative"}
 							  borderRadius={"10px"}
 							  hoverColor={"rgb(74, 74, 74)"}
-							  hoverTextColor={"rgb(161, 184, 98)"}
+                              hoverTextColor={"rgb(161, 184, 98)"}
+                              onClick={() => {this.switchpage("MonstHP")}}
                 ></CustomButton>
-				<CustomButton id={"monstHpButton"}
+				<CustomButton id={"moreButton"}
                               border={"solid"}
                               textColor={"rgb(161, 184, 98)"}
                               height={"30px"}
