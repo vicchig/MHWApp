@@ -33,10 +33,20 @@
 
 #newsfeedContainer{
     display: block;
-    border-style: solid;
-    border-width: 5px;
-    border-color: rgb(164, 164, 164);
-    border-radius: 20px;
-    width: 90%;
+    width: 85%;
     height: fit-content;
+}
+
+#newsfeed_header{
+   color: rgb(161, 184, 98);
+   font-size: 20pt;
+   position: relative;
+   left: 2pt;
+}
+
+#newsfeed_mainDiv{
+    display: block;
+    width: 85%;
+    height: fit-content;
+    padding: 5pt;
 }
