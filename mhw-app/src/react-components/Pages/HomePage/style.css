@@ -1,6 +1,6 @@
 #mainDiv{
-    min-height: 1000px;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     width: 100%;
     background-color: rgb(61, 61, 61);
     align-items: center;

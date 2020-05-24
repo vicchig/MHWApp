@@ -1,7 +1,7 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
 import Navbar from './../../IndividualComponents/Navbar'
-import NewsItemCard from './../../IndividualComponents/NewsItemCard'
+import NewsItemScroll from './../../IndividualComponents/NewsItemScroll'
 import CustomButton from './../../IndividualComponents/CustomButton'
 import "./style.css"
 
@@ -15,6 +15,7 @@ class HomePage extends React.Component{
                         MHW Info App
                     </header>
                 </div>
+                
                 <Navbar id={"navbar"}/>
 
                 <div id="newsfeed_mainDiv">
@@ -22,7 +23,7 @@ class HomePage extends React.Component{
                             Updates
                     </h3>
                     <div id="newsfeedContainer">
-                    {/*NewsItem card array goes here*/}
+                    <NewsItemScroll></NewsItemScroll>
                 </div>
                 </div>
                 
