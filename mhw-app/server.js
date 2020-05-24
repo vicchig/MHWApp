@@ -26,12 +26,17 @@ app.use(bodyParser.urlencoded({ extended: true }))
 //cors
 app.use(cors())
 
+// to validate object IDs
+const { ObjectID } = require('mongodb')
+
+//routes
+const newsitemRoutes = require('./routes/newsitems')
+app.use('/newsitem', newsitemRoutes)
+
 // mongoose and mongo connection
 const { mongoose } = require('./db/mongoose')
 mongoose.set('useFindAndModify', false); // for some deprecation issues
 
-// to validate object IDs
-const { ObjectID } = require('mongodb')
 
 
 
@@ -40,13 +45,6 @@ const { ObjectID } = require('mongodb')
 
 
 
-
-
-
-// All routes other than above will go to index.html
-app.get("*", (req, res) => {
-    res.sendFile(__dirname + "/client/build/index.html");
-});
 
 //start listening
 const port = process.env.PORT || 5000
