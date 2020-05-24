@@ -29,7 +29,7 @@ class Navbar extends React.Component{
                               hoverTextColor={"rgb(161, 184, 98)"}
                               onClick={() => {this.switchpage("")}}
                 ></CustomButton>
-				<CustomButton id={"monstHpButton"}
+				<CustomButton id={"skillToGemButton"}
                               border={"solid"}
                               textColor={"rgb(161, 184, 98)"}
                               height={"30px"}
@@ -42,7 +42,7 @@ class Navbar extends React.Component{
 							  borderRadius={"10px"}
 							  hoverColor={"rgb(74, 74, 74)"}
                               hoverTextColor={"rgb(161, 184, 98)"}
-                              onClick={() => {this.switchpage("MonstHP")}}
+                              onClick={() => {this.switchpage("skillToGem")}}
                 ></CustomButton>
 				<CustomButton id={"armourMatsButton"}
                               border={"solid"}
