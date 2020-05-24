@@ -1,0 +1,10 @@
+#navbarDiv{
+	border-style: solid;
+	border-color: rgb(164, 164, 164);
+	width: 90%;
+	min-height: 30px;
+	max-height: 30px;
+	border-radius: 20px;
+	border-width: 4px;
+	margin-bottom: 50pt;
+}

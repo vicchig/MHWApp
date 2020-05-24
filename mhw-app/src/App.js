@@ -4,7 +4,7 @@ import './App.css';
 import { Route, Switch, BrowserRouter} from 'react-router-dom';
 
 //pages
-import HomePage from './react-components/Pages/HomePage/HomePage';
+import HomePage from './react-components/Pages/HomePage';
 
 
 class App extends React.Component{
