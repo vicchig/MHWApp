@@ -1,7 +1,6 @@
 
 export const getNewsItemInterval = async (amount, skipAmount) => {
   const url = `/newsitem/getInterval?amnt=${amount}&skip=${skipAmount}`
-  console.log(url)
   const request = new Request(url, {
       method: 'GET', 
       headers: {

@@ -16,10 +16,10 @@ router.get('/getInterval', (req, res) =>  {
     })
 
     NewsItem.find().limit(amnt).skip(skipAmnt).then((items) => {
-        res.status(200).send({"items": items, "count": left})
+        res.send({"items": items, "count": left})
     }).catch((error) => {
         console.log("Failed endpoint: /newsitem/getInterval\n" + error)
-        res.status(500).send()
+        res.send()
     })
 })
 
