@@ -9,28 +9,6 @@
     padding-top: 5px;
 }
 
-#headerContainer{
-    width: 90%;
-    display: flex;
-    min-height: 130px;
-    max-height: 130px;
-    border-style: solid;
-    border-color: rgb(164, 164, 164);
-    border-width: 4px;
-    border-radius: 20px;
-    justify-content: center;
-    margin-bottom: 5px;
-}
-
-.mainHeader{
-    font-size: 60pt;
-    font-style: oblique;
-    font-weight: 600;
-    width: fit-content;
-    height: fit-content;
-    color: rgb(161, 184, 98);
-}
-
 #newsfeedContainer{
     display: block;
     width: 85%;
