@@ -5,7 +5,7 @@ import { Route, Switch, BrowserRouter} from 'react-router-dom';
 
 //pages
 import HomePage from './react-components/Pages/HomePage';
-
+import SkillToGemPage from './react-components/Pages/SkillToGemPage';
 
 class App extends React.Component{
   constructor(props){
@@ -19,6 +19,11 @@ class App extends React.Component{
             <Route
               exact path={["/"] /* any of these URLs are accepted. */ }
               render={({ history }) => <HomePage history={history}/>}
+            />
+
+            <Route
+              exact path = {["/skillToGem"]}
+              render={({history}) => <SkillToGemPage history={history}/>}
             />
 
             { /* 404 if URL isn't expected. */}
