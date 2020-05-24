@@ -1,7 +1,6 @@
 import React  from "react";
 import NewsItemCard from './../../IndividualComponents/NewsItemCard'
 import { getNewsItemInterval } from './../../../actions/newsitemActions'
-import request from "superagent";
 import debounce from "lodash.debounce";
 import { uid } from "react-uid";
 import { withRouter } from 'react-router-dom';
@@ -40,7 +39,7 @@ class NewsItemScroll extends React.Component {
       ) {
         loadItems();
       }
-    }, 0);
+    }, 100);
   }
 
   componentDidMount() {
