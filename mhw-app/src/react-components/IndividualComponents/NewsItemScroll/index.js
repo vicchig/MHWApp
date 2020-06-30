@@ -79,6 +79,10 @@ class NewsItemScroll extends React.Component {
                   ...this.state.items,
                   ...nextItems,
                 ],
+              }, () => {
+                this.setState({
+                  items: this.state.items.sort((item1, item2) => {return item1.date <= item2.date ? 1 : -1})
+                })
               });
               break
             default:
