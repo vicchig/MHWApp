@@ -71,7 +71,7 @@ class NewsItemScroll extends React.Component {
                 date: item.date
               }))
 
-              // Merges newly olded items with items that have already been loaded and are being displayed
+              // Merges newly added items with items that have already been loaded and are being displayed
               this.setState({
                 hasMore: (this.state.items.length < response.count),
                 isLoading: false,
@@ -96,6 +96,10 @@ class NewsItemScroll extends React.Component {
     });
   }
 
+  splitText = (splitOn, text) => {
+    return text.split(splitOn)
+  }
+
   render() {
     const {
       error,
@@ -106,13 +110,15 @@ class NewsItemScroll extends React.Component {
 
     return (
       <div>
-        {items.map((item) => (
-          <NewsItemCard
-            key={uid(item)}
-            date={item.date}
-            content={item.text}
-          ></NewsItemCard>
-        ))}
+          {
+            items.map((item) => (
+              <NewsItemCard
+                key={uid(item)}
+                date={item.date}
+                contents={this.splitText("-n", item.text)}
+              ></NewsItemCard>
+            ))
+          }
         <hr/>
         {error &&
           <div >
