@@ -7,7 +7,6 @@ class Navbar extends React.Component{
 
     switchpage = (pagename) => {
         const { history } = this.props;
-		console.log(this)
 		history.push('/'+pagename, this.state)
     }
 

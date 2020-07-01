@@ -57,13 +57,13 @@ class NewsItemScroll extends React.Component {
 
           switch(response.status){
             case 404:
-              console.log("Not found")
+              this.props.history.push("/404")
               break
             case 500:
-              console.log("Internal Server Error")
+              this.props.history.push("/500")
               break
             case 400:
-              console.log("Bad Request")
+              this.props.history.push("/400")
               break
             case 200:
               nextItems = response.items.map((item) => ({

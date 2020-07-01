@@ -23,7 +23,7 @@ class HomePage extends React.Component{
                             Updates
                     </h3>
                     <div id="newsfeedContainer">
-                    <NewsItemScroll></NewsItemScroll>
+                    <NewsItemScroll history={this.props.history}></NewsItemScroll>
                 </div>
                 </div>
                 
