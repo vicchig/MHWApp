@@ -6,14 +6,18 @@ import { uid } from 'react-uid';
 class NewsItemCard extends React.Component{
     render(){
         const {contents, date} = this.props
-        console.log(contents)
+        
         const textItems = contents.map((content) => (
             <li key={uid(content)}>{content}</li>
         ))
+        
+        const dateObj = new Date(date)
+        const formattedDate = dateObj.toString().split("GMT")[0]
+
         return(
             <div id="newsItemCard_mainDiv">
                 <div id="newsItemCard_dateDiv">
-                    {"Date: " + date}
+                    {"Date: " + formattedDate}
                 </div>
                 <div id="newsItemCard_contentDiv">
                     <ul>{textItems}</ul>
