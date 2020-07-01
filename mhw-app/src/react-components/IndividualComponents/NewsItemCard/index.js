@@ -4,7 +4,10 @@ import "./style.css"
 
 class NewsItemCard extends React.Component{
     render(){
-        const {content, date} = this.props
+        const {content} = this.props
+        const dateObj = new Date(this.props.date)
+        const date = dateObj.toString().split("GMT")[0]
+        
         return(
             <div id="newsItemCard_mainDiv">
                 <div id="newsItemCard_dateDiv">
