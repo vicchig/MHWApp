@@ -65,6 +65,9 @@ class NewsItemScroll extends React.Component {
             case 400:
               this.props.history.push("/400")
               break
+            case 401:
+              this.props.history.push("/401")
+              break
             case 200:
               nextItems = response.items.map((item) => ({
                 text: item.text,
