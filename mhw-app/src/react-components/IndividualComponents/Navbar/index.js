@@ -11,6 +11,8 @@ class Navbar extends React.Component{
     }
 
 	render(){
+        const {page, context} = this.props
+
 		return (
 			<div id="navbarDiv">
 				<CustomButton id={"homeButton"}
@@ -72,22 +74,26 @@ class Navbar extends React.Component{
 							  hoverColor={"rgb(74, 74, 74)"}
 							  hoverTextColor={"rgb(161, 184, 98)"}
                 ></CustomButton>
-                <CustomButton id={"signInButton"}
-                              border={"solid"}
-                              textColor={"rgb(161, 184, 98)"}
-                              height={"30px"}
-                              width={"150px"}
-                              borderColor={"rgb(164, 164, 164)"}
-                              fontSize={"10pt"}
-                              position={"absolute"}
-							  buttonText={"Sign In"}
-							  position={"relative"}
-							  borderRadius={"10px"}
-							  hoverColor={"rgb(74, 74, 74)"}
-                              hoverTextColor={"rgb(161, 184, 98)"}
-                              justifySelf={"end"}
-                              onClick={() => {this.switchpage("signIn")}}
-                ></CustomButton>
+                {page === 'home' ? 
+                    <CustomButton id={"signInButton"}
+                        border={"solid"}
+                        textColor={"rgb(161, 184, 98)"}
+                        height={"30px"}
+                        width={"150px"}
+                        borderColor={"rgb(164, 164, 164)"}
+                        fontSize={"10pt"}
+                        position={"absolute"}
+                        buttonText={"Sign In"}
+                        position={"relative"}
+                        borderRadius={"10px"}
+                        hoverColor={"rgb(74, 74, 74)"}
+                        hoverTextColor={"rgb(161, 184, 98)"}
+                        justifySelf={"end"}
+                        onClick={() => {context.setState({displaySignInFloat: true})}}
+                    ></CustomButton>
+        
+                    : null
+                }
 			</div>
 		)
 	}

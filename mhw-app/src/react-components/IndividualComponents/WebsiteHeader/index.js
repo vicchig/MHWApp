@@ -5,6 +5,8 @@ import "./style.css"
 
 class WebsiteHeader extends React.Component{
     render(){
+        const {page} = this.props
+
         return(
             <div id="websiteHeaderDiv">
                 <div id="headerContainer">
@@ -13,7 +15,7 @@ class WebsiteHeader extends React.Component{
                     </header>
                 </div>
                 
-                <Navbar id={"navbar"}/>
+                <Navbar id={"navbar"} page={page}/>
             </div>   
         )
     }

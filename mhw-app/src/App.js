@@ -11,9 +11,18 @@ import Page400 from './react-components/Pages/ErrorPages/400Page'
 import Page401 from './react-components/Pages/ErrorPages/401Page'
 import Page500 from './react-components/Pages/ErrorPages/500Page'
 
+//actions
+import {readCookie} from './actions/accActions'
+
+
 class App extends React.Component{
   constructor(props){
     super(props)
+    readCookie(this)
+  }
+
+  state = {
+    loggedInUser: null
   }
 
   render(){
