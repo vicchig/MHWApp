@@ -36,7 +36,7 @@ class Navbar extends React.Component{
                               borderColor={"rgb(164, 164, 164)"}
                               fontSize={"10pt"}
                               position={"absolute"}
-							  buttonText={"Skill to Gem"}
+							  buttonText={"Skill to Deco"}
 							  position={"relative"}
 							  borderRadius={"10px"}
 							  hoverColor={"rgb(74, 74, 74)"}
@@ -58,7 +58,7 @@ class Navbar extends React.Component{
                               hoverTextColor={"rgb(161, 184, 98)"}
                               onClick={() => {this.switchpage("MonstHP")}}
                 ></CustomButton>
-				<CustomButton id={"moreButton"}
+				<CustomButton id={"buildSuggestButton"}
                               border={"solid"}
                               textColor={"rgb(161, 184, 98)"}
                               height={"30px"}
@@ -66,11 +66,27 @@ class Navbar extends React.Component{
                               borderColor={"rgb(164, 164, 164)"}
                               fontSize={"10pt"}
                               position={"absolute"}
-							  buttonText={"More"}
+							  buttonText={"Socket Decos"}
 							  position={"relative"}
 							  borderRadius={"10px"}
 							  hoverColor={"rgb(74, 74, 74)"}
 							  hoverTextColor={"rgb(161, 184, 98)"}
+                ></CustomButton>
+                <CustomButton id={"signInButton"}
+                              border={"solid"}
+                              textColor={"rgb(161, 184, 98)"}
+                              height={"30px"}
+                              width={"150px"}
+                              borderColor={"rgb(164, 164, 164)"}
+                              fontSize={"10pt"}
+                              position={"absolute"}
+							  buttonText={"Sign In"}
+							  position={"relative"}
+							  borderRadius={"10px"}
+							  hoverColor={"rgb(74, 74, 74)"}
+                              hoverTextColor={"rgb(161, 184, 98)"}
+                              justifySelf={"end"}
+                              onClick={() => {this.switchpage("signIn")}}
                 ></CustomButton>
 			</div>
 		)

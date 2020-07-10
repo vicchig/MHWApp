@@ -9,7 +9,8 @@ class CustomButton extends React.Component{
         const {buttonText, borderColor, width, height, padding, boxShadow, background,
                border, borderRadius, textColor, backgroundColor, variant,
                disableElevation, top, left, display, fontSize, onClick, position, disabled, margin,
-               hoverColor, hoverTextColor, float} = this.props
+               hoverColor, hoverTextColor, justifySelf} = this.props
+
 
         const CustomButton = styled(Button)({
             background: background,
@@ -28,6 +29,7 @@ class CustomButton extends React.Component{
             position: position,
             margin: margin,
             display: display,
+            justifySelf: justifySelf,
             "&:hover": {
                 color: hoverTextColor,
                 background: hoverColor
