@@ -15,7 +15,7 @@ class HomePage extends React.Component{
     render(){
         return(
             <div id="mainDiv">
-                <WebsiteHeader page={"home"}/>
+                <WebsiteHeader pageName={"home"} parentContext={this}/>
 
                 <div id="newsfeed_mainDiv">
                     <h3 id="newsfeed_header">
@@ -26,7 +26,7 @@ class HomePage extends React.Component{
                 </div>
                 </div>
                 
-                {this.state.displaySignInFloat ? <SignInFloat/> : null}
+                {this.state.displaySignInFloat ? <SignInFloat context={this}/> : null}
                 
             </div>
         )

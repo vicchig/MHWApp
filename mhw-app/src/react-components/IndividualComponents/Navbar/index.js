@@ -11,7 +11,7 @@ class Navbar extends React.Component{
     }
 
 	render(){
-        const {page, context} = this.props
+        const {pageName, context} = this.props
 
 		return (
 			<div id="navbarDiv">
@@ -74,7 +74,7 @@ class Navbar extends React.Component{
 							  hoverColor={"rgb(74, 74, 74)"}
 							  hoverTextColor={"rgb(161, 184, 98)"}
                 ></CustomButton>
-                {page === 'home' ? 
+                {pageName === 'home' ? 
                     <CustomButton id={"signInButton"}
                         border={"solid"}
                         textColor={"rgb(161, 184, 98)"}
