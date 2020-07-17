@@ -12,7 +12,8 @@ import Page401 from './react-components/Pages/ErrorPages/401Page'
 import Page500 from './react-components/Pages/ErrorPages/500Page'
 
 //actions
-import {readCookie} from './actions/accActions'
+import {readCookie, login} from './actions/accActions'
+import {handleServerResponseStatus} from './actions/utilities'
 
 
 class App extends React.Component{
@@ -25,13 +26,38 @@ class App extends React.Component{
     loggedInUser: null
   }
 
+  handleSignIn = (callingContext, username, password) => {
+    login(this, username, password).then( res => {
+      switch(res.status){
+        case 200: 
+          callingContext.setState({displayHintText: false, displaySignInFloat: false})
+          break
+        case 400:
+          callingContext.props.history.push('/400')
+          break
+        case 500:
+          callingContext.props.history.push('/500')
+          break
+        case 404:
+          callingContext.setState({displayHintText: true})
+          break
+        default:
+          callingContext.props.history.push('/500')
+          break
+      }
+    }, rej => {
+      console.log("Promise rejected.\n")
+      console.log(rej)
+    })
+  }
+
   render(){
     return (
       <BrowserRouter>
           <Switch> 
             <Route
               exact path={["/"] /* any of these URLs are accepted. */ }
-              render={({ history }) => <HomePage history={history}/>}
+              render={({ history }) => <HomePage history={history} parentContext={this}/>}
             />
 
             <Route
@@ -40,7 +66,6 @@ class App extends React.Component{
             />
 
             { /* 404 if URL isn't expected. */}
-            <Route render={() => <div>404 Not found</div>} />
             <Route exact path='/404' 
                    render={({history}) => <Page404 history={history}/>}
             />

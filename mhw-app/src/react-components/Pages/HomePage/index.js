@@ -9,7 +9,12 @@ import "./style.css"
 class HomePage extends React.Component{
 
     state = {
-        displaySignInFloat: false
+        displaySignInFloat: false,
+        dispalyHintText: false
+    }
+
+    handleSignIn = (username, password) => {
+       this.props.parentContext.handleSignIn(this, username, password)
     }
 
     render(){
@@ -26,7 +31,7 @@ class HomePage extends React.Component{
                 </div>
                 </div>
                 
-                {this.state.displaySignInFloat ? <SignInFloat context={this}/> : null}
+                {this.state.displaySignInFloat ? <SignInFloat parentContext={this} displayHintText={this.state.displayHintText}/> : null}
                 
             </div>
         )

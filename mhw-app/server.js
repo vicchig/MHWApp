@@ -2,6 +2,7 @@
 const log = console.log
 
 const express = require('express')
+const session = require('express-session')
 const bodyParser = require('body-parser') 
 const cors = require('cors')
 const app = express()
@@ -31,7 +32,20 @@ const { ObjectID } = require('mongodb')
 
 //routes
 const newsitemRoutes = require('./routes/newsitems')
+const userRoutes = require('./routes/user')
 app.use('/newsitem', newsitemRoutes)
+app.use('/users', userRoutes)
+
+//session cookie
+app.use(session({
+    secret: 'oursecret',
+    resave: false,
+    saveUninitialized: false,
+    cookie: {
+        expires: 300000,
+        httpOnly: true
+    }
+}));
 
 // mongoose and mongo connection
 const { mongoose } = require('./db/mongoose')
