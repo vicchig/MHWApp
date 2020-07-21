@@ -13,14 +13,27 @@ class HomePage extends React.Component{
         dispalyHintText: false
     }
 
-    handleSignIn = (username, password) => {
-       this.props.parentContext.handleSignIn(this, username, password)
+    handleSignInWrapper = (username, password) => {
+       this.props.parentContext.handleSignIn(username, password, 
+        () => {
+           this.setState({
+            displaySignInFloat: false,
+            dispalyHintText: false
+           })
+        },
+        () => {
+          this.setState({displayHintText: true})  
+        },
+        (page) => {
+            this.props.history.push(page)
+        }
+       )
     }
 
     render(){
         return(
             <div id="mainDiv">
-                <WebsiteHeader pageName={"home"} parentContext={this}/>
+                <WebsiteHeader pageName={"home"} parentContext={this} appContext={this.props.parentContext}/>
 
                 <div id="newsfeed_mainDiv">
                     <h3 id="newsfeed_header">

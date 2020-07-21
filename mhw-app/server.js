@@ -42,7 +42,7 @@ app.use(session({
     resave: false,
     saveUninitialized: false,
     cookie: {
-        expires: 300000,
+        maxAge: 300000,
         httpOnly: true
     }
 }));
@@ -88,7 +88,7 @@ app.delete('/logout', (req, res) => {
 		if (error) {
 			res.status(500).send()
 		} else {
-			res.redirect('/')
+            res.status(200).send()
 		}
 	})
 })

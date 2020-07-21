@@ -13,36 +13,34 @@ import Page500 from './react-components/Pages/ErrorPages/500Page'
 
 //actions
 import {readCookie, login} from './actions/accActions'
-import {handleServerResponseStatus} from './actions/utilities'
 
 
 class App extends React.Component{
   constructor(props){
     super(props)
-    readCookie(this)
   }
 
   state = {
     loggedInUser: null
   }
+  componentDidMount = () => {
+    readCookie(this)
+  }
 
-  handleSignIn = (callingContext, username, password) => {
-    login(this, username, password).then( res => {
-      switch(res.status){
-        case 200: 
-          callingContext.setState({displayHintText: false, displaySignInFloat: false})
-          break
-        case 400:
-          callingContext.props.history.push('/400')
+  handleSignIn = (username, password, onResolve, onUserNotFound, handleError) => {
+    login(this, username, password).then( resolve => {
+      switch(resolve.status){
+        case 200:
+          onResolve()
           break
         case 500:
-          callingContext.props.history.push('/500')
+          handleError('/500')
+          break
+        case 400:
+          onUserNotFound()
           break
         case 404:
-          callingContext.setState({displayHintText: true})
-          break
-        default:
-          callingContext.props.history.push('/500')
+          onUserNotFound()
           break
       }
     }, rej => {
@@ -62,7 +60,7 @@ class App extends React.Component{
 
             <Route
               exact path = {["/skillToGem"]}
-              render={({history}) => <SkillToGemPage history={history}/>}
+              render={({history}) => <SkillToGemPage history={history} parentContext={this}/>}
             />
 
             { /* 404 if URL isn't expected. */}

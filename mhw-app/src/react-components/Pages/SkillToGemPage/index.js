@@ -8,7 +8,7 @@ class SkillToGemPage extends React.Component{
     render(){
         return(
             <div id="mainDiv">
-                <WebsiteHeader/>
+                <WebsiteHeader appContext={this.props.parentContext}/>
                 <SearchBar/>
                 
 

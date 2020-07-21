@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import CustomButton from "./../CustomButton"
 import { withRouter } from 'react-router-dom';
+import {logOut, readCookie} from '../../../actions/accActions'
 
 class Navbar extends React.Component{
 
@@ -10,8 +11,26 @@ class Navbar extends React.Component{
 		history.push('/'+pagename, this.state)
     }
 
+    handleLogOut = () => {
+        logOut().then(res => {
+            console.log(res)
+            switch(res){
+                case 200:
+                    this.props.appContext.setState({loggedInUser: null})
+                    this.props.history.push("/")
+                    break
+                default:
+                    this.props.history.push("/" + res)
+                    break
+            }
+        }, rej => {
+            console.log("Promise rejected. \n")
+            console.log(rej)
+        })
+    }
+
 	render(){
-        const {pageName, context} = this.props
+        const {pageName, context, appContext} = this.props
 
 		return (
 			<div id="navbarDiv">
@@ -74,7 +93,7 @@ class Navbar extends React.Component{
 							  hoverColor={"rgb(74, 74, 74)"}
 							  hoverTextColor={"rgb(161, 184, 98)"}
                 ></CustomButton>
-                {pageName === 'home' ? 
+                {pageName === 'home' && !appContext.state.loggedInUser ? 
                     <CustomButton id={"signInButton"}
                         border={"solid"}
                         textColor={"rgb(161, 184, 98)"}
@@ -90,6 +109,26 @@ class Navbar extends React.Component{
                         hoverTextColor={"rgb(161, 184, 98)"}
                         justifySelf={"end"}
                         onClick={() => {context.setState({displaySignInFloat: true})}}
+                    ></CustomButton>
+        
+                    : null
+                }
+                {appContext.state.loggedInUser ? 
+                    <CustomButton id={"logoutButton"}
+                        border={"solid"}
+                        textColor={"rgb(161, 184, 98)"}
+                        height={"30px"}
+                        width={"150px"}
+                        borderColor={"rgb(164, 164, 164)"}
+                        fontSize={"10pt"}
+                        position={"absolute"}
+                        buttonText={"Log out"}
+                        position={"relative"}
+                        borderRadius={"10px"}
+                        hoverColor={"rgb(74, 74, 74)"}
+                        hoverTextColor={"rgb(161, 184, 98)"}
+                        justifySelf={"end"}
+                        onClick={this.handleLogOut}
                     ></CustomButton>
         
                     : null

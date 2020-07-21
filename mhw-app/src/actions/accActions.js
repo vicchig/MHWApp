@@ -22,7 +22,7 @@ export const getUserById = async (idIn) => {
     }
   }
   
-export const readCookie = (app) => {
+  export const readCookie = (app) => {
     const url = "/users/check-session";
   
     fetch(url)
@@ -35,7 +35,8 @@ export const readCookie = (app) => {
             if (json && json.currentUser) {
               getUserById(json.currentUser).then((res) => {
                 if(!res){
-                  console.log("Failed to update user from session data.")
+                  console.log("No user currently logged in.")
+                  app.setState({ loggedInUser: null })
                 }
                 else{
                   app.setState({ loggedInUser: res });
@@ -48,21 +49,31 @@ export const readCookie = (app) => {
         });
   };
 
-  export const login = async (context, username, password) => {
+  export const login = async (context, usernameIn, passwordIn) => {
       const req = new Request('/log_in',{
         method: 'POST',
-        body: JSON.stringify({username: username, password: password}),
+        body: JSON.stringify({username: usernameIn, password: passwordIn}),
         headers: {
             Accept: "application/json, text/plain, */*",
                     "Content-Type": "application/json"
         }
       })
 
-      let res = null
+      let result = null
       try{
-        res = await fetch(req)
-        if(res.status === 200){
-          context.loggedInUser = res.user._id
+        result = await fetch(req)
+        if(result.status === 200){
+          result.json().then(res => {
+            if(res){
+              context.setState({loggedInUser: res._id})
+            }
+            else{
+              console.log("User was not retrieved properly.\n")
+            }
+          }, rej => {
+            console.log("Promise rejected.\n")
+            console.log(rej)
+          })
         }
       }
       catch(err){
@@ -70,6 +81,19 @@ export const readCookie = (app) => {
         console.log(err)
       }
       finally{
-        return {status: res.status}
+        return {status: result.status}
       }
+  }
+
+  export const logOut = async () => {
+    const req = new Request('/logout', {
+      method: "DELETE",
+      headers: {
+        Accept: "application/json, text/plain, */*",
+                "Content-Type": "application/json"
+      }
+    })
+
+    let res = await fetch(req)
+    return res.status
   }

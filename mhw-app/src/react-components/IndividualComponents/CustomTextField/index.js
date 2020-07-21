@@ -56,11 +56,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function CreateCustomTextField(props) {
     const classes = useStyles(props);
-    const {placeholder, width, top, left, position, float,
-           hoverBorderColour, regularBorderColour, focusedBorderColour, label,
-           justifySelf, alignSelf, gridRowStart, gridRowEnd, gridColStart, gridColEnd,
-           type, labelFocusedColour, borderWidthFocused, onChange, value, name, setFocus, onClick
-          } = props
+    const {label,type, onChange, value, name, setFocus, onClick} = props
   
     return (
         <TextField
