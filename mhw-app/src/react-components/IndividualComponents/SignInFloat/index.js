@@ -13,6 +13,16 @@ class SignInFloat extends React.Component {
         password: ""
     }
 
+    handleOnChange = (e) => {
+        this.setState({
+            [e.target.name]: e.target.value
+        })
+    }
+
+    makeSignInRequest = () => {
+        this.props.parentContext.handleSignInWrapper(this.state.username, this.state.password)
+    }
+
     render(){
         const {parentContext, displayHintText} = this.props
         
@@ -35,6 +45,9 @@ class SignInFloat extends React.Component {
                         label={"username"}
                         width={"70%"}
                         borderWidthFocused={"2pt"}
+                        onChange={this.handleOnChange}
+                        value={this.state.username}
+                        name={"username"}
                     ></CustomTextField>
 
                     <CustomTextField id={"passwordInput"}
@@ -52,6 +65,9 @@ class SignInFloat extends React.Component {
                         label={"password"}
                         type={"password"}
                         borderWidthFocused={"2pt"}
+                        name={"password"}
+                        onChange={this.handleOnChange}
+                        value={this.state.password}
                     ></CustomTextField>
                     
                     <CustomButton
@@ -69,7 +85,7 @@ class SignInFloat extends React.Component {
                         variant={"outlined"}
                         alignSelf={"center"}
                         justifySelf={"center"}
-                        onClick={() => {parentContext.handleSignIn()}}
+                        onClick={() => {this.makeSignInRequest()}}
                     ></CustomButton>
 
                     <IconButton

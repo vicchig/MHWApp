@@ -18,7 +18,7 @@
     height: inherit;
     display: grid;
     grid-template-columns: 10% 80% 10%;
-    grid-template-rows: 15% 7% 17% 20% 20%;
+    grid-template-rows: 15% 7% 17% 20% 20% 10%;
 }
 
 #signInHeader{
@@ -37,6 +37,16 @@
 }
 
 .hintText{
+    color: red;
+}
+
+#hintText{
+    grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    align-self: center;
+    justify-self: center;
     color: red;
 }
 
