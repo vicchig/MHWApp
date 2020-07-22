@@ -112,17 +112,18 @@ class NewsItemScroll extends React.Component {
     } = this.state;
 
     return (
-      <div>
+      <div id="scrollDiv">
           {
             items.map((item) => (
               <NewsItemCard
                 key={uid(item)}
                 date={item.date}
                 contents={this.splitText("-n", item.text)}
+                appContext={this.props.appContext}
               ></NewsItemCard>
             ))
           }
-        <hr/>
+        <hr id='endScrollLine'/>
         {error &&
           <div >
             {error}

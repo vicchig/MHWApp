@@ -40,8 +40,8 @@ class HomePage extends React.Component{
                             Updates
                     </h3>
                     <div id="newsfeedContainer">
-                    <NewsItemScroll history={this.props.history}></NewsItemScroll>
-                </div>
+                        <NewsItemScroll history={this.props.history} appContext={this.props.parentContext}></NewsItemScroll>
+                    </div>
                 </div>
                 
                 {this.state.displaySignInFloat ? <SignInFloat parentContext={this} displayHintText={this.state.displayHintText}/> : null}

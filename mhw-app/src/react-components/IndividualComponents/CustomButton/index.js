@@ -10,7 +10,7 @@ class CustomButton extends React.Component{
                border, borderRadius, textColor, backgroundColor, variant,
                disableElevation, top, left, display, fontSize, onClick, position, disabled, margin,
                hoverColor, hoverTextColor,  float, gridColStart, gridColEnd,
-               gridRowStart, gridRowEnd, alignSelf, justifySelf} = this.props
+               gridRowStart, gridRowEnd, alignSelf, justifySelf, marginBottom} = this.props
 
 
         const CustomButton = styled(Button)({
@@ -40,7 +40,8 @@ class CustomButton extends React.Component{
             gridRowStart: gridRowStart,
             gridRowEnd: gridRowEnd,
             justifySelf: justifySelf,
-            alignSelf: alignSelf
+            alignSelf: alignSelf,
+            marginBottom: marginBottom
         })
         return (
             <CustomButton

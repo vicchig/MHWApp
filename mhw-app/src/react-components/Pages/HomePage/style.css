@@ -11,7 +11,7 @@
 
 #newsfeedContainer{
     display: block;
-    width: 85%;
+    width: 100%;
     height: fit-content;
 }
 
