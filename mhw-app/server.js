@@ -105,7 +105,7 @@ app.get("/users/check-session", (req, res) => {
 module.exports.auth = (req, res, next) => {
     //req.session.user actually stores the user id
     if (req.session.user) {
-        User.findById(req.session.user).then((user) => {
+        User.findOne({id: req.sessions.user}, {_id: false, password: false}).then((user) => {
             if (!user) {
                 return Promise.reject()
             } else {

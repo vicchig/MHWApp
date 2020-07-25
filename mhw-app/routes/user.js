@@ -9,7 +9,7 @@ router.get('/findUserByID/:id', (req, res) => {
         res.status(400).send()
     }
     
-    User.findOne({id: id}, (err, doc) => {
+    User.findOne({id: id}, {_id: false, password: false, __v: false}, (err, doc) => {
         if(err){
             res.status(500).send({errMsg: err})
             return

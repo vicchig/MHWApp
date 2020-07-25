@@ -18,7 +18,7 @@ export const getUserById = async (idIn) => {
       let responseBody = await res.json().catch((err) => {
         return new ApiResponse(res.status, null, constructErrorMsgCouldntReadServerResponse(err, url))
       })
-      return new ApiResponse(res.status, {user_id: responseBody.user}, "")
+      return new ApiResponse(res.status, {user_id: responseBody.currentUser.id}, "")
     }
     else{
       return new ApiResponse(res.status, null, constructErrorMsgReqError(res.status, url))
