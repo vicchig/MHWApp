@@ -5,6 +5,7 @@ import debounce from "lodash.debounce";
 import { uid } from "react-uid";
 import { withRouter } from 'react-router-dom';
 import {processErrorWNav} from '../../../actions/utilities'
+import {deleteNewsItem} from '../../../actions/newsitemActions'
 import "./style.css"
 
 class NewsItemScroll extends React.Component {
@@ -48,6 +49,18 @@ class NewsItemScroll extends React.Component {
     this.loadItems();
   }
 
+  handleDelete = (id) => {
+    this.setState({
+      items: this.state.items.filter(item => item.id !== id)
+    }, () => {
+      deleteNewsItem(id).then(res => {
+        if (res.status != 200) processErrorWNav(this, res.status, res.errorMsg)
+      }, rej => {
+          console.error("Promise rejected. Could not delete item. \n" + rej)
+      })
+    })
+  }
+
   loadItems = () => {
     this.setState(
       { isLoading: true, skipAmount: this.state.skipAmount + 10},
@@ -56,12 +69,12 @@ class NewsItemScroll extends React.Component {
           let response = await getNewsItemInterval(10, this.state.skipAmount)
           let nextItems
 
-          if (response.status != 200) processErrorWNav(this, response.status, response.errorMsg)
+          if (response.status !== 200) processErrorWNav(this, response.status, response.errorMsg)
           else{
             nextItems = response.data.items.map((item) => ({
               text: item.text,
               date: item.date,
-              id: item._id
+              id: item.id
             }))
 
             // Merges newly added items with items that have already been loaded and are being displayed
@@ -107,7 +120,7 @@ class NewsItemScroll extends React.Component {
                 date={item.date}
                 contents={this.splitText("-n", item.text)}
                 appContext={this.props.appContext}
-                cardID={item.id}
+                handleDelete={() => {this.handleDelete(item.id)}}
               ></NewsItemCard>
             ))
           }

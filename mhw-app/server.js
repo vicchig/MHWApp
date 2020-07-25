@@ -6,6 +6,8 @@ const session = require('express-session')
 const bodyParser = require('body-parser') 
 const cors = require('cors')
 const app = express()
+const newsitemRoutes = require('./routes/newsitems')
+const userRoutes = require('./routes/user')
 
 //.env file load
 require('dotenv').config()
@@ -30,12 +32,6 @@ app.use(cors())
 // to validate object IDs
 const { ObjectID } = require('mongodb')
 
-//routes
-const newsitemRoutes = require('./routes/newsitems')
-const userRoutes = require('./routes/user')
-app.use('/newsitem', newsitemRoutes)
-app.use('/users', userRoutes)
-
 //session cookie
 app.use(session({
     secret: 'oursecret',
@@ -46,6 +42,10 @@ app.use(session({
         httpOnly: true
     }
 }));
+
+//routes
+app.use('/newsitem', newsitemRoutes)
+app.use('/users', userRoutes)
 
 // mongoose and mongo connection
 const { mongoose } = require('./db/mongoose')
@@ -77,6 +77,7 @@ app.post('/log_in', (req, res) => {
             res.status(200).send({user: user});
         }
     }).catch((error) => {
+        console.error(error)
 		res.status(500).send();
     })
 })

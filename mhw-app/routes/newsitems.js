@@ -2,6 +2,7 @@ const express = require('express')
 const router = express.Router()
 const { NewsItem } = require('../models/NewsItem')
 const { ObjectID } = require('mongodb')
+const security = require('../server')
 
 //[GET] - Get an interval of news items
 router.get('/getInterval', (req, res) =>  {
@@ -22,5 +23,26 @@ router.get('/getInterval', (req, res) =>  {
         res.status(500).send({errMsg: error})
     })
 })
+
+router.delete('/delete/:id',  (req, res, next) => {security.auth(req, res, next)}, (req, res) => {
+    if(req.params.id === undefined || req.params.id === null) res.status(400).send()
+
+    let id = -1
+    try{
+        id = parseInt(req.params.id)
+    }
+    catch(err){
+        res.status(400).send({errMsg: err})
+    }
+
+    
+    NewsItem.deleteOne({id: id}, (err) => {
+        if(err) res.status(500).send({errMsg: err})
+        else res.status(200).send()
+    })
+})
+
+
+
 
 module.exports = router

@@ -28,6 +28,23 @@ export const getNewsItemInterval = async (amount = 0, skipAmount = 0) => {
   }
 }
 
+export const deleteNewsItem = async (id) => {
+  const url = '/newsitem/delete/'+id
+  const req = new Request(url, {
+    method: 'DELETE', 
+      headers: {
+        'Accept': 'application/json, text/plain',
+        'Content-Type': 'application/json'
+      }
+  })
+
+  const res = await fetch(req).catch(err => {
+    return new ApiResponse(-1, null, constructErrorMsgNoResponse(err, url))
+  })
+  if(res.status != 200) return new ApiResponse(res.status, null, constructErrorMsgReqError(res.status, url))
+  return new ApiResponse(res.status, null, "")
+}
+
 
 
 

@@ -4,6 +4,7 @@ import "./style.css"
 import { uid } from 'react-uid';
 import CustomButton from '../CustomButton'
 
+
 class NewsItemCard extends React.Component{
 
     state = {
@@ -12,7 +13,7 @@ class NewsItemCard extends React.Component{
     }
 
     render(){
-        const {contents, date, appContext} = this.props
+        const {contents, date, appContext, handleDelete} = this.props
         
         const textItems = contents.map((content) => (
             <li key={uid(content)}>{content}</li>
@@ -61,6 +62,7 @@ class NewsItemCard extends React.Component{
                                 justifySelf={"center"}
                                 fontSize={"8pt"}
                                 width={"4vw"}
+                                onClick={handleDelete}
                              ></CustomButton>
 
         return(
