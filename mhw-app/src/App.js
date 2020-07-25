@@ -10,6 +10,7 @@ import Page404 from './react-components/Pages/ErrorPages/404Page'
 import Page400 from './react-components/Pages/ErrorPages/400Page'
 import Page401 from './react-components/Pages/ErrorPages/401Page'
 import Page500 from './react-components/Pages/ErrorPages/500Page'
+import UnknownError from './react-components/Pages/ErrorPages/UnknownError'
 
 //actions
 import {readCookie, login} from './actions/accActions'
@@ -79,7 +80,10 @@ class App extends React.Component{
             <Route exact path='/500' 
                    render={({history}) => <Page500 history={history}/>}
             />
-            
+
+            <Route exact path='/unknownError' 
+                   render={({history}) => <UnknownError history={history}/>}
+            />
             
           </Switch>
         </BrowserRouter>

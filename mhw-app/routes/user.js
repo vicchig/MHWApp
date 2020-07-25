@@ -8,11 +8,10 @@ router.get('/findUserByID/:id', (req, res) => {
     if(id === null || id === undefined){
         res.status(400).send()
     }
-    User.findById(id, (err, doc) => {
+    
+    User.findOne({id: id}, (err, doc) => {
         if(err){
-            console.log("An error has occurred.\n")
-            console.log(err)
-            res.status(500).send()
+            res.status(500).send({errMsg: err})
             return
         }
 

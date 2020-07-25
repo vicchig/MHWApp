@@ -7,11 +7,12 @@ import CustomButton from '../CustomButton'
 class NewsItemCard extends React.Component{
 
     state = {
-        displaySaveButton: false
+        displaySaveButton: false,
+        displayEditButton: true
     }
 
     render(){
-        const {contents, date} = this.props
+        const {contents, date, appContext} = this.props
         
         const textItems = contents.map((content) => (
             <li key={uid(content)}>{content}</li>
@@ -46,6 +47,21 @@ class NewsItemCard extends React.Component{
                                 fontSize={"8pt"}
                                 width={"4vw"}
                             ></CustomButton>
+        
+        const deleteButton = <CustomButton
+                                buttonText={"Delete"}
+                                display={"block"}
+                                buttonText={"Delete"}
+                                borderColor={"rgb(133, 156, 72)"}
+                                hoverColor={"rgb(79, 79, 79)"}
+                                textColor={'rgb(133, 156, 72)'}
+                                backgroundColor={"rgb(110, 110, 110)"}
+                                variant={"outlined"}
+                                alignSelf={"center"}
+                                justifySelf={"center"}
+                                fontSize={"8pt"}
+                                width={"4vw"}
+                             ></CustomButton>
 
         return(
                 <div id="newsItemCard_mainDiv">
@@ -58,21 +74,9 @@ class NewsItemCard extends React.Component{
                         </div>
                     </div>
                     <div id="buttonDiv">
-                        {this.state.displaySaveButton ? saveButton : editButton}
-                        <CustomButton
-                            buttonText={"Delete"}
-                            display={"block"}
-                            buttonText={"Delete"}
-                            borderColor={"rgb(133, 156, 72)"}
-                            hoverColor={"rgb(79, 79, 79)"}
-                            textColor={'rgb(133, 156, 72)'}
-                            backgroundColor={"rgb(110, 110, 110)"}
-                            variant={"outlined"}
-                            alignSelf={"center"}
-                            justifySelf={"center"}
-                            fontSize={"8pt"}
-                            width={"4vw"}
-                        ></CustomButton>
+                        {this.state.displaySaveButton && appContext.state.loggedInUser ? saveButton : null}
+                        {this.state.displayEditButton && appContext.state.loggedInUser ? editButton : null}
+                        {appContext.state.loggedInUser ? deleteButton : null}
                     </div>
                 </div>        
         )

@@ -1,26 +1,31 @@
+import { constructErrorMsgCouldntReadServerResponse, ApiResponse, constructErrorMsgNoResponse, constructErrorMsgReqError } from './utilities'
+
 export const getUserById = async (idIn) => {
     const url = '/users/findUserByID/'+idIn
     const request = new Request(url, {
         method: 'GET', 
         headers: {
-          'Accept': 'application/json, text/plain, */*',
+          'Accept': 'application/json, text/plain',
           'Content-Type': 'application/json'
         }
     });
   
-    try{
-      const res = await fetch(request)
-      if(res.status === 200){
-        return await res.json()
-      }
-      else{
-        return null
-      }
+    const res = await fetch(request).catch(err => {
+      return new ApiResponse(-1, null, constructErrorMsgNoResponse(err, url))
+    })
+
+    if(res.status === 200){
+      let responseBody = await res.json().catch((err) => {
+        return new ApiResponse(res.status, null, constructErrorMsgCouldntReadServerResponse(err, url))
+      })
+      return new ApiResponse(res.status, {user_id: responseBody.user}, "")
     }
-    catch(err){
-      throw new Error(err)
+    else{
+      return new ApiResponse(res.status, null, constructErrorMsgReqError(res.status, url))
     }
-  }
+}
+
+  
   
   export const readCookie = (app) => {
     const url = "/users/check-session";
@@ -39,7 +44,7 @@ export const getUserById = async (idIn) => {
                   app.setState({ loggedInUser: null })
                 }
                 else{
-                  app.setState({ loggedInUser: res });
+                  app.setState({ loggedInUser: res.data.user_id});
                 }
               })
             }
@@ -52,10 +57,10 @@ export const getUserById = async (idIn) => {
   export const login = async (context, usernameIn, passwordIn) => {
       const req = new Request('/log_in',{
         method: 'POST',
-        body: JSON.stringify({username: usernameIn, password: passwordIn}),
         headers: {
-            Accept: "application/json, text/plain, */*",
-                    "Content-Type": "application/json"
+            Accept: "application/json, text/plain",
+                    "Content-Type": "application/json",
+            Authorization: " Basic " + new Buffer(usernameIn + ":" + passwordIn).toString("base64")
         }
       })
 
@@ -65,7 +70,7 @@ export const getUserById = async (idIn) => {
         if(result.status === 200){
           result.json().then(res => {
             if(res){
-              context.setState({loggedInUser: res._id})
+              context.setState({loggedInUser: res.user.id})
             }
             else{
               console.log("User was not retrieved properly.\n")
@@ -89,11 +94,13 @@ export const getUserById = async (idIn) => {
     const req = new Request('/logout', {
       method: "DELETE",
       headers: {
-        Accept: "application/json, text/plain, */*",
+        Accept: "application/json, text/plain",
                 "Content-Type": "application/json"
       }
     })
 
-    let res = await fetch(req)
-    return res.status
+    let res = await fetch(req).catch( err => {
+      return new ApiResponse(-1, null, constructErrorMsgNoResponse(err, '/users/logout'))
+    })
+    return new ApiResponse(res.status, null, "")
   }

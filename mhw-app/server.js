@@ -57,13 +57,13 @@ const { User } = require('./models/User')
 
 //POST - Log In
 app.post('/log_in', (req, res) => {
-	const username = req.body.username
-    const password = req.body.password
-
-    if(username === "" || password === ""){
-        res.status(400).send()
-        return;
+    if (!req.headers.authorization || req.headers.authorization.indexOf('Basic ') === -1) {
+        return res.status(400).json({ message: 'Missing Authorization Header' });
     }
+
+    const base64Credentials =  req.headers.authorization.split(' ')[1];
+    const credentials = Buffer.from(base64Credentials, 'base64').toString('ascii');
+    const [username, password] = credentials.split(':');
 
     // Use the static method on the User model to find a user
     // by their username and password
@@ -73,8 +73,8 @@ app.post('/log_in', (req, res) => {
         } else {
             // Add the user's id to the session cookie.
             // We can check later if this exists to ensure we are logged in.
-            req.session.user = user._id;
-            res.status(200).send(user);
+            req.session.user = user.id;
+            res.status(200).send({user: user});
         }
     }).catch((error) => {
 		res.status(500).send();

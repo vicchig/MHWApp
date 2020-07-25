@@ -1,26 +1,30 @@
+import { constructErrorMsgCouldntReadServerResponse, constructErrorMsgNoResponse, ApiResponse, constructErrorMsgReqError } from './utilities'
 
-export const getNewsItemInterval = async (amount, skipAmount) => {
+
+export const getNewsItemInterval = async (amount = 0, skipAmount = 0) => {
   const url = `/newsitem/getInterval?amnt=${amount}&skip=${skipAmount}`
   const request = new Request(url, {
       method: 'GET', 
       headers: {
-        'Accept': 'application/json, text/plain, */*',
+        'Accept': 'application/json, text/plain',
         'Content-Type': 'application/json'
       }
   });
 
-  try{
-    const res = await fetch(request)
-    if(res.status === 200){
-      let body = await res.json()
-      return {"status": res.status, "items": body.items, "count": body.count}
+  const res = await fetch(request).catch(err => {
+    return new ApiResponse(-1, null, constructErrorMsgNoResponse(err, url))
+  })
+  if(res.status === 200){
+    try{
+      let parsedResponse = await res.json()
+      return new ApiResponse(res.status, {"items": parsedResponse.items, "count": parsedResponse.count}, "")
     }
-    else{
-      return {"status": res.status}
+    catch(err){
+      return new ApiResponse(res.status, null, constructErrorMsgCouldntReadServerResponse(err, url))
     }
   }
-  catch(err){
-    throw new Error(err)
+  else{
+    return new ApiResponse(res.status, null, constructErrorMsgReqError(res.status, url))
   }
 }
 

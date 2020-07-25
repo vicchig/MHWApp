@@ -3,6 +3,7 @@ import "./style.css";
 import CustomButton from "./../CustomButton"
 import { withRouter } from 'react-router-dom';
 import {logOut, readCookie} from '../../../actions/accActions'
+import {processErrorWNav} from '../../../actions/utilities'
 
 class Navbar extends React.Component{
 
@@ -11,22 +12,16 @@ class Navbar extends React.Component{
 		history.push('/'+pagename, this.state)
     }
 
-    handleLogOut = () => {
-        logOut().then(res => {
-            console.log(res)
-            switch(res){
-                case 200:
-                    this.props.appContext.setState({loggedInUser: null})
-                    this.props.history.push("/")
-                    break
-                default:
-                    this.props.history.push("/" + res)
-                    break
-            }
-        }, rej => {
-            console.log("Promise rejected. \n")
-            console.log(rej)
+    handleLogOut = async () => {
+        let response = await logOut().catch((err) => {
+            console.error(`Could not log out due to an error. \n ${err}`)
         })
+
+        if(response.status != 200) processErrorWNav(this, response.status, response.errorMsg)
+        else{
+            this.props.appContext.setState({loggedInUser: null})
+            this.props.history.push("/")
+        }
     }
 
 	render(){

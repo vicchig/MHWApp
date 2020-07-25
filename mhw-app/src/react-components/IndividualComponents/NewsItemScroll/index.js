@@ -4,6 +4,7 @@ import { getNewsItemInterval } from './../../../actions/newsitemActions'
 import debounce from "lodash.debounce";
 import { uid } from "react-uid";
 import { withRouter } from 'react-router-dom';
+import {processErrorWNav} from '../../../actions/utilities'
 import "./style.css"
 
 class NewsItemScroll extends React.Component {
@@ -55,46 +56,32 @@ class NewsItemScroll extends React.Component {
           let response = await getNewsItemInterval(10, this.state.skipAmount)
           let nextItems
 
-          switch(response.status){
-            case 404:
-              this.props.history.push("/404")
-              break
-            case 500:
-              this.props.history.push("/500")
-              break
-            case 400:
-              this.props.history.push("/400")
-              break
-            case 401:
-              this.props.history.push("/401")
-              break
-            case 200:
-              nextItems = response.items.map((item) => ({
-                text: item.text,
-                date: item.date
-              }))
+          if (response.status != 200) processErrorWNav(this, response.status, response.errorMsg)
+          else{
+            nextItems = response.data.items.map((item) => ({
+              text: item.text,
+              date: item.date,
+              id: item._id
+            }))
 
-              // Merges newly added items with items that have already been loaded and are being displayed
+            // Merges newly added items with items that have already been loaded and are being displayed
+            this.setState({
+              hasMore: (this.state.items.length < response.data.count),
+              isLoading: false,
+              items: [
+                ...this.state.items,
+                ...nextItems,
+              ],
+            }, () => {
               this.setState({
-                hasMore: (this.state.items.length < response.count),
-                isLoading: false,
-                items: [
-                  ...this.state.items,
-                  ...nextItems,
-                ],
-              }, () => {
-                this.setState({
-                  items: this.state.items.sort((item1, item2) => {return item1.date <= item2.date ? 1 : -1})
-                })
-              });
-              break
-            default:
-              console.log("Some other error")
-              break
-          }
+                items: this.state.items.sort((item1, item2) => {return item1.date <= item2.date ? 1 : -1})
+              })
+            });
+          } 
         }
         catch (err){
-          console.log("An error occurred:\n" + err)
+          this.props.history.push('/unknownError')
+          console.error("An error occurred:\n" + err)
         }
     });
   }
@@ -120,6 +107,7 @@ class NewsItemScroll extends React.Component {
                 date={item.date}
                 contents={this.splitText("-n", item.text)}
                 appContext={this.props.appContext}
+                cardID={item.id}
               ></NewsItemCard>
             ))
           }
