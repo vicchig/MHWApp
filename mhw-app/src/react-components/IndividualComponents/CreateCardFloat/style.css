@@ -1,0 +1,43 @@
+#mainCardFloatDiv{
+    position: fixed;
+    display: block;
+    border-color: rgb(161, 184, 98);
+    border-style: solid;
+    border-width: 3pt;
+    border-radius: 25pt;
+    width: 30vw;
+    height: 40vh;
+    top: 25vh;
+    background-color: rgb(170, 170, 170);
+    opacity: 95%;
+    padding: 5pt;
+}
+
+#layoutDivCreateCard{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 15% 70% 15%;
+    width: inherit;
+    height: inherit;
+}
+
+#titleHeader{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-self: center;
+    justify-self: center;
+    margin: 0pt;
+}
+
+.MuiIconButton-root{
+    width: 30pt;
+    height: 30pt;
+    justify-self: center;
+    align-self: start;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}

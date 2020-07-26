@@ -1,5 +1,6 @@
 import React from 'react';
 import TextField from '@material-ui/core/TextField'
+import styled from 'styled-components';
 import {
     fade,
     ThemeProvider,
@@ -10,10 +11,41 @@ import {
 
 import './style.css'
 
+
 const useStyles = makeStyles((theme) => ({
     root: {
         display: 'flex',
         flexWrap: 'wrap',
+        '& label.Mui-focused': { //label color for if there is a label
+            color: props => `${props.labelFocusedColour}`,
+        },
+        '& .MuiInput-underline:after': {
+            borderBottomColor: 'green',
+        },
+        '& .MuiOutlinedInput-root': {
+            '& fieldset': { 
+                borderColor: props => `${props.regularBorderColour}`,//'rgb(164, 164, 164)',
+            },
+            '&:hover fieldset': { 
+                borderColor: props => `${props.hoverBorderColour}`, //'rgb(161, 184, 98)'
+                borderWidth: props => `${props.borderWidthHover}`
+            },
+            '&.Mui-focused fieldset': {
+                borderColor: props => `${props.focusedBorderColour}`,//'rgb(164, 164, 164)',
+                borderWidth: props => `${props.borderWidthFocused}`
+            },
+        },
+        width: props => `${props.width}`,
+        top: props => `${props.top}`,
+        left: props => `${props.left}`,
+        position: props => `${props.position}`,
+        float: props => `${props.float}`,
+        gridColumnStart: props => `${props.gridColStart}`,
+        gridColumnEnd: props => `${props.gridColEnd}`,
+        gridRowStart: props => `${props.gridRowStart}`,
+        gridRowEnd: props => `${props.gridRowEnd}`,
+        alignSelf: props => `${props.alignSelf}`,
+        justifySelf: props => `${props.justifySelf}`,
     },
     margin: {
         margin: theme.spacing(1),
@@ -24,44 +56,24 @@ const useStyles = makeStyles((theme) => ({
 
 
 export default function CreateCustomTextField(props) {
-    const classes = useStyles();
-    const {placeholder, width, top, left, position, float} = props
-
-    const CustomTextField = withStyles({
-        root: {
-            '& label.Mui-focused': {
-                color: 'green',
-            },
-            '& .MuiInput-underline:after': {
-                borderBottomColor: 'green',
-            },
-            '& .MuiOutlinedInput-root': {
-                '& fieldset': {
-                    borderColor: 'rgb(164, 164, 164)',
-                },
-                '&:hover fieldset': {
-                    borderColor: 'rgb(161, 184, 98)',
-                },
-                '&.Mui-focused fieldset': {
-                    borderColor: 'rgb(164, 164, 164)',
-                },
-            },
-            width: width,
-            top: top,
-            left: left,
-            position: position,
-            float: float
-        },
-        
-       
-    })(TextField);
+    const classes = useStyles(props);
+    const {label,type, onChange, value, name, setFocus, onClick, multiline, rows} = props
   
     return (
-        <CustomTextField
-          className={classes.margin}
+        <TextField
+          className={classes.root}
           variant="outlined"
-          placeholder={placeholder}
+          label={label ?? ""}
+          type={type ?? "text"}
+          onChange={onChange ?? (() => {})}
+          value={value || ""}
+          name={name ?? ""}
+          autoFocus={setFocus ?? false}
+          onClick={onClick ?? (() => {})}
+          multiline={multiline ?? false}
+          rows={rows ?? 1}
           id="custom-css-outlined-input"
         />
     );
   }
+

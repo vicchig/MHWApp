@@ -7,4 +7,6 @@
 	border-radius: 20px;
 	border-width: 4px;
 	margin-bottom: 50pt;
+	display: inline-grid;
+	grid-template-columns: 150px 150px 150px 150px auto;
 }

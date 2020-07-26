@@ -4,6 +4,8 @@ import { getNewsItemInterval } from './../../../actions/newsitemActions'
 import debounce from "lodash.debounce";
 import { uid } from "react-uid";
 import { withRouter } from 'react-router-dom';
+import {processErrorWNav} from '../../../actions/utilities'
+import {deleteNewsItem, updateItem} from '../../../actions/newsitemActions'
 import "./style.css"
 
 class NewsItemScroll extends React.Component {
@@ -47,54 +49,74 @@ class NewsItemScroll extends React.Component {
     this.loadItems();
   }
 
+  handleDelete = (id) => {
+    this.setState({
+      items: this.state.items.filter(item => item.id !== id)
+    }, () => {
+      deleteNewsItem(id).then(res => {
+        if (res.status != 200) processErrorWNav(this, res.status, res.errorMsg)
+      }, rej => {
+          console.error("Promise rejected. Could not delete item. \n" + rej)
+      })
+    })
+  }
+  
+  handleSave = (id, text) => {
+    let tempItems = [...this.state.items]
+    let itemToUpdate = tempItems.filter(item => item.id === id)[0]
+    const i = tempItems[tempItems.indexOf(itemToUpdate)]
+
+    itemToUpdate.text = text
+    tempItems[i] = itemToUpdate
+
+    this.setState({
+      items: tempItems
+    }, () => {
+      updateItem(id, text).then(res => {
+        if (res.status != 200) processErrorWNav(this, res.status, res.errorMsg)
+      }, rej => {
+        console.error("Promise rejected. Could not update item. \n" + rej)
+      })
+    })
+    
+  }
+
   loadItems = () => {
     this.setState(
       { isLoading: true, skipAmount: this.state.skipAmount + 10},
       async () => {
         try{
-          let response = await getNewsItemInterval(10, this.state.skipAmount)
+          let response = await getNewsItemInterval(10, this.state.skipAmount).catch(err => {
+            console.error("Could not fetch request\n" + err)
+          })
           let nextItems
 
-          switch(response.status){
-            case 404:
-              this.props.history.push("/404")
-              break
-            case 500:
-              this.props.history.push("/500")
-              break
-            case 400:
-              this.props.history.push("/400")
-              break
-            case 401:
-              this.props.history.push("/401")
-              break
-            case 200:
-              nextItems = response.items.map((item) => ({
-                text: item.text,
-                date: item.date
-              }))
+          if (response.status !== 200) processErrorWNav(this, response.status, response.errorMsg)
+          else{
+            nextItems = response.data.items.map((item) => ({
+              text: item.text,
+              date: item.date,
+              id: item.id
+            }))
 
-              // Merges newly added items with items that have already been loaded and are being displayed
+            // Merges newly added items with items that have already been loaded and are being displayed
+            this.setState({
+              hasMore: (this.state.items.length < response.data.count),
+              isLoading: false,
+              items: [
+                ...this.state.items,
+                ...nextItems,
+              ],
+            }, () => {
               this.setState({
-                hasMore: (this.state.items.length < response.count),
-                isLoading: false,
-                items: [
-                  ...this.state.items,
-                  ...nextItems,
-                ],
-              }, () => {
-                this.setState({
-                  items: this.state.items.sort((item1, item2) => {return item1.date <= item2.date ? 1 : -1})
-                })
-              });
-              break
-            default:
-              console.log("Some other error")
-              break
-          }
+                items: this.state.items.sort((item1, item2) => {return item1.date <= item2.date ? 1 : -1})
+              })
+            });
+          } 
         }
         catch (err){
-          console.log("An error occurred:\n" + err)
+          this.props.history.push('/unknownError')
+          console.error("An error occurred:\n" + err)
         }
     });
   }
@@ -112,17 +134,20 @@ class NewsItemScroll extends React.Component {
     } = this.state;
 
     return (
-      <div>
+      <div id="scrollDiv">
           {
             items.map((item) => (
               <NewsItemCard
                 key={uid(item)}
                 date={item.date}
                 contents={this.splitText("-n", item.text)}
+                appContext={this.props.appContext}
+                handleDelete={() => {this.handleDelete(item.id)}}
+                handleSave={(text) => {this.handleSave(item.id, text)}}
               ></NewsItemCard>
             ))
           }
-        <hr/>
+        <hr id='endScrollLine'/>
         {error &&
           <div >
             {error}

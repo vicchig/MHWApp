@@ -16,6 +16,9 @@ class SearchBar extends React.Component{
                     width={"65vw"}
                     left={"-150px"}
                     position={"relative"}
+                    hoverBorderColour={"rgb(161, 184, 98)"}
+                    regularBorderColour={"rgb(164, 164, 164)"}
+                    focusedBorderColour={"rgb(164, 164, 164)"}
                 >
                 </CustomTextField>
                 <CustomButton

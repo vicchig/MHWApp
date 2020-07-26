@@ -15,6 +15,10 @@ const NewsItemSchema = new mongoose.Schema(
         date: {
             type: Date,
             required: true,
+        },
+        id: {
+            type: Number,
+            required: true
         }
     }
 )

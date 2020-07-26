@@ -9,7 +9,9 @@ class CustomButton extends React.Component{
         const {buttonText, borderColor, width, height, padding, boxShadow, background,
                border, borderRadius, textColor, backgroundColor, variant,
                disableElevation, top, left, display, fontSize, onClick, position, disabled, margin,
-               hoverColor, hoverTextColor, float} = this.props
+               hoverColor, hoverTextColor,  float, gridColStart, gridColEnd,
+               gridRowStart, gridRowEnd, alignSelf, justifySelf, marginBottom} = this.props
+
 
         const CustomButton = styled(Button)({
             background: background,
@@ -32,7 +34,14 @@ class CustomButton extends React.Component{
                 color: hoverTextColor,
                 background: hoverColor
             },
-            float: float
+            float: float,
+            gridColumnStart: gridColStart,
+            gridColumnEnd: gridColEnd,
+            gridRowStart: gridRowStart,
+            gridRowEnd: gridRowEnd,
+            justifySelf: justifySelf,
+            alignSelf: alignSelf,
+            marginBottom: marginBottom
         })
         return (
             <CustomButton

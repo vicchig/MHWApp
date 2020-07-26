@@ -5,3 +5,15 @@
 #hasMoreDiv{
     color: rgb(161, 184, 98);
 }
+
+#scrollDiv{
+    width: 90%;
+    float: left;
+}
+
+#endScrollLine{
+    width: 80%;
+    display: block;
+    position: relative;
+    left: -10%;
+}
