@@ -6,6 +6,18 @@ const session = require('express-session')
 const bodyParser = require('body-parser') 
 const cors = require('cors')
 const app = express()
+
+//session cookie
+app.use(session({
+    secret: ''+process.env.SECRET,
+    resave: false,
+    saveUninitialized: false,
+    cookie: {
+        maxAge: 300000,
+        httpOnly: true
+    }
+}));
+
 const newsitemRoutes = require('./routes/newsitems')
 const userRoutes = require('./routes/user')
 
@@ -32,16 +44,7 @@ app.use(cors())
 // to validate object IDs
 const { ObjectID } = require('mongodb')
 
-//session cookie
-app.use(session({
-    secret: 'oursecret',
-    resave: false,
-    saveUninitialized: false,
-    cookie: {
-        maxAge: 300000,
-        httpOnly: true
-    }
-}));
+
 
 //routes
 app.use('/newsitem', newsitemRoutes)
@@ -106,7 +109,7 @@ app.get("/users/check-session", (req, res) => {
 module.exports.auth = (req, res, next) => {
     //req.session.user actually stores the user id
     if (req.session.user) {
-        User.findOne({id: req.sessions.user}, {_id: false, password: false}).then((user) => {
+        User.findOne({id: req.session.user}, {_id: false, password: false}).then((user) => {
             if (!user) {
                 return Promise.reject()
             } else {
@@ -114,10 +117,10 @@ module.exports.auth = (req, res, next) => {
                 next()
             }
         }).catch((error) => {
-            res.status(401).send("Unauthorized")
+            res.status(401).send({errMsg: "Unauthorized"})
         })
     } else {
-        res.status(401).send("Unauthorized")
+        res.status(401).send({errMsg: "Unauthorized"})
     }
 }
 

@@ -5,7 +5,7 @@ import debounce from "lodash.debounce";
 import { uid } from "react-uid";
 import { withRouter } from 'react-router-dom';
 import {processErrorWNav} from '../../../actions/utilities'
-import {deleteNewsItem} from '../../../actions/newsitemActions'
+import {deleteNewsItem, updateItem} from '../../../actions/newsitemActions'
 import "./style.css"
 
 class NewsItemScroll extends React.Component {
@@ -60,13 +60,35 @@ class NewsItemScroll extends React.Component {
       })
     })
   }
+  
+  handleSave = (id, text) => {
+    let tempItems = [...this.state.items]
+    let itemToUpdate = tempItems.filter(item => item.id === id)[0]
+    const i = tempItems[tempItems.indexOf(itemToUpdate)]
+
+    itemToUpdate.text = text
+    tempItems[i] = itemToUpdate
+
+    this.setState({
+      items: tempItems
+    }, () => {
+      updateItem(id, text).then(res => {
+        if (res.status != 200) processErrorWNav(this, res.status, res.errorMsg)
+      }, rej => {
+        console.error("Promise rejected. Could not update item. \n" + rej)
+      })
+    })
+    
+  }
 
   loadItems = () => {
     this.setState(
       { isLoading: true, skipAmount: this.state.skipAmount + 10},
       async () => {
         try{
-          let response = await getNewsItemInterval(10, this.state.skipAmount)
+          let response = await getNewsItemInterval(10, this.state.skipAmount).catch(err => {
+            console.error("Could not fetch request\n" + err)
+          })
           let nextItems
 
           if (response.status !== 200) processErrorWNav(this, response.status, response.errorMsg)
@@ -121,6 +143,7 @@ class NewsItemScroll extends React.Component {
                 contents={this.splitText("-n", item.text)}
                 appContext={this.props.appContext}
                 handleDelete={() => {this.handleDelete(item.id)}}
+                handleSave={(text) => {this.handleSave(item.id, text)}}
               ></NewsItemCard>
             ))
           }

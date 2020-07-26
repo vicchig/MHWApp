@@ -28,3 +28,8 @@
     height: fit-content;
     padding: 5pt;
 }
+
+#createButton{
+    display: inline-block;
+    float: right;
+}

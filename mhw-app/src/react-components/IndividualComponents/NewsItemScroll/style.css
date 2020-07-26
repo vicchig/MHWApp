@@ -8,6 +8,7 @@
 
 #scrollDiv{
     width: 90%;
+    float: left;
 }
 
 #endScrollLine{

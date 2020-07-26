@@ -34,10 +34,26 @@
 }
 
 #buttonDiv{
-    height: 90%;
-    width: 200px;
+    height: 100%;
+    width: inherit;
     grid-column-start: 2;
     grid-column-end: 2;
-    align-self: center;
-    justify-self: start;
+    align-content: center;
+    justify-content: start;
+    display: grid;
+}
+
+.cardEditDiv{
+    width: 98%;
+    height: fit-content;
+    border-style: solid;
+    border-width: 2pt;
+    border-color: rgb(164, 164, 164);
+    padding-left: 5pt;
+    padding-right: 5pt;
+    padding-top: 2pt;
+    padding-bottom: 2pt;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: rgb(100, 100, 100);;
 }

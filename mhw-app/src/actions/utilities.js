@@ -1,6 +1,7 @@
 const COULD_NOT_READ_SERVER_RESPONSE = 'Could not read server response.'
 const REQUEST_ERROR = 'This request returned an error in its response: '
 const NO_RESPONSE = 'Something went wrong while waiting for server response.'
+const COULD_NOT_MAKE_REQUEST = 'Unable to make request to server.'
 
 class ApiResponse {
 
@@ -17,18 +18,23 @@ const processErrorWNav = (context, status, msg) => {
     console.error(msg)
 }
 
-const constructErrorMsgReqError = (status, url) => {
-    return `${REQUEST_ERROR}\n Request: ${url} \n\n returned status ${status}`
+const constructErrorMsgReqError = (status, url, errMsg) => {
+    return `${REQUEST_ERROR}\n Request: ${url} \n\n returned status ${status} \n\n ${errMsg}`
 }
 
 const constructErrorMsgNoResponse = (err, url) => {
     return `${NO_RESPONSE}\n Request: ${url} \n ${err}`
 }
 
-const constructErrorMsgCouldntReadServerResponse = (err, url) => {
-    return `${COULD_NOT_READ_SERVER_RESPONSE} \n Request: ${url} \n ${err}`
+const constructErrorMsgCouldntReadServerResponse = (status, err, url) => {
+    return `${COULD_NOT_READ_SERVER_RESPONSE} \n Status: ${status??"none"} \n Request: ${url} \n ${err}`
+}
+
+const constructErrorMsgUnableToFetch = (err, url) => {
+    return `${COULD_NOT_MAKE_REQUEST}\n ${url} \n\n ${url}`
 }
 
 
 
-export {ApiResponse, COULD_NOT_READ_SERVER_RESPONSE, REQUEST_ERROR, NO_RESPONSE, processErrorWNav, constructErrorMsgReqError, constructErrorMsgNoResponse, constructErrorMsgCouldntReadServerResponse}
+
+export {ApiResponse, COULD_NOT_READ_SERVER_RESPONSE, REQUEST_ERROR, NO_RESPONSE, processErrorWNav, constructErrorMsgReqError, constructErrorMsgNoResponse, constructErrorMsgCouldntReadServerResponse, constructErrorMsgUnableToFetch}

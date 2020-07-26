@@ -18,6 +18,7 @@ export const getUserById = async (idIn) => {
       let responseBody = await res.json().catch((err) => {
         return new ApiResponse(res.status, null, constructErrorMsgCouldntReadServerResponse(err, url))
       })
+      if (responseBody.errorMsg !== undefined) return responseBody
       return new ApiResponse(res.status, {user_id: responseBody.currentUser.id}, "")
     }
     else{
@@ -102,5 +103,6 @@ export const getUserById = async (idIn) => {
     let res = await fetch(req).catch( err => {
       return new ApiResponse(-1, null, constructErrorMsgNoResponse(err, '/users/logout'))
     })
+    if(res.errorMsg !== undefined) return res
     return new ApiResponse(res.status, null, "")
   }

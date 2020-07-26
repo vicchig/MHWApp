@@ -45,6 +45,7 @@ class SignInFloat extends React.Component {
                         label={"username"}
                         width={"70%"}
                         borderWidthFocused={"2pt"}
+                        borderWidthHover={"2pt"}
                         onChange={this.handleOnChange}
                         value={this.state.username}
                         name={"username"}
@@ -65,6 +66,7 @@ class SignInFloat extends React.Component {
                         label={"password"}
                         type={"password"}
                         borderWidthFocused={"2pt"}
+                        borderWidthHover={"2pt"}
                         name={"password"}
                         onChange={this.handleOnChange}
                         value={this.state.password}

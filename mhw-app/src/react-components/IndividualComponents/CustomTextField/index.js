@@ -28,6 +28,7 @@ const useStyles = makeStyles((theme) => ({
             },
             '&:hover fieldset': { 
                 borderColor: props => `${props.hoverBorderColour}`, //'rgb(161, 184, 98)'
+                borderWidth: props => `${props.borderWidthHover}`
             },
             '&.Mui-focused fieldset': {
                 borderColor: props => `${props.focusedBorderColour}`,//'rgb(164, 164, 164)',
@@ -56,19 +57,21 @@ const useStyles = makeStyles((theme) => ({
 
 export default function CreateCustomTextField(props) {
     const classes = useStyles(props);
-    const {label,type, onChange, value, name, setFocus, onClick} = props
+    const {label,type, onChange, value, name, setFocus, onClick, multiline, rows} = props
   
     return (
         <TextField
           className={classes.root}
           variant="outlined"
-          label={label}
-          type={type}
-          onChange={onChange}
+          label={label ?? ""}
+          type={type ?? "text"}
+          onChange={onChange ?? (() => {})}
           value={value || ""}
-          name={name}
-          autoFocus={setFocus}
-          onClick={onClick}
+          name={name ?? ""}
+          autoFocus={setFocus ?? false}
+          onClick={onClick ?? (() => {})}
+          multiline={multiline ?? false}
+          rows={rows ?? 1}
           id="custom-css-outlined-input"
         />
     );
