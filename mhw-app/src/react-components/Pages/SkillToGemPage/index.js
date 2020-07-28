@@ -5,11 +5,22 @@ import SearchBar from './../../IndividualComponents/SearchBar'
 import "./style.css"
 
 class SkillToGemPage extends React.Component{
+
+    state = {
+        searchbarText: ""
+    }
+
+    handleInput = (e) => {
+        this.setState({
+            [e.target.name]: e.target.value
+        })
+    }
+
     render(){
         return(
             <div id="mainDiv">
                 <WebsiteHeader appContext={this.props.parentContext}/>
-                <SearchBar/>
+                <SearchBar textFieldID={"searchbar"} value={this.state.searchbarText} onChange={this.handleInput}/>
                 
 
                 

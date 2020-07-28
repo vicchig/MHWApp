@@ -1,4 +1,12 @@
-#mainSearchbarDiv{
-    display: flex;
-    justify-content: space-between;
+#mainSearchBarDiv{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 100%;
+    padding: 2pt;
+    width: 65vw;
+    height: 15vh;
+    left: -14vw;
+    position: relative;
+    top: -4vh;
 }
+

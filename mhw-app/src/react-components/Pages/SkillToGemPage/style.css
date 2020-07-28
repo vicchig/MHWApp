@@ -8,3 +8,7 @@
     flex-direction: column;
     padding-top: 5px;
 }
+
+#searchbar.MuiOutlinedInput-input{
+    color: rgb(161, 184, 98)
+}
