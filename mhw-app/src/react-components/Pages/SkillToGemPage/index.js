@@ -21,7 +21,7 @@ class SkillToGemPage extends React.Component{
         return(
             <div id="mainDiv">
                 <WebsiteHeader appContext={this.props.parentContext}/>
-                <SearchBar textFieldID={"searchbar"} searchTerm={"skillList"} searchFunction={getSkillList} value={this.state.searchbarText} onChange={this.handleInput}/>
+                <SearchBar textFieldID={"searchbar"} searchTerm={"skillList"} searchFunction={getSkillList} value={this.state.searchbarText} parentContext={this} onChange={this.handleInput}/>
                 
             
                 

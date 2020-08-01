@@ -1,12 +1,28 @@
 #mainSearchBarDiv{
     display: grid;
     grid-template-columns: 80% 20%;
-    grid-template-rows: 100%;
+    grid-template-rows: 15% 80%;
     padding: 2pt;
     width: 65vw;
-    height: 15vh;
+    height: 65vh;
     left: -14vw;
     position: relative;
     top: -4vh;
 }
 
+#suggestionList{
+    list-style-type: none;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 90%;
+    position: relative;
+    top: 6vh;
+    left: 1vw;
+}
+
+
+#searchbar.MuiOutlinedInput-input{
+    color: rgb(161, 184, 98)
+}

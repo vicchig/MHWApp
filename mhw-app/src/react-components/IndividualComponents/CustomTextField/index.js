@@ -60,7 +60,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function CreateCustomTextField(props) {
     const classes = useStyles(props);
-    const {label,type, id, onChange, value, name, setFocus, onClick, multiline, rows, placeholder} = props
+    const {label,type, id, onChange, value, name, setFocus, onClick, multiline, rows, placeholder, onBlur} = props
   
     return (
         <TextField
@@ -76,6 +76,7 @@ export default function CreateCustomTextField(props) {
           multiline={multiline ?? false}
           rows={rows ?? 1}
           placeholder={placeholder ?? ""}
+          onBlur={onBlur ?? (() => {})}
           id={id ?? "css-custom-outlined-input"}
         />
     );
