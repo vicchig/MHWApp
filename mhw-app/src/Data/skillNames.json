@@ -1,0 +1,530 @@
+[
+    {
+        "name": "Poison Resistance"
+    },
+    {
+        "name": "Paralysis Resistance"
+    },
+    {
+        "name": "Sleep Resistance"
+    },
+    {
+        "name": "Stun Resistance"
+    },
+    {
+        "name": "Muck Resistance"
+    },
+    {
+        "name": "Blast Resistance"
+    },
+    {
+        "name": "Bleeding Resistance"
+    },
+    {
+        "name": "Iron Skin"
+    },
+    {
+        "name": "Earplugs"
+    },
+    {
+        "name": "Windproof"
+    },
+    {
+        "name": "Tremor Resistance"
+    },
+    {
+        "name": "Dungmaster"
+    },
+    {
+        "name": "Effluvial Expert"
+    },
+    {
+        "name": "Heat Guard"
+    },
+    {
+        "name": "Attack Boost"
+    },
+    {
+        "name": "Defense Boost"
+    },
+    {
+        "name": "Health Boost"
+    },
+    {
+        "name": "Recovery Up"
+    },
+    {
+        "name": "Recovery Speed"
+    },
+    {
+        "name": "Fire Resistance"
+    },
+    {
+        "name": "Water Resistance"
+    },
+    {
+        "name": "Ice Resistance"
+    },
+    {
+        "name": "Thunder Resistance"
+    },
+    {
+        "name": "Dragon Resistance"
+    },
+    {
+        "name": "Blight Resistance"
+    },
+    {
+        "name": "Fire Attack"
+    },
+    {
+        "name": "Water Attack"
+    },
+    {
+        "name": "Ice Attack"
+    },
+    {
+        "name": "Thunder Attack"
+    },
+    {
+        "name": "Dragon Attack"
+    },
+    {
+        "name": "Poison Attack"
+    },
+    {
+        "name": "Paralysis Attack"
+    },
+    {
+        "name": "Sleep Attack"
+    },
+    {
+        "name": "Blast Attack"
+    },
+    {
+        "name": "Normal Shots"
+    },
+    {
+        "name": "Piercing Shots"
+    },
+    {
+        "name": "Spread/Power Shots"
+    },
+    {
+        "name": "Free Elem/Ammo Up"
+    },
+    {
+        "name": "Critical Eye"
+    },
+    {
+        "name": "Critical Boost"
+    },
+    {
+        "name": "Weakness Exploit"
+    },
+    {
+        "name": "Focus"
+    },
+    {
+        "name": "Power Prolonger"
+    },
+    {
+        "name": "Handicraft"
+    },
+    {
+        "name": "Critical Draw"
+    },
+    {
+        "name": "Partbreaker"
+    },
+    {
+        "name": "Slugger"
+    },
+    {
+        "name": "Stamina Thief"
+    },
+    {
+        "name": "Master Mounter"
+    },
+    {
+        "name": "Airborne"
+    },
+    {
+        "name": "Latent Power"
+    },
+    {
+        "name": "Agitator"
+    },
+    {
+        "name": "Peak Performance"
+    },
+    {
+        "name": "Heroics"
+    },
+    {
+        "name": "Fortify"
+    },
+    {
+        "name": "Resentment"
+    },
+    {
+        "name": "Resuscitate"
+    },
+    {
+        "name": "Horn Maestro"
+    },
+    {
+        "name": "Capacity Boost"
+    },
+    {
+        "name": "Special Ammo Boost"
+    },
+    {
+        "name": "Artillery"
+    },
+    {
+        "name": "Heavy Artillery"
+    },
+    {
+        "name": "Marathon Runner"
+    },
+    {
+        "name": "Constitution"
+    },
+    {
+        "name": "Leap of Faith"
+    },
+    {
+        "name": "Stamina Surge"
+    },
+    {
+        "name": "Hunger Resistance"
+    },
+    {
+        "name": "Evade Window"
+    },
+    {
+        "name": "Evade Extender"
+    },
+    {
+        "name": "Guard"
+    },
+    {
+        "name": "Quick Sheath"
+    },
+    {
+        "name": "Wide-Range"
+    },
+    {
+        "name": "Item Prolonger"
+    },
+    {
+        "name": "Free Meal"
+    },
+    {
+        "name": "Speed Eating"
+    },
+    {
+        "name": "Speed Sharpening"
+    },
+    {
+        "name": "Bombardier"
+    },
+    {
+        "name": "Mushroomancer"
+    },
+    {
+        "name": "Master Fisher"
+    },
+    {
+        "name": "Pro Transporter"
+    },
+    {
+        "name": "Master Gatherer"
+    },
+    {
+        "name": "Honey Hunter"
+    },
+    {
+        "name": "Carving Pro"
+    },
+    {
+        "name": "Divine Blessing"
+    },
+    {
+        "name": "Palico Rally"
+    },
+    {
+        "name": "Botanist"
+    },
+    {
+        "name": "Geologist"
+    },
+    {
+        "name": "Maximum Might"
+    },
+    {
+        "name": "Slinger Capacity"
+    },
+    {
+        "name": "Stealth"
+    },
+    {
+        "name": "Flinch Free"
+    },
+    {
+        "name": "Scoutfly Range Up"
+    },
+    {
+        "name": "Speed Crawler"
+    },
+    {
+        "name": "Jump Master"
+    },
+    {
+        "name": "Survival Expert"
+    },
+    {
+        "name": "Aquatic/Polar Mobility"
+    },
+    {
+        "name": "Cliffhanger"
+    },
+    {
+        "name": "Blindsider"
+    },
+    {
+        "name": "Scholar"
+    },
+    {
+        "name": "Entomologist"
+    },
+    {
+        "name": "Effluvia Resistance"
+    },
+    {
+        "name": "Scenthound"
+    },
+    {
+        "name": "Forager's Luck"
+    },
+    {
+        "name": "Detector"
+    },
+    {
+        "name": "BBQ Master"
+    },
+    {
+        "name": "Tool Specialist"
+    },
+    {
+        "name": "Affinity Sliding"
+    },
+    {
+        "name": "Intimidator"
+    },
+    {
+        "name": "Hasten Recovery"
+    },
+    {
+        "name": "Super Recovery"
+    },
+    {
+        "name": "Poison Duration Up"
+    },
+    {
+        "name": "Adrenaline"
+    },
+    {
+        "name": "Stamina Cap Up"
+    },
+    {
+        "name": "Critical Element"
+    },
+    {
+        "name": "Mind's Eye/Ballistics"
+    },
+    {
+        "name": "Bludgeoner"
+    },
+    {
+        "name": "Non-elemental Boost"
+    },
+    {
+        "name": "Capture Master"
+    },
+    {
+        "name": "Guard Up"
+    },
+    {
+        "name": "Guts"
+    },
+    {
+        "name": "Master's Touch"
+    },
+    {
+        "name": "Nullify Wind Pressure"
+    },
+    {
+        "name": "Razor Sharp/Spare Shot"
+    },
+    {
+        "name": "Critical Status"
+    },
+    {
+        "name": "Good Luck"
+    },
+    {
+        "name": "Bow Charge Plus"
+    },
+    {
+        "name": "Punishing Draw"
+    },
+    {
+        "name": "Protective Polish"
+    },
+    {
+        "name": "Poison Functionality"
+    },
+    {
+        "name": "Para Functionality"
+    },
+    {
+        "name": "Sleep Functionality"
+    },
+    {
+        "name": "Blast Functionality"
+    },
+    {
+        "name": "Elderseal Boost"
+    },
+    {
+        "name": "Great Luck"
+    },
+    {
+        "name": "Carving Master"
+    },
+    {
+        "name": "Elemental Airborne"
+    },
+    {
+        "name": "Igni Intensity"
+    },
+    {
+        "name": "Offensive Guard"
+    },
+    {
+        "name": "Bombardier Secret"
+    },
+    {
+        "name": "Slinger Capacity Secret"
+    },
+    {
+        "name": "True Critical Element"
+    },
+    {
+        "name": "Divine Blessing Secret"
+    },
+    {
+        "name": "True Critical Status"
+    },
+    {
+        "name": "Latent Power Secret"
+    },
+    {
+        "name": "Artillery Secret"
+    },
+    {
+        "name": "Coalescence"
+    },
+    {
+        "name": "Gaia's Veil"
+    },
+    {
+        "name": "True Gaia's Veil"
+    },
+    {
+        "name": "Element Acceleration"
+    },
+    {
+        "name": "True Element Acceleration"
+    },
+    {
+        "name": "Frostcraft"
+    },
+    {
+        "name": "Stamina Thief Secret"
+    },
+    {
+        "name": "Free Meal Secret"
+    },
+    {
+        "name": "Agitator Secret"
+    },
+    {
+        "name": "Slugger Secret"
+    },
+    {
+        "name": "True Razor Sharp/Spare Shot"
+    },
+    {
+        "name": "Maximum Might Secret"
+    },
+    {
+        "name": "Tool Specialist Secret"
+    },
+    {
+        "name": "Zombie & Effluvia Res"
+    },
+    {
+        "name": "Provoker"
+    },
+    {
+        "name": "Safe Landing"
+    },
+    {
+        "name": "Coldproof"
+    },
+    {
+        "name": "Dragonvein Awakening"
+    },
+    {
+        "name": "True Dragonvein Awakening"
+    },
+    {
+        "name": "Ancient Armory"
+    },
+    {
+        "name": "Gratitudes's Blessing"
+    },
+    {
+        "name": "Gratitude's Gift"
+    },
+    {
+        "name": "Joy's Gratitude"
+    },
+    {
+        "name": "Joy's Gift"
+    },
+    {
+        "name": "Heroics Secret"
+    },
+    {
+        "name": "Full Bloom's Gift"
+    },
+    {
+        "name": "Full Bloom's Gratitude"
+    },
+    {
+        "name": "Sizzling Gift"
+    },
+    {
+        "name": "Sizzling Gratitude"
+    },
+    {
+        "name": "Element Conversion"
+    },
+    {
+        "name": "All Elemental Resistance"
+    }
+]

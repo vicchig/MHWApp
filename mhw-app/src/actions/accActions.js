@@ -13,6 +13,7 @@ export const getUserById = async (idIn) => {
     const res = await fetch(request).catch(err => {
       return new ApiResponse(-1, null, constructErrorMsgNoResponse(err, url))
     })
+    if(res.status === -1) return res
 
     if(res.status === 200){
       let responseBody = await res.json().catch((err) => {

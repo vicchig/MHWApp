@@ -3,33 +3,56 @@ import { withRouter } from 'react-router-dom';
 import CustomTextField from './../CustomTextField'
 import CustomButton from './../CustomButton'
 import { uid } from 'react-uid';
+import {getMatchingDistance} from '../../../actions/algorithms'
 import "./style.css"
 
 class SearchBar extends React.Component{
 
     state = {
-
+        results: []
     }
 
-    handleChange = (e) => {
+    handleChange = async (e) => {
         this.props.onChange(e)
 
-        this.testAction()
+        let result = await this.props.searchFunction().catch(err => {
+            console.error("An error occurred while awaiting server response:\n\n" + err)
+        })
+        if (result.status === 200 || result.status === 304){
+            if(this.props.value === ""){
+                this.setState({
+                    results: []
+                })
+            }
+            else{
+                this.setState({
+                    results: this.computeBestMatches(this.props.value, result.data[this.props.searchTerm])
+                })
+            }
+        }
     }
 
-    testAction = () => {
-        var fs=require('fs');
-        var data=fs.readFileSync('../../../Data/decorationNames.json', 'utf8');
-        var words=JSON.parse(data);
-        console.log(words)
+    computeBestMatches = (searchTerm, possibilities) => {
+        let topResults = []
+        possibilities.forEach(word => {
+            let distance = getMatchingDistance(searchTerm, word.name) 
+            if(distance > 0.75 || (distance > 0.6 && this.props.value.length <= 2)){
+                topResults.push({text: word.name, rank: distance})
+            }
+        });
+
+        topResults.sort((a, b) => {if (a.rank < b.rank) return 1; else return -1})
+        let sortedResults = []
+        topResults.forEach(result => {
+            sortedResults.push(result.text)
+        });
+        return sortedResults
     }
 
-    
     render(){
-        const {onChange, value, textFieldID} = this.props
+        const {value, textFieldID} = this.props
 
-        const list = ["1", "2", "3"]
-        const testDiv = list.map(item => (<li key={uid(item)}>{item}</li>))
+        const suggestions = this.state.results.map(item => (<li key={uid(item)}>{item}</li>))
 
         return(
             <div id="mainSearchBarDiv">
@@ -68,7 +91,7 @@ class SearchBar extends React.Component{
                     justifySelf={"start"}
                 />
                 <ul>
-                    {testDiv}
+                    {suggestions}
                 </ul>
 
             </div>
