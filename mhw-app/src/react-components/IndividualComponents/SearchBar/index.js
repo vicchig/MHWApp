@@ -68,7 +68,6 @@ class SearchBar extends React.Component{
 
     render(){
         const {value, textFieldID, parentContext, onSearch} = this.props
-        console.log(this.state.showSuggestions)
         const suggestions = this.state.suggestions.map(item => (<li key={uid(item)}><SearchSuggestionCard parentContext={this} searchContext={parentContext} content={item}/></li>))
 
         return(

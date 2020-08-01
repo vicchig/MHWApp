@@ -40,6 +40,13 @@ const filterDecos = (decoObjects, filters) => {
         })
     })
 
+    if(filters.slot !== "all"){
+        filteredDecoObjects = filteredDecoObjects.filter(decoration => decoration.slot === parseInt(filters.slot))
+    }
+    if(filters.rarity !== "all"){
+        filteredDecoObjects = filteredDecoObjects.filter(decoration => decoration.rarity === parseInt(filters.slot))
+    }
+
     return filteredDecoObjects
 }
 

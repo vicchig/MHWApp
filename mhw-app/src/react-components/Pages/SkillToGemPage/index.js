@@ -27,7 +27,7 @@ class SkillToGemPage extends React.Component{
 
     onSearchAction = () => {
         this.setState({
-            filters: {slot: "all", rarity:"all", skill:this.state.searchbarText}
+            filters: {slot: "2", rarity:"all", skill:this.state.searchbarText}
         }, async () => {
             let res = await getDecorationsWSkill(this.state.filters).catch(err => {
                 console.error("An error occurred while waiting for server response. \n\n" + err)
