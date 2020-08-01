@@ -10,7 +10,10 @@ class SearchSuggestionCard extends React.Component{
     render(){
         const {content, searchContext, parentContext} = this.props
         return(
-            <div className={"searchSuggestion"} onClick={() => {searchContext.setState({searchbarText: content}); parentContext.setState({suggestions: []})}}>{content}</div>
+            <div className={"searchSuggestion"} 
+                onClick={() => {searchContext.setState({searchbarText: content}); parentContext.setState({suggestions: []})}}>
+                    {content}
+            </div>
         )
     }
 }

@@ -10,7 +10,8 @@ import "./style.css"
 class SearchBar extends React.Component{
 
     state = {
-        suggestions: []
+        suggestions: [],
+        showSuggestions: true
     }
 
     handleChange = async (e) => {
@@ -51,12 +52,23 @@ class SearchBar extends React.Component{
     }
 
     onLoseFocus = () => {
-        this.setState({suggestions: []})
+        //this is a hack, there should be a better way to do this
+        setTimeout(() => {
+            this.setState({showSuggestions: false})
+        }, 70)
+    }
+
+    onClickHandler = () => {
+        if(this.props.value !== ""){
+            this.setState({
+                showSuggestions: true
+            })
+        }
     }
 
     render(){
-        const {value, textFieldID, parentContext} = this.props
-
+        const {value, textFieldID, parentContext, onSearch} = this.props
+        console.log(this.state.showSuggestions)
         const suggestions = this.state.suggestions.map(item => (<li key={uid(item)}><SearchSuggestionCard parentContext={this} searchContext={parentContext} content={item}/></li>))
 
         return(
@@ -79,6 +91,7 @@ class SearchBar extends React.Component{
                     justifySelf={"center"}
                     alignSelf={"center"}
                     onBlur={this.onLoseFocus}
+                    onClick={this.onClickHandler}
                 >
                 </CustomTextField>
                 <CustomButton
@@ -95,9 +108,10 @@ class SearchBar extends React.Component{
                     gridRowEnd={1}
                     alignSelf={"center"}
                     justifySelf={"start"}
+                    onClick={onSearch}
                 />
                 <ul id="suggestionList">
-                    {suggestions}
+                    {this.state.showSuggestions ? suggestions : null}
                 </ul>
 
             </div>

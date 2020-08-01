@@ -77,6 +77,7 @@ export default function CreateCustomTextField(props) {
           rows={rows ?? 1}
           placeholder={placeholder ?? ""}
           onBlur={onBlur ?? (() => {})}
+          onClick={onClick ?? (() => {})}
           id={id ?? "css-custom-outlined-input"}
         />
     );
