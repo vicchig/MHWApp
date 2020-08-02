@@ -139,7 +139,7 @@ class SkillToGemPage extends React.Component{
             <div id="mainDiv">
                 <WebsiteHeader appContext={this.props.parentContext}/>
                 <div id="searchDiv">
-                        <SearchBar textFieldID={"searchbar"} searchTerm={"skillList"}
+                        <SearchBar id={"searchbar1"} textFieldID={"searchbar"} searchTerm={"skillList"}
                                 searchFunction={getSkillList} value={this.state.searchbarText}
                                 parentContext={this} onChange={this.handleInput}
                                 onSearch={this.onSearchAction}
@@ -189,6 +189,7 @@ class SkillToGemPage extends React.Component{
                             singleValueColour="rgb(161, 184, 98)" placeholderColour="rgb(161, 184, 98)"
                             valueContainerColour="rgb(161, 184, 98)"
                         ></CustomSelect>
+                        <h1 className="sortsAndFiltersHeader"></h1>
                         <CustomSelect
                             name="alphabeticalSort" onChange={e => this.sortResults(e, "name", "sortAlphaVal")} 
                             className="skillToGemSelect" placeholder="Alphabetical" options={sortAlphaOptions}

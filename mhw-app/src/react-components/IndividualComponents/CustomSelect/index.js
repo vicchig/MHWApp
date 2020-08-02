@@ -9,36 +9,36 @@ class CustomSelect extends React.Component{
     customStyle = {
         menu: (provided, state) => ({
           ...provided,
-          backgroundColor: this.props.menuBackgroundColour//"rgb(100, 100, 100)",
+          backgroundColor: this.props.menuBackgroundColour
           
         }),
         option: (provided, state) => ({
           padding: 20,
           "&:hover": {
-            backgroundColor: this.props.optionHoverBackgroundColour//"rgb(120, 120, 120)"
+            backgroundColor: this.props.optionHoverBackgroundColour
           },
-          color: this.props.optionColour//"rgb(161, 184, 98)",
+          color: this.props.optionColour
         }),
         control: (provided, state) => ({
             ...provided,
-            backgroundColor: this.props.controlBackgroundColour,//"rgb(61, 61, 61)",
-            borderColor: this.props.controlBorderColor,//"rgb(100, 100, 100)",
+            backgroundColor: this.props.controlBackgroundColour,
+            borderColor: this.props.controlBorderColor,
             "&:hover": {
-                borderColor: this.props.controlHoverBorderColor//"rgb(161, 184, 98)" 
+                borderColor: this.props.controlHoverBorderColor
             },
             boxShadow: "none",
         }),
         singleValue: (provided, state) => ({
             ...provided,
-            color: this.props.singleValueColour//"rgb(161, 184, 98)",
+            color: this.props.singleValueColour
         }),
         placeholder: (provided, state) => ({
             ...provided,
-            color: this.props.placeholderColour//"rgb(161, 184, 98)",
+            color: this.props.placeholderColour
         }),
         valueContainer: (provided, state) => ({
             ...provided,
-            color: this.props.valueContainerColour//"rgb(161, 184, 98)",
+            color: this.props.valueContainerColour
         }),
         input: (provided, state) => ({
             ...provided,

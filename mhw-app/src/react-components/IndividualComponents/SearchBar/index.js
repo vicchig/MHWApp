@@ -90,38 +90,40 @@ class SearchBar extends React.Component{
     }
 
     render(){
-        const {onSearch} = this.props
+        const {onSearch, id} = this.props
         return(
-            <div id="mainSearchBarDiv">
-                <AsyncSelect 
-                    styles={this.customSelectStyles}
-                    className={"searchbarSelect"}
-                    placeholder={"Select or type in the name of skill..."}
-                    onInputChange={(input) => this.setState({inputText: input})}
-                    onChange={(e) => {this.props.onSetSelect(e)}}
-                    loadOptions={this.loadOptions}
-                    name={"searchbarText"}
-                    blurInputOnSelect={true}
-                ></AsyncSelect>
-                <CustomButton
-                    width={"3vw"}
-                    height={"3vh"}
-                    buttonText={"Search"}
-                    borderColor={"rgb(161, 184, 98)"}
-                    hoverColor={"rgb(79, 79, 79)"}
-                    textColor={'rgb(161, 184, 98)'}
-                    variant={"outlined"}
-                    gridColStart={2}
-                    gridColEnd={2}
-                    gridRowStart={1}
-                    gridRowEnd={1}
-                    alignSelf={"center"}
-                    justifySelf={"start"}
-                    left={"1vw"}
-                    onClick={onSearch}
-                />
+            <div id={id}>
+                <div id="mainSearchBarDiv">
+                    <AsyncSelect 
+                        styles={this.customSelectStyles}
+                        className={"searchbarSelect"}
+                        placeholder={"Select or type in the name of skill..."}
+                        onInputChange={(input) => this.setState({inputText: input})}
+                        onChange={(e) => {this.props.onSetSelect(e)}}
+                        loadOptions={this.loadOptions}
+                        name={"searchbarText"}
+                        blurInputOnSelect={true}
+                    ></AsyncSelect>
+                    <CustomButton
+                        width={"3vw"}
+                        height={"3vh"}
+                        buttonText={"Search"}
+                        borderColor={"rgb(161, 184, 98)"}
+                        hoverColor={"rgb(79, 79, 79)"}
+                        textColor={'rgb(161, 184, 98)'}
+                        variant={"outlined"}
+                        gridColStart={2}
+                        gridColEnd={2}
+                        gridRowStart={1}
+                        gridRowEnd={1}
+                        alignSelf={"center"}
+                        justifySelf={"start"}
+                        left={"1vw"}
+                        onClick={onSearch}
+                    />
 
 
+                </div>
             </div>
         )
     }

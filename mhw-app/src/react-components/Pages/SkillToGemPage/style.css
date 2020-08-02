@@ -16,7 +16,7 @@
 #filtersDiv{
     display: grid;
     grid-template-columns: 15% 40% 40%;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
     width: 30vw;
     height: auto;
     grid-row-start: 1;
@@ -74,4 +74,10 @@
     list-style: none;
     padding: 0pt;
     margin: 0pt;
+}
+
+#searchbar1{
+    align-self: start;
+    position: relative;
+    top: 2vh;
 }
