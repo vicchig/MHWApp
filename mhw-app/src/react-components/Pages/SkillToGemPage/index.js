@@ -19,6 +19,7 @@ class SkillToGemPage extends React.Component{
             skill: ""
         },
         searchResults: [],
+        searchResultsToShow: [],
         showResults: false,
     }
 
@@ -39,7 +40,8 @@ class SkillToGemPage extends React.Component{
             if(res.status !== 200 && res.status !== 304) processErrorWNav(this, res.status, res.errorMsg)
             else{
                 this.setState({
-                    searchResults: res.data.decos
+                    searchResults: res.data.decos,
+                    searchResultsToShow: res.data.decos
                 })
             }
         })
@@ -51,7 +53,8 @@ class SkillToGemPage extends React.Component{
                 slot: e.value,
                 rarity: this.state.filters.rarity,
                 skill: this.state.filters.skill
-            }
+            },
+            searchResultsToShow: e.value === 'all' ? this.state.searchResults : this.state.searchResults.filter(result => (result.slot === parseInt(e.value)))
         })
     }
 
@@ -61,7 +64,8 @@ class SkillToGemPage extends React.Component{
                 slot: this.state.filters.slot,
                 rarity: e.value,
                 skill: this.state.filters.skill
-            }
+            },
+            searchResultsToShow: e.value === 'all' ? this.state.searchResults : this.state.searchResults.filter(result => (result.rarity === parseInt(e.value)))
         })
     }
 
@@ -158,7 +162,7 @@ class SkillToGemPage extends React.Component{
     }
 
     render(){
-        const items = this.state.searchResults.map(item => (
+        const items = this.state.searchResultsToShow.map(item => (
             <tr key={uid(item)}>
                 <td className="tdStyle">{item.slot}</td>
                 <td className="tdStyle">{item.rarity}</td>
