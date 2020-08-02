@@ -23,7 +23,8 @@ class SkillToGemPage extends React.Component{
         searchResultsToShow: [],
         showResults: false,
         sortSlotVal: 0,
-        sortRarityVal: 0
+        sortRarityVal: 0,
+        sortAlphaVal: 0
     }
 
     handleSearchSelect = (e) => {
@@ -72,19 +73,19 @@ class SkillToGemPage extends React.Component{
         })
     }
 
-    changeSlotSortSelect = (e) => {
-        if(e.value !== this.state.sortSlotVal){
+    sortResults = (e, compareOn, sortOption) => {
+        if(e.value !== this.state[sortOption]){
             switch(e.value){
                 case 0:
                     break
                 case 1:
                     this.setState({
-                        searchResultsToShow: this.state.searchResultsToShow.sort((a, b) => {if(a.slot < b.slot) return -1; else return 1})
+                        searchResultsToShow: this.state.searchResultsToShow.sort((a, b) => {if(a[compareOn] < b[compareOn]) return -1; else return 1})
                     })
                     break
                 case 2:
                     this.setState({
-                        searchResultsToShow: this.state.searchResultsToShow.sort((a, b) => {if(a.slot > b.slot) return -1; else return 1})
+                        searchResultsToShow: this.state.searchResultsToShow.sort((a, b) => {if(a[compareOn] > b[compareOn]) return -1; else return 1})
                     })
                     break
                 default:
@@ -93,31 +94,7 @@ class SkillToGemPage extends React.Component{
         }
 
         this.setState({
-            sortSlotVal: e.value
-        })
-    }
-
-    changeRaritySortSelect = (e) => {
-        if(e.value !== this.state.sortRarityVal){
-            switch(e.value){
-                case 0:
-                    break
-                case 1:
-                    this.setState({
-                        searchResultsToShow: this.state.searchResultsToShow.sort((a, b) => {if(a.rarity < b.rarity) return -1; else return 1})
-                    })
-                    break
-                case 2:
-                    this.setState({
-                        searchResultsToShow: this.state.searchResultsToShow.sort((a, b) => {if(a.rarity > b.rarity) return -1; else return 1})
-                    })
-                    break
-                default:
-                    break
-            }
-        }
-        this.setState({
-            sortRarityVal: e.value
+            [sortOption]: e.value
         })
     }
 
@@ -155,6 +132,8 @@ class SkillToGemPage extends React.Component{
 
         const sortSlotOptions = [{value: 0, label: "No Preference"}, {value: 1, label: "Slot Ascending"}, {value: 2, label: "Slot Descending"}]
         const sortRarityOptions = [{value: 0, label: "No Preference"}, {value: 1, label: "Rarity Ascending"}, {value: 2, label: "Rarity Descending"}]
+        const sortAlphaOptions = [{value: 0, label: "No Preference"}, {value: 1, label: "A-Z"}, {value: 2, label: "Z-A"}]
+
 
         return(
             <div id="mainDiv">
@@ -192,7 +171,7 @@ class SkillToGemPage extends React.Component{
                        
                         <h1 className="sortsAndFiltersHeader">Sort:</h1>
                         <CustomSelect
-                            name="slotSort" onChange={e => this.changeSlotSortSelect(e)} 
+                            name="slotSort" onChange={e => this.sortResults(e, "slot", "sortSlotVal")} 
                             className="skillToGemSelect" placeholder="Slot" options={sortSlotOptions}
                             menuBackgroundColour="rgb(100, 100, 100)" optionHoverBackgroundColour="rgb(120, 120, 120)"
                             optionColour="rgb(161, 184, 98)" controlBackgroundColour="rgb(61, 61, 61)"
@@ -202,8 +181,17 @@ class SkillToGemPage extends React.Component{
                         ></CustomSelect>
 
                         <CustomSelect
-                            name="raritySort" onChange={e => this.changeRaritySortSelect(e)} 
+                            name="raritySort" onChange={e => this.sortResults(e, "rarity", "sortRarityVal")} 
                             className="skillToGemSelect" placeholder="Rarity" options={sortRarityOptions}
+                            menuBackgroundColour="rgb(100, 100, 100)" optionHoverBackgroundColour="rgb(120, 120, 120)"
+                            optionColour="rgb(161, 184, 98)" controlBackgroundColour="rgb(61, 61, 61)"
+                            controlBorderColor="rgb(100, 100, 100)" controlHoverBorderColor="rgb(161, 184, 98)"
+                            singleValueColour="rgb(161, 184, 98)" placeholderColour="rgb(161, 184, 98)"
+                            valueContainerColour="rgb(161, 184, 98)"
+                        ></CustomSelect>
+                        <CustomSelect
+                            name="alphabeticalSort" onChange={e => this.sortResults(e, "name", "sortAlphaVal")} 
+                            className="skillToGemSelect" placeholder="Alphabetical" options={sortAlphaOptions}
                             menuBackgroundColour="rgb(100, 100, 100)" optionHoverBackgroundColour="rgb(120, 120, 120)"
                             optionColour="rgb(161, 184, 98)" controlBackgroundColour="rgb(61, 61, 61)"
                             controlBorderColor="rgb(100, 100, 100)" controlHoverBorderColor="rgb(161, 184, 98)"
