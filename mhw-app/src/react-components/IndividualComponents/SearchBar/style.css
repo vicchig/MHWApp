@@ -5,9 +5,6 @@
     padding: 2pt;
     width: 65vw;
     height: 65vh;
-    left: -14vw;
-    position: relative;
-    top: -4vh;
 }
 
 #suggestionList{
@@ -16,9 +13,9 @@
     grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 2;
-    width: 90%;
+    width: 40vw;
     position: relative;
-    top: 6vh;
+    top: 6.5vh;
     left: 1vw;
 }
 

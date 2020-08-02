@@ -12,3 +12,48 @@
 #searchbar.MuiOutlinedInput-input{
     color: rgb(161, 184, 98)
 }
+
+#filtersDiv{
+    display: grid;
+    grid-template-columns: 15% 40% 40%;
+    grid-template-rows: 15% 50%;
+    width: 30vw;
+    height: auto;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}   
+#filtersHeader{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    align-self: center;
+    justify-self: center;
+    color: rgb(161, 184, 98);
+}
+
+#searchDiv{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 100%;
+}
+
+#searchBarDiv{
+   
+}
+
+.slotSelect {
+    height: 50%;
+    justify-self: center;
+    align-self: center;
+    width: 80%;
+}
+
+.raritySelect{
+    height: 50%;
+    justify-self: center;
+    align-self: center;
+    width: 80%;
+}
