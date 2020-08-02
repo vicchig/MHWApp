@@ -32,7 +32,6 @@
     align-self: center;
     justify-self: center;
     color: rgb(161, 184, 98);
-    padding-bottom: 5vh;
 }
 
 #searchDiv{
@@ -46,14 +45,12 @@
 }
 
 .slotSelect {
-    height: 50%;
     justify-self: center;
     align-self: center;
     width: 80%;
 }
 
 .raritySelect{
-    height: 50%;
     justify-self: center;
     align-self: center;
     width: 80%;

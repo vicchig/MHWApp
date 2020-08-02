@@ -5,32 +5,26 @@ import CustomButton from './../CustomButton'
 import { uid } from 'react-uid';
 import {getMatchingDistance} from '../../../actions/algorithms'
 import SearchSuggestionCard from '../SearchSuggestionCard/'
+import AsyncSelect, {makeAsyncSelect} from 'react-select/async'
+import Async from 'react-select/async'
+import Select from 'react-select'
 import "./style.css"
 
 class SearchBar extends React.Component{
 
     state = {
         suggestions: [],
-        showSuggestions: true
+        showSuggestions: true,
+        inputText: ""
     }
 
-    handleChange = async (e) => {
-        this.props.onChange(e)
+    loadOptions = async () => {
 
         let result = await this.props.searchFunction().catch(err => {
             console.error("An error occurred while awaiting server response:\n\n" + err)
         })
         if (result.status === 200 || result.status === 304){
-            if(this.props.value === ""){
-                this.setState({
-                    suggestions: []
-                })
-            }
-            else{
-                this.setState({
-                    suggestions: this.computeBestMatches(this.props.value, result.data[this.props.searchTerm])
-                })
-            }
+            return this.computeBestMatches(this.state.inputText, result.data[this.props.searchTerm])
         }
     }
 
@@ -38,7 +32,7 @@ class SearchBar extends React.Component{
         let topSuggestions = []
         possibilities.forEach(word => {
             let distance = getMatchingDistance(searchTerm, word.name) 
-            if(distance > 0.75 || (distance > 0.6 && this.props.value.length <= 2)){
+            if(distance > 0.75 || (distance > 0.6 && this.state.inputText.length <= 2)){
                 topSuggestions.push({text: word.name, rank: distance})
             }
         });
@@ -46,56 +40,74 @@ class SearchBar extends React.Component{
         topSuggestions.sort((a, b) => {if (a.rank < b.rank) return 1; else return -1})
         let sortedSuggestions = []
         topSuggestions.forEach(result => {
-            sortedSuggestions.push(result.text)
+            sortedSuggestions.push({value: result.text, label: result.text})
         });
         return sortedSuggestions
     }
 
-    onLoseFocus = () => {
-        //this is a hack, there should be a better way to do this
-        setTimeout(() => {
-            this.setState({showSuggestions: false})
-        }, 70)
-    }
-
-    onClickHandler = () => {
-        if(this.props.value !== ""){
-            this.setState({
-                showSuggestions: true
-            })
-        }
+    customSelectStyles = {
+        menu: (provided, state) => ({
+          ...provided,
+          backgroundColor: "rgb(100, 100, 100)",
+        }),
+        option: (provided, state) => ({
+          "&:hover": {
+            backgroundColor: "rgb(120, 120, 120)",
+            gridColumnStart: 1,
+            gridColumnEnd: 1,
+            gridRowStart: 1,
+            gridRowEnd: 1,
+            justifySelf: "center",
+            alignSelf: "center"
+          },
+          color: "rgb(161, 184, 98)",
+        }),
+        control: (provided, state) => ({
+            ...provided,
+            background: "rgb(61, 61, 61)",
+            borderColor: "rgb(100, 100, 100)",
+            "&:hover": {
+                borderColor: "rgb(161, 184, 98)" 
+            },
+            boxShadow: "none",
+        }),
+        singleValue: (provided, state) => ({
+            ...provided,
+            color: "rgb(161, 184, 98)",
+        }),
+        placeholder: (provided, state) => ({
+            ...provided,
+            borderColor: "red",
+            color: "rgb(161, 184, 98)",
+        }),
+        valueContainer: (provided, state) => ({
+            ...provided,
+            borderColor: "red",
+            color: "rgb(161, 184, 98)",
+        }),
+        input: (provided, state) => ({
+            ...provided,
+            color: "rgb(161, 184, 98)"
+        })
     }
 
     render(){
-        const {value, textFieldID, parentContext, onSearch} = this.props
-        const suggestions = this.state.suggestions.map(item => (<li key={uid(item)}><SearchSuggestionCard parentContext={this} searchContext={parentContext} content={item}/></li>))
-
+        const {onSearch} = this.props
         return(
             <div id="mainSearchBarDiv">
-                <CustomTextField
-                    placeholder={"Search for skill"}
-                    width={"90%"}
-                    hoverBorderColour={"rgb(161, 184, 98)"}
-                    focusedBorderColour={"rgb(180, 180, 180)"}
-                    regularBorderColour={"rgb(100, 100, 100)"}
-                    borderWidthFocused={"2pt"}
+                <AsyncSelect 
+                    styles={this.customSelectStyles}
+                    className={"searchbarSelect"}
+                    placeholder={"Select or type in the name of skill..."}
+                    onInputChange={(input) => this.setState({inputText: input})}
+                    onChange={(e) => {this.props.onSetSelect(e)}}
+                    loadOptions={this.loadOptions}
                     name={"searchbarText"}
-                    value={value}
-                    onChange={(e) => {this.handleChange(e)}}
-                    id={textFieldID}
-                    gridColStart={1}
-                    gridColEnd={2}
-                    gridRowStart={1}
-                    gridRowEnd={1}
-                    justifySelf={"center"}
-                    alignSelf={"center"}
-                    onBlur={this.onLoseFocus}
-                    onClick={this.onClickHandler}
-                >
-                </CustomTextField>
+                    blurInputOnSelect={true}
+                ></AsyncSelect>
                 <CustomButton
-                    width={"100px"}
-                    height={"55px"}
+                    width={"3vw"}
+                    height={"3vh"}
                     buttonText={"Search"}
                     borderColor={"rgb(161, 184, 98)"}
                     hoverColor={"rgb(79, 79, 79)"}
@@ -107,11 +119,10 @@ class SearchBar extends React.Component{
                     gridRowEnd={1}
                     alignSelf={"center"}
                     justifySelf={"start"}
+                    left={"1vw"}
                     onClick={onSearch}
                 />
-                <ul id="suggestionList">
-                    {this.state.showSuggestions ? suggestions : null}
-                </ul>
+
 
             </div>
         )

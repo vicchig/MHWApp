@@ -19,12 +19,12 @@ class SkillToGemPage extends React.Component{
             skill: ""
         },
         searchResults: [],
-        showResults: false
+        showResults: false,
     }
 
-    handleInput = (e) => {
+    handleSearchSelect = (e) => {
         this.setState({
-            [e.target.name]: e.target.value
+            searchbarText: e.value
         })
     }
 
@@ -78,7 +78,9 @@ class SkillToGemPage extends React.Component{
           gridRowEnd: 1,
           "&:hover": {
             backgroundColor: "rgb(120, 120, 120)"
-          }
+          },
+          color: "rgb(161, 184, 98)",
+
         }),
         control: (provided, state) => ({
             ...provided,
@@ -102,9 +104,6 @@ class SkillToGemPage extends React.Component{
             ...provided,
             borderColor: "red",
             color: "rgb(161, 184, 98)",
-            "&:focus": {
-                borderColor: "red",
-              }
         })
     }
 
@@ -112,6 +111,7 @@ class SkillToGemPage extends React.Component{
         menu: (provided, state) => ({
           ...provided,
           backgroundColor: "rgb(100, 100, 100)",
+          
         }),
         option: (provided, state) => ({
           padding: 20,
@@ -121,7 +121,9 @@ class SkillToGemPage extends React.Component{
           gridRowEnd: 1,
           "&:hover": {
             backgroundColor: "rgb(120, 120, 120)"
-          }
+          },
+          color: "rgb(161, 184, 98)",
+
         }),
         control: (provided, state) => ({
             ...provided,
@@ -148,6 +150,10 @@ class SkillToGemPage extends React.Component{
             "&:focus": {
                 borderColor: "red",
               }
+        }),
+        input: (provided, state) => ({
+            ...provided,
+            color: "red"
         })
     }
 
@@ -159,7 +165,7 @@ class SkillToGemPage extends React.Component{
                 <td className="tdStyle">{item.name}</td>
                 <td className="tdStyle">
                     <ul className="listStyle">{
-                        item.skills.map(skill => (<li>
+                        item.skills.map(skill => (<li key={uid(skill)}>
                                                     {skill.skillName}
                                                   </li>))}
                     </ul>
@@ -190,20 +196,36 @@ class SkillToGemPage extends React.Component{
                         <SearchBar textFieldID={"searchbar"} searchTerm={"skillList"}
                                 searchFunction={getSkillList} value={this.state.searchbarText}
                                 parentContext={this} onChange={this.handleInput}
-                                onSearch={this.onSearchAction}></SearchBar>
+                                onSearch={this.onSearchAction}
+                                onSetSelect={this.handleSearchSelect}
+                                
+                        ></SearchBar>
                    
                     <div id="filtersDiv">
                         <h1 id="filtersHeader">Filters:</h1>
-                        <Select name="slotsSelect" onChange={(e) => {this.changeSlotSelect(e)}} className={"slotSelect"} placeholder={"Slots"} styles={this.customSlotSelectStyles} options={slotOptions} />
-                        <Select name="raritySelect" onChange={(e) => {this.changeRaritySelect(e)}} className={"raritySelect"} placeholder={"Rarity"} styles={this.customRaritySelectStyles} options={rarityOptions} />
+                        <Select name="slotsSelect" onChange={(e) => {this.changeSlotSelect(e)}}
+                                className={"slotSelect"} placeholder={"Slots"} 
+                                styles={this.customSlotSelectStyles} options={slotOptions} 
+                                isSearchable={false} onMenuClose={(e) => {}}/>
+                        <Select name="raritySelect" onChange={(e) => {this.changeRaritySelect(e)}} 
+                                className={"raritySelect"} placeholder={"Rarity"} 
+                                styles={this.customRaritySelectStyles} options={rarityOptions}
+                                isSearchable={false} />
                     </div>
-                    {this.state.showResults ? <table id="resultsTable">
-                        <th className={"thStyle"}>Slot</th>
-                        <th className={"thStyle"}>Rarity</th>
-                        <th className={"thStyle"}>Name</th>
-                        <th className={"thStyle"}>Skills</th>
-                        {items}
-                    </table> : null}
+                    {this.state.showResults ? 
+                    <table id="resultsTable">
+                        
+                        <tbody>
+                            <tr>
+                                <th className={"thStyle"}>Slot</th>
+                                <th className={"thStyle"}>Rarity</th>
+                                <th className={"thStyle"}>Name</th>
+                                <th className={"thStyle"}>Skills</th>
+                            </tr>
+                            {items}
+                        </tbody>
+                    </table> 
+                    : null}
                 </div>
                 
 

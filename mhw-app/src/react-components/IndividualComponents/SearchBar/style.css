@@ -1,7 +1,7 @@
 #mainSearchBarDiv{
     display: grid;
     grid-template-columns: 80% 20%;
-    grid-template-rows: 35%;
+    grid-template-rows: 50%;
     padding: 2pt;
     width: 65vw;
     height: 30vh;
@@ -17,6 +17,12 @@
     position: relative;
     top: 6.5vh;
     left: 1vw;
+}
+
+.searchbarSelect{
+    justify-self: center;
+    align-self: center;
+    width: 90%;
 }
 
 
