@@ -7,6 +7,7 @@ import {getDecorationsWSkill} from '../../../actions/mhwActions'
 import { uid } from 'react-uid';
 import { processErrorWNav } from '../../../actions/utilities';
 import Select from 'react-select'
+import CustomSelect from '../../IndividualComponents/CustomSelect'
 import './style.css'
 
 class SkillToGemPage extends React.Component{
@@ -21,6 +22,8 @@ class SkillToGemPage extends React.Component{
         searchResults: [],
         searchResultsToShow: [],
         showResults: false,
+        sortSlotVal: 0,
+        sortRarityVal: 0
     }
 
     handleSearchSelect = (e) => {
@@ -69,95 +72,52 @@ class SkillToGemPage extends React.Component{
         })
     }
 
-    customSlotSelectStyles = {
-        menu: (provided, state) => ({
-          ...provided,
-          backgroundColor: "rgb(100, 100, 100)",
-        }),
-        option: (provided, state) => ({
-          padding: 20,
-          gridColumnStart: 2,
-          gridColumnEnd: 2,
-          gridRowStart: 1,
-          gridRowEnd: 1,
-          "&:hover": {
-            backgroundColor: "rgb(120, 120, 120)"
-          },
-          color: "rgb(161, 184, 98)",
+    changeSlotSortSelect = (e) => {
+        if(e.value !== this.state.sortSlotVal){
+            switch(e.value){
+                case 0:
+                    break
+                case 1:
+                    this.setState({
+                        searchResultsToShow: this.state.searchResultsToShow.sort((a, b) => {if(a.slot < b.slot) return -1; else return 1})
+                    })
+                    break
+                case 2:
+                    this.setState({
+                        searchResultsToShow: this.state.searchResultsToShow.sort((a, b) => {if(a.slot > b.slot) return -1; else return 1})
+                    })
+                    break
+                default:
+                    break
+            }
+        }
 
-        }),
-        control: (provided, state) => ({
-            ...provided,
-            background: "rgb(61, 61, 61)",
-            borderColor: "rgb(100, 100, 100)",
-            "&:hover": {
-                borderColor: "rgb(161, 184, 98)" 
-            },
-            boxShadow: "none",
-        }),
-        singleValue: (provided, state) => ({
-            ...provided,
-            color: "rgb(161, 184, 98)",
-        }),
-        placeholder: (provided, state) => ({
-            ...provided,
-            borderColor: "red",
-            color: "rgb(161, 184, 98)",
-        }),
-        valueContainer: (provided, state) => ({
-            ...provided,
-            borderColor: "red",
-            color: "rgb(161, 184, 98)",
+        this.setState({
+            sortSlotVal: e.value
         })
     }
 
-    customRaritySelectStyles = {
-        menu: (provided, state) => ({
-          ...provided,
-          backgroundColor: "rgb(100, 100, 100)",
-          
-        }),
-        option: (provided, state) => ({
-          padding: 20,
-          gridColumnStart: 3,
-          gridColumnEnd: 3,
-          gridRowStart: 1,
-          gridRowEnd: 1,
-          "&:hover": {
-            backgroundColor: "rgb(120, 120, 120)"
-          },
-          color: "rgb(161, 184, 98)",
-
-        }),
-        control: (provided, state) => ({
-            ...provided,
-            background: "rgb(61, 61, 61)",
-            borderColor: "rgb(100, 100, 100)",
-            "&:hover": {
-                borderColor: "rgb(161, 184, 98)" 
-            },
-            boxShadow: "none",
-        }),
-        singleValue: (provided, state) => ({
-            ...provided,
-            color: "rgb(161, 184, 98)",
-        }),
-        placeholder: (provided, state) => ({
-            ...provided,
-            borderColor: "red",
-            color: "rgb(161, 184, 98)",
-        }),
-        valueContainer: (provided, state) => ({
-            ...provided,
-            borderColor: "red",
-            color: "rgb(161, 184, 98)",
-            "&:focus": {
-                borderColor: "red",
-              }
-        }),
-        input: (provided, state) => ({
-            ...provided,
-            color: "red"
+    changeRaritySortSelect = (e) => {
+        if(e.value !== this.state.sortRarityVal){
+            switch(e.value){
+                case 0:
+                    break
+                case 1:
+                    this.setState({
+                        searchResultsToShow: this.state.searchResultsToShow.sort((a, b) => {if(a.rarity < b.rarity) return -1; else return 1})
+                    })
+                    break
+                case 2:
+                    this.setState({
+                        searchResultsToShow: this.state.searchResultsToShow.sort((a, b) => {if(a.rarity > b.rarity) return -1; else return 1})
+                    })
+                    break
+                default:
+                    break
+            }
+        }
+        this.setState({
+            sortRarityVal: e.value
         })
     }
 
@@ -176,7 +136,7 @@ class SkillToGemPage extends React.Component{
                 </td>
             </tr>))
 
-        const slotOptions = [{value: "all", label: "All Slots"}, {value: "1", label: "1"}, {value: "2", label: "2"}, {value: "3", label: "3"}, {value: "4", label: "4"},]
+        const slotOptions = [{value: "all", label: "All Slots"}, {value: "1", label: "1"}, {value: "2", label: "2"}, {value: "3", label: "3"}, {value: "4", label: "4"}]
         const rarityOptions = [
             {value:"all", label: "All Rarities"},
             {value: "1", label: "1"},
@@ -193,6 +153,9 @@ class SkillToGemPage extends React.Component{
             {value: "12", label: "12"}
         ]
 
+        const sortSlotOptions = [{value: 0, label: "No Preference"}, {value: 1, label: "Slot Ascending"}, {value: 2, label: "Slot Descending"}]
+        const sortRarityOptions = [{value: 0, label: "No Preference"}, {value: 1, label: "Rarity Ascending"}, {value: 2, label: "Rarity Descending"}]
+
         return(
             <div id="mainDiv">
                 <WebsiteHeader appContext={this.props.parentContext}/>
@@ -206,15 +169,47 @@ class SkillToGemPage extends React.Component{
                         ></SearchBar>
                    
                     <div id="filtersDiv">
-                        <h1 id="filtersHeader">Filters:</h1>
-                        <Select name="slotsSelect" onChange={(e) => {this.changeSlotSelect(e)}}
-                                className={"slotSelect"} placeholder={"Slots"} 
-                                styles={this.customSlotSelectStyles} options={slotOptions} 
-                                isSearchable={false} onMenuClose={(e) => {}}/>
-                        <Select name="raritySelect" onChange={(e) => {this.changeRaritySelect(e)}} 
-                                className={"raritySelect"} placeholder={"Rarity"} 
-                                styles={this.customRaritySelectStyles} options={rarityOptions}
-                                isSearchable={false} />
+                        <h1 className="sortsAndFiltersHeader">Filters:</h1>
+                        <CustomSelect
+                            name="slotsSelect" onChange={e => this.changeSlotSelect(e)} 
+                            className="skillToGemSelect" placeholder="Slots" options={slotOptions}
+                            menuBackgroundColour="rgb(100, 100, 100)" optionHoverBackgroundColour="rgb(120, 120, 120)"
+                            optionColour="rgb(161, 184, 98)" controlBackgroundColour="rgb(61, 61, 61)"
+                            controlBorderColor="rgb(100, 100, 100)" controlHoverBorderColor="rgb(161, 184, 98)"
+                            singleValueColour="rgb(161, 184, 98)" placeholderColour="rgb(161, 184, 98)"
+                            valueContainerColour="rgb(161, 184, 98)"
+                        ></CustomSelect>
+
+                        <CustomSelect
+                            name="raritySelect" onChange={e => this.changeRaritySelect(e)} 
+                            className="skillToGemSelect" placeholder="Rarity" options={rarityOptions}
+                            menuBackgroundColour="rgb(100, 100, 100)" optionHoverBackgroundColour="rgb(120, 120, 120)"
+                            optionColour="rgb(161, 184, 98)" controlBackgroundColour="rgb(61, 61, 61)"
+                            controlBorderColor="rgb(100, 100, 100)" controlHoverBorderColor="rgb(161, 184, 98)"
+                            singleValueColour="rgb(161, 184, 98)" placeholderColour="rgb(161, 184, 98)"
+                            valueContainerColour="rgb(161, 184, 98)"
+                        ></CustomSelect>
+                       
+                        <h1 className="sortsAndFiltersHeader">Sort:</h1>
+                        <CustomSelect
+                            name="slotSort" onChange={e => this.changeSlotSortSelect(e)} 
+                            className="skillToGemSelect" placeholder="Slot" options={sortSlotOptions}
+                            menuBackgroundColour="rgb(100, 100, 100)" optionHoverBackgroundColour="rgb(120, 120, 120)"
+                            optionColour="rgb(161, 184, 98)" controlBackgroundColour="rgb(61, 61, 61)"
+                            controlBorderColor="rgb(100, 100, 100)" controlHoverBorderColor="rgb(161, 184, 98)"
+                            singleValueColour="rgb(161, 184, 98)" placeholderColour="rgb(161, 184, 98)"
+                            valueContainerColour="rgb(161, 184, 98)"
+                        ></CustomSelect>
+
+                        <CustomSelect
+                            name="raritySort" onChange={e => this.changeRaritySortSelect(e)} 
+                            className="skillToGemSelect" placeholder="Rarity" options={sortRarityOptions}
+                            menuBackgroundColour="rgb(100, 100, 100)" optionHoverBackgroundColour="rgb(120, 120, 120)"
+                            optionColour="rgb(161, 184, 98)" controlBackgroundColour="rgb(61, 61, 61)"
+                            controlBorderColor="rgb(100, 100, 100)" controlHoverBorderColor="rgb(161, 184, 98)"
+                            singleValueColour="rgb(161, 184, 98)" placeholderColour="rgb(161, 184, 98)"
+                            valueContainerColour="rgb(161, 184, 98)"
+                        ></CustomSelect>
                     </div>
                     {this.state.showResults ? 
                     <table id="resultsTable">

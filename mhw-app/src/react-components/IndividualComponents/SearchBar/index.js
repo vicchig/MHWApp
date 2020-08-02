@@ -77,12 +77,10 @@ class SearchBar extends React.Component{
         }),
         placeholder: (provided, state) => ({
             ...provided,
-            borderColor: "red",
             color: "rgb(161, 184, 98)",
         }),
         valueContainer: (provided, state) => ({
             ...provided,
-            borderColor: "red",
             color: "rgb(161, 184, 98)",
         }),
         input: (provided, state) => ({
