@@ -16,7 +16,7 @@
 #filtersDiv{
     display: grid;
     grid-template-columns: 15% 40% 40%;
-    grid-template-rows: 15% 50%;
+    grid-template-rows: 50% 50%;
     width: 30vw;
     height: auto;
     grid-row-start: 1;
@@ -32,16 +32,17 @@
     align-self: center;
     justify-self: center;
     color: rgb(161, 184, 98);
+    padding-bottom: 5vh;
 }
 
 #searchDiv{
     display: grid;
     grid-template-columns: 70% 30%;
-    grid-template-rows: 100%;
+    grid-template-rows: 0fr 1fr;
 }
 
 #searchBarDiv{
-   
+    max-height: 15vh;
 }
 
 .slotSelect {
@@ -56,4 +57,33 @@
     justify-self: center;
     align-self: center;
     width: 80%;
+}
+
+#resultsTable{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    width: 90%;
+    min-width: 90%;
+    max-width: 90%;
+    justify-self: center;
+    align-self: start;
+    border: 1px solid black;
+}
+
+.tdStyle{
+    text-align: center;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.thStyle{
+    border-right: 1px solid black;
+}
+
+.listStyle{
+    list-style: none;
+    padding: 0pt;
+    margin: 0pt;
 }

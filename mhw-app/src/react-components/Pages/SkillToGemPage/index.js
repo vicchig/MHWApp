@@ -18,7 +18,8 @@ class SkillToGemPage extends React.Component{
             rarity: "all",
             skill: ""
         },
-        searchResults: []
+        searchResults: [],
+        showResults: false
     }
 
     handleInput = (e) => {
@@ -29,7 +30,8 @@ class SkillToGemPage extends React.Component{
 
     onSearchAction = () => {
         this.setState({
-            filters: {slot: this.state.filters.slot, rarity: this.state.filters.rarity, skill:this.state.searchbarText}
+            filters: {slot: this.state.filters.slot, rarity: this.state.filters.rarity, skill:this.state.searchbarText},
+            showResults: true
         }, async () => {
             let res = await getDecorationsWSkill(this.state.filters).catch(err => {
                 console.error("An error occurred while waiting for server response. \n\n" + err)
@@ -150,7 +152,19 @@ class SkillToGemPage extends React.Component{
     }
 
     render(){
-        const items = this.state.searchResults.map(item => (<li key={uid(item)}>{item.name}</li>))
+        const items = this.state.searchResults.map(item => (
+            <tr key={uid(item)}>
+                <td className="tdStyle">{item.slot}</td>
+                <td className="tdStyle">{item.rarity}</td>
+                <td className="tdStyle">{item.name}</td>
+                <td className="tdStyle">
+                    <ul className="listStyle">{
+                        item.skills.map(skill => (<li>
+                                                    {skill.skillName}
+                                                  </li>))}
+                    </ul>
+                </td>
+            </tr>))
 
         const slotOptions = [{value: "all", label: "All Slots"}, {value: "1", label: "1"}, {value: "2", label: "2"}, {value: "3", label: "3"}, {value: "4", label: "4"},]
         const rarityOptions = [
@@ -173,20 +187,23 @@ class SkillToGemPage extends React.Component{
             <div id="mainDiv">
                 <WebsiteHeader appContext={this.props.parentContext}/>
                 <div id="searchDiv">
-                    <div id="searchBarDiv">
                         <SearchBar textFieldID={"searchbar"} searchTerm={"skillList"}
                                 searchFunction={getSkillList} value={this.state.searchbarText}
                                 parentContext={this} onChange={this.handleInput}
                                 onSearch={this.onSearchAction}></SearchBar>
-                    </div>
                    
                     <div id="filtersDiv">
                         <h1 id="filtersHeader">Filters:</h1>
                         <Select name="slotsSelect" onChange={(e) => {this.changeSlotSelect(e)}} className={"slotSelect"} placeholder={"Slots"} styles={this.customSlotSelectStyles} options={slotOptions} />
                         <Select name="raritySelect" onChange={(e) => {this.changeRaritySelect(e)}} className={"raritySelect"} placeholder={"Rarity"} styles={this.customRaritySelectStyles} options={rarityOptions} />
                     </div>
-
-                    <ul>{items}</ul>
+                    {this.state.showResults ? <table id="resultsTable">
+                        <th className={"thStyle"}>Slot</th>
+                        <th className={"thStyle"}>Rarity</th>
+                        <th className={"thStyle"}>Name</th>
+                        <th className={"thStyle"}>Skills</th>
+                        {items}
+                    </table> : null}
                 </div>
                 
 

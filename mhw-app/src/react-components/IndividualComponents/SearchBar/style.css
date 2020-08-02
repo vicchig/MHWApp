@@ -1,10 +1,10 @@
 #mainSearchBarDiv{
     display: grid;
     grid-template-columns: 80% 20%;
-    grid-template-rows: 15% 80%;
+    grid-template-rows: 35%;
     padding: 2pt;
     width: 65vw;
-    height: 65vh;
+    height: 30vh;
 }
 
 #suggestionList{
