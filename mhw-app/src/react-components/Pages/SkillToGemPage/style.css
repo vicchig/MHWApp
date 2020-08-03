@@ -33,7 +33,7 @@
 #searchDiv{
     display: grid;
     grid-template-columns: 70% 30%;
-    grid-template-rows: 0fr 1fr;
+    grid-template-rows: 0fr 0.5fr;
 }
 
 #searchBarDiv{
@@ -48,26 +48,23 @@
 }
 
 #resultsTable{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 2;
-    width: 90%;
+    width: 50%;
     min-width: 90%;
     max-width: 90%;
-    justify-self: center;
-    align-self: start;
-    border: 1px solid black;
+    border: 1px solid rgb(120, 120, 120);
+    color: rgb(161, 184, 98);
+    border-radius: 25pt;
+    margin-bottom: 5vh;
 }
 
 .tdStyle{
     text-align: center;
-    border-top: 1px solid black;
-    border-right: 1px solid black;
+    border-top: 1px solid rgb(120, 120, 120);
+    border-right: 1px solid rgb(120, 120, 120);
 }
 
 .thStyle{
-    border-right: 1px solid black;
+    border-right: 1px solid rgb(120, 120, 120);
 }
 
 .listStyle{
@@ -80,4 +77,12 @@
     align-self: start;
     position: relative;
     top: 2vh;
+}
+
+#loadSpinnerDiv{
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    max-width: 10vw;
+    max-height: 10vh;
 }

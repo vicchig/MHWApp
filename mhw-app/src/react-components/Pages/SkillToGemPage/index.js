@@ -8,6 +8,9 @@ import { uid } from 'react-uid';
 import { processErrorWNav } from '../../../actions/utilities';
 import Select from 'react-select'
 import CustomSelect from '../../IndividualComponents/CustomSelect'
+import Spinner from 'react-bootstrap/Spinner'
+import BeatLoader from "react-spinners/BeatLoader";
+import { css } from "@emotion/core";
 import './style.css'
 
 class SkillToGemPage extends React.Component{
@@ -24,7 +27,8 @@ class SkillToGemPage extends React.Component{
         showResults: false,
         sortSlotVal: 0,
         sortRarityVal: 0,
-        sortAlphaVal: 0
+        sortAlphaVal: 0,
+        loading: false
     }
 
     handleSearchSelect = (e) => {
@@ -36,7 +40,8 @@ class SkillToGemPage extends React.Component{
     onSearchAction = () => {
         this.setState({
             filters: {slot: this.state.filters.slot, rarity: this.state.filters.rarity, skill:this.state.searchbarText},
-            showResults: true
+            showResults: true,
+            loading: true
         }, async () => {
             let res = await getDecorationsWSkill(this.state.filters).catch(err => {
                 console.error("An error occurred while waiting for server response. \n\n" + err)
@@ -45,7 +50,8 @@ class SkillToGemPage extends React.Component{
             else{
                 this.setState({
                     searchResults: res.data.decos,
-                    searchResultsToShow: res.data.decos
+                    searchResultsToShow: res.data.decos,
+                    loading: false
                 })
             }
         })
@@ -100,6 +106,7 @@ class SkillToGemPage extends React.Component{
 
     render(){
         const items = this.state.searchResultsToShow.map(item => (
+
             <tr key={uid(item)}>
                 <td className="tdStyle">{item.slot}</td>
                 <td className="tdStyle">{item.rarity}</td>
@@ -133,6 +140,31 @@ class SkillToGemPage extends React.Component{
         const sortSlotOptions = [{value: 0, label: "No Preference"}, {value: 1, label: "Slot Ascending"}, {value: 2, label: "Slot Descending"}]
         const sortRarityOptions = [{value: 0, label: "No Preference"}, {value: 1, label: "Rarity Ascending"}, {value: 2, label: "Rarity Descending"}]
         const sortAlphaOptions = [{value: 0, label: "No Preference"}, {value: 1, label: "A-Z"}, {value: 2, label: "Z-A"}]
+
+        
+        let resultsComponent
+        if(this.state.loading){
+            resultsComponent = <div id="loadSpinnerDiv"><BeatLoader color="rgb(161, 184, 98)"></BeatLoader></div>
+        }
+        else if(!this.state.showResults && !this.state.loading){
+            resultsComponent = null
+        }
+        else if(!this.state.loading && this.state.showResults){
+            resultsComponent = <table id="resultsTable">
+                                    <tbody>
+                                        <tr>
+                                            <th className={"thStyle"}>Slot</th>
+                                            <th className={"thStyle"}>Rarity</th>
+                                            <th className={"thStyle"}>Name</th>
+                                            <th className={"thStyle"}>Skills</th>
+                                        </tr>
+                                        {items}
+                                    </tbody>
+                                </table> 
+        }
+        else{
+            resultsComponent = null
+        }
 
 
         return(
@@ -200,23 +232,9 @@ class SkillToGemPage extends React.Component{
                             valueContainerColour="rgb(161, 184, 98)"
                         ></CustomSelect>
                     </div>
-                    {this.state.showResults ? 
-                    <table id="resultsTable">
-                        
-                        <tbody>
-                            <tr>
-                                <th className={"thStyle"}>Slot</th>
-                                <th className={"thStyle"}>Rarity</th>
-                                <th className={"thStyle"}>Name</th>
-                                <th className={"thStyle"}>Skills</th>
-                            </tr>
-                            {items}
-                        </tbody>
-                    </table> 
-                    : null}
+                    
                 </div>
-                
-
+                {resultsComponent}
             </div>
         )
     }
