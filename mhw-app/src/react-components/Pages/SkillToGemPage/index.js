@@ -6,12 +6,49 @@ import {getSkillList} from '../../../actions/dataActions'
 import {getDecorationsWSkill} from '../../../actions/mhwActions'
 import { uid } from 'react-uid';
 import { processErrorWNav } from '../../../actions/utilities';
-import Select from 'react-select'
 import CustomSelect from '../../IndividualComponents/CustomSelect'
-import Spinner from 'react-bootstrap/Spinner'
 import BeatLoader from "react-spinners/BeatLoader";
-import { css } from "@emotion/core";
 import './style.css'
+
+const slotOptions = [
+    {value: "all", label: "All Slots"},
+    {value: "1", label: "1"},
+    {value: "2", label: "2"},
+    {value: "3", label: "3"},
+    {value: "4", label: "4"}
+]
+const rarityOptions = [
+    {value:"all", label: "All Rarities"},
+    {value: "1", label: "1"},
+    {value: "2", label: "2"},
+    {value: "3", label: "3"},
+    {value: "4", label: "4"},
+    {value: "5", label: "5"},
+    {value: "6", label: "6"},
+    {value: "7", label: "7"},
+    {value: "8", label: "8"},
+    {value: "9", label: "9"},
+    {value: "10", label: "10"},
+    {value: "11", label: "11"},
+    {value: "12", label: "12"}
+]
+
+const sortSlotOptions = [
+    {value: 0, label: "No Preference"},
+    {value: 1, label: "Slot Ascending"},
+    {value: 2, label: "Slot Descending"}
+]
+const sortRarityOptions = [
+    {value: 0, label: "No Preference"}, 
+    {value: 1, label: "Rarity Ascending"}, 
+    {value: 2, label: "Rarity Descending"}
+]
+const sortAlphaOptions = [
+    {value: 0, label: "No Preference"}, 
+    {value: 1, label: "A-Z"}, 
+    {value: 2, label: "Z-A"}
+]
+
 
 class SkillToGemPage extends React.Component{
 
@@ -104,45 +141,8 @@ class SkillToGemPage extends React.Component{
         })
     }
 
-    render(){
-        const items = this.state.searchResultsToShow.map(item => (
-
-            <tr key={uid(item)}>
-                <td className="tdStyle">{item.slot}</td>
-                <td className="tdStyle">{item.rarity}</td>
-                <td className="tdStyle">{item.name}</td>
-                <td className="tdStyle">
-                    <ul className="listStyle">{
-                        item.skills.map(skill => (<li key={uid(skill)}>
-                                                    {skill.skillName}
-                                                  </li>))}
-                    </ul>
-                </td>
-            </tr>))
-
-        const slotOptions = [{value: "all", label: "All Slots"}, {value: "1", label: "1"}, {value: "2", label: "2"}, {value: "3", label: "3"}, {value: "4", label: "4"}]
-        const rarityOptions = [
-            {value:"all", label: "All Rarities"},
-            {value: "1", label: "1"},
-            {value: "2", label: "2"},
-            {value: "3", label: "3"},
-            {value: "4", label: "4"},
-            {value: "5", label: "5"},
-            {value: "6", label: "6"},
-            {value: "7", label: "7"},
-            {value: "8", label: "8"},
-            {value: "9", label: "9"},
-            {value: "10", label: "10"},
-            {value: "11", label: "11"},
-            {value: "12", label: "12"}
-        ]
-
-        const sortSlotOptions = [{value: 0, label: "No Preference"}, {value: 1, label: "Slot Ascending"}, {value: 2, label: "Slot Descending"}]
-        const sortRarityOptions = [{value: 0, label: "No Preference"}, {value: 1, label: "Rarity Ascending"}, {value: 2, label: "Rarity Descending"}]
-        const sortAlphaOptions = [{value: 0, label: "No Preference"}, {value: 1, label: "A-Z"}, {value: 2, label: "Z-A"}]
-
-        
-        let resultsComponent
+    generateResultComponent = () => {
+        let resultsComponent = null
         if(this.state.loading){
             resultsComponent = <div id="loadSpinnerDiv"><BeatLoader color="rgb(161, 184, 98)"></BeatLoader></div>
         }
@@ -166,7 +166,27 @@ class SkillToGemPage extends React.Component{
             resultsComponent = null
         }
 
+        return resultsComponent
+    }
 
+    render(){
+        const items = this.state.searchResultsToShow.map(item => (
+            <tr key={uid(item)}>
+                <td className="tdStyle">{item.slot}</td>
+                <td className="tdStyle">{item.rarity}</td>
+                <td className="tdStyle">{item.name}</td>
+                <td className="tdStyle">
+                    <ul className="listStyle">{
+                        item.skills.map(skill => (<li key={uid(skill)}>
+                                                    {skill.skillName}
+                                                  </li>))}
+                    </ul>
+                </td>
+            </tr>)
+        )
+        
+        let resultsComponent = this.generateResultComponent()
+        
         return(
             <div id="mainDiv">
                 <WebsiteHeader appContext={this.props.parentContext}/>
