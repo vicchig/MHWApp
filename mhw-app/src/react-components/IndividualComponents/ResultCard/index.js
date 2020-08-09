@@ -36,10 +36,6 @@ class ResultCard extends React.Component{
 
     render(){
         let skillDisplayCards = this.state.loading ? null : 
-            
-
-
-            
                         <div className="skillCardDiv">
                             <h2 className={"skillFloatHeading"}>{this.state.skillObj?.name}</h2>
                             <div className={"skillCardDescription"}>{this.state.skillObj?.description}</div>
@@ -78,16 +74,10 @@ class ResultCard extends React.Component{
                                             )
                                         }
                                     })()
-                                    
-                                        
                                     )}
                                 </tbody>
                             </table>
                         </div>
-            
-                                
-
-        
             
         return(
             <div className="resultCardMainDiv">
