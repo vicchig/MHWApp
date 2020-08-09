@@ -47,6 +47,11 @@
     width: 80%;
 }
 
+#resultsTableDiv{
+    width: 100%;
+
+}
+
 #resultsTable{
     width: 50%;
     min-width: 50%;
@@ -55,6 +60,8 @@
     color: rgb(161, 184, 98);
     border-radius: 25pt;
     margin-bottom: 5vh;
+    position: relative;
+    left: 25%;
 }
 
 .tdStyle{
@@ -65,6 +72,7 @@
 
 .thStyle{
     border-right: 1px solid rgb(120, 120, 120);
+    color: rgb(164, 173, 136);
 }
 
 .listStyle{
@@ -87,10 +95,12 @@
     max-height: 10vh;
 }
 
-.hoverItem{
-
-}
-
 .hoverItem:hover{
     background-color: rgb(120, 120, 120);
+}
+
+#resultsTableHint{
+    color: rgb(161, 184, 98);
+    left: 25%;
+    position: relative;
 }

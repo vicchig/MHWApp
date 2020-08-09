@@ -53,8 +53,8 @@ const sortAlphaOptions = [
 
 const hoverOptions = {
     followCursor: true,
-    shiftX: -700,
-    shiftY: -300
+    shiftX: -500,
+    shiftY: -1000
 }
 
 
@@ -73,7 +73,8 @@ class SkillToGemPage extends React.Component{
         sortSlotVal: 0,
         sortRarityVal: 0,
         sortAlphaVal: 0,
-        loading: false
+        loading: false,
+        showHelperText: false
     }
 
     handleSearchSelect = (e) => {
@@ -86,7 +87,8 @@ class SkillToGemPage extends React.Component{
         this.setState({
             filters: {slot: this.state.filters.slot, rarity: this.state.filters.rarity, skill:this.state.searchbarText},
             showResults: true,
-            loading: true
+            loading: true,
+            showHelperText: false,
         }, async () => {
             let res = await getDecorationsWSkill(this.state.filters).catch(err => {
                 console.error("An error occurred while waiting for server response. \n\n" + err)
@@ -96,7 +98,8 @@ class SkillToGemPage extends React.Component{
                 this.setState({
                     searchResults: res.data.decos,
                     searchResultsToShow: res.data.decos,
-                    loading: false
+                    loading: false,
+                    showHelperText: true
                 })
             }
         })
@@ -271,7 +274,11 @@ class SkillToGemPage extends React.Component{
                     </div>
                     
                 </div>
-                {resultsComponent}
+                <div id={"resultsTableDiv"}>
+                    {this.state.showHelperText ? <h5 id={"resultsTableHint"}>*Hover over the skill name to view skill info.</h5> : null }
+                    {resultsComponent}
+
+                </div>
             </div>
         )
     }
