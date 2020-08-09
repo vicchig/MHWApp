@@ -30,6 +30,30 @@ export const getDecorationsWSkill = async (filters) => {
 
 }
 
+export const getSkill = async (criteria) => {
+    const url = 'https://mhw-db.com/skills/' + criteria.id ?? ''
+    const req = new Request(url, {
+        'Accept': 'application/json, text/plain',
+        'Content-Type': 'application/json',
+        'Cache-Control': 'private',
+    })
+
+    const result = await fetch(req).catch(err => {
+        return new ApiResponse(-1, null, constructErrorMsgUnableToFetch(err, url))
+    })
+    if(result.status === -1) return result
+    else if(result.status === 200){
+        const responseBody = await result.json().catch(err => {
+            return new ApiResponse(-1, null, constructErrorMsgUnableToFetch(err, url))
+        })
+        if(responseBody.status === -1) return responseBody
+        return new ApiResponse(result.status, {skill: responseBody}, "")
+    }
+    else{
+        return new ApiResponse(result.status, null, constructErrorMsgCouldntReadServerResponse(result.status, '', url))
+    }
+}
+
 //helpers
 
 const filterDecos = (decoObjects, filters) => {

@@ -8,6 +8,8 @@ import { uid } from 'react-uid';
 import { processErrorWNav } from '../../../actions/utilities';
 import CustomSelect from '../../IndividualComponents/CustomSelect'
 import BeatLoader from "react-spinners/BeatLoader";
+import ReactHover, {Hover, Trigger} from 'react-hover'
+import ResultCard from './../../IndividualComponents/ResultCard'
 import './style.css'
 
 const slotOptions = [
@@ -48,6 +50,12 @@ const sortAlphaOptions = [
     {value: 1, label: "A-Z"}, 
     {value: 2, label: "Z-A"}
 ]
+
+const hoverOptions = {
+    followCursor: true,
+    shiftX: -700,
+    shiftY: -300
+}
 
 
 class SkillToGemPage extends React.Component{
@@ -141,7 +149,7 @@ class SkillToGemPage extends React.Component{
         })
     }
 
-    generateResultComponent = () => {
+    generateResultComponent = (items) => {
         let resultsComponent = null
         if(this.state.loading){
             resultsComponent = <div id="loadSpinnerDiv"><BeatLoader color="rgb(161, 184, 98)"></BeatLoader></div>
@@ -178,14 +186,23 @@ class SkillToGemPage extends React.Component{
                 <td className="tdStyle">
                     <ul className="listStyle">{
                         item.skills.map(skill => (<li key={uid(skill)}>
-                                                    {skill.skillName}
+                                                    <div className="hoverItem">
+                                                        <ReactHover options={hoverOptions}>
+                                                            <Trigger type='trigger'>
+                                                                <span>{skill.skillName}</span>
+                                                            </Trigger>
+                                                            <Hover type='hover'>
+                                                                <ResultCard skill={skill}></ResultCard>
+                                                            </Hover>
+                                                        </ReactHover>
+                                                    </div>
                                                   </li>))}
                     </ul>
                 </td>
             </tr>)
         )
-        
-        let resultsComponent = this.generateResultComponent()
+
+        let resultsComponent = this.generateResultComponent(items)
         
         return(
             <div id="mainDiv">

@@ -49,7 +49,7 @@
 
 #resultsTable{
     width: 50%;
-    min-width: 90%;
+    min-width: 50%;
     max-width: 90%;
     border: 1px solid rgb(120, 120, 120);
     color: rgb(161, 184, 98);
@@ -85,4 +85,12 @@
     left: 50vw;
     max-width: 10vw;
     max-height: 10vh;
+}
+
+.hoverItem{
+
+}
+
+.hoverItem:hover{
+    background-color: rgb(120, 120, 120);
 }
