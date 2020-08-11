@@ -1,13 +1,8 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import CustomTextField from './../CustomTextField'
 import CustomButton from './../CustomButton'
-import { uid } from 'react-uid';
 import {getMatchingDistance} from '../../../actions/algorithms'
-import SearchSuggestionCard from '../SearchSuggestionCard/'
 import AsyncSelect, {makeAsyncSelect} from 'react-select/async'
-import Async from 'react-select/async'
-import Select from 'react-select'
 import "./style.css"
 
 class SearchBar extends React.Component{
