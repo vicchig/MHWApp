@@ -8,3 +8,99 @@
     flex-direction: column;
     padding-top: 5px;
 }
+
+#searchbar.MuiOutlinedInput-input{
+    color: rgb(161, 184, 98)
+}
+
+#filtersDiv{
+    display: grid;
+    grid-template-columns: 15% 40% 40%;
+    grid-template-rows: 33% 33% 33%;
+    width: 30vw;
+    height: auto;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}   
+.sortsAndFiltersHeader{
+    align-self: center;
+    justify-self: center;
+    color: rgb(161, 184, 98);
+}
+
+#searchDiv{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 0fr 0.5fr;
+}
+
+#searchBarDiv{
+    max-height: 15vh;
+}
+
+
+.skillToGemSelect{
+    justify-self: center;
+    align-self: center;
+    width: 80%;
+}
+
+#resultsTableDiv{
+    width: 100%;
+
+}
+
+#resultsTable{
+    width: 50%;
+    min-width: 50%;
+    max-width: 90%;
+    border: 1px solid rgb(120, 120, 120);
+    color: rgb(161, 184, 98);
+    border-radius: 25pt;
+    margin-bottom: 5vh;
+    position: relative;
+    left: 25%;
+}
+
+.tdStyle{
+    text-align: center;
+    border-top: 1px solid rgb(120, 120, 120);
+    border-right: 1px solid rgb(120, 120, 120);
+}
+
+.thStyle{
+    border-right: 1px solid rgb(120, 120, 120);
+    color: rgb(164, 173, 136);
+}
+
+.listStyle{
+    list-style: none;
+    padding: 0pt;
+    margin: 0pt;
+}
+
+#searchbar1{
+    align-self: start;
+    position: relative;
+    top: 2vh;
+}
+
+#loadSpinnerDiv{
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    max-width: 10vw;
+    max-height: 10vh;
+}
+
+.hoverItem:hover{
+    background-color: rgb(120, 120, 120);
+}
+
+#resultsTableHint{
+    color: rgb(161, 184, 98);
+    left: 25%;
+    position: relative;
+}

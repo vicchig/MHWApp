@@ -1,0 +1,75 @@
+.resultCardMainDiv{
+    width: 20vw;
+    height: fit-content;
+    border: solid rgb(120, 120, 120);
+    border-width: 2pt;
+    border-radius: 25pt;
+    background-color: rgb(20, 20, 20);
+}
+
+.skillCardDiv{
+    display: grid;
+    grid-template-rows: 15% 30% 55%;
+    grid-template-columns: 100%;
+    align-self: center;
+    width: inherit;
+    height: inherit;
+}
+
+.skillFloatHeading{
+    align-self: center;
+    justify-self: center;
+    color: rgb(161, 184, 98);
+    border-bottom: solid rgb(120, 120, 120);
+    border-width: 2pt;
+}
+
+.skillCardDescription{
+    color: rgb(161, 184, 98);
+    padding: 6pt;
+}
+
+
+.skillCardRankDescription{
+    color: rgb(161, 184, 98);
+    padding-left: 7pt;
+    padding-bottom: 10pt;
+    border-bottom: 2pt solid rgb(120, 120, 120);
+}
+
+.skillCardRankDescriptionTop{
+    color: rgb(161, 184, 98);
+    padding-left: 7pt;
+    padding-bottom: 10pt;
+    border-top: 2pt solid rgb(120, 120, 120);
+    border-bottom: 2pt solid rgb(120, 120, 120);
+}
+
+.skillCardTable{
+    height: 90%;
+}
+
+.skillCardRankDescriptionTopLevel{
+    color: rgb(161, 184, 98);
+    padding-left: 7pt;
+    padding-bottom: 10pt;
+    border-top: 2pt solid rgb(120, 120, 120);
+    border-bottom: 2pt solid rgb(120, 120, 120);
+    background-color: rgb(50, 50, 50);
+}
+
+.skillCardRankDescriptionLevel{
+    color: rgb(161, 184, 98);
+    padding-left: 7pt;
+    padding-bottom: 10pt;
+    border-bottom: 2pt solid rgb(120, 120, 120);
+    background-color: rgb(50, 50, 50);
+}
+
+.skillCardRankDescriptionBottom{
+    color: rgb(161, 184, 98);
+    padding-left: 7pt;
+    padding-bottom: 10pt;
+}
+
+
