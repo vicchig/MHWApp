@@ -2,7 +2,7 @@ import React from 'react';
 import { withRouter } from 'react-router-dom';
 import WebsiteHeader from './../../IndividualComponents/WebsiteHeader'
 import SearchBar from './../../IndividualComponents/SearchBar'
-import {getSkillList} from '../../../actions/dataActions'
+import {getData} from '../../../actions/dataActions'
 import {getDecorationsWSkill} from '../../../actions/mhwActions'
 import { uid } from 'react-uid';
 import { processErrorWNav } from '../../../actions/utilities';
@@ -211,8 +211,8 @@ class SkillToGemPage extends React.Component{
             <div id="mainDiv">
                 <WebsiteHeader appContext={this.props.parentContext}/>
                 <div id="searchDiv">
-                        <SearchBar id={"searchbar1"} textFieldID={"searchbar"} searchTerm={"skillList"}
-                                searchFunction={getSkillList} value={this.state.searchbarText}
+                        <SearchBar id={"searchbar1"} textFieldID={"searchbar"} searchTerm={"dataList"}
+                                searchFunction={getData} searchCategory={"skillNames"} value={this.state.searchbarText}
                                 parentContext={this} onChange={this.handleInput}
                                 onSearch={this.onSearchAction}
                                 onSetSelect={this.handleSearchSelect} buttonText={"Search"}

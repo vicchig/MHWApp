@@ -15,7 +15,7 @@ class SearchBar extends React.Component{
 
     loadOptions = async () => {
 
-        let result = await this.props.searchFunction().catch(err => {
+        let result = await this.props.searchFunction(this.props.searchCategory).catch(err => {
             console.error("An error occurred while awaiting server response:\n\n" + err)
         })
         if (result.status === 200 || result.status === 304){
