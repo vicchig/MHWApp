@@ -19,7 +19,7 @@ class SearchBar extends React.Component{
             console.error("An error occurred while awaiting server response:\n\n" + err)
         })
         if (result.status === 200 || result.status === 304){
-            return this.computeBestMatches(this.state.inputText, result.data[this.props.searchTerm])
+            return this.computeBestMatches(this.state.inputText, result.data[this.props.dataObjectName])
         }
     }
 

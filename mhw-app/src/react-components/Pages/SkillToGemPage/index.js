@@ -211,7 +211,7 @@ class SkillToGemPage extends React.Component{
             <div id="mainDiv">
                 <WebsiteHeader appContext={this.props.parentContext}/>
                 <div id="searchDiv">
-                        <SearchBar id={"searchbar1"} textFieldID={"searchbar"} searchTerm={"dataList"}
+                        <SearchBar id={"searchbar1"} textFieldID={"searchbar"} dataObjectName={"dataList"}
                                 searchFunction={getData} searchCategory={"skillNames"} value={this.state.searchbarText}
                                 parentContext={this} onChange={this.handleInput}
                                 onSearch={this.onSearchAction}
