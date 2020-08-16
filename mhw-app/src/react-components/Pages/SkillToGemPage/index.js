@@ -216,7 +216,7 @@ class SkillToGemPage extends React.Component{
                                 parentContext={this} onChange={this.handleInput}
                                 onSearch={this.onSearchAction}
                                 onSetSelect={this.handleSearchSelect} buttonText={"Search"}
-                                
+                                hasButton={true} placeholder={"Select or type in the name of skill..."}
                         ></SearchBar>
                    
                     <div id="filtersDiv">

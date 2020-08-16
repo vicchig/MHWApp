@@ -85,21 +85,21 @@ class SearchBar extends React.Component{
     }
 
     render(){
-        const {onSearch, id, buttonText} = this.props
+        const {onSearch, id, buttonText, hasButton, placeholder} = this.props
         return(
             <div id={id}>
                 <div id="mainSearchBarDiv">
                     <AsyncSelect 
                         styles={this.customSelectStyles}
                         className={"searchbarSelect"}
-                        placeholder={"Select or type in the name of skill..."}
+                        placeholder={placeholder}
                         onInputChange={(input) => this.setState({inputText: input})}
                         onChange={(e) => {this.props.onSetSelect(e)}}
                         loadOptions={this.loadOptions}
                         name={"searchbarText"}
                         blurInputOnSelect={true}
                     ></AsyncSelect>
-                    <CustomButton
+                    {(hasButton ?? false) ? <CustomButton
                         width={"3vw"}
                         height={"3vh"}
                         buttonText={buttonText}
@@ -115,7 +115,7 @@ class SearchBar extends React.Component{
                         justifySelf={"start"}
                         left={"1vw"}
                         onClick={onSearch}
-                    />
+                    /> : null }
 
 
                 </div>
