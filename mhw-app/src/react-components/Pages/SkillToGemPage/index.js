@@ -215,7 +215,7 @@ class SkillToGemPage extends React.Component{
                                 searchFunction={getSkillList} value={this.state.searchbarText}
                                 parentContext={this} onChange={this.handleInput}
                                 onSearch={this.onSearchAction}
-                                onSetSelect={this.handleSearchSelect}
+                                onSetSelect={this.handleSearchSelect} buttonText={"Search"}
                                 
                         ></SearchBar>
                    

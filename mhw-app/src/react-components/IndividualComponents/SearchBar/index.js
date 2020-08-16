@@ -85,7 +85,7 @@ class SearchBar extends React.Component{
     }
 
     render(){
-        const {onSearch, id} = this.props
+        const {onSearch, id, buttonText} = this.props
         return(
             <div id={id}>
                 <div id="mainSearchBarDiv">
@@ -102,7 +102,7 @@ class SearchBar extends React.Component{
                     <CustomButton
                         width={"3vw"}
                         height={"3vh"}
-                        buttonText={"Search"}
+                        buttonText={buttonText}
                         borderColor={"rgb(161, 184, 98)"}
                         hoverColor={"rgb(79, 79, 79)"}
                         textColor={'rgb(161, 184, 98)'}
