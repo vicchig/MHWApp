@@ -10,11 +10,15 @@ class MatsPage extends React.Component{
 
     state = {
         searchbarText: "",
+        selectedItems: [],
     }
 
     handleSearchSelect = (e) => {
+        const currentlySelected = this.state.selectedItems
+        currentlySelected.push(e.value)
         this.setState({
-            searchbarText: e.value
+            searchbarText: e.value,
+            selectedItems: currentlySelected
         })
     }
 
@@ -24,7 +28,7 @@ class MatsPage extends React.Component{
                 <WebsiteHeader appContext={this.props.parentContext}/>
                 <div id="searchbarDiv">
                     <SearchBar id={"searchbar1"} textFieldID={"searchbar"} buttonText={"Add"} searchFunction={getData} searchCategory={"equipmentNames"}      
-                               parentContext={this} dataObjectName={"dataList"} onSetSelect={this.handleSearchSelect}
+                               parentContext={this} dataObjectName={"dataList"} onSetSelect={this.handleSearchSelect} placeholder={"Select a piece of equipment..."}
                     ></SearchBar>
                 </div>
             </div>
