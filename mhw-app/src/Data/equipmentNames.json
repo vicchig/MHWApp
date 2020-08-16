@@ -1,0 +1,8855 @@
+[
+  {
+    "name": "Buster Sword 1"
+  },
+  {
+    "name": "Buster Sword 2"
+  },
+  {
+    "name": "Buster Sword 3"
+  },
+  {
+    "name": "Buster Blade 1"
+  },
+  {
+    "name": "Buster Blade 2"
+  },
+  {
+    "name": "Buster Blade 3"
+  },
+  {
+    "name": "Chrome Razor 1"
+  },
+  {
+    "name": "Chrome Razor 2"
+  },
+  {
+    "name": "Nergal Judicator"
+  },
+  {
+    "name": "Purgation's Atrocity"
+  },
+  {
+    "name": "Thunder Blade 1"
+  },
+  {
+    "name": "Thunder Blade 2"
+  },
+  {
+    "name": "Lightning Punisher 1"
+  },
+  {
+    "name": "Lightning Punisher 2"
+  },
+  {
+    "name": "Lightning Punisher 3"
+  },
+  {
+    "name": "Freeze Blade 1"
+  },
+  {
+    "name": "Freeze Blade 2"
+  },
+  {
+    "name": "Frost Blaze 1"
+  },
+  {
+    "name": "Frost Blaze 2"
+  },
+  {
+    "name": "Jagras Blade 1"
+  },
+  {
+    "name": "Jagras Blade 2"
+  },
+  {
+    "name": "Jagras Blade 3"
+  },
+  {
+    "name": "Jagras Hacker 1"
+  },
+  {
+    "name": "Jagras Hacker 2"
+  },
+  {
+    "name": "Jagras Hacker 3"
+  },
+  {
+    "name": "Girros Blade 1"
+  },
+  {
+    "name": "Girros Blade 2"
+  },
+  {
+    "name": "Malady's Kiss 1"
+  },
+  {
+    "name": "Malady's Kiss 2"
+  },
+  {
+    "name": "Malady's Kiss 3"
+  },
+  {
+    "name": "Lava Blaze 1"
+  },
+  {
+    "name": "Lava Blaze 2"
+  },
+  {
+    "name": "Blooming Blade 1"
+  },
+  {
+    "name": "Blooming Blade 2"
+  },
+  {
+    "name": "Blooming Blade 3"
+  },
+  {
+    "name": "Datura Blaze 1"
+  },
+  {
+    "name": "Datura Blaze 2"
+  },
+  {
+    "name": "Datura Blaze 3"
+  },
+  {
+    "name": "Flame Blade 1"
+  },
+  {
+    "name": "Flame Blade 2"
+  },
+  {
+    "name": "Red Wing"
+  },
+  {
+    "name": "Blue Wing"
+  },
+  {
+    "name": "Rathalos Glinsword"
+  },
+  {
+    "name": "Bone Blade 1"
+  },
+  {
+    "name": "Bone Blade 2"
+  },
+  {
+    "name": "Bone Blade 3"
+  },
+  {
+    "name": "Bone Slasher 1"
+  },
+  {
+    "name": "Bone Slasher 2"
+  },
+  {
+    "name": "Bone Slasher 3"
+  },
+  {
+    "name": "Giant Jawblade 1"
+  },
+  {
+    "name": "Giant Jawblade 2"
+  },
+  {
+    "name": "Hazak Kys"
+  },
+  {
+    "name": "Leviathan's Fury"
+  },
+  {
+    "name": "Flammenzahn"
+  },
+  {
+    "name": "Flammenzahn+"
+  },
+  {
+    "name": "Gnashing Flammenzahn"
+  },
+  {
+    "name": "Aqua Slasher 1"
+  },
+  {
+    "name": "Aqua Slasher 2"
+  },
+  {
+    "name": "Aqua Slasher 3"
+  },
+  {
+    "name": "Water Golem 1"
+  },
+  {
+    "name": "Water Golem 2"
+  },
+  {
+    "name": "Water Golem 3"
+  },
+  {
+    "name": "Carapace Buster 1"
+  },
+  {
+    "name": "Carapace Buster 2"
+  },
+  {
+    "name": "Carapace Buster 3"
+  },
+  {
+    "name": "Barroth Shredder 1"
+  },
+  {
+    "name": "Barroth Shredder 2"
+  },
+  {
+    "name": "Barroth Shredder 3"
+  },
+  {
+    "name": "Spiked Blade 1"
+  },
+  {
+    "name": "Spiked Blade 2"
+  },
+  {
+    "name": "Radobaan Slab 1"
+  },
+  {
+    "name": "Radobaan Slab 2"
+  },
+  {
+    "name": "Radobaan Slab 3"
+  },
+  {
+    "name": "Dragonbone Cleaver 1"
+  },
+  {
+    "name": "Dragonbone Cleaver 2"
+  },
+  {
+    "name": "Dragonbone Cleaver 3"
+  },
+  {
+    "name": "Thundersword"
+  },
+  {
+    "name": "Kirin Thundersword"
+  },
+  {
+    "name": "King Thundersword"
+  },
+  {
+    "name": "Magda Potestas 1"
+  },
+  {
+    "name": "Magda Potestas 2"
+  },
+  {
+    "name": "Blacksteel Chopper 1"
+  },
+  {
+    "name": "Blacksteel Chopper 2"
+  },
+  {
+    "name": "Icesteel Edge"
+  },
+  {
+    "name": "Daora's Decimator"
+  },
+  {
+    "name": "Xeno Maliq"
+  },
+  {
+    "name": "Wyvern Jawblade"
+  },
+  {
+    "name": "Great Wyvern Jawblade"
+  },
+  {
+    "name": "Iron Katana 1"
+  },
+  {
+    "name": "Iron Katana 2"
+  },
+  {
+    "name": "Iron Katana 3"
+  },
+  {
+    "name": "Iron Grace 1"
+  },
+  {
+    "name": "Iron Grace 2"
+  },
+  {
+    "name": "Iron Grace 3"
+  },
+  {
+    "name": "Iron Gospel 1"
+  },
+  {
+    "name": "Iron Gospel 2"
+  },
+  {
+    "name": "Nergal Reaver"
+  },
+  {
+    "name": "Extermination's Edge"
+  },
+  {
+    "name": "Flickering Glow 1"
+  },
+  {
+    "name": "Flickering Glow 2"
+  },
+  {
+    "name": "Dazzling Flash 1"
+  },
+  {
+    "name": "Dazzling Flash 2"
+  },
+  {
+    "name": "Dazzling Flash 3"
+  },
+  {
+    "name": "First Dance 1"
+  },
+  {
+    "name": "First Dance 2"
+  },
+  {
+    "name": "First Dance 3"
+  },
+  {
+    "name": "Last Dance 1"
+  },
+  {
+    "name": "Last Dance 2"
+  },
+  {
+    "name": "Last Dance 3"
+  },
+  {
+    "name": "Brazenridge 1"
+  },
+  {
+    "name": "Brazenridge 2"
+  },
+  {
+    "name": "Wyvern Blade \"Leaf\""
+  },
+  {
+    "name": "Wyvern Blade \"Verde\""
+  },
+  {
+    "name": "Wyvern Blade \"Holly\""
+  },
+  {
+    "name": "Wyvern Blade \"Fall\""
+  },
+  {
+    "name": "Wyvern Blade \"Blood\""
+  },
+  {
+    "name": "Wyvern Blade \"Azure\""
+  },
+  {
+    "name": "Wyvern Blade \"Indigo\""
+  },
+  {
+    "name": "Bone Shotel 1"
+  },
+  {
+    "name": "Bone Shotel 2"
+  },
+  {
+    "name": "Bone Shotel 3"
+  },
+  {
+    "name": "Hard Bone Shotel 1"
+  },
+  {
+    "name": "Hard Bone Shotel 2"
+  },
+  {
+    "name": "Hard Bone Shotel 3"
+  },
+  {
+    "name": "Bone Reaper 1"
+  },
+  {
+    "name": "Bone Reaper 2"
+  },
+  {
+    "name": "Rookslayer Long Sword"
+  },
+  {
+    "name": "Bazel Varga Rookslayer"
+  },
+  {
+    "name": "Blazing Shotel 1"
+  },
+  {
+    "name": "Blazing Shotel 2"
+  },
+  {
+    "name": "Anja Scimitar 1"
+  },
+  {
+    "name": "Anja Scimitar 2"
+  },
+  {
+    "name": "Anja Scimitar 3"
+  },
+  {
+    "name": "Jyura Shotel 1"
+  },
+  {
+    "name": "Jyura Shotel 2"
+  },
+  {
+    "name": "Jyura Shotel 3"
+  },
+  {
+    "name": "Dipterus 1"
+  },
+  {
+    "name": "Dipterus 2"
+  },
+  {
+    "name": "Dipterus 3"
+  },
+  {
+    "name": "Hazak Grosser 1"
+  },
+  {
+    "name": "Hazak Grosser 2"
+  },
+  {
+    "name": "Pulsar Shotel 1"
+  },
+  {
+    "name": "Pulsar Shotel 2"
+  },
+  {
+    "name": "Pulsar Shotel 3"
+  },
+  {
+    "name": "Kadachi Fang 1"
+  },
+  {
+    "name": "Kadachi Fang 2"
+  },
+  {
+    "name": "Kadachi Fang 3"
+  },
+  {
+    "name": "Glacial Shotel 1"
+  },
+  {
+    "name": "Glacial Shotel 2"
+  },
+  {
+    "name": "Stealer"
+  },
+  {
+    "name": "Legia Stealer"
+  },
+  {
+    "name": "Dark Shotel 1"
+  },
+  {
+    "name": "Dark Shotel 2"
+  },
+  {
+    "name": "Dark Scimitar 1"
+  },
+  {
+    "name": "Dark Scimitar 2"
+  },
+  {
+    "name": "Dark Scimitar 3"
+  },
+  {
+    "name": "Dragonbone Stabber 1"
+  },
+  {
+    "name": "Dragonbone Stabber 2"
+  },
+  {
+    "name": "Dragonbone Stabber 3"
+  },
+  {
+    "name": "Magda Facultas 1"
+  },
+  {
+    "name": "Magda Facultas 2"
+  },
+  {
+    "name": "Blacksteel Long Sword 1"
+  },
+  {
+    "name": "Blacksteel Long Sword 2"
+  },
+  {
+    "name": "Imperial Saber"
+  },
+  {
+    "name": "Imperial Shimmer"
+  },
+  {
+    "name": "Xeno Cypher"
+  },
+  {
+    "name": "Supremacy Blade"
+  },
+  {
+    "name": "Divine Slasher"
+  },
+  {
+    "name": "Azure Star Blade"
+  },
+  {
+    "name": "Hunter's Knife 1"
+  },
+  {
+    "name": "Hunter's Knife 2"
+  },
+  {
+    "name": "Hunter's Knife 3"
+  },
+  {
+    "name": "Steel Knife 1"
+  },
+  {
+    "name": "Steel Knife 2"
+  },
+  {
+    "name": "Steel Knife 3"
+  },
+  {
+    "name": "Chrome Slicer 1"
+  },
+  {
+    "name": "Chrome Slicer 2"
+  },
+  {
+    "name": "Nergal Jack"
+  },
+  {
+    "name": "Eradication Vanguard"
+  },
+  {
+    "name": "Flame Knife 1"
+  },
+  {
+    "name": "Flame Knife 2"
+  },
+  {
+    "name": "Heat Edge"
+  },
+  {
+    "name": "Corona"
+  },
+  {
+    "name": "Heavy Bang"
+  },
+  {
+    "name": "Heavy Bang+"
+  },
+  {
+    "name": "Master Bang"
+  },
+  {
+    "name": "Aqua Messer 1"
+  },
+  {
+    "name": "Aqua Messer 2"
+  },
+  {
+    "name": "Aqua Messer 3"
+  },
+  {
+    "name": "Rogue Wave 1"
+  },
+  {
+    "name": "Rogue Wave 2"
+  },
+  {
+    "name": "Rogue Wave 3"
+  },
+  {
+    "name": "Glacial Grace 1"
+  },
+  {
+    "name": "Glacial Grace 2"
+  },
+  {
+    "name": "Rimespire"
+  },
+  {
+    "name": "Legia Rimespire"
+  },
+  {
+    "name": "Princess Rapier"
+  },
+  {
+    "name": "Queen Rapier"
+  },
+  {
+    "name": "Queen Rose"
+  },
+  {
+    "name": "Royal Rose"
+  },
+  {
+    "name": "Lumu Knife 1"
+  },
+  {
+    "name": "Lumu Knife 2"
+  },
+  {
+    "name": "Lumu Tabar 1"
+  },
+  {
+    "name": "Lumu Tabar 2"
+  },
+  {
+    "name": "Lumu Tabar 3"
+  },
+  {
+    "name": "Blooming Knife 1"
+  },
+  {
+    "name": "Blooming Knife 2"
+  },
+  {
+    "name": "Blooming Knife 3"
+  },
+  {
+    "name": "Datura Blossom 1"
+  },
+  {
+    "name": "Datura Blossom 2"
+  },
+  {
+    "name": "Datura Blossom 3"
+  },
+  {
+    "name": "Girros Knife 1"
+  },
+  {
+    "name": "Girros Knife 2"
+  },
+  {
+    "name": "Malady's Tabar 1"
+  },
+  {
+    "name": "Malady's Tabar 2"
+  },
+  {
+    "name": "Malady's Tabar 3"
+  },
+  {
+    "name": "Bone Kukri 1"
+  },
+  {
+    "name": "Bone Kukri 2"
+  },
+  {
+    "name": "Bone Kukri 3"
+  },
+  {
+    "name": "Chief Kukri 1"
+  },
+  {
+    "name": "Chief Kukri 2"
+  },
+  {
+    "name": "Chief Kukri 3"
+  },
+  {
+    "name": "Grand Barong 1"
+  },
+  {
+    "name": "Grand Barong 2"
+  },
+  {
+    "name": "Spiked Edge 1"
+  },
+  {
+    "name": "Spiked Edge 2"
+  },
+  {
+    "name": "Baan Claw 1"
+  },
+  {
+    "name": "Baan Claw 2"
+  },
+  {
+    "name": "Baan Claw 3"
+  },
+  {
+    "name": "Jagras Edge 1"
+  },
+  {
+    "name": "Jagras Edge 2"
+  },
+  {
+    "name": "Jagras Edge 3"
+  },
+  {
+    "name": "Jagras Garotte 1"
+  },
+  {
+    "name": "Jagras Garotte 2"
+  },
+  {
+    "name": "Jagras Garotte 3"
+  },
+  {
+    "name": "Thunder Edge 1"
+  },
+  {
+    "name": "Thunder Edge 2"
+  },
+  {
+    "name": "Lightning Nemesis 1"
+  },
+  {
+    "name": "Lightning Nemesis 2"
+  },
+  {
+    "name": "Lightning Nemesis 3"
+  },
+  {
+    "name": "Carapace Edge 1"
+  },
+  {
+    "name": "Carapace Edge 2"
+  },
+  {
+    "name": "Carapace Edge 3"
+  },
+  {
+    "name": "Barroth Club 1"
+  },
+  {
+    "name": "Barroth Club 2"
+  },
+  {
+    "name": "Barroth Club 3"
+  },
+  {
+    "name": "Blazing Edge 1"
+  },
+  {
+    "name": "Blazing Edge 2"
+  },
+  {
+    "name": "Flammensucher"
+  },
+  {
+    "name": "Gnashing Flammensucher"
+  },
+  {
+    "name": "Dragonbone Sword 1"
+  },
+  {
+    "name": "Dragonbone Sword 2"
+  },
+  {
+    "name": "Dragonbone Sword 3"
+  },
+  {
+    "name": "Fulminator"
+  },
+  {
+    "name": "Thunderbolt Sword 1"
+  },
+  {
+    "name": "Thunderbolt Sword 2"
+  },
+  {
+    "name": "Blacksteel Sword 1"
+  },
+  {
+    "name": "Blacksteel Sword 2"
+  },
+  {
+    "name": "Teostra's Spada"
+  },
+  {
+    "name": "Teostra's Emblem"
+  },
+  {
+    "name": "Xeno Mabura"
+  },
+  {
+    "name": "Matched Slicers 1"
+  },
+  {
+    "name": "Matched Slicers 2"
+  },
+  {
+    "name": "Matched Slicers 3"
+  },
+  {
+    "name": "Dual Slicers 1"
+  },
+  {
+    "name": "Dual Slicers 2"
+  },
+  {
+    "name": "Dual Slicers 3"
+  },
+  {
+    "name": "Chrome Slicers 1"
+  },
+  {
+    "name": "Chrome Slicers 2"
+  },
+  {
+    "name": "Nergal Gouge"
+  },
+  {
+    "name": "Decimation Claws"
+  },
+  {
+    "name": "Luminous Daggers 1"
+  },
+  {
+    "name": "Luminous Daggers 2"
+  },
+  {
+    "name": "Dual Destroyers 1"
+  },
+  {
+    "name": "Dual Destroyers 2"
+  },
+  {
+    "name": "Dual Destroyers 3"
+  },
+  {
+    "name": "Rookslayer Handaxes"
+  },
+  {
+    "name": "Bazelhawk Rookslayer"
+  },
+  {
+    "name": "Freeze Daggers 1"
+  },
+  {
+    "name": "Freeze Daggers 2"
+  },
+  {
+    "name": "Freeze Chain 1"
+  },
+  {
+    "name": "Freeze Chain 2"
+  },
+  {
+    "name": "Rending Beaks 1"
+  },
+  {
+    "name": "Rending Beaks 2"
+  },
+  {
+    "name": "Rending Beaks 3"
+  },
+  {
+    "name": "Arcanaria 1"
+  },
+  {
+    "name": "Arcanaria 2"
+  },
+  {
+    "name": "Arcanaria 3"
+  },
+  {
+    "name": "Sworn Rapiers"
+  },
+  {
+    "name": "Sworn Rapiers+"
+  },
+  {
+    "name": "Holy Sabers"
+  },
+  {
+    "name": "Bone Hatchets 1"
+  },
+  {
+    "name": "Bone Hatchets 2"
+  },
+  {
+    "name": "Bone Hatchets 3"
+  },
+  {
+    "name": "Wild Hatchets 1"
+  },
+  {
+    "name": "Wild Hatchets 2"
+  },
+  {
+    "name": "Wild Hatchets 3"
+  },
+  {
+    "name": "Strong Hatchets 1"
+  },
+  {
+    "name": "Strong Hatchets 2"
+  },
+  {
+    "name": "Blazing Hatchets 1"
+  },
+  {
+    "name": "Blazing Hatchets 2"
+  },
+  {
+    "name": "Anja Cyclone 1"
+  },
+  {
+    "name": "Anja Cyclone 2"
+  },
+  {
+    "name": "Anja Cyclone 3"
+  },
+  {
+    "name": "Diablos Hatchets 1"
+  },
+  {
+    "name": "Diablos Hatchets 2"
+  },
+  {
+    "name": "Diablos Clubs 1"
+  },
+  {
+    "name": "Diablos Clubs 2"
+  },
+  {
+    "name": "Madness Pangas 1"
+  },
+  {
+    "name": "Madness Pangas 2"
+  },
+  {
+    "name": "Madness Pangas 3"
+  },
+  {
+    "name": "Jyura Hatchets 1"
+  },
+  {
+    "name": "Jyura Hatchets 2"
+  },
+  {
+    "name": "Jyura Hatchets 3"
+  },
+  {
+    "name": "Lava Cyclone 1"
+  },
+  {
+    "name": "Lava Cyclone 2"
+  },
+  {
+    "name": "Taurus Pangas 1"
+  },
+  {
+    "name": "Taurus Pangas 2"
+  },
+  {
+    "name": "Dark Ripper 1"
+  },
+  {
+    "name": "Dark Ripper 2"
+  },
+  {
+    "name": "Dark Ripper 3"
+  },
+  {
+    "name": "Pulsar Hatchets 1"
+  },
+  {
+    "name": "Pulsar Hatchets 2"
+  },
+  {
+    "name": "Pulsar Hatchets 3"
+  },
+  {
+    "name": "Kadachi Claws 1"
+  },
+  {
+    "name": "Kadachi Claws 2"
+  },
+  {
+    "name": "Kadachi Claws 3"
+  },
+  {
+    "name": "Garon Hatchets 1"
+  },
+  {
+    "name": "Garon Hatchets 2"
+  },
+  {
+    "name": "Blood-drinker Chainblade"
+  },
+  {
+    "name": "Sin"
+  },
+  {
+    "name": "Dragonbone Twinblades 1"
+  },
+  {
+    "name": "Dragonbone Twinblades 2"
+  },
+  {
+    "name": "Enduring Schism"
+  },
+  {
+    "name": "Kirin Bolts"
+  },
+  {
+    "name": "Kirin Bolts+"
+  },
+  {
+    "name": "Monarch"
+  },
+  {
+    "name": "Magda Ungulae 1"
+  },
+  {
+    "name": "Magda Ungulae 2"
+  },
+  {
+    "name": "Blacksteel Twins 1"
+  },
+  {
+    "name": "Blacksteel Twins 2"
+  },
+  {
+    "name": "Twin Nails"
+  },
+  {
+    "name": "Fire and Ice"
+  },
+  {
+    "name": "Xeno Raqs"
+  },
+  {
+    "name": "Iron Hammer 1"
+  },
+  {
+    "name": "Iron Hammer 2"
+  },
+  {
+    "name": "Iron Hammer 3"
+  },
+  {
+    "name": "Iron Demon 1"
+  },
+  {
+    "name": "Iron Demon 2"
+  },
+  {
+    "name": "Iron Demon 3"
+  },
+  {
+    "name": "Iron Archdemon 1"
+  },
+  {
+    "name": "Iron Archdemon 2"
+  },
+  {
+    "name": "Nergal Crusher"
+  },
+  {
+    "name": "Obliteration's Footfall"
+  },
+  {
+    "name": "Frozen Core"
+  },
+  {
+    "name": "Frozen Core+"
+  },
+  {
+    "name": "Cocytus"
+  },
+  {
+    "name": "Aqua Hammer 1"
+  },
+  {
+    "name": "Aqua Hammer 2"
+  },
+  {
+    "name": "Aqua Hammer 3"
+  },
+  {
+    "name": "Water Basher 1"
+  },
+  {
+    "name": "Water Basher 2"
+  },
+  {
+    "name": "Water Basher 3"
+  },
+  {
+    "name": "Girros Hammer 1"
+  },
+  {
+    "name": "Girros Hammer 2"
+  },
+  {
+    "name": "Malady's Fist 1"
+  },
+  {
+    "name": "Malady's Fist 2"
+  },
+  {
+    "name": "Malady's Fist 3"
+  },
+  {
+    "name": "Blooming Hammer 1"
+  },
+  {
+    "name": "Blooming Hammer 2"
+  },
+  {
+    "name": "Blooming Hammer 3"
+  },
+  {
+    "name": "Buon Fiore"
+  },
+  {
+    "name": "Buona Flora"
+  },
+  {
+    "name": "Thunder Hammer 1"
+  },
+  {
+    "name": "Thunder Hammer 2"
+  },
+  {
+    "name": "Lightning Bash 1"
+  },
+  {
+    "name": "Lightning Bash 2"
+  },
+  {
+    "name": "Lightning Bash 3"
+  },
+  {
+    "name": "Bone Bludgeon 1"
+  },
+  {
+    "name": "Bone Bludgeon 2"
+  },
+  {
+    "name": "Bone Bludgeon 3"
+  },
+  {
+    "name": "Fossil Bludgeon 1"
+  },
+  {
+    "name": "Fossil Bludgeon 2"
+  },
+  {
+    "name": "Fossil Bludgeon 3"
+  },
+  {
+    "name": "Grandrock 1"
+  },
+  {
+    "name": "Grandrock 2"
+  },
+  {
+    "name": "Hazak Vlafos"
+  },
+  {
+    "name": "Pandemonium's Root"
+  },
+  {
+    "name": "Bone Spike 1"
+  },
+  {
+    "name": "Bone Spike 2"
+  },
+  {
+    "name": "Baan Strike 1"
+  },
+  {
+    "name": "Baan Strike 2"
+  },
+  {
+    "name": "Baan Strike 3"
+  },
+  {
+    "name": "Brazenbreak 1"
+  },
+  {
+    "name": "Brazenbreak 2"
+  },
+  {
+    "name": "Kulu Beak 1"
+  },
+  {
+    "name": "Kulu Beak 2"
+  },
+  {
+    "name": "Kulu Beak 3"
+  },
+  {
+    "name": "Crushing Beak 1"
+  },
+  {
+    "name": "Crushing Beak 2"
+  },
+  {
+    "name": "Crushing Beak 3"
+  },
+  {
+    "name": "Diablos Sledge 1"
+  },
+  {
+    "name": "Diablos Sledge 2"
+  },
+  {
+    "name": "Diablos Shatterer 1"
+  },
+  {
+    "name": "Diablos Shatterer 2"
+  },
+  {
+    "name": "Carapace Sledge 1"
+  },
+  {
+    "name": "Carapace Sledge 2"
+  },
+  {
+    "name": "Carapace Sledge 3"
+  },
+  {
+    "name": "Barroth Breaker 1"
+  },
+  {
+    "name": "Barroth Breaker 2"
+  },
+  {
+    "name": "Barroth Breaker 3"
+  },
+  {
+    "name": "Blazing Hammer 1"
+  },
+  {
+    "name": "Blazing Hammer 2"
+  },
+  {
+    "name": "Anja Striker 1"
+  },
+  {
+    "name": "Anja Striker 2"
+  },
+  {
+    "name": "Anja Striker 3"
+  },
+  {
+    "name": "Dragonbone Basher 1"
+  },
+  {
+    "name": "Dragonbone Basher 2"
+  },
+  {
+    "name": "Dragonbone Basher 3"
+  },
+  {
+    "name": "Magda Floga"
+  },
+  {
+    "name": "Ragefire Magda Floga"
+  },
+  {
+    "name": "Blacksteel Hammer 1"
+  },
+  {
+    "name": "Blacksteel Hammer 2"
+  },
+  {
+    "name": "Icesteel Hammer"
+  },
+  {
+    "name": "Daora's Colossus"
+  },
+  {
+    "name": "Xeno Maph'agarna"
+  },
+  {
+    "name": "Jail Hammer"
+  },
+  {
+    "name": "Binder Mace"
+  },
+  {
+    "name": "Metal Bagpipe 1"
+  },
+  {
+    "name": "Metal Bagpipe 2"
+  },
+  {
+    "name": "Metal Bagpipe 3"
+  },
+  {
+    "name": "Great Bagpipe 1"
+  },
+  {
+    "name": "Great Bagpipe 2"
+  },
+  {
+    "name": "Great Bagpipe 3"
+  },
+  {
+    "name": "Fortissimo 1"
+  },
+  {
+    "name": "Fortissimo 2"
+  },
+  {
+    "name": "Nergal Groove"
+  },
+  {
+    "name": "Desolation's Overture"
+  },
+  {
+    "name": "Thunder Gaida 1"
+  },
+  {
+    "name": "Thunder Gaida 2"
+  },
+  {
+    "name": "Lightning Drum 1"
+  },
+  {
+    "name": "Lightning Drum 2"
+  },
+  {
+    "name": "Lightning Drum 3"
+  },
+  {
+    "name": "Kulu Duda 1"
+  },
+  {
+    "name": "Kulu Duda 2"
+  },
+  {
+    "name": "Kulu Duda 3"
+  },
+  {
+    "name": "Dancing Davul 1"
+  },
+  {
+    "name": "Dancing Davul 2"
+  },
+  {
+    "name": "Dancing Davul 3"
+  },
+  {
+    "name": "Valkyrie Chordmaker"
+  },
+  {
+    "name": "Queen Chordmaker"
+  },
+  {
+    "name": "Coral Chordmaker"
+  },
+  {
+    "name": "Royal Chordmaker"
+  },
+  {
+    "name": "Aqua Bagpipe 1"
+  },
+  {
+    "name": "Aqua Bagpipe 2"
+  },
+  {
+    "name": "Aqua Bagpipe 3"
+  },
+  {
+    "name": "Water Tamtam 1"
+  },
+  {
+    "name": "Water Tamtam 2"
+  },
+  {
+    "name": "Water Tamtam 3"
+  },
+  {
+    "name": "Glacial Bagpipe 1"
+  },
+  {
+    "name": "Glacial Bagpipe 2"
+  },
+  {
+    "name": "Sectored"
+  },
+  {
+    "name": "Legia Sectored"
+  },
+  {
+    "name": "Bone Horn 1"
+  },
+  {
+    "name": "Bone Horn 2"
+  },
+  {
+    "name": "Bone Horn 3"
+  },
+  {
+    "name": "Hard Bone Horn 1"
+  },
+  {
+    "name": "Hard Bone Horn 2"
+  },
+  {
+    "name": "Hard Bone Horn 3"
+  },
+  {
+    "name": "Heavy Bone Horn 1"
+  },
+  {
+    "name": "Heavy Bone Horn 2"
+  },
+  {
+    "name": "Gama Horn 1"
+  },
+  {
+    "name": "Gama Horn 2"
+  },
+  {
+    "name": "Blazing Horn 1"
+  },
+  {
+    "name": "Blazing Horn 2"
+  },
+  {
+    "name": "Anja Barone 1"
+  },
+  {
+    "name": "Anja Barone 2"
+  },
+  {
+    "name": "Anja Barone 3"
+  },
+  {
+    "name": "Blooming Horn 1"
+  },
+  {
+    "name": "Blooming Horn 2"
+  },
+  {
+    "name": "Blooming Horn 3"
+  },
+  {
+    "name": "Datura Horn 1"
+  },
+  {
+    "name": "Datura Horn 2"
+  },
+  {
+    "name": "Datura Horn 3"
+  },
+  {
+    "name": "Lumu Horn 1"
+  },
+  {
+    "name": "Lumu Horn 2"
+  },
+  {
+    "name": "Lumu Barone 1"
+  },
+  {
+    "name": "Lumu Barone 2"
+  },
+  {
+    "name": "Lumu Barone 3"
+  },
+  {
+    "name": "Rookslayer Drum"
+  },
+  {
+    "name": "Bazelreid Rookslayer"
+  },
+  {
+    "name": "Sonic Horn 1"
+  },
+  {
+    "name": "Sonic Horn 2"
+  },
+  {
+    "name": "Sonic Horn 3"
+  },
+  {
+    "name": "Glass Royale"
+  },
+  {
+    "name": "Glass Royale+"
+  },
+  {
+    "name": "Queen Vespoid Horn"
+  },
+  {
+    "name": "Spiked Horn 1"
+  },
+  {
+    "name": "Spiked Horn 2"
+  },
+  {
+    "name": "Baan Horn 1"
+  },
+  {
+    "name": "Baan Horn 2"
+  },
+  {
+    "name": "Baan Horn 3"
+  },
+  {
+    "name": "Dragonbone Auldhorn 1"
+  },
+  {
+    "name": "Dragonbone Auldhorn 2"
+  },
+  {
+    "name": "Dragonbone Auldhorn 3"
+  },
+  {
+    "name": "Thundercry Horn"
+  },
+  {
+    "name": "Thunderbolt Horn 1"
+  },
+  {
+    "name": "Thunderbolt Horn 2"
+  },
+  {
+    "name": "Blacksteel Dragonhorn 1"
+  },
+  {
+    "name": "Blacksteel Dragonhorn 2"
+  },
+  {
+    "name": "Teostra's Tiple"
+  },
+  {
+    "name": "Teostra's Orph�e"
+  },
+  {
+    "name": "Xeno Manasheena"
+  },
+  {
+    "name": "Iron Lance 1"
+  },
+  {
+    "name": "Iron Lance 2"
+  },
+  {
+    "name": "Iron Lance 3"
+  },
+  {
+    "name": "Steel Lance 1"
+  },
+  {
+    "name": "Steel Lance 2"
+  },
+  {
+    "name": "Steel Lance 3"
+  },
+  {
+    "name": "Chrome Lance 1"
+  },
+  {
+    "name": "Chrome Lance 2"
+  },
+  {
+    "name": "Nergal Impaler"
+  },
+  {
+    "name": "Perdition's Hand"
+  },
+  {
+    "name": "Glacial Lance 1"
+  },
+  {
+    "name": "Glacial Lance 2"
+  },
+  {
+    "name": "Legiana Halberd 1"
+  },
+  {
+    "name": "Legiana Halberd 2"
+  },
+  {
+    "name": "Kulu Lance 1"
+  },
+  {
+    "name": "Kulu Lance 2"
+  },
+  {
+    "name": "Kulu Lance 3"
+  },
+  {
+    "name": "Kulu Hasta 1"
+  },
+  {
+    "name": "Kulu Hasta 2"
+  },
+  {
+    "name": "Kulu Hasta 3"
+  },
+  {
+    "name": "Gama Pilebunker 1"
+  },
+  {
+    "name": "Gama Pilebunker 2"
+  },
+  {
+    "name": "Thunder Lance 1"
+  },
+  {
+    "name": "Thunder Lance 2"
+  },
+  {
+    "name": "Lightning Spire 1"
+  },
+  {
+    "name": "Lightning Spire 2"
+  },
+  {
+    "name": "Lightning Spire 3"
+  },
+  {
+    "name": "Blooming Lance 1"
+  },
+  {
+    "name": "Blooming Lance 2"
+  },
+  {
+    "name": "Blooming Lance 3"
+  },
+  {
+    "name": "Datura Pike 1"
+  },
+  {
+    "name": "Datura Pike 2"
+  },
+  {
+    "name": "Datura Pike 3"
+  },
+  {
+    "name": "Flame Lance 1"
+  },
+  {
+    "name": "Flame Lance 2"
+  },
+  {
+    "name": "Red Tail"
+  },
+  {
+    "name": "Blue Tail"
+  },
+  {
+    "name": "Blue Prominence"
+  },
+  {
+    "name": "Bone Lance 1"
+  },
+  {
+    "name": "Bone Lance 2"
+  },
+  {
+    "name": "Bone Lance 3"
+  },
+  {
+    "name": "Hard Bone Lance 1"
+  },
+  {
+    "name": "Hard Bone Lance 2"
+  },
+  {
+    "name": "Hard Bone Lance 3"
+  },
+  {
+    "name": "Heavy Bone Lance 1"
+  },
+  {
+    "name": "Heavy Bone Lance 2"
+  },
+  {
+    "name": "Hazak W�chter"
+  },
+  {
+    "name": "Love's Sorrow"
+  },
+  {
+    "name": "Taurus Lance 1"
+  },
+  {
+    "name": "Taurus Lance 2"
+  },
+  {
+    "name": "Dark Stinger 1"
+  },
+  {
+    "name": "Dark Stinger 2"
+  },
+  {
+    "name": "Dark Stinger 3"
+  },
+  {
+    "name": "Carapace Lance 1"
+  },
+  {
+    "name": "Carapace Lance 2"
+  },
+  {
+    "name": "Carapace Lance 3"
+  },
+  {
+    "name": "Barroth Stinger 1"
+  },
+  {
+    "name": "Barroth Stinger 2"
+  },
+  {
+    "name": "Barroth Stinger 3"
+  },
+  {
+    "name": "Garon Lance 1"
+  },
+  {
+    "name": "Garon Lance 2"
+  },
+  {
+    "name": "Garon Dhara 1"
+  },
+  {
+    "name": "Garon Dhara 2"
+  },
+  {
+    "name": "Aqua Horn 1"
+  },
+  {
+    "name": "Aqua Horn 2"
+  },
+  {
+    "name": "Aqua Horn 3"
+  },
+  {
+    "name": "Water Spike 1"
+  },
+  {
+    "name": "Water Spike 2"
+  },
+  {
+    "name": "Water Spike 3"
+  },
+  {
+    "name": "Dragonbone Lance 1"
+  },
+  {
+    "name": "Dragonbone Lance 2"
+  },
+  {
+    "name": "Dragonbone Lance 3"
+  },
+  {
+    "name": "Rookslayer Lance"
+  },
+  {
+    "name": "Bazel Myniad Rookslayer"
+  },
+  {
+    "name": "Thunderpike"
+  },
+  {
+    "name": "Thunderspear"
+  },
+  {
+    "name": "Thunderpiercer"
+  },
+  {
+    "name": "Blacksteel Lance 1"
+  },
+  {
+    "name": "Blacksteel Lance 2"
+  },
+  {
+    "name": "Icesteel Spear"
+  },
+  {
+    "name": "Daora's Fang"
+  },
+  {
+    "name": "Xeno Zauta"
+  },
+  {
+    "name": "Babel Spear"
+  },
+  {
+    "name": "Elder Babel Spear"
+  },
+  {
+    "name": "Iron Gunlance 1"
+  },
+  {
+    "name": "Iron Gunlance 2"
+  },
+  {
+    "name": "Iron Gunlance 3"
+  },
+  {
+    "name": "Steel Gunlance 1"
+  },
+  {
+    "name": "Steel Gunlance 2"
+  },
+  {
+    "name": "Steel Gunlance 3"
+  },
+  {
+    "name": "Chrome Gunlance 1"
+  },
+  {
+    "name": "Chrome Gunlance 2"
+  },
+  {
+    "name": "Nergal Ram"
+  },
+  {
+    "name": "Eradication Flame"
+  },
+  {
+    "name": "Pulsar Gunlance 1"
+  },
+  {
+    "name": "Pulsar Gunlance 2"
+  },
+  {
+    "name": "Pulsar Gunlance 3"
+  },
+  {
+    "name": "Kadachi Striker"
+  },
+  {
+    "name": "Kadachi Striker+"
+  },
+  {
+    "name": "Mythic Kadachi Striker"
+  },
+  {
+    "name": "Rath Gunlance 1"
+  },
+  {
+    "name": "Rath Gunlance 2"
+  },
+  {
+    "name": "Red Rook"
+  },
+  {
+    "name": "Blue Rook"
+  },
+  {
+    "name": "Blue Chariot"
+  },
+  {
+    "name": "Princess Panoply"
+  },
+  {
+    "name": "Princess Panoply+"
+  },
+  {
+    "name": "Rose Burst"
+  },
+  {
+    "name": "Royal Burst"
+  },
+  {
+    "name": "Madness Gunlance 1"
+  },
+  {
+    "name": "Madness Gunlance 2"
+  },
+  {
+    "name": "Madness Gunlance 3"
+  },
+  {
+    "name": "Jyura Buster 1"
+  },
+  {
+    "name": "Jyura Buster 2"
+  },
+  {
+    "name": "Jyura Buster 3"
+  },
+  {
+    "name": "Glacial Gunlance 1"
+  },
+  {
+    "name": "Glacial Gunlance 2"
+  },
+  {
+    "name": "Legiana Cannon 1"
+  },
+  {
+    "name": "Legiana Cannon 2"
+  },
+  {
+    "name": "Bone Gunlance 1"
+  },
+  {
+    "name": "Bone Gunlance 2"
+  },
+  {
+    "name": "Bone Gunlance 3"
+  },
+  {
+    "name": "Bone Cannon 1"
+  },
+  {
+    "name": "Bone Cannon 2"
+  },
+  {
+    "name": "Bone Cannon 3"
+  },
+  {
+    "name": "Great Bone Gunlance 1"
+  },
+  {
+    "name": "Great Bone Gunlance 2"
+  },
+  {
+    "name": "Bazel Buster 1"
+  },
+  {
+    "name": "Bazel Buster 2"
+  },
+  {
+    "name": "Jagras Gunlance 1"
+  },
+  {
+    "name": "Jagras Gunlance 2"
+  },
+  {
+    "name": "Jagras Gunlance 3"
+  },
+  {
+    "name": "Glutton Gunlance 1"
+  },
+  {
+    "name": "Glutton Gunlance 2"
+  },
+  {
+    "name": "Glutton Gunlance 3"
+  },
+  {
+    "name": "Girros Gunlance 1"
+  },
+  {
+    "name": "Girros Gunlance 2"
+  },
+  {
+    "name": "Deathfang Gunlance 1"
+  },
+  {
+    "name": "Deathfang Gunlance 2"
+  },
+  {
+    "name": "Deathfang Gunlance 3"
+  },
+  {
+    "name": "Hazak Spysa 1"
+  },
+  {
+    "name": "Hazak Spysa 2"
+  },
+  {
+    "name": "Carapace Cannon 1"
+  },
+  {
+    "name": "Carapace Cannon 2"
+  },
+  {
+    "name": "Carapace Cannon 3"
+  },
+  {
+    "name": "Barroth Blaster 1"
+  },
+  {
+    "name": "Barroth Blaster 2"
+  },
+  {
+    "name": "Barroth Blaster 3"
+  },
+  {
+    "name": "Blazing Gunlance 1"
+  },
+  {
+    "name": "Blazing Gunlance 2"
+  },
+  {
+    "name": "Anja Cannon 1"
+  },
+  {
+    "name": "Anja Cannon 2"
+  },
+  {
+    "name": "Anja Cannon 3"
+  },
+  {
+    "name": "Dragonbone Gunlance 1"
+  },
+  {
+    "name": "Dragonbone Gunlance 2"
+  },
+  {
+    "name": "Dragonbone Gunlance 3"
+  },
+  {
+    "name": "Magda Lahat"
+  },
+  {
+    "name": "Earthshaker Magda Lahat"
+  },
+  {
+    "name": "Blacksteel Gunlance 1"
+  },
+  {
+    "name": "Blacksteel Gunlance 2"
+  },
+  {
+    "name": "Icesteel Gunlance"
+  },
+  {
+    "name": "Daora's Brigia"
+  },
+  {
+    "name": "Xeno Hemta"
+  },
+  {
+    "name": "Proto Iron Axe 1"
+  },
+  {
+    "name": "Proto Iron Axe 2"
+  },
+  {
+    "name": "Proto Iron Axe 3"
+  },
+  {
+    "name": "Improved Steel Axe 1"
+  },
+  {
+    "name": "Improved Steel Axe 2"
+  },
+  {
+    "name": "Improved Steel Axe 3"
+  },
+  {
+    "name": "Perfected Alloy Axe 1"
+  },
+  {
+    "name": "Perfected Alloy Axe 2"
+  },
+  {
+    "name": "Nergal Gash"
+  },
+  {
+    "name": "Dying Light"
+  },
+  {
+    "name": "Glacial Axe 1"
+  },
+  {
+    "name": "Glacial Axe 2"
+  },
+  {
+    "name": "Frostreaver"
+  },
+  {
+    "name": "Legia Frostreaver"
+  },
+  {
+    "name": "Thunder Axe 1"
+  },
+  {
+    "name": "Thunder Axe 2"
+  },
+  {
+    "name": "Lightning Chopper 1"
+  },
+  {
+    "name": "Lightning Chopper 2"
+  },
+  {
+    "name": "Lightning Chopper 3"
+  },
+  {
+    "name": "Motor Chopper 1"
+  },
+  {
+    "name": "Motor Chopper 2"
+  },
+  {
+    "name": "Jagras Axe 1"
+  },
+  {
+    "name": "Jagras Axe 2"
+  },
+  {
+    "name": "Jagras Axe 3"
+  },
+  {
+    "name": "Jagras Raider 1"
+  },
+  {
+    "name": "Jagras Raider 2"
+  },
+  {
+    "name": "Jagras Raider 3"
+  },
+  {
+    "name": "Bazel Raider 1"
+  },
+  {
+    "name": "Bazel Raider 2"
+  },
+  {
+    "name": "Rathalos Axe 1"
+  },
+  {
+    "name": "Rathalos Axe 2"
+  },
+  {
+    "name": "Rathbringer Axe 1"
+  },
+  {
+    "name": "Rathbringer Axe 2"
+  },
+  {
+    "name": "Bone Axe 1"
+  },
+  {
+    "name": "Bone Axe 2"
+  },
+  {
+    "name": "Bone Axe 3"
+  },
+  {
+    "name": "Bone Smasher 1"
+  },
+  {
+    "name": "Bone Smasher 2"
+  },
+  {
+    "name": "Bone Smasher 3"
+  },
+  {
+    "name": "Power Smasher 1"
+  },
+  {
+    "name": "Power Smasher 2"
+  },
+  {
+    "name": "Hazak Demios 1"
+  },
+  {
+    "name": "Hazak Demios 2"
+  },
+  {
+    "name": "Madness Axe 1"
+  },
+  {
+    "name": "Madness Axe 2"
+  },
+  {
+    "name": "Madness Axe 3"
+  },
+  {
+    "name": "Jyura Drought 1"
+  },
+  {
+    "name": "Jyura Drought 2"
+  },
+  {
+    "name": "Jyura Drought 3"
+  },
+  {
+    "name": "Lumu Axe 1"
+  },
+  {
+    "name": "Lumu Axe 2"
+  },
+  {
+    "name": "Lumu Smasher 1"
+  },
+  {
+    "name": "Lumu Smasher 2"
+  },
+  {
+    "name": "Lumu Smasher 3"
+  },
+  {
+    "name": "Carapace Axe 1"
+  },
+  {
+    "name": "Carapace Axe 2"
+  },
+  {
+    "name": "Carapace Axe 3"
+  },
+  {
+    "name": "Barroth Grinder 1"
+  },
+  {
+    "name": "Barroth Grinder 2"
+  },
+  {
+    "name": "Barroth Grinder 3"
+  },
+  {
+    "name": "Diablos Axe 1"
+  },
+  {
+    "name": "Diablos Axe 2"
+  },
+  {
+    "name": "Axe Semper Tyrannis"
+  },
+  {
+    "name": "Axe of Thanatos"
+  },
+  {
+    "name": "Axe of Demons"
+  },
+  {
+    "name": "Flammenbeil"
+  },
+  {
+    "name": "Flammenbeil+"
+  },
+  {
+    "name": "Gnashing Flammenbeil"
+  },
+  {
+    "name": "Dragonbone Slicer 1"
+  },
+  {
+    "name": "Dragonbone Slicer 2"
+  },
+  {
+    "name": "Dragonbone Slicer 3"
+  },
+  {
+    "name": "Peal"
+  },
+  {
+    "name": "Peal+"
+  },
+  {
+    "name": "Kirin Thunderpeal"
+  },
+  {
+    "name": "Blacksteel Switch Axe 1"
+  },
+  {
+    "name": "Blacksteel Switch Axe 2"
+  },
+  {
+    "name": "Teostra's Arx"
+  },
+  {
+    "name": "Teostra's Castle"
+  },
+  {
+    "name": "Xeno Martshu"
+  },
+  {
+    "name": "Proto Commission Axe 1"
+  },
+  {
+    "name": "Proto Commission Axe 2"
+  },
+  {
+    "name": "Proto Commission Axe 3"
+  },
+  {
+    "name": "Elite Commission Axe 1"
+  },
+  {
+    "name": "Elite Commission Axe 2"
+  },
+  {
+    "name": "Elite Commission Axe 3"
+  },
+  {
+    "name": "Chrome Guardian 1"
+  },
+  {
+    "name": "Chrome Guardian 2"
+  },
+  {
+    "name": "Nergal Lacerator"
+  },
+  {
+    "name": "Devastation's Thorns"
+  },
+  {
+    "name": "Rathsblade 1"
+  },
+  {
+    "name": "Rathsblade 2"
+  },
+  {
+    "name": "Axelion Blade"
+  },
+  {
+    "name": "Halberion Blade"
+  },
+  {
+    "name": "Mudslide Blade 1"
+  },
+  {
+    "name": "Mudslide Blade 2"
+  },
+  {
+    "name": "Mudslide Blade 3"
+  },
+  {
+    "name": "Jyura Depth 1"
+  },
+  {
+    "name": "Jyura Depth 2"
+  },
+  {
+    "name": "Jyura Depth 3"
+  },
+  {
+    "name": "Everfrost Blade 1"
+  },
+  {
+    "name": "Everfrost Blade 2"
+  },
+  {
+    "name": "Gigafrost 1"
+  },
+  {
+    "name": "Gigafrost 2"
+  },
+  {
+    "name": "Dear Lutemis"
+  },
+  {
+    "name": "Dear Lutemia"
+  },
+  {
+    "name": "Dear Hecatel"
+  },
+  {
+    "name": "Dear Hecatelia"
+  },
+  {
+    "name": "Bone Strongarm 1"
+  },
+  {
+    "name": "Bone Strongarm 2"
+  },
+  {
+    "name": "Bone Strongarm 3"
+  },
+  {
+    "name": "Hard Bone Strongarm 1"
+  },
+  {
+    "name": "Hard Bone Strongarm 2"
+  },
+  {
+    "name": "Hard Bone Strongarm 3"
+  },
+  {
+    "name": "Mighty Strongarm 1"
+  },
+  {
+    "name": "Mighty Strongarm 2"
+  },
+  {
+    "name": "Diablos Wall 1"
+  },
+  {
+    "name": "Diablos Wall 2"
+  },
+  {
+    "name": "Diablos Tyrannis 1"
+  },
+  {
+    "name": "Diablos Tyrannis 2"
+  },
+  {
+    "name": "Jagras Strongarm 1"
+  },
+  {
+    "name": "Jagras Strongarm 2"
+  },
+  {
+    "name": "Jagras Strongarm 3"
+  },
+  {
+    "name": "Jagras Escudo 1"
+  },
+  {
+    "name": "Jagras Escudo 2"
+  },
+  {
+    "name": "Jagras Escudo 3"
+  },
+  {
+    "name": "Gama Silt 1"
+  },
+  {
+    "name": "Gama Silt 2"
+  },
+  {
+    "name": "Girros Strongarm 1"
+  },
+  {
+    "name": "Girros Strongarm 2"
+  },
+  {
+    "name": "Girros Nadja 1"
+  },
+  {
+    "name": "Girros Nadja 2"
+  },
+  {
+    "name": "Girros Nadja 3"
+  },
+  {
+    "name": "Hazak Aspida 1"
+  },
+  {
+    "name": "Hazak Aspida 2"
+  },
+  {
+    "name": "Pulsar Strongarm 1"
+  },
+  {
+    "name": "Pulsar Strongarm 2"
+  },
+  {
+    "name": "Pulsar Strongarm 3"
+  },
+  {
+    "name": "Kadachi Kaina 1"
+  },
+  {
+    "name": "Kadachi Kaina 2"
+  },
+  {
+    "name": "Kadachi Kaina 3"
+  },
+  {
+    "name": "Garon Strongarm 1"
+  },
+  {
+    "name": "Garon Strongarm 2"
+  },
+  {
+    "name": "Hate's Undying Flame"
+  },
+  {
+    "name": "Odium"
+  },
+  {
+    "name": "Dragonbone Cutter 1"
+  },
+  {
+    "name": "Dragonbone Cutter 2"
+  },
+  {
+    "name": "Dragonbone Cutter 3"
+  },
+  {
+    "name": "Magda Manus"
+  },
+  {
+    "name": "Avenging Magda Manus"
+  },
+  {
+    "name": "Blacksteel Charger 1"
+  },
+  {
+    "name": "Blacksteel Charger 2"
+  },
+  {
+    "name": "Daora's Casca"
+  },
+  {
+    "name": "Daora's Thwartoise"
+  },
+  {
+    "name": "Xeno Ra'atz"
+  },
+  {
+    "name": "Iron Blade 1"
+  },
+  {
+    "name": "Iron Blade 2"
+  },
+  {
+    "name": "Iron Blade 3"
+  },
+  {
+    "name": "Steel Blade 1"
+  },
+  {
+    "name": "Steel Blade 2"
+  },
+  {
+    "name": "Steel Blade 3"
+  },
+  {
+    "name": "Chrome Blade 1"
+  },
+  {
+    "name": "Chrome Blade 2"
+  },
+  {
+    "name": "Nergal Reaper"
+  },
+  {
+    "name": "Catastrophe's Light"
+  },
+  {
+    "name": "Flame Glaive 1"
+  },
+  {
+    "name": "Flame Glaive 2"
+  },
+  {
+    "name": "Rathmaul"
+  },
+  {
+    "name": "Firedance Rathmaul"
+  },
+  {
+    "name": "Kulu Blade 1"
+  },
+  {
+    "name": "Kulu Blade 2"
+  },
+  {
+    "name": "Kulu Blade 3"
+  },
+  {
+    "name": "Ya-Ku Wrath 1"
+  },
+  {
+    "name": "Ya-Ku Wrath 2"
+  },
+  {
+    "name": "Ya-Ku Wrath 3"
+  },
+  {
+    "name": "Luminous Blade 1"
+  },
+  {
+    "name": "Luminous Blade 2"
+  },
+  {
+    "name": "Destroyer Bo 1"
+  },
+  {
+    "name": "Destroyer Bo 2"
+  },
+  {
+    "name": "Destroyer Bo 3"
+  },
+  {
+    "name": "Frost Blade 1"
+  },
+  {
+    "name": "Frost Blade 2"
+  },
+  {
+    "name": "Freeze Gale 1"
+  },
+  {
+    "name": "Freeze Gale 2"
+  },
+  {
+    "name": "Blooming Glaive 1"
+  },
+  {
+    "name": "Blooming Glaive 2"
+  },
+  {
+    "name": "Blooming Glaive 3"
+  },
+  {
+    "name": "Datura Blade 1"
+  },
+  {
+    "name": "Datura Blade 2"
+  },
+  {
+    "name": "Datura Blade 3"
+  },
+  {
+    "name": "Gama Cane 1"
+  },
+  {
+    "name": "Gama Cane 2"
+  },
+  {
+    "name": "Bone Rod 1"
+  },
+  {
+    "name": "Bone Rod 2"
+  },
+  {
+    "name": "Bone Rod 3"
+  },
+  {
+    "name": "Hard Bone Rod 1"
+  },
+  {
+    "name": "Hard Bone Rod 2"
+  },
+  {
+    "name": "Hard Bone Rod 3"
+  },
+  {
+    "name": "Aerial Rod 1"
+  },
+  {
+    "name": "Aerial Rod 2"
+  },
+  {
+    "name": "Hazak Entoma 1"
+  },
+  {
+    "name": "Hazak Entoma 2"
+  },
+  {
+    "name": "Flammenkaefer"
+  },
+  {
+    "name": "Flammenkaefer+"
+  },
+  {
+    "name": "Gnashing Flammenkaefer"
+  },
+  {
+    "name": "Aqua Rod 1"
+  },
+  {
+    "name": "Aqua Rod 2"
+  },
+  {
+    "name": "Aqua Rod 3"
+  },
+  {
+    "name": "Water Glaive 1"
+  },
+  {
+    "name": "Water Glaive 2"
+  },
+  {
+    "name": "Water Glaive 3"
+  },
+  {
+    "name": "Diablos Rod 1"
+  },
+  {
+    "name": "Diablos Rod 2"
+  },
+  {
+    "name": "Tyrannis Glaive 1"
+  },
+  {
+    "name": "Tyrannis Glaive 2"
+  },
+  {
+    "name": "Pulsar Rod 1"
+  },
+  {
+    "name": "Pulsar Rod 2"
+  },
+  {
+    "name": "Pulsar Rod 3"
+  },
+  {
+    "name": "Kadachi Pillar 1"
+  },
+  {
+    "name": "Kadachi Pillar 2"
+  },
+  {
+    "name": "Kadachi Pillar 3"
+  },
+  {
+    "name": "Garon Rod 1"
+  },
+  {
+    "name": "Garon Rod 2"
+  },
+  {
+    "name": "Temptation's Trident"
+  },
+  {
+    "name": "Vice"
+  },
+  {
+    "name": "Dragonbone Glaive 1"
+  },
+  {
+    "name": "Dragonbone Glaive 2"
+  },
+  {
+    "name": "Dragonbone Glaive 3"
+  },
+  {
+    "name": "Indigo Flash"
+  },
+  {
+    "name": "Azure Bolt"
+  },
+  {
+    "name": "Verdant Levin"
+  },
+  {
+    "name": "Blacksteel Glaive 1"
+  },
+  {
+    "name": "Blacksteel Glaive 2"
+  },
+  {
+    "name": "Daora's Entom"
+  },
+  {
+    "name": "Daora's Tethidine"
+  },
+  {
+    "name": "Xeno Shmaena"
+  },
+  {
+    "name": "Chain Blitz 1"
+  },
+  {
+    "name": "Chain Blitz 2"
+  },
+  {
+    "name": "Chain Blitz 3"
+  },
+  {
+    "name": "High Chain Blitz 1"
+  },
+  {
+    "name": "High Chain Blitz 2"
+  },
+  {
+    "name": "High Chain Blitz 3"
+  },
+  {
+    "name": "Cross Blitz 1"
+  },
+  {
+    "name": "Cross Blitz 2"
+  },
+  {
+    "name": "Nergal Spitter"
+  },
+  {
+    "name": "Cataclysm's Trigger"
+  },
+  {
+    "name": "Lumu Blitz 1"
+  },
+  {
+    "name": "Lumu Blitz 2"
+  },
+  {
+    "name": "Lumu Typhon 1"
+  },
+  {
+    "name": "Lumu Typhon 2"
+  },
+  {
+    "name": "Lumu Typhon 3"
+  },
+  {
+    "name": "Bazel Typhoon 1"
+  },
+  {
+    "name": "Bazel Typhoon 2"
+  },
+  {
+    "name": "Jagras Blitz 1"
+  },
+  {
+    "name": "Jagras Blitz 2"
+  },
+  {
+    "name": "Jagras Blitz 3"
+  },
+  {
+    "name": "Jagras Fire 1"
+  },
+  {
+    "name": "Jagras Fire 2"
+  },
+  {
+    "name": "Jagras Fire 3"
+  },
+  {
+    "name": "Flame Blitz 1"
+  },
+  {
+    "name": "Flame Blitz 2"
+  },
+  {
+    "name": "Rathbuster 1"
+  },
+  {
+    "name": "Rathbuster 2"
+  },
+  {
+    "name": "Thunder Blitz 1"
+  },
+  {
+    "name": "Thunder Blitz 2"
+  },
+  {
+    "name": "Lightning Blitz 1"
+  },
+  {
+    "name": "Lightning Blitz 2"
+  },
+  {
+    "name": "Lightning Blitz 3"
+  },
+  {
+    "name": "Snow Blitz 1"
+  },
+  {
+    "name": "Snow Blitz 2"
+  },
+  {
+    "name": "Frost Blitz 1"
+  },
+  {
+    "name": "Frost Blitz 2"
+  },
+  {
+    "name": "Hunter's Rifle 1"
+  },
+  {
+    "name": "Hunter's Rifle 2"
+  },
+  {
+    "name": "Hunter's Rifle 3"
+  },
+  {
+    "name": "Power Rifle 1"
+  },
+  {
+    "name": "Power Rifle 2"
+  },
+  {
+    "name": "Power Rifle 3"
+  },
+  {
+    "name": "Sniper Shot 1"
+  },
+  {
+    "name": "Sniper Shot 2"
+  },
+  {
+    "name": "Hazak Ereipia"
+  },
+  {
+    "name": "Gulgoleth's Wail"
+  },
+  {
+    "name": "Blazing Rifle 1"
+  },
+  {
+    "name": "Blazing Rifle 2"
+  },
+  {
+    "name": "Anja Buster 1"
+  },
+  {
+    "name": "Anja Buster 2"
+  },
+  {
+    "name": "Anja Buster 3"
+  },
+  {
+    "name": "Madness Rifle 1"
+  },
+  {
+    "name": "Madness Rifle 2"
+  },
+  {
+    "name": "Madness Rifle 3"
+  },
+  {
+    "name": "Jyura Bullet 1"
+  },
+  {
+    "name": "Jyura Bullet 2"
+  },
+  {
+    "name": "Jyura Bullet 3"
+  },
+  {
+    "name": "Lava Bullet 1"
+  },
+  {
+    "name": "Lava Bullet 2"
+  },
+  {
+    "name": "Carapace Rifle 1"
+  },
+  {
+    "name": "Carapace Rifle 2"
+  },
+  {
+    "name": "Carapace Rifle 3"
+  },
+  {
+    "name": "Barroth Shot 1"
+  },
+  {
+    "name": "Barroth Shot 2"
+  },
+  {
+    "name": "Barroth Shot 3"
+  },
+  {
+    "name": "Garon Rifle 1"
+  },
+  {
+    "name": "Garon Rifle 2"
+  },
+  {
+    "name": "Fate's Ember"
+  },
+  {
+    "name": "Karma"
+  },
+  {
+    "name": "Dragonbone Bowgun 1"
+  },
+  {
+    "name": "Dragonbone Bowgun 2"
+  },
+  {
+    "name": "Dragonbone Bowgun 3"
+  },
+  {
+    "name": "Onigashima"
+  },
+  {
+    "name": "Dai-Onigashima"
+  },
+  {
+    "name": "Mythical Horn"
+  },
+  {
+    "name": "Mythical Horn+"
+  },
+  {
+    "name": "Mythical Three-Horn"
+  },
+  {
+    "name": "Blacksteel Crossbow 1"
+  },
+  {
+    "name": "Blacksteel Crossbow 2"
+  },
+  {
+    "name": "Icesteel Wasp"
+  },
+  {
+    "name": "Daora's Hornet"
+  },
+  {
+    "name": "Xeno Neqiina"
+  },
+  {
+    "name": "Cross Bowgun"
+  },
+  {
+    "name": "Great Bowgun"
+  },
+  {
+    "name": "Iron Assault 1"
+  },
+  {
+    "name": "Iron Assault 2"
+  },
+  {
+    "name": "Iron Assault 3"
+  },
+  {
+    "name": "Steel Assault 1"
+  },
+  {
+    "name": "Steel Assault 2"
+  },
+  {
+    "name": "Steel Assault 3"
+  },
+  {
+    "name": "Chrome Assault 1"
+  },
+  {
+    "name": "Chrome Assault 2"
+  },
+  {
+    "name": "Nergal Roar"
+  },
+  {
+    "name": "Destruction's Fusillade"
+  },
+  {
+    "name": "Aqua Assault 1"
+  },
+  {
+    "name": "Aqua Assault 2"
+  },
+  {
+    "name": "Aqua Assault 3"
+  },
+  {
+    "name": "Water Cannon 1"
+  },
+  {
+    "name": "Water Cannon 2"
+  },
+  {
+    "name": "Water Cannon 3"
+  },
+  {
+    "name": "Luminous Assault 1"
+  },
+  {
+    "name": "Luminous Assault 2"
+  },
+  {
+    "name": "Arma Destroyer 1"
+  },
+  {
+    "name": "Arma Destroyer 2"
+  },
+  {
+    "name": "Arma Destroyer 3"
+  },
+  {
+    "name": "Shattercryst"
+  },
+  {
+    "name": "Shattercryst+"
+  },
+  {
+    "name": "Legia Shattercryst"
+  },
+  {
+    "name": "Jagras Assault 1"
+  },
+  {
+    "name": "Jagras Assault 2"
+  },
+  {
+    "name": "Jagras Assault 3"
+  },
+  {
+    "name": "Jagras Cannon 1"
+  },
+  {
+    "name": "Jagras Cannon 2"
+  },
+  {
+    "name": "Blazing Assault 1"
+  },
+  {
+    "name": "Blazing Assault 2"
+  },
+  {
+    "name": "Flammenkanone"
+  },
+  {
+    "name": "Gnashing Flammenkanone"
+  },
+  {
+    "name": "Bone Shooter 1"
+  },
+  {
+    "name": "Bone Shooter 2"
+  },
+  {
+    "name": "Bone Shooter 3"
+  },
+  {
+    "name": "Heavy Shooter 1"
+  },
+  {
+    "name": "Heavy Shooter 2"
+  },
+  {
+    "name": "Heavy Shooter 3"
+  },
+  {
+    "name": "Power Shooter 1"
+  },
+  {
+    "name": "Power Shooter 2"
+  },
+  {
+    "name": "Diablos Shooter 1"
+  },
+  {
+    "name": "Diablos Shooter 2"
+  },
+  {
+    "name": "Dual Threat"
+  },
+  {
+    "name": "Nero's Blazooka"
+  },
+  {
+    "name": "Griffon Blazooka"
+  },
+  {
+    "name": "Blooming Shooter 1"
+  },
+  {
+    "name": "Blooming Shooter 2"
+  },
+  {
+    "name": "Blooming Shooter 3"
+  },
+  {
+    "name": "Datura Blaster 1"
+  },
+  {
+    "name": "Datura Blaster 2"
+  },
+  {
+    "name": "Datura Blaster 3"
+  },
+  {
+    "name": "Spiked Shooter 1"
+  },
+  {
+    "name": "Spiked Shooter 2"
+  },
+  {
+    "name": "Baan Roar 1"
+  },
+  {
+    "name": "Baan Roar 2"
+  },
+  {
+    "name": "Baan Roar 3"
+  },
+  {
+    "name": "Gama Cannon 1"
+  },
+  {
+    "name": "Gama Cannon 2"
+  },
+  {
+    "name": "Pulsar Shooter 1"
+  },
+  {
+    "name": "Pulsar Shooter 2"
+  },
+  {
+    "name": "Pulsar Shooter 3"
+  },
+  {
+    "name": "Kadachi Lion 1"
+  },
+  {
+    "name": "Kadachi Lion 2"
+  },
+  {
+    "name": "Kadachi Lion 3"
+  },
+  {
+    "name": "Dragonbone Cannon 1"
+  },
+  {
+    "name": "Dragonbone Cannon 2"
+  },
+  {
+    "name": "Dragonbone Cannon 3"
+  },
+  {
+    "name": "Quickcaster"
+  },
+  {
+    "name": "Quickcaster+"
+  },
+  {
+    "name": "Quickquiver"
+  },
+  {
+    "name": "Magda Gemitus 1"
+  },
+  {
+    "name": "Magda Gemitus 2"
+  },
+  {
+    "name": "Blacksteel Cannon 1"
+  },
+  {
+    "name": "Blacksteel Cannon 2"
+  },
+  {
+    "name": "Teostra's Artillery"
+  },
+  {
+    "name": "Teostra's Flames"
+  },
+  {
+    "name": "Xeno Jiiqa"
+  },
+  {
+    "name": "Iron Bow 1"
+  },
+  {
+    "name": "Iron Bow 2"
+  },
+  {
+    "name": "Iron Bow 3"
+  },
+  {
+    "name": "Steel Bow 1"
+  },
+  {
+    "name": "Steel Bow 2"
+  },
+  {
+    "name": "Steel Bow 3"
+  },
+  {
+    "name": "Alloy Bow 1"
+  },
+  {
+    "name": "Alloy Bow 2"
+  },
+  {
+    "name": "Nergal Whisper"
+  },
+  {
+    "name": "Doom's Shaft"
+  },
+  {
+    "name": "Kulu Arrow 1"
+  },
+  {
+    "name": "Kulu Arrow 2"
+  },
+  {
+    "name": "Kulu Arrow 3"
+  },
+  {
+    "name": "Archer's Dance 1"
+  },
+  {
+    "name": "Archer's Dance 2"
+  },
+  {
+    "name": "Archer's Dance 3"
+  },
+  {
+    "name": "Brazencord"
+  },
+  {
+    "name": "Gigacles"
+  },
+  {
+    "name": "Princess Arrow 1"
+  },
+  {
+    "name": "Princess Arrow 2"
+  },
+  {
+    "name": "Princess Arrow 3"
+  },
+  {
+    "name": "Rathslinger 1"
+  },
+  {
+    "name": "Rathslinger 2"
+  },
+  {
+    "name": "Rathslinger 3"
+  },
+  {
+    "name": "Aqua Arrow 1"
+  },
+  {
+    "name": "Aqua Arrow 2"
+  },
+  {
+    "name": "Aqua Arrow 3"
+  },
+  {
+    "name": "Water Shot 1"
+  },
+  {
+    "name": "Water Shot 2"
+  },
+  {
+    "name": "Water Shot 3"
+  },
+  {
+    "name": "Glacial Arrow 1"
+  },
+  {
+    "name": "Glacial Arrow 2"
+  },
+  {
+    "name": "Snowfletcher"
+  },
+  {
+    "name": "Legia Snowfletcher"
+  },
+  {
+    "name": "Hunter's Bow 1"
+  },
+  {
+    "name": "Hunter's Bow 2"
+  },
+  {
+    "name": "Hunter's Bow 3"
+  },
+  {
+    "name": "Hunter's Stoutbow 1"
+  },
+  {
+    "name": "Hunter's Stoutbow 2"
+  },
+  {
+    "name": "Hunter's Stoutbow 3"
+  },
+  {
+    "name": "Hunter's Proudbow 1"
+  },
+  {
+    "name": "Hunter's Proudbow 2"
+  },
+  {
+    "name": "Hazak Velos 1"
+  },
+  {
+    "name": "Hazak Velos 2"
+  },
+  {
+    "name": "Diablos Bow 1"
+  },
+  {
+    "name": "Diablos Bow 2"
+  },
+  {
+    "name": "Diablos Coilbender"
+  },
+  {
+    "name": "Galebender"
+  },
+  {
+    "name": "Cera Coilbender"
+  },
+  {
+    "name": "Blooming Arch 1"
+  },
+  {
+    "name": "Blooming Arch 2"
+  },
+  {
+    "name": "Blooming Arch 3"
+  },
+  {
+    "name": "Datura String 1"
+  },
+  {
+    "name": "Datura String 2"
+  },
+  {
+    "name": "Datura String 3"
+  },
+  {
+    "name": "Blazing Bow 1"
+  },
+  {
+    "name": "Blazing Bow 2"
+  },
+  {
+    "name": "Anja Arch 1"
+  },
+  {
+    "name": "Anja Arch 2"
+  },
+  {
+    "name": "Anja Arch 3"
+  },
+  {
+    "name": "Pulsar Bow 1"
+  },
+  {
+    "name": "Pulsar Bow 2"
+  },
+  {
+    "name": "Pulsar Bow 3"
+  },
+  {
+    "name": "Kadachi Strikebow"
+  },
+  {
+    "name": "Flying Kadachi Strikebow"
+  },
+  {
+    "name": "Dragonbone Bow 1"
+  },
+  {
+    "name": "Dragonbone Bow 2"
+  },
+  {
+    "name": "Dragonbone Bow 3"
+  },
+  {
+    "name": "Blacksteel Bow 1"
+  },
+  {
+    "name": "Blacksteel Bow 2"
+  },
+  {
+    "name": "Icesteel Bow"
+  },
+  {
+    "name": "Daora's Sagittarii"
+  },
+  {
+    "name": "Xeno Metora"
+  },
+  {
+    "name": "Cross Hunter's Bow"
+  },
+  {
+    "name": "Great Hunter's Bow"
+  },
+  {
+    "name": "Berserker Sword"
+  },
+  {
+    "name": "Anguish"
+  },
+  {
+    "name": "Reaver \"Cruelty\""
+  },
+  {
+    "name": "Reaver \"Calamity\""
+  },
+  {
+    "name": "Fatal Jho"
+  },
+  {
+    "name": "Fatal Bite"
+  },
+  {
+    "name": "Wrath & Rancor"
+  },
+  {
+    "name": "Wrathful Predation"
+  },
+  {
+    "name": "Devil's Due"
+  },
+  {
+    "name": "Devil's Crush"
+  },
+  {
+    "name": "Devil's Maestro"
+  },
+  {
+    "name": "Deep Vero"
+  },
+  {
+    "name": "Grief Lance"
+  },
+  {
+    "name": "Fiendish Tower"
+  },
+  {
+    "name": "Ravenous Gunlance"
+  },
+  {
+    "name": "Insatiable Gunlance"
+  },
+  {
+    "name": "Tyrannos"
+  },
+  {
+    "name": "Terror Tyrannos"
+  },
+  {
+    "name": "Tyrant's Charge Blade"
+  },
+  {
+    "name": "Oppressor's Charge Blade"
+  },
+  {
+    "name": "Bad Wing"
+  },
+  {
+    "name": "Grunge Storm"
+  },
+  {
+    "name": "Devil's Grin"
+  },
+  {
+    "name": "Gluttonous Cannon"
+  },
+  {
+    "name": "Dark Devourer"
+  },
+  {
+    "name": "Insurgent's Bow"
+  },
+  {
+    "name": "Villainous Brace"
+  },
+  {
+    "name": "Aloy's Bow"
+  },
+  {
+    "name": "Aloy's War Bow"
+  },
+  {
+    "name": "Wyvern Ignition \"Steel\""
+  },
+  {
+    "name": "Wyvern Ignition \"Impact\""
+  },
+  {
+    "name": "Empress Galea"
+  },
+  {
+    "name": "Empress Galea \"Blaze\""
+  },
+  {
+    "name": "Empress Galea \"Ruin\""
+  },
+  {
+    "name": "Empress Galea \"Styx\""
+  },
+  {
+    "name": "Empress Sword"
+  },
+  {
+    "name": "Empress Sword \"Blaze\""
+  },
+  {
+    "name": "Empress Sword \"Ruin\""
+  },
+  {
+    "name": "Empress Sword \"Styx\""
+  },
+  {
+    "name": "Azure Star \"Dragon Dance\""
+  },
+  {
+    "name": "Empress Edge"
+  },
+  {
+    "name": "Empress Edge \"Blaze\""
+  },
+  {
+    "name": "Empress Edge \"Ruin\""
+  },
+  {
+    "name": "Empress Edge \"Styx\""
+  },
+  {
+    "name": "Empress Daggers"
+  },
+  {
+    "name": "Empress Daggers \"Blaze\""
+  },
+  {
+    "name": "Empress Daggers \"Ruin\""
+  },
+  {
+    "name": "Empress Daggers \"Styx\""
+  },
+  {
+    "name": "Empress Mace"
+  },
+  {
+    "name": "Empress Mace \"Blaze\""
+  },
+  {
+    "name": "Empress Mace \"Ruin\""
+  },
+  {
+    "name": "Empress Mace \"Styx\""
+  },
+  {
+    "name": "Empress Roar"
+  },
+  {
+    "name": "Empress Roar \"Blaze\""
+  },
+  {
+    "name": "Empress Roar \"Ruin\""
+  },
+  {
+    "name": "Empress Roar \"Styx\""
+  },
+  {
+    "name": "Empress Lance"
+  },
+  {
+    "name": "Empress Lance \"Blaze\""
+  },
+  {
+    "name": "Empress Lance \"Ruin\""
+  },
+  {
+    "name": "Empress Lance \"Styx\""
+  },
+  {
+    "name": "Shooting Star Lance"
+  },
+  {
+    "name": "Sapphire Star Lance"
+  },
+  {
+    "name": "Empress Howl"
+  },
+  {
+    "name": "Empress Howl \"Blaze\""
+  },
+  {
+    "name": "Empress Howl \"Ruin\""
+  },
+  {
+    "name": "Empress Howl \"Styx\""
+  },
+  {
+    "name": "Empress Axe"
+  },
+  {
+    "name": "Empress Axe \"Blaze\""
+  },
+  {
+    "name": "Empress Axe \"Ruin\""
+  },
+  {
+    "name": "Empress Axe \"Styx\""
+  },
+  {
+    "name": "Empress Alma"
+  },
+  {
+    "name": "Empress Alma \"Blaze\""
+  },
+  {
+    "name": "Empress Alma \"Ruin\""
+  },
+  {
+    "name": "Empress Alma \"Styx\""
+  },
+  {
+    "name": "Dante's Devil Sword"
+  },
+  {
+    "name": "Empress Cane"
+  },
+  {
+    "name": "Empress Cane \"Blaze\""
+  },
+  {
+    "name": "Empress Cane \"Ruin\""
+  },
+  {
+    "name": "Empress Cane \"Styx\""
+  },
+  {
+    "name": "Gae Bolg"
+  },
+  {
+    "name": "True Gae Bolg"
+  },
+  {
+    "name": "Empress Shell"
+  },
+  {
+    "name": "Empress Shell \"Blaze\""
+  },
+  {
+    "name": "Empress Shell \"Ruin\""
+  },
+  {
+    "name": "Empress Shell \"Styx\""
+  },
+  {
+    "name": "Gluttonous Fangcannon"
+  },
+  {
+    "name": "Empress Cannon"
+  },
+  {
+    "name": "Empress Cannon \"Blaze\""
+  },
+  {
+    "name": "Empress Cannon \"Ruin\""
+  },
+  {
+    "name": "Empress Cannon \"Styx\""
+  },
+  {
+    "name": "Empress Arrow"
+  },
+  {
+    "name": "Empress Arrow \"Blaze\""
+  },
+  {
+    "name": "Empress Arrow \"Ruin\""
+  },
+  {
+    "name": "Empress Arrow \"Styx\""
+  },
+  {
+    "name": "Taroth Assault \"Glutton\""
+  },
+  {
+    "name": "Gold Blast Cannon"
+  },
+  {
+    "name": "Crusher Gold Cannon"
+  },
+  {
+    "name": "Flash Gold Cannon"
+  },
+  {
+    "name": "Glutton Gold Cannon"
+  },
+  {
+    "name": "Horn Gold Cannon"
+  },
+  {
+    "name": "Gold Icewater Cannon"
+  },
+  {
+    "name": "Magma Gold Cannon"
+  },
+  {
+    "name": "Rage Gold Cannon"
+  },
+  {
+    "name": "Spark Gold Cannon"
+  },
+  {
+    "name": "Spew Gold Cannon"
+  },
+  {
+    "name": "Gold Support Cannon"
+  },
+  {
+    "name": "Tar Gold Cannon"
+  },
+  {
+    "name": "Taroth Assault \"Crusher\""
+  },
+  {
+    "name": "Taroth Assault \"Flash\""
+  },
+  {
+    "name": "Taroth Assault \"Horn\""
+  },
+  {
+    "name": "Taroth Assault \"Magma\""
+  },
+  {
+    "name": "Taroth Assault \"Rage\""
+  },
+  {
+    "name": "Taroth Assault \"Spark\""
+  },
+  {
+    "name": "Taroth Assault \"Spew\""
+  },
+  {
+    "name": "Taroth Assault \"Tar\""
+  },
+  {
+    "name": "Taroth Assault \"Blast\""
+  },
+  {
+    "name": "Taroth Assault \"Icewater\""
+  },
+  {
+    "name": "Taroth Assault \"Support\""
+  },
+  {
+    "name": "Taroth Assault \"Pierce\""
+  },
+  {
+    "name": "Kjarr Assault \"Horn\""
+  },
+  {
+    "name": "Kjarr Assault \"Ice\""
+  },
+  {
+    "name": "Kjarr Assault \"Magma\""
+  },
+  {
+    "name": "Kjarr Assault \"Rage\""
+  },
+  {
+    "name": "Kjarr Assault \"Spark\""
+  },
+  {
+    "name": "Kjarr Assault \"Water\""
+  },
+  {
+    "name": "Devil's Madness"
+  },
+  {
+    "name": "Taroth Sword \"Fire\""
+  },
+  {
+    "name": "Kjarr Sword \"Decay\""
+  },
+  {
+    "name": "Taroth Daggers \"Rage\""
+  },
+  {
+    "name": "Taroth Daggers \"Spark\""
+  },
+  {
+    "name": "Taroth Daggers \"Ice\""
+  },
+  {
+    "name": "Taroth Daggers \"Water\""
+  },
+  {
+    "name": "Kjarr Daggers \"Dragon\""
+  },
+  {
+    "name": "Kjarr Daggers \"Ice\""
+  },
+  {
+    "name": "Kjarr Daggers \"Lurk\""
+  },
+  {
+    "name": "Kjarr Daggers \"Magma\""
+  },
+  {
+    "name": "Kjarr Daggers \"Rage\""
+  },
+  {
+    "name": "Kjarr Daggers \"Spark\""
+  },
+  {
+    "name": "Kjarr Daggers \"Water\""
+  },
+  {
+    "name": "Taroth Daggers \"Poison\""
+  },
+  {
+    "name": "Taroth Daggers \"Fire\""
+  },
+  {
+    "name": "Taroth Slicer \"Rage\""
+  },
+  {
+    "name": "Taroth Slicer \"Mud\""
+  },
+  {
+    "name": "Taroth Slicer \"Water\""
+  },
+  {
+    "name": "Taroth Slicer \"Fire\""
+  },
+  {
+    "name": "Kjarr Slicer \"Numb\""
+  },
+  {
+    "name": "Kjarr Slicer \"Blast\""
+  },
+  {
+    "name": "Kjarr Slicer \"Dragon\""
+  },
+  {
+    "name": "Kjarr Slicer \"King\""
+  },
+  {
+    "name": "Kjarr Slicer \"Myth\""
+  },
+  {
+    "name": "Kjarr Slicer \"Stream\""
+  },
+  {
+    "name": "Leather Headgear"
+  },
+  {
+    "name": "Leather Mail"
+  },
+  {
+    "name": "Leather Gloves"
+  },
+  {
+    "name": "Leather Belt"
+  },
+  {
+    "name": "Leather Trousers"
+  },
+  {
+    "name": "Chainmail Headgear"
+  },
+  {
+    "name": "Chainmail Vest"
+  },
+  {
+    "name": "Chainmail Gloves"
+  },
+  {
+    "name": "Chainmail Belt"
+  },
+  {
+    "name": "Chainmail Trousers"
+  },
+  {
+    "name": "Hunter's Headgear"
+  },
+  {
+    "name": "Hunter's Mail"
+  },
+  {
+    "name": "Hunter's Vambraces"
+  },
+  {
+    "name": "Hunter's Coil"
+  },
+  {
+    "name": "Hunter's Greaves"
+  },
+  {
+    "name": "Bone Helm"
+  },
+  {
+    "name": "Bone Mail"
+  },
+  {
+    "name": "Bone Vambraces"
+  },
+  {
+    "name": "Bone Coil"
+  },
+  {
+    "name": "Bone Greaves"
+  },
+  {
+    "name": "Vespoid Helm"
+  },
+  {
+    "name": "Vespoid Mail"
+  },
+  {
+    "name": "Vespoid Vambraces"
+  },
+  {
+    "name": "Vespoid Coil"
+  },
+  {
+    "name": "Vespoid Greaves"
+  },
+  {
+    "name": "Kestodon Guards"
+  },
+  {
+    "name": "Gajau Boots"
+  },
+  {
+    "name": "Jagras Helm"
+  },
+  {
+    "name": "Jagras Mail"
+  },
+  {
+    "name": "Jagras Vambraces"
+  },
+  {
+    "name": "Jagras Coil"
+  },
+  {
+    "name": "Jagras Greaves"
+  },
+  {
+    "name": "Kulu Headpiece"
+  },
+  {
+    "name": "Kulu Mail"
+  },
+  {
+    "name": "Kulu Vambraces"
+  },
+  {
+    "name": "Kulu Coil"
+  },
+  {
+    "name": "Kulu Greaves"
+  },
+  {
+    "name": "Alloy Helm"
+  },
+  {
+    "name": "Alloy Mail"
+  },
+  {
+    "name": "Alloy Vambraces"
+  },
+  {
+    "name": "Alloy Coil"
+  },
+  {
+    "name": "Alloy Greaves"
+  },
+  {
+    "name": "Pukei Hood"
+  },
+  {
+    "name": "Pukei Mail"
+  },
+  {
+    "name": "Pukei Vambraces"
+  },
+  {
+    "name": "Pukei Coil"
+  },
+  {
+    "name": "Pukei Greaves"
+  },
+  {
+    "name": "Barroth Helm"
+  },
+  {
+    "name": "Barroth Mail"
+  },
+  {
+    "name": "Barroth Vambraces"
+  },
+  {
+    "name": "Barroth Coil"
+  },
+  {
+    "name": "Barroth Greaves"
+  },
+  {
+    "name": "Jyura Helm"
+  },
+  {
+    "name": "Jyura Mail"
+  },
+  {
+    "name": "Jyura Vambraces"
+  },
+  {
+    "name": "Jyura Coil"
+  },
+  {
+    "name": "Jyura Greaves"
+  },
+  {
+    "name": "Kadachi Helm"
+  },
+  {
+    "name": "Kadachi Mail"
+  },
+  {
+    "name": "Kadachi Vambraces"
+  },
+  {
+    "name": "Kadachi Coil"
+  },
+  {
+    "name": "Kadachi Greaves"
+  },
+  {
+    "name": "High Metal Helm"
+  },
+  {
+    "name": "High Metal Mail"
+  },
+  {
+    "name": "High Metal Braces"
+  },
+  {
+    "name": "High Metal Coil"
+  },
+  {
+    "name": "High Metal Greaves"
+  },
+  {
+    "name": "King Beetle Vertex"
+  },
+  {
+    "name": "King Beetle Thorax"
+  },
+  {
+    "name": "King Beetle Brachia"
+  },
+  {
+    "name": "King Beetle Elytra"
+  },
+  {
+    "name": "King Beetle Crura"
+  },
+  {
+    "name": "Butterfly Vertex"
+  },
+  {
+    "name": "Butterfly Thorax"
+  },
+  {
+    "name": "Butterfly Brachia"
+  },
+  {
+    "name": "Butterfly Elytra"
+  },
+  {
+    "name": "Butterfly Crura"
+  },
+  {
+    "name": "Shamos Goggles"
+  },
+  {
+    "name": "Hornetaur Helm"
+  },
+  {
+    "name": "Hornetaur Mail"
+  },
+  {
+    "name": "Hornetaur Vambraces"
+  },
+  {
+    "name": "Hornetaur Coil"
+  },
+  {
+    "name": "Hornetaur Greaves"
+  },
+  {
+    "name": "Anja Helm"
+  },
+  {
+    "name": "Anja Mail"
+  },
+  {
+    "name": "Anja Vambraces"
+  },
+  {
+    "name": "Anja Coil"
+  },
+  {
+    "name": "Anja Greaves"
+  },
+  {
+    "name": "Rathian Helm"
+  },
+  {
+    "name": "Rathian Mail"
+  },
+  {
+    "name": "Rathian Vambraces"
+  },
+  {
+    "name": "Rathian Coil"
+  },
+  {
+    "name": "Rathian Greaves"
+  },
+  {
+    "name": "Tzitzi Headgear"
+  },
+  {
+    "name": "Tzitzi Mail"
+  },
+  {
+    "name": "Tzitzi Vambraces"
+  },
+  {
+    "name": "Tzitzi Coil"
+  },
+  {
+    "name": "Tzitzi Greaves"
+  },
+  {
+    "name": "Lumu Hat"
+  },
+  {
+    "name": "Lumu Mail"
+  },
+  {
+    "name": "Lumu Vambraces"
+  },
+  {
+    "name": "Lumu Coil"
+  },
+  {
+    "name": "Lumu Greaves"
+  },
+  {
+    "name": "Girros Mask"
+  },
+  {
+    "name": "Girros Mail"
+  },
+  {
+    "name": "Girros Vambraces"
+  },
+  {
+    "name": "Girros Coil"
+  },
+  {
+    "name": "Girros Greaves"
+  },
+  {
+    "name": "Baan Helm"
+  },
+  {
+    "name": "Baan Mail"
+  },
+  {
+    "name": "Baan Vambraces"
+  },
+  {
+    "name": "Baan Coil"
+  },
+  {
+    "name": "Baan Greaves"
+  },
+  {
+    "name": "Ingot Helm"
+  },
+  {
+    "name": "Ingot Mail"
+  },
+  {
+    "name": "Ingot Vambraces"
+  },
+  {
+    "name": "Ingot Coil"
+  },
+  {
+    "name": "Ingot Greaves"
+  },
+  {
+    "name": "Death Stench Brain"
+  },
+  {
+    "name": "Death Stench Muscle"
+  },
+  {
+    "name": "Death Stench Grip"
+  },
+  {
+    "name": "Death Stench Bowels"
+  },
+  {
+    "name": "Death Stench Heels"
+  },
+  {
+    "name": "Brigade Lobos"
+  },
+  {
+    "name": "Brigade Suit"
+  },
+  {
+    "name": "Brigade Vambraces"
+  },
+  {
+    "name": "Brigade Coil"
+  },
+  {
+    "name": "Brigade Boots"
+  },
+  {
+    "name": "Legiana Helm"
+  },
+  {
+    "name": "Legiana Mail"
+  },
+  {
+    "name": "Legiana Vambraces"
+  },
+  {
+    "name": "Legiana Coil"
+  },
+  {
+    "name": "Legiana Greaves"
+  },
+  {
+    "name": "Odogaron Helm"
+  },
+  {
+    "name": "Odogaron Mail"
+  },
+  {
+    "name": "Odogaron Vambraces"
+  },
+  {
+    "name": "Odogaron Coil"
+  },
+  {
+    "name": "Odogaron Greaves"
+  },
+  {
+    "name": "Rathalos Helm"
+  },
+  {
+    "name": "Rathalos Mail"
+  },
+  {
+    "name": "Rathalos Vambraces"
+  },
+  {
+    "name": "Rathalos Coil"
+  },
+  {
+    "name": "Rathalos Greaves"
+  },
+  {
+    "name": "Diablos Helm"
+  },
+  {
+    "name": "Diablos Mail"
+  },
+  {
+    "name": "Diablos Vambraces"
+  },
+  {
+    "name": "Diablos Coil"
+  },
+  {
+    "name": "Diablos Greaves"
+  },
+  {
+    "name": "Kirin Horn"
+  },
+  {
+    "name": "Kirin Jacket"
+  },
+  {
+    "name": "Kirin Longarms"
+  },
+  {
+    "name": "Kirin Hoop"
+  },
+  {
+    "name": "Kirin Leg Guards"
+  },
+  {
+    "name": "Leather Headgear Alpha"
+  },
+  {
+    "name": "Leather Mail Alpha"
+  },
+  {
+    "name": "Leather Gloves Alpha"
+  },
+  {
+    "name": "Leather Belt Alpha"
+  },
+  {
+    "name": "Leather Trousers Alpha"
+  },
+  {
+    "name": "Leather Headgear Beta"
+  },
+  {
+    "name": "Leather Mail Beta"
+  },
+  {
+    "name": "Leather Gloves Beta"
+  },
+  {
+    "name": "Leather Belt Beta"
+  },
+  {
+    "name": "Leather Trousers Beta"
+  },
+  {
+    "name": "Chainmail Headgear Alpha"
+  },
+  {
+    "name": "Chainmail Armor Alpha"
+  },
+  {
+    "name": "Chainmail Gloves Alpha"
+  },
+  {
+    "name": "Chainmail Belt Alpha"
+  },
+  {
+    "name": "Chainmail Trousers Alpha"
+  },
+  {
+    "name": "Chainmail Headgear Beta"
+  },
+  {
+    "name": "Chainmail Armor Beta"
+  },
+  {
+    "name": "Chainmail Gloves Beta"
+  },
+  {
+    "name": "Chainmail Belt Beta"
+  },
+  {
+    "name": "Chainmail Trousers Beta"
+  },
+  {
+    "name": "Hunter's Headgear Alpha"
+  },
+  {
+    "name": "Hunter's Mail Alpha"
+  },
+  {
+    "name": "Hunter's Vambraces Alpha"
+  },
+  {
+    "name": "Hunter's Coil Alpha"
+  },
+  {
+    "name": "Hunter's Greaves Alpha"
+  },
+  {
+    "name": "Hunter's Headgear Beta"
+  },
+  {
+    "name": "Hunter's Mail Beta"
+  },
+  {
+    "name": "Hunter's Vambraces Beta"
+  },
+  {
+    "name": "Hunter's Coil Beta"
+  },
+  {
+    "name": "Hunter's Greaves Beta"
+  },
+  {
+    "name": "Bone Helm Alpha"
+  },
+  {
+    "name": "Bone Mail Alpha"
+  },
+  {
+    "name": "Bone Vambraces Alpha"
+  },
+  {
+    "name": "Bone Coil Alpha"
+  },
+  {
+    "name": "Bone Greaves Alpha"
+  },
+  {
+    "name": "Bone Helm Beta"
+  },
+  {
+    "name": "Bone Mail Beta"
+  },
+  {
+    "name": "Bone Vambraces Beta"
+  },
+  {
+    "name": "Bone Coil Beta"
+  },
+  {
+    "name": "Bone Greaves Beta"
+  },
+  {
+    "name": "Alloy Helm Alpha"
+  },
+  {
+    "name": "Alloy Mail Alpha"
+  },
+  {
+    "name": "Alloy Vambraces Alpha"
+  },
+  {
+    "name": "Alloy Coil Alpha"
+  },
+  {
+    "name": "Alloy Greaves Alpha"
+  },
+  {
+    "name": "Alloy Helm Beta"
+  },
+  {
+    "name": "Alloy Mail Beta"
+  },
+  {
+    "name": "Alloy Vambraces Beta"
+  },
+  {
+    "name": "Alloy Coil Beta"
+  },
+  {
+    "name": "Alloy Greaves Beta"
+  },
+  {
+    "name": "King Beetle Vertex Alpha"
+  },
+  {
+    "name": "King Beetle Thorax Alpha"
+  },
+  {
+    "name": "King Beetle Brachia Alpha"
+  },
+  {
+    "name": "King Beetle Elytra Alpha"
+  },
+  {
+    "name": "King Beetle Crura Alpha"
+  },
+  {
+    "name": "King Beetle Vertex Beta"
+  },
+  {
+    "name": "King Beetle Thorax Beta"
+  },
+  {
+    "name": "King Beetle Brachia Beta"
+  },
+  {
+    "name": "King Beetle Elytra Beta"
+  },
+  {
+    "name": "King Beetle Crura Beta"
+  },
+  {
+    "name": "Butterfly Vertex Alpha"
+  },
+  {
+    "name": "Butterfly Thorax Alpha"
+  },
+  {
+    "name": "Butterfly Brachia Alpha"
+  },
+  {
+    "name": "Butterfly Elytra Alpha"
+  },
+  {
+    "name": "Butterfly Crura Alpha"
+  },
+  {
+    "name": "Butterfly Vertex Beta"
+  },
+  {
+    "name": "Butterfly Thorax Beta"
+  },
+  {
+    "name": "Butterfly Brachia Beta"
+  },
+  {
+    "name": "Butterfly Elytra Beta"
+  },
+  {
+    "name": "Butterfly Crura Beta"
+  },
+  {
+    "name": "Vespoid Helm Alpha"
+  },
+  {
+    "name": "Vespoid Mail Alpha"
+  },
+  {
+    "name": "Vespoid Vambraces Alpha"
+  },
+  {
+    "name": "Vespoid Coil Alpha"
+  },
+  {
+    "name": "Vespoid Greaves Alpha"
+  },
+  {
+    "name": "Vespoid Helm Beta"
+  },
+  {
+    "name": "Vespoid Mail Beta"
+  },
+  {
+    "name": "Vespoid Vambraces Beta"
+  },
+  {
+    "name": "Vespoid Coil Beta"
+  },
+  {
+    "name": "Vespoid Greaves Beta"
+  },
+  {
+    "name": "Hornetaur Helm Alpha"
+  },
+  {
+    "name": "Hornetaur Mail Alpha"
+  },
+  {
+    "name": "Hornetaur Vambraces Alpha"
+  },
+  {
+    "name": "Hornetaur Coil Alpha"
+  },
+  {
+    "name": "Hornetaur Greaves Alpha"
+  },
+  {
+    "name": "Hornetaur Helm Beta"
+  },
+  {
+    "name": "Hornetaur Mail Beta"
+  },
+  {
+    "name": "Hornetaur Vambraces Beta"
+  },
+  {
+    "name": "Hornetaur Coil Beta"
+  },
+  {
+    "name": "Hornetaur Greaves Beta"
+  },
+  {
+    "name": "Mosswine Mask Alpha"
+  },
+  {
+    "name": "Kestodon Guards Alpha"
+  },
+  {
+    "name": "Kestodon Guards Beta"
+  },
+  {
+    "name": "Gajau Boots Alpha"
+  },
+  {
+    "name": "Gajau Boots Beta"
+  },
+  {
+    "name": "Shamos Goggles Alpha"
+  },
+  {
+    "name": "Shamos Goggles Beta"
+  },
+  {
+    "name": "Jagras Helm Alpha"
+  },
+  {
+    "name": "Jagras Mail Alpha"
+  },
+  {
+    "name": "Jagras Vambraces Alpha"
+  },
+  {
+    "name": "Jagras Coil Alpha"
+  },
+  {
+    "name": "Jagras Greaves Alpha"
+  },
+  {
+    "name": "Jagras Helm Beta"
+  },
+  {
+    "name": "Jagras Mail Beta"
+  },
+  {
+    "name": "Jagras Vambraces Beta"
+  },
+  {
+    "name": "Jagras Coil Beta"
+  },
+  {
+    "name": "Jagras Greaves Beta"
+  },
+  {
+    "name": "Kulu Headpiece Alpha"
+  },
+  {
+    "name": "Kulu Mail Alpha"
+  },
+  {
+    "name": "Kulu Vambraces Alpha"
+  },
+  {
+    "name": "Kulu Coil Alpha"
+  },
+  {
+    "name": "Kulu Greaves Alpha"
+  },
+  {
+    "name": "Kulu Headpiece Beta"
+  },
+  {
+    "name": "Kulu Mail Beta"
+  },
+  {
+    "name": "Kulu Vambraces Beta"
+  },
+  {
+    "name": "Kulu Coil Beta"
+  },
+  {
+    "name": "Kulu Greaves Beta"
+  },
+  {
+    "name": "Tzitzi Headgear Alpha"
+  },
+  {
+    "name": "Tzitzi Mail Alpha"
+  },
+  {
+    "name": "Tzitzi Vambraces Alpha"
+  },
+  {
+    "name": "Tzitzi Coil Alpha"
+  },
+  {
+    "name": "Tzitzi Greaves Alpha"
+  },
+  {
+    "name": "Tzitzi Headgear Beta"
+  },
+  {
+    "name": "Tzitzi Mail Beta"
+  },
+  {
+    "name": "Tzitzi Vambraces Beta"
+  },
+  {
+    "name": "Tzitzi Coil Beta"
+  },
+  {
+    "name": "Tzitzi Greaves Beta"
+  },
+  {
+    "name": "Girros Mask Alpha"
+  },
+  {
+    "name": "Girros Mail Alpha"
+  },
+  {
+    "name": "Girros Vambraces Alpha"
+  },
+  {
+    "name": "Girros Coil Alpha"
+  },
+  {
+    "name": "Girros Greaves Alpha"
+  },
+  {
+    "name": "Girros Mask Beta"
+  },
+  {
+    "name": "Girros Mail Beta"
+  },
+  {
+    "name": "Girros Vambraces Beta"
+  },
+  {
+    "name": "Girros Coil Beta"
+  },
+  {
+    "name": "Girros Greaves Beta"
+  },
+  {
+    "name": "Pukei Hood Alpha"
+  },
+  {
+    "name": "Pukei Mail Alpha"
+  },
+  {
+    "name": "Pukei Vambraces Alpha"
+  },
+  {
+    "name": "Pukei Coil Alpha"
+  },
+  {
+    "name": "Pukei Greaves Alpha"
+  },
+  {
+    "name": "Pukei Hood Beta"
+  },
+  {
+    "name": "Pukei Mail Beta"
+  },
+  {
+    "name": "Pukei Vambraces Beta"
+  },
+  {
+    "name": "Pukei Coil Beta"
+  },
+  {
+    "name": "Pukei Greaves Beta"
+  },
+  {
+    "name": "Barroth Helm Alpha"
+  },
+  {
+    "name": "Barroth Mail Alpha"
+  },
+  {
+    "name": "Barroth Vambraces Alpha"
+  },
+  {
+    "name": "Barroth Coil Alpha"
+  },
+  {
+    "name": "Barroth Greaves Alpha"
+  },
+  {
+    "name": "Barroth Helm Beta"
+  },
+  {
+    "name": "Barroth Mail Beta"
+  },
+  {
+    "name": "Barroth Vambraces Beta"
+  },
+  {
+    "name": "Barroth Coil Beta"
+  },
+  {
+    "name": "Barroth Greaves Beta"
+  },
+  {
+    "name": "Anja Helm Alpha"
+  },
+  {
+    "name": "Anja Mail Alpha"
+  },
+  {
+    "name": "Anja Vambraces Alpha"
+  },
+  {
+    "name": "Anja Coil Alpha"
+  },
+  {
+    "name": "Anja Greaves Alpha"
+  },
+  {
+    "name": "Anja Helm Beta"
+  },
+  {
+    "name": "Anja Mail Beta"
+  },
+  {
+    "name": "Anja Vambraces Beta"
+  },
+  {
+    "name": "Anja Coil Beta"
+  },
+  {
+    "name": "Anja Greaves Beta"
+  },
+  {
+    "name": "Jyura Helm Alpha"
+  },
+  {
+    "name": "Jyura Mail Alpha"
+  },
+  {
+    "name": "Jyura Vambraces Alpha"
+  },
+  {
+    "name": "Jyura Coil Alpha"
+  },
+  {
+    "name": "Jyura Greaves Alpha"
+  },
+  {
+    "name": "Jyura Helm Beta"
+  },
+  {
+    "name": "Jyura Mail Beta"
+  },
+  {
+    "name": "Jyura Vambraces Beta"
+  },
+  {
+    "name": "Jyura Coil Beta"
+  },
+  {
+    "name": "Jyura Greaves Beta"
+  },
+  {
+    "name": "Kadachi Helm Alpha"
+  },
+  {
+    "name": "Kadachi Mail Alpha"
+  },
+  {
+    "name": "Kadachi Vambraces Alpha"
+  },
+  {
+    "name": "Kadachi Coil Alpha"
+  },
+  {
+    "name": "Kadachi Greaves Alpha"
+  },
+  {
+    "name": "Kadachi Helm Beta"
+  },
+  {
+    "name": "Kadachi Mail Beta"
+  },
+  {
+    "name": "Kadachi Vambraces Beta"
+  },
+  {
+    "name": "Kadachi Coil Beta"
+  },
+  {
+    "name": "Kadachi Greaves Beta"
+  },
+  {
+    "name": "Lumu Hat Alpha"
+  },
+  {
+    "name": "Lumu Mail Alpha"
+  },
+  {
+    "name": "Lumu Vambraces Alpha"
+  },
+  {
+    "name": "Lumu Coil Alpha"
+  },
+  {
+    "name": "Lumu Greaves Alpha"
+  },
+  {
+    "name": "Lumu Hat Beta"
+  },
+  {
+    "name": "Lumu Mail Beta"
+  },
+  {
+    "name": "Lumu Vambraces Beta"
+  },
+  {
+    "name": "Lumu Coil Beta"
+  },
+  {
+    "name": "Lumu Greaves Beta"
+  },
+  {
+    "name": "Rathian Helm Alpha"
+  },
+  {
+    "name": "Rathian Mail Alpha"
+  },
+  {
+    "name": "Rathian Vambraces Alpha"
+  },
+  {
+    "name": "Rathian Coil Alpha"
+  },
+  {
+    "name": "Rathian Greaves Alpha"
+  },
+  {
+    "name": "Rathian Helm Beta"
+  },
+  {
+    "name": "Rathian Mail Beta"
+  },
+  {
+    "name": "Rathian Vambraces Beta"
+  },
+  {
+    "name": "Rathian Coil Beta"
+  },
+  {
+    "name": "Rathian Greaves Beta"
+  },
+  {
+    "name": "Rath Heart Helm Alpha"
+  },
+  {
+    "name": "Rath Heart Mail Alpha"
+  },
+  {
+    "name": "Rath Heart Braces Alpha"
+  },
+  {
+    "name": "Rath Heart Coil Alpha"
+  },
+  {
+    "name": "Rath Heart Greaves Alpha"
+  },
+  {
+    "name": "Rath Heart Helm Beta"
+  },
+  {
+    "name": "Rath Heart Mail Beta"
+  },
+  {
+    "name": "Rath Heart Braces Beta"
+  },
+  {
+    "name": "Rath Heart Coil Beta"
+  },
+  {
+    "name": "Rath Heart Greaves Beta"
+  },
+  {
+    "name": "Baan Helm Alpha"
+  },
+  {
+    "name": "Baan Mail Alpha"
+  },
+  {
+    "name": "Baan Vambraces Alpha"
+  },
+  {
+    "name": "Baan Coil Alpha"
+  },
+  {
+    "name": "Baan Greaves Alpha"
+  },
+  {
+    "name": "Baan Helm Beta"
+  },
+  {
+    "name": "Baan Mail Beta"
+  },
+  {
+    "name": "Baan Vambraces Beta"
+  },
+  {
+    "name": "Baan Coil Beta"
+  },
+  {
+    "name": "Baan Greaves Beta"
+  },
+  {
+    "name": "Gastodon Horn Alpha"
+  },
+  {
+    "name": "Gastodon Horn Beta"
+  },
+  {
+    "name": "Barnos Jacket Alpha"
+  },
+  {
+    "name": "Barnos Jacket Beta"
+  },
+  {
+    "name": "Dodogama Helm Alpha"
+  },
+  {
+    "name": "Dodogama Mail Alpha"
+  },
+  {
+    "name": "Dodogama Vambraces Alpha"
+  },
+  {
+    "name": "Dodogama Coil Alpha"
+  },
+  {
+    "name": "Dodogama Greaves Alpha"
+  },
+  {
+    "name": "Dodogama Helm Beta"
+  },
+  {
+    "name": "Dodogama Mail Beta"
+  },
+  {
+    "name": "Dodogama Vambraces Beta"
+  },
+  {
+    "name": "Dodogama Coil Beta"
+  },
+  {
+    "name": "Dodogama Greaves Beta"
+  },
+  {
+    "name": "Zorah Headgear Alpha"
+  },
+  {
+    "name": "Zorah Hide Alpha"
+  },
+  {
+    "name": "Zorah Claws Alpha"
+  },
+  {
+    "name": "Zorah Spine Alpha"
+  },
+  {
+    "name": "Zorah Spurs Alpha"
+  },
+  {
+    "name": "Zorah Headgear Beta"
+  },
+  {
+    "name": "Zorah Hide Beta"
+  },
+  {
+    "name": "Zorah Claws Beta"
+  },
+  {
+    "name": "Zorah Spine Beta"
+  },
+  {
+    "name": "Zorah Spurs Beta"
+  },
+  {
+    "name": "High Metal Helm Alpha"
+  },
+  {
+    "name": "High Metal Mail Alpha"
+  },
+  {
+    "name": "High Metal Braces Alpha"
+  },
+  {
+    "name": "High Metal Coil Alpha"
+  },
+  {
+    "name": "High Metal Greaves Alpha"
+  },
+  {
+    "name": "High Metal Helm Beta"
+  },
+  {
+    "name": "High Metal Mail Beta"
+  },
+  {
+    "name": "High Metal Braces Beta"
+  },
+  {
+    "name": "High Metal Coil Beta"
+  },
+  {
+    "name": "High Metal Greaves Beta"
+  },
+  {
+    "name": "Ingot Helm Alpha"
+  },
+  {
+    "name": "Ingot Mail Alpha"
+  },
+  {
+    "name": "Ingot Vambraces Alpha"
+  },
+  {
+    "name": "Ingot Coil Alpha"
+  },
+  {
+    "name": "Ingot Greaves Alpha"
+  },
+  {
+    "name": "Ingot Helm Beta"
+  },
+  {
+    "name": "Ingot Mail Beta"
+  },
+  {
+    "name": "Ingot Vambraces Beta"
+  },
+  {
+    "name": "Ingot Coil Beta"
+  },
+  {
+    "name": "Ingot Greaves Beta"
+  },
+  {
+    "name": "Brigade Lobos Alpha"
+  },
+  {
+    "name": "Brigade Suit Alpha"
+  },
+  {
+    "name": "Brigade Vambraces Alpha"
+  },
+  {
+    "name": "Brigade Coil Alpha"
+  },
+  {
+    "name": "Brigade Boots Alpha"
+  },
+  {
+    "name": "Brigade Lobos Beta"
+  },
+  {
+    "name": "Brigade Suit Beta"
+  },
+  {
+    "name": "Brigade Vambraces Beta"
+  },
+  {
+    "name": "Brigade Coil Beta"
+  },
+  {
+    "name": "Brigade Boots Beta"
+  },
+  {
+    "name": "Faux Felyne Alpha"
+  },
+  {
+    "name": "Strategist Spectacles Alpha"
+  },
+  {
+    "name": "Lavasioth Helm Alpha"
+  },
+  {
+    "name": "Lavasioth Mail Alpha"
+  },
+  {
+    "name": "Lavasioth Vambraces Alpha"
+  },
+  {
+    "name": "Lavasioth Coil Alpha"
+  },
+  {
+    "name": "Lavasioth Greaves Alpha"
+  },
+  {
+    "name": "Lavasioth Helm Beta"
+  },
+  {
+    "name": "Lavasioth Mail Beta"
+  },
+  {
+    "name": "Lavasioth Vambraces Beta"
+  },
+  {
+    "name": "Lavasioth Coil Beta"
+  },
+  {
+    "name": "Lavasioth Greaves Beta"
+  },
+  {
+    "name": "Legiana Helm Alpha"
+  },
+  {
+    "name": "Legiana Mail Alpha"
+  },
+  {
+    "name": "Legiana Vambraces Alpha"
+  },
+  {
+    "name": "Legiana Coil Alpha"
+  },
+  {
+    "name": "Legiana Greaves Alpha"
+  },
+  {
+    "name": "Legiana Helm Beta"
+  },
+  {
+    "name": "Legiana Mail Beta"
+  },
+  {
+    "name": "Legiana Vambraces Beta"
+  },
+  {
+    "name": "Legiana Coil Beta"
+  },
+  {
+    "name": "Legiana Greaves Beta"
+  },
+  {
+    "name": "Odogaron Helm Alpha"
+  },
+  {
+    "name": "Odogaron Mail Alpha"
+  },
+  {
+    "name": "Odogaron Vambraces Alpha"
+  },
+  {
+    "name": "Odogaron Coil Alpha"
+  },
+  {
+    "name": "Odogaron Greaves Alpha"
+  },
+  {
+    "name": "Odogaron Helm Beta"
+  },
+  {
+    "name": "Odogaron Mail Beta"
+  },
+  {
+    "name": "Odogaron Vambraces Beta"
+  },
+  {
+    "name": "Odogaron Coil Beta"
+  },
+  {
+    "name": "Odogaron Greaves Beta"
+  },
+  {
+    "name": "Rathalos Helm Alpha"
+  },
+  {
+    "name": "Rathalos Mail Alpha"
+  },
+  {
+    "name": "Rathalos Vambraces Alpha"
+  },
+  {
+    "name": "Rathalos Coil Alpha"
+  },
+  {
+    "name": "Rathalos Greaves Alpha"
+  },
+  {
+    "name": "Rathalos Helm Beta"
+  },
+  {
+    "name": "Rathalos Mail Beta"
+  },
+  {
+    "name": "Rathalos Vambraces Beta"
+  },
+  {
+    "name": "Rathalos Coil Beta"
+  },
+  {
+    "name": "Rathalos Greaves Beta"
+  },
+  {
+    "name": "Rath Soul Helm Alpha"
+  },
+  {
+    "name": "Rath Soul Mail Alpha"
+  },
+  {
+    "name": "Rath Soul Braces Alpha"
+  },
+  {
+    "name": "Rath Soul Coil Alpha"
+  },
+  {
+    "name": "Rath Soul Greaves Alpha"
+  },
+  {
+    "name": "Rath Soul Helm Beta"
+  },
+  {
+    "name": "Rath Soul Mail Beta"
+  },
+  {
+    "name": "Rath Soul Braces Beta"
+  },
+  {
+    "name": "Rath Soul Coil Beta"
+  },
+  {
+    "name": "Rath Soul Greaves Beta"
+  },
+  {
+    "name": "Diablos Helm Alpha"
+  },
+  {
+    "name": "Diablos Mail Alpha"
+  },
+  {
+    "name": "Diablos Vambraces Alpha"
+  },
+  {
+    "name": "Diablos Coil Alpha"
+  },
+  {
+    "name": "Diablos Greaves Alpha"
+  },
+  {
+    "name": "Diablos Helm Beta"
+  },
+  {
+    "name": "Diablos Mail Beta"
+  },
+  {
+    "name": "Diablos Vambraces Beta"
+  },
+  {
+    "name": "Diablos Coil Beta"
+  },
+  {
+    "name": "Diablos Greaves Beta"
+  },
+  {
+    "name": "Diablos Nero Helm Alpha"
+  },
+  {
+    "name": "Diablos Nero Mail Alpha"
+  },
+  {
+    "name": "Diablos Nero Braces Alpha"
+  },
+  {
+    "name": "Diablos Nero Coil Alpha"
+  },
+  {
+    "name": "Diablos Nero Greaves Alpha"
+  },
+  {
+    "name": "Diablos Nero Helm Beta"
+  },
+  {
+    "name": "Diablos Nero Mail Beta"
+  },
+  {
+    "name": "Diablos Nero Braces Beta"
+  },
+  {
+    "name": "Diablos Nero Coil Beta"
+  },
+  {
+    "name": "Diablos Nero Greaves Beta"
+  },
+  {
+    "name": "Uragaan Helm Alpha"
+  },
+  {
+    "name": "Uragaan Mail Alpha"
+  },
+  {
+    "name": "Uragaan Vambraces Alpha"
+  },
+  {
+    "name": "Uragaan Coil Alpha"
+  },
+  {
+    "name": "Uragaan Greaves Alpha"
+  },
+  {
+    "name": "Uragaan Helm Beta"
+  },
+  {
+    "name": "Uragaan Mail Beta"
+  },
+  {
+    "name": "Uragaan Vambraces Beta"
+  },
+  {
+    "name": "Uragaan Coil Beta"
+  },
+  {
+    "name": "Uragaan Greaves Beta"
+  },
+  {
+    "name": "Bazel Helm Alpha"
+  },
+  {
+    "name": "Bazel Mail Alpha"
+  },
+  {
+    "name": "Bazel Vambraces Alpha"
+  },
+  {
+    "name": "Bazel Coil Alpha"
+  },
+  {
+    "name": "Bazel Greaves Alpha"
+  },
+  {
+    "name": "Bazel Helm Beta"
+  },
+  {
+    "name": "Bazel Mail Beta"
+  },
+  {
+    "name": "Bazel Vambraces Beta"
+  },
+  {
+    "name": "Bazel Coil Beta"
+  },
+  {
+    "name": "Bazel Greaves Beta"
+  },
+  {
+    "name": "Damascus Helm Alpha"
+  },
+  {
+    "name": "Damascus Mail Alpha"
+  },
+  {
+    "name": "Damascus Vambraces Alpha"
+  },
+  {
+    "name": "Damascus Coil Alpha"
+  },
+  {
+    "name": "Damascus Greaves Alpha"
+  },
+  {
+    "name": "Damascus Helm Beta"
+  },
+  {
+    "name": "Damascus Mail Beta"
+  },
+  {
+    "name": "Damascus Vambraces Beta"
+  },
+  {
+    "name": "Damascus Coil Beta"
+  },
+  {
+    "name": "Damascus Greaves Beta"
+  },
+  {
+    "name": "Dober Helm Alpha"
+  },
+  {
+    "name": "Dober Mail Alpha"
+  },
+  {
+    "name": "Dober Vambraces Alpha"
+  },
+  {
+    "name": "Dober Coil Alpha"
+  },
+  {
+    "name": "Dober Greaves Alpha"
+  },
+  {
+    "name": "Dober Helm Beta"
+  },
+  {
+    "name": "Dober Mail Beta"
+  },
+  {
+    "name": "Dober Vambraces Beta"
+  },
+  {
+    "name": "Dober Coil Beta"
+  },
+  {
+    "name": "Dober Greaves Beta"
+  },
+  {
+    "name": "Death Stench Brain Alpha"
+  },
+  {
+    "name": "Death Stench Muscle Alpha"
+  },
+  {
+    "name": "Death Stench Grip Alpha"
+  },
+  {
+    "name": "Death Stench Bowels Alpha"
+  },
+  {
+    "name": "Death Stench Heel Alpha"
+  },
+  {
+    "name": "Death Stench Brain Beta"
+  },
+  {
+    "name": "Death Stench Muscle Beta"
+  },
+  {
+    "name": "Death Stench Grip Beta"
+  },
+  {
+    "name": "Death Stench Bowels Beta"
+  },
+  {
+    "name": "Death Stench Heel Beta"
+  },
+  {
+    "name": "Skull Mask Alpha"
+  },
+  {
+    "name": "Nergigante Helm Alpha"
+  },
+  {
+    "name": "Nergigante Mail Alpha"
+  },
+  {
+    "name": "Nergigante Vambraces Alpha"
+  },
+  {
+    "name": "Nergigante Coil Alpha"
+  },
+  {
+    "name": "Nergigante Greaves Alpha"
+  },
+  {
+    "name": "Nergigante Helm Beta"
+  },
+  {
+    "name": "Nergigante Mail Beta"
+  },
+  {
+    "name": "Nergigante Vambraces Beta"
+  },
+  {
+    "name": "Nergigante Coil Beta"
+  },
+  {
+    "name": "Nergigante Greaves Beta"
+  },
+  {
+    "name": "Kaiser Crown Alpha"
+  },
+  {
+    "name": "Kaiser Mail Alpha"
+  },
+  {
+    "name": "Kaiser Vambraces Alpha"
+  },
+  {
+    "name": "Kaiser Coil Alpha"
+  },
+  {
+    "name": "Kaiser Greaves Alpha"
+  },
+  {
+    "name": "Kaiser Crown Beta"
+  },
+  {
+    "name": "Kaiser Mail Beta"
+  },
+  {
+    "name": "Kaiser Vambraces Beta"
+  },
+  {
+    "name": "Kaiser Coil Beta"
+  },
+  {
+    "name": "Kaiser Greaves Beta"
+  },
+  {
+    "name": "Kushala Glare Alpha"
+  },
+  {
+    "name": "Kushala Cista Alpha"
+  },
+  {
+    "name": "Kushala Grip Alpha"
+  },
+  {
+    "name": "Kushala Cocoon Alpha"
+  },
+  {
+    "name": "Kushala Crus Alpha"
+  },
+  {
+    "name": "Kushala Glare Beta"
+  },
+  {
+    "name": "Kushala Cista Beta"
+  },
+  {
+    "name": "Kushala Grip Beta"
+  },
+  {
+    "name": "Kushala Cocoon Beta"
+  },
+  {
+    "name": "Kushala Crus Beta"
+  },
+  {
+    "name": "Vaal Hazak Helm Alpha"
+  },
+  {
+    "name": "Vaal Hazak Mail Alpha"
+  },
+  {
+    "name": "Vaal Hazak Braces Alpha"
+  },
+  {
+    "name": "Vaal Hazak Coil Alpha"
+  },
+  {
+    "name": "Vaal Hazak Greaves Alpha"
+  },
+  {
+    "name": "Vaal Hazak Helm Beta"
+  },
+  {
+    "name": "Vaal Hazak Mail Beta"
+  },
+  {
+    "name": "Vaal Hazak Braces Beta"
+  },
+  {
+    "name": "Vaal Hazak Coil Beta"
+  },
+  {
+    "name": "Vaal Hazak Greaves Beta"
+  },
+  {
+    "name": "Kirin Horn Alpha"
+  },
+  {
+    "name": "Kirin Jacket Alpha"
+  },
+  {
+    "name": "Kirin Longarms Alpha"
+  },
+  {
+    "name": "Kirin Hoop Alpha"
+  },
+  {
+    "name": "Kirin Leg Guards Alpha"
+  },
+  {
+    "name": "Kirin Horn Beta"
+  },
+  {
+    "name": "Kirin Jacket Beta"
+  },
+  {
+    "name": "Kirin Longarms Beta"
+  },
+  {
+    "name": "Kirin Hoop Beta"
+  },
+  {
+    "name": "Kirin Leg Guards Beta"
+  },
+  {
+    "name": "Xeno'jiiva Headgear Alpha"
+  },
+  {
+    "name": "Xeno'jiiva Hide Alpha"
+  },
+  {
+    "name": "Xeno'jiiva Claws Alpha"
+  },
+  {
+    "name": "Xeno'jiiva Spine Alpha"
+  },
+  {
+    "name": "Xeno'jiiva Spurs Alpha"
+  },
+  {
+    "name": "Xeno'jiiva Headgear Beta"
+  },
+  {
+    "name": "Xeno'jiiva Hide Beta"
+  },
+  {
+    "name": "Xeno'jiiva Claws Beta"
+  },
+  {
+    "name": "Xeno'jiiva Spine Beta"
+  },
+  {
+    "name": "Xeno'jiiva Spurs Beta"
+  },
+  {
+    "name": "Guild Cross Circlet Alpha"
+  },
+  {
+    "name": "Guild Cross Suit Alpha"
+  },
+  {
+    "name": "Guild Cross Vambraces Alpha"
+  },
+  {
+    "name": "Guild Cross Coil Alpha"
+  },
+  {
+    "name": "Guild Cross Boots Alpha"
+  },
+  {
+    "name": "Guild Cross Circlet Beta"
+  },
+  {
+    "name": "Guild Cross Suit Beta"
+  },
+  {
+    "name": "Guild Cross Vambraces Beta"
+  },
+  {
+    "name": "Guild Cross Coil Beta"
+  },
+  {
+    "name": "Guild Cross Boots Beta"
+  },
+  {
+    "name": "Dragonking Eyepatch Alpha"
+  },
+  {
+    "name": "Commission Gorget Alpha"
+  },
+  {
+    "name": "Commission Jacket Alpha"
+  },
+  {
+    "name": "Commission Vambraces Alpha"
+  },
+  {
+    "name": "Commission Belt Alpha"
+  },
+  {
+    "name": "Commission Pants Alpha"
+  },
+  {
+    "name": "Commission Gorget Beta"
+  },
+  {
+    "name": "Commission Jacket Beta"
+  },
+  {
+    "name": "Commission Vambraces Beta"
+  },
+  {
+    "name": "Commission Belt Beta"
+  },
+  {
+    "name": "Commission Pants Beta"
+  },
+  {
+    "name": "Sealed Eyepatch Alpha"
+  },
+  {
+    "name": "Vangis Helm Alpha"
+  },
+  {
+    "name": "Vangis Mail Alpha"
+  },
+  {
+    "name": "Vangis Vambraces Alpha"
+  },
+  {
+    "name": "Vangis Coil Alpha"
+  },
+  {
+    "name": "Vangis Greaves Alpha"
+  },
+  {
+    "name": "Vangis Helm Beta"
+  },
+  {
+    "name": "Vangis Mail Beta"
+  },
+  {
+    "name": "Vangis Vambraces Beta"
+  },
+  {
+    "name": "Vangis Coil Beta"
+  },
+  {
+    "name": "Vangis Greaves Beta"
+  },
+  {
+    "name": "Shadow Shades Alpha"
+  },
+  {
+    "name": "Blossom Headgear"
+  },
+  {
+    "name": "Blossom Vest"
+  },
+  {
+    "name": "Blossom Cuffs"
+  },
+  {
+    "name": "Blossom Coat"
+  },
+  {
+    "name": "Blossom Boots"
+  },
+  {
+    "name": "Blossom Headgear Alpha"
+  },
+  {
+    "name": "Blossom Vest Alpha"
+  },
+  {
+    "name": "Blossom Cuffs Alpha"
+  },
+  {
+    "name": "Blossom Coat Alpha"
+  },
+  {
+    "name": "Blossom Boots Alpha"
+  },
+  {
+    "name": "Wiggler Head Alpha"
+  },
+  {
+    "name": "Kulve Taroth's Fury Alpha"
+  },
+  {
+    "name": "Kulve Taroth's Ire Alpha"
+  },
+  {
+    "name": "Kulve Taroth's Rage Alpha"
+  },
+  {
+    "name": "Kulve Taroth's Malice Alpha"
+  },
+  {
+    "name": "Kulve Taroth's Wrath Alpha"
+  },
+  {
+    "name": "Kulve Taroth's Fury Beta"
+  },
+  {
+    "name": "Kulve Taroth's Ire Beta"
+  },
+  {
+    "name": "Kulve Taroth's Rage Beta"
+  },
+  {
+    "name": "Kulve Taroth's Malice Beta"
+  },
+  {
+    "name": "Kulve Taroth's Wrath Beta"
+  },
+  {
+    "name": "Kirin Horn Gamma"
+  },
+  {
+    "name": "Kirin Jacket Gamma"
+  },
+  {
+    "name": "Kirin Longarms Gamma"
+  },
+  {
+    "name": "Kirin Hoop Gamma"
+  },
+  {
+    "name": "Kirin Leg Guards Gamma"
+  },
+  {
+    "name": "Dante's Hair Alpha"
+  },
+  {
+    "name": "Dante's Coat Alpha"
+  },
+  {
+    "name": "Dante's Gloves Alpha"
+  },
+  {
+    "name": "Dante's Belt Alpha"
+  },
+  {
+    "name": "Dante's Leather Boots Alpha"
+  },
+  {
+    "name": "Empress Crown Alpha"
+  },
+  {
+    "name": "Empress Mail Alpha"
+  },
+  {
+    "name": "Empress Vambraces Alpha"
+  },
+  {
+    "name": "Empress Coil Alpha"
+  },
+  {
+    "name": "Empress Greaves Alpha"
+  },
+  {
+    "name": "Empress Crown Beta"
+  },
+  {
+    "name": "Empress Mail Beta"
+  },
+  {
+    "name": "Empress Vambraces Beta"
+  },
+  {
+    "name": "Empress Coil Beta"
+  },
+  {
+    "name": "Empress Greaves Beta"
+  },
+  {
+    "name": "Kulu-Ya-Ku Head Alpha"
+  },
+  {
+    "name": "Vaal Hazak Helm Gamma"
+  },
+  {
+    "name": "Vaal Hazak Mail Gamma"
+  },
+  {
+    "name": "Vaal Hazak Braces Gamma"
+  },
+  {
+    "name": "Vaal Hazak Coil Gamma"
+  },
+  {
+    "name": "Vaal Hazak Greaves Gamma"
+  },
+  {
+    "name": "Drachen Armet Alpha"
+  },
+  {
+    "name": "Drachen Mail Alpha"
+  },
+  {
+    "name": "Drachen Vambraces Alpha"
+  },
+  {
+    "name": "Drachen Coil Alpha"
+  },
+  {
+    "name": "Drachen Greaves Alpha"
+  },
+  {
+    "name": "Azure Starlord Crown Alpha"
+  },
+  {
+    "name": "Azure Starlord Armor Alpha"
+  },
+  {
+    "name": "Azure Starlord Gauntlets Alpha"
+  },
+  {
+    "name": "Azure Starlord Tassets Alpha"
+  },
+  {
+    "name": "Azure Starlord Guards Alpha"
+  },
+  {
+    "name": "Kulve Taroth's Fury Gamma"
+  },
+  {
+    "name": "Kulve Taroth's Ire Gamma"
+  },
+  {
+    "name": "Kulve Taroth's Rage Gamma"
+  },
+  {
+    "name": "Kulve Taroth's Malice Gamma"
+  },
+  {
+    "name": "Kulve Taroth's Wrath Gamma"
+  },
+  {
+    "name": "Empress Crown Gamma"
+  },
+  {
+    "name": "Empress Mail Gamma"
+  },
+  {
+    "name": "Empress Vambraces Gamma"
+  },
+  {
+    "name": "Empress Coil Gamma"
+  },
+  {
+    "name": "Empress Greaves Gamma"
+  },
+  {
+    "name": "Xeno'jiiva Headgear Gamma"
+  },
+  {
+    "name": "Xeno'jiiva Hide Gamma"
+  },
+  {
+    "name": "Xeno'jiiva Claws Gamma"
+  },
+  {
+    "name": "Xeno'jiiva Spine Gamma"
+  },
+  {
+    "name": "Xeno'jiiva Spurs Gamma"
+  },
+  {
+    "name": "Zorah Headgear Gamma"
+  },
+  {
+    "name": "Zorah Hide Gamma"
+  },
+  {
+    "name": "Zorah Claws Gamma"
+  },
+  {
+    "name": "Zorah Spine Gamma"
+  },
+  {
+    "name": "Zorah Spurs Gamma"
+  },
+  {
+    "name": "Nergigante Helm Gamma"
+  },
+  {
+    "name": "Nergigante Mail Gamma"
+  },
+  {
+    "name": "Nergigante Vambraces Gamma"
+  },
+  {
+    "name": "Nergigante Coil Gamma"
+  },
+  {
+    "name": "Nergigante Greaves Gamma"
+  },
+  {
+    "name": "Kushala Glare Gamma"
+  },
+  {
+    "name": "Kushala Cista Gamma"
+  },
+  {
+    "name": "Kushala Grip Gamma"
+  },
+  {
+    "name": "Kushala Cocoon Gamma"
+  },
+  {
+    "name": "Kushala Crus Gamma"
+  },
+  {
+    "name": "Kaiser Crown Gamma"
+  },
+  {
+    "name": "Kaiser Mail Gamma"
+  },
+  {
+    "name": "Kaiser Vambraces Gamma"
+  },
+  {
+    "name": "Kaiser Coil Gamma"
+  },
+  {
+    "name": "Kaiser Greaves Gamma"
+  },
+  {
+    "name": "Bone Helm Alpha +"
+  },
+  {
+    "name": "Bone Mail Alpha +"
+  },
+  {
+    "name": "Bone Vambraces Alpha +"
+  },
+  {
+    "name": "Bone Coil Alpha +"
+  },
+  {
+    "name": "Bone Greaves Alpha +"
+  },
+  {
+    "name": "Alloy Helm Alpha +"
+  },
+  {
+    "name": "Alloy Mail Alpha +"
+  },
+  {
+    "name": "Alloy Vambraces Alpha +"
+  },
+  {
+    "name": "Alloy Coil Alpha +"
+  },
+  {
+    "name": "Alloy Greaves Alpha +"
+  },
+  {
+    "name": "Vespoid Helm Alpha +"
+  },
+  {
+    "name": "Vespoid Mail Alpha +"
+  },
+  {
+    "name": "Vespoid Vambraces Alpha +"
+  },
+  {
+    "name": "Vespoid Coil Alpha +"
+  },
+  {
+    "name": "Vespoid Greaves Alpha +"
+  },
+  {
+    "name": "Hornetaur Helm Alpha +"
+  },
+  {
+    "name": "Hornetaur Mail Alpha +"
+  },
+  {
+    "name": "Hornetaur Vambraces Alpha +"
+  },
+  {
+    "name": "Hornetaur Coil Alpha +"
+  },
+  {
+    "name": "Hornetaur Greaves Alpha +"
+  },
+  {
+    "name": "Kestodon Guards Alpha +"
+  },
+  {
+    "name": "Gajau Boots Alpha +"
+  },
+  {
+    "name": "Shamos Goggles Alpha +"
+  },
+  {
+    "name": "Gastodon Horn Alpha +"
+  },
+  {
+    "name": "Barnos Jacket Alpha +"
+  },
+  {
+    "name": "Wulg Scarf Alpha +"
+  },
+  {
+    "name": "Cortos Cape Alpha +"
+  },
+  {
+    "name": "Jagras Helm Alpha +"
+  },
+  {
+    "name": "Jagras Mail Alpha +"
+  },
+  {
+    "name": "Jagras Vambraces Alpha +"
+  },
+  {
+    "name": "Jagras Coil Alpha +"
+  },
+  {
+    "name": "Jagras Greaves Alpha +"
+  },
+  {
+    "name": "Tzitzi Headgear Alpha +"
+  },
+  {
+    "name": "Tzitzi Mail Alpha +"
+  },
+  {
+    "name": "Tzitzi Vambraces Alpha +"
+  },
+  {
+    "name": "Tzitzi Coil Alpha +"
+  },
+  {
+    "name": "Tzitzi Greaves Alpha +"
+  },
+  {
+    "name": "Girros Headgear Alpha +"
+  },
+  {
+    "name": "Girros Mail Alpha +"
+  },
+  {
+    "name": "Girros Vambraces Alpha +"
+  },
+  {
+    "name": "Girros Coil Alpha +"
+  },
+  {
+    "name": "Girros Greaves Alpha +"
+  },
+  {
+    "name": "Dodogama Helm Alpha +"
+  },
+  {
+    "name": "Dodogama Mail Alpha +"
+  },
+  {
+    "name": "Dodogama Vambraces Alpha +"
+  },
+  {
+    "name": "Dodogama Coil Alpha +"
+  },
+  {
+    "name": "Dodogama Greaves Alpha +"
+  },
+  {
+    "name": "Kulu Headpiece Alpha +"
+  },
+  {
+    "name": "Kulu Mail Alpha +"
+  },
+  {
+    "name": "Kulu Vambraces Alpha +"
+  },
+  {
+    "name": "Kulu Coil Alpha +"
+  },
+  {
+    "name": "Kulu Greaves Alpha +"
+  },
+  {
+    "name": "Pukei Hat Alpha +"
+  },
+  {
+    "name": "Pukei Mail Alpha +"
+  },
+  {
+    "name": "Pukei Vambraces Alpha +"
+  },
+  {
+    "name": "Pukei Coil Alpha +"
+  },
+  {
+    "name": "Pukei Greaves Alpha +"
+  },
+  {
+    "name": "Pukei Lagoon Hat Alpha +"
+  },
+  {
+    "name": "Pukei Lagoon Mail Alpha +"
+  },
+  {
+    "name": "Pukei Lagoon Braces Alpha +"
+  },
+  {
+    "name": "Pukei Lagoon Coil Alpha +"
+  },
+  {
+    "name": "Pukei Lagoon Greaves Alpha +"
+  },
+  {
+    "name": "Barroth Helm Alpha +"
+  },
+  {
+    "name": "Barroth Mail Alpha +"
+  },
+  {
+    "name": "Barroth Vambraces Alpha +"
+  },
+  {
+    "name": "Barroth Coil Alpha +"
+  },
+  {
+    "name": "Barroth Greaves Alpha +"
+  },
+  {
+    "name": "Jyura Helm Alpha +"
+  },
+  {
+    "name": "Jyura Mail Alpha +"
+  },
+  {
+    "name": "Jyura Vambraces Alpha +"
+  },
+  {
+    "name": "Jyura Coil Alpha +"
+  },
+  {
+    "name": "Jyura Greaves Alpha +"
+  },
+  {
+    "name": "Beo Helm Alpha +"
+  },
+  {
+    "name": "Beo Mail Alpha +"
+  },
+  {
+    "name": "Beo Vambraces Alpha +"
+  },
+  {
+    "name": "Beo Coil Alpha +"
+  },
+  {
+    "name": "Beo Greaves Alpha +"
+  },
+  {
+    "name": "Kadachi Hat Alpha +"
+  },
+  {
+    "name": "Kadachi Mail Alpha +"
+  },
+  {
+    "name": "Kadachi Vambraces Alpha +"
+  },
+  {
+    "name": "Kadachi Coil Alpha +"
+  },
+  {
+    "name": "Kadachi Greaves Alpha +"
+  },
+  {
+    "name": "Viper Kadachi Hat Alpha +"
+  },
+  {
+    "name": "Viper Kadachi Mail Alpha +"
+  },
+  {
+    "name": "Viper Kadachi Braces Alpha +"
+  },
+  {
+    "name": "Viper Kadachi Coil Alpha +"
+  },
+  {
+    "name": "Viper Kadachi Greaves Alpha +"
+  },
+  {
+    "name": "High Metal Helm Alpha +"
+  },
+  {
+    "name": "High Metal Mail Alpha +"
+  },
+  {
+    "name": "High Metal Braces Alpha +"
+  },
+  {
+    "name": "High Metal Coil Alpha +"
+  },
+  {
+    "name": "High Metal Greaves Alpha +"
+  },
+  {
+    "name": "Banbaro Helm Alpha +"
+  },
+  {
+    "name": "Banbaro Mail Alpha +"
+  },
+  {
+    "name": "Banbaro Vambraces Alpha +"
+  },
+  {
+    "name": "Banbaro Coil Alpha +"
+  },
+  {
+    "name": "Banbaro Greaves Alpha +"
+  },
+  {
+    "name": "Anja Helm Alpha +"
+  },
+  {
+    "name": "Anja Mail Alpha +"
+  },
+  {
+    "name": "Anja Vambraces Alpha +"
+  },
+  {
+    "name": "Anja Coil Alpha +"
+  },
+  {
+    "name": "Anja Greaves Alpha +"
+  },
+  {
+    "name": "Fulgur Helm Alpha +"
+  },
+  {
+    "name": "Fulgur Mail Alpha +"
+  },
+  {
+    "name": "Fulgur Vambraces Alpha +"
+  },
+  {
+    "name": "Fulgur Coil Alpha +"
+  },
+  {
+    "name": "Fulgur Greaves Alpha +"
+  },
+  {
+    "name": "Rathian Helm Alpha +"
+  },
+  {
+    "name": "Rathian Mail Alpha +"
+  },
+  {
+    "name": "Rathian Vambraces Alpha +"
+  },
+  {
+    "name": "Rathian Coil Alpha +"
+  },
+  {
+    "name": "Rathian Greaves Alpha +"
+  },
+  {
+    "name": "Rath Heart Helm Alpha +"
+  },
+  {
+    "name": "Rath Heart Mail Alpha +"
+  },
+  {
+    "name": "Rath Heart Braces Alpha +"
+  },
+  {
+    "name": "Rath Heart Coil Alpha +"
+  },
+  {
+    "name": "Rath Heart Greaves Alpha +"
+  },
+  {
+    "name": "Lumu Hat Alpha +"
+  },
+  {
+    "name": "Lumu Mail Alpha +"
+  },
+  {
+    "name": "Lumu Vambraces Alpha +"
+  },
+  {
+    "name": "Lumu Coil Alpha +"
+  },
+  {
+    "name": "Lumu Greaves Alpha +"
+  },
+  {
+    "name": "Lumu Phantasm Hood Alpha +"
+  },
+  {
+    "name": "Lumu Phantasm Mail Alpha +"
+  },
+  {
+    "name": "Lumu Phantasm Braces Alpha +"
+  },
+  {
+    "name": "Lumu Phantasm Coil Alpha +"
+  },
+  {
+    "name": "Lumu Phantasm Greaves Alpha +"
+  },
+  {
+    "name": "Baan Helm Alpha +"
+  },
+  {
+    "name": "Baan Mail Alpha +"
+  },
+  {
+    "name": "Baan Vambraces Alpha +"
+  },
+  {
+    "name": "Baan Coil Alpha +"
+  },
+  {
+    "name": "Baan Greaves Alpha +"
+  },
+  {
+    "name": "Bone Helm Beta +"
+  },
+  {
+    "name": "Bone Mail Beta +"
+  },
+  {
+    "name": "Bone Vambraces Beta +"
+  },
+  {
+    "name": "Bone Coil Beta +"
+  },
+  {
+    "name": "Bone Greaves Beta +"
+  },
+  {
+    "name": "Alloy Helm Beta +"
+  },
+  {
+    "name": "Alloy Mail Beta +"
+  },
+  {
+    "name": "Alloy Vambraces Beta +"
+  },
+  {
+    "name": "Alloy Coil Beta +"
+  },
+  {
+    "name": "Alloy Greaves Beta +"
+  },
+  {
+    "name": "Vespoid Helm Beta +"
+  },
+  {
+    "name": "Vespoid Mail Beta +"
+  },
+  {
+    "name": "Vespoid Vambraces Beta +"
+  },
+  {
+    "name": "Vespoid Coil Beta +"
+  },
+  {
+    "name": "Vespoid Greaves Beta +"
+  },
+  {
+    "name": "Hornetaur Helm Beta +"
+  },
+  {
+    "name": "Hornetaur Mail Beta +"
+  },
+  {
+    "name": "Hornetaur Vambraces Beta +"
+  },
+  {
+    "name": "Hornetaur Coil Beta +"
+  },
+  {
+    "name": "Hornetaur Greaves Beta +"
+  },
+  {
+    "name": "Kestodon Guards Beta +"
+  },
+  {
+    "name": "Gajau Boots Beta +"
+  },
+  {
+    "name": "Shamos Goggles Beta +"
+  },
+  {
+    "name": "Gastodon Horn Beta +"
+  },
+  {
+    "name": "Barnos Jacket Beta +"
+  },
+  {
+    "name": "Wulg Scarf Beta +"
+  },
+  {
+    "name": "Cortos Cape Beta +"
+  },
+  {
+    "name": "Jagras Helm Beta +"
+  },
+  {
+    "name": "Jagras Mail Beta +"
+  },
+  {
+    "name": "Jagras Vambraces Beta +"
+  },
+  {
+    "name": "Jagras Coil Beta +"
+  },
+  {
+    "name": "Jagras Greaves Beta +"
+  },
+  {
+    "name": "Tzitzi Headgear Beta +"
+  },
+  {
+    "name": "Tzitzi Mail Beta +"
+  },
+  {
+    "name": "Tzitzi Vambraces Beta +"
+  },
+  {
+    "name": "Tzitzi Coil Beta +"
+  },
+  {
+    "name": "Tzitzi Greaves Beta +"
+  },
+  {
+    "name": "Girros Headgear Beta +"
+  },
+  {
+    "name": "Girros Mail Beta +"
+  },
+  {
+    "name": "Girros Vambraces Beta +"
+  },
+  {
+    "name": "Girros Coil Beta +"
+  },
+  {
+    "name": "Girros Greaves Beta +"
+  },
+  {
+    "name": "Dodogama Helm Beta +"
+  },
+  {
+    "name": "Dodogama Mail Beta +"
+  },
+  {
+    "name": "Dodogama Vambraces Beta +"
+  },
+  {
+    "name": "Dodogama Coil Beta +"
+  },
+  {
+    "name": "Dodogama Greaves Beta +"
+  },
+  {
+    "name": "Kulu Headpiece Beta +"
+  },
+  {
+    "name": "Kulu Mail Beta +"
+  },
+  {
+    "name": "Kulu Vambraces Beta +"
+  },
+  {
+    "name": "Kulu Coil Beta +"
+  },
+  {
+    "name": "Kulu Greaves Beta +"
+  },
+  {
+    "name": "Pukei Hat Beta +"
+  },
+  {
+    "name": "Pukei Mail Beta +"
+  },
+  {
+    "name": "Pukei Vambraces Beta +"
+  },
+  {
+    "name": "Pukei Coil Beta +"
+  },
+  {
+    "name": "Pukei Greaves Beta +"
+  },
+  {
+    "name": "Pukei Lagoon Hat Beta +"
+  },
+  {
+    "name": "Pukei Lagoon Mail Beta +"
+  },
+  {
+    "name": "Pukei Lagoon Braces Beta +"
+  },
+  {
+    "name": "Pukei Lagoon Coil Beta +"
+  },
+  {
+    "name": "Pukei Lagoon Greaves Beta +"
+  },
+  {
+    "name": "Barroth Helm Beta +"
+  },
+  {
+    "name": "Barroth Mail Beta +"
+  },
+  {
+    "name": "Barroth Vambraces Beta +"
+  },
+  {
+    "name": "Barroth Coil Beta +"
+  },
+  {
+    "name": "Barroth Greaves Beta +"
+  },
+  {
+    "name": "Jyura Helm Beta +"
+  },
+  {
+    "name": "Jyura Mail Beta +"
+  },
+  {
+    "name": "Jyura Vambraces Beta +"
+  },
+  {
+    "name": "Jyura Coil Beta +"
+  },
+  {
+    "name": "Jyura Greaves Beta +"
+  },
+  {
+    "name": "Beo Helm Beta +"
+  },
+  {
+    "name": "Beo Mail Beta +"
+  },
+  {
+    "name": "Beo Vambraces Beta +"
+  },
+  {
+    "name": "Beo Coil Beta +"
+  },
+  {
+    "name": "Beo Greaves Beta +"
+  },
+  {
+    "name": "Kadachi Hat Beta +"
+  },
+  {
+    "name": "Kadachi Mail Beta +"
+  },
+  {
+    "name": "Kadachi Vambraces Beta +"
+  },
+  {
+    "name": "Kadachi Coil Beta +"
+  },
+  {
+    "name": "Kadachi Greaves Beta +"
+  },
+  {
+    "name": "Viper Kadachi Hat Beta +"
+  },
+  {
+    "name": "Viper Kadachi Mail Beta +"
+  },
+  {
+    "name": "Viper Kadachi Braces Beta +"
+  },
+  {
+    "name": "Viper Kadachi Coil Beta +"
+  },
+  {
+    "name": "Viper Kadachi Greaves Beta +"
+  },
+  {
+    "name": "High Metal Helm Beta +"
+  },
+  {
+    "name": "High Metal Mail Beta +"
+  },
+  {
+    "name": "High Metal Braces Beta +"
+  },
+  {
+    "name": "High Metal Coil Beta +"
+  },
+  {
+    "name": "High Metal Greaves Beta +"
+  },
+  {
+    "name": "Banbaro Helm Beta +"
+  },
+  {
+    "name": "Banbaro Mail Beta +"
+  },
+  {
+    "name": "Banbaro Vambraces Beta +"
+  },
+  {
+    "name": "Banbaro Coil Beta +"
+  },
+  {
+    "name": "Banbaro Greaves Beta +"
+  },
+  {
+    "name": "Anja Helm Beta +"
+  },
+  {
+    "name": "Anja Mail Beta +"
+  },
+  {
+    "name": "Anja Vambraces Beta +"
+  },
+  {
+    "name": "Anja Coil Beta +"
+  },
+  {
+    "name": "Anja Greaves Beta +"
+  },
+  {
+    "name": "Fulgur Helm Beta +"
+  },
+  {
+    "name": "Fulgur Mail Beta +"
+  },
+  {
+    "name": "Fulgur Vambraces Beta +"
+  },
+  {
+    "name": "Fulgur Coil Beta +"
+  },
+  {
+    "name": "Fulgur Greaves Beta +"
+  },
+  {
+    "name": "Rathian Helm Beta +"
+  },
+  {
+    "name": "Rathian Mail Beta +"
+  },
+  {
+    "name": "Rathian Vambraces Beta +"
+  },
+  {
+    "name": "Rathian Coil Beta +"
+  },
+  {
+    "name": "Rathian Greaves Beta +"
+  },
+  {
+    "name": "Rath Heart Helm Beta +"
+  },
+  {
+    "name": "Rath Heart Mail Beta +"
+  },
+  {
+    "name": "Rath Heart Braces Beta +"
+  },
+  {
+    "name": "Rath Heart Coil Beta +"
+  },
+  {
+    "name": "Rath Heart Greaves Beta +"
+  },
+  {
+    "name": "Lumu Hat Beta +"
+  },
+  {
+    "name": "Lumu Mail Beta +"
+  },
+  {
+    "name": "Lumu Vambraces Beta +"
+  },
+  {
+    "name": "Lumu Coil Beta +"
+  },
+  {
+    "name": "Lumu Greaves Beta +"
+  },
+  {
+    "name": "Lumu Phantasm Hood Beta +"
+  },
+  {
+    "name": "Lumu Phantasm Mail Beta +"
+  },
+  {
+    "name": "Lumu Phantasm Braces Beta +"
+  },
+  {
+    "name": "Lumu Phantasm Coil Beta +"
+  },
+  {
+    "name": "Lumu Phantasm Greaves Beta +"
+  },
+  {
+    "name": "Baan Helm Beta +"
+  },
+  {
+    "name": "Baan Mail Beta +"
+  },
+  {
+    "name": "Baan Vambraces Beta +"
+  },
+  {
+    "name": "Baan Coil Beta +"
+  },
+  {
+    "name": "Baan Greaves Beta +"
+  },
+  {
+    "name": "Artian Helm Alpha +"
+  },
+  {
+    "name": "Artian Mail Alpha +"
+  },
+  {
+    "name": "Artian Vambraces Alpha +"
+  },
+  {
+    "name": "Artian Coil Alpha +"
+  },
+  {
+    "name": "Artian Greaves Alpha +"
+  },
+  {
+    "name": "Artian Helm Beta +"
+  },
+  {
+    "name": "Artian Mail Beta +"
+  },
+  {
+    "name": "Artian Vambraces Beta +"
+  },
+  {
+    "name": "Artian Coil Beta +"
+  },
+  {
+    "name": "Artian Greaves Beta +"
+  },
+  {
+    "name": "Clockwork Helm Alpha +"
+  },
+  {
+    "name": "Clockwork Mail Alpha +"
+  },
+  {
+    "name": "Clockwork Braces Alpha +"
+  },
+  {
+    "name": "Clockwork Coil Alpha +"
+  },
+  {
+    "name": "Clockwork Greaves Alpha +"
+  },
+  {
+    "name": "Clockwork Helm Beta +"
+  },
+  {
+    "name": "Clockwork Mail Beta +"
+  },
+  {
+    "name": "Clockwork Braces Beta +"
+  },
+  {
+    "name": "Clockwork Coil Beta +"
+  },
+  {
+    "name": "Clockwork Greaves Beta +"
+  },
+  {
+    "name": "Ingot Helm Alpha +"
+  },
+  {
+    "name": "Ingot Mail Alpha +"
+  },
+  {
+    "name": "Ingot Vambraces Alpha +"
+  },
+  {
+    "name": "Ingot Coil Alpha +"
+  },
+  {
+    "name": "Ingot Greaves Alpha +"
+  },
+  {
+    "name": "Ingot Helm Beta +"
+  },
+  {
+    "name": "Ingot Mail Beta +"
+  },
+  {
+    "name": "Ingot Vambraces Beta +"
+  },
+  {
+    "name": "Ingot Coil Beta +"
+  },
+  {
+    "name": "Ingot Greaves Beta +"
+  },
+  {
+    "name": "Pearlspring Alpha +"
+  },
+  {
+    "name": "Guildwork Head Alpha +"
+  },
+  {
+    "name": "Guildwork Body Alpha +"
+  },
+  {
+    "name": "Guildwork Braces Alpha +"
+  },
+  {
+    "name": "Guildwork Waist Alpha +"
+  },
+  {
+    "name": "Guildwork Feet Alpha +"
+  },
+  {
+    "name": "Guildwork Head Beta +"
+  },
+  {
+    "name": "Guildwork Body Beta +"
+  },
+  {
+    "name": "Guildwork Braces Beta +"
+  },
+  {
+    "name": "Guildwork Waist Beta +"
+  },
+  {
+    "name": "Guildwork Feet Beta +"
+  },
+  {
+    "name": "Ruinous Helm Beta +"
+  },
+  {
+    "name": "Ruinous Mail Beta +"
+  },
+  {
+    "name": "Ruinous Vambraces Beta +"
+  },
+  {
+    "name": "Ruinous Coil Beta +"
+  },
+  {
+    "name": "Ruinous Greaves Beta +"
+  },
+  {
+    "name": "Ruinous Helm Alpha +"
+  },
+  {
+    "name": "Ruinous Mail Alpha +"
+  },
+  {
+    "name": "Ruinous Vambraces Alpha +"
+  },
+  {
+    "name": "Ruinous Coil Alpha +"
+  },
+  {
+    "name": "Ruinous Greaves Alpha +"
+  },
+  {
+    "name": "Silver Solhelm Beta +"
+  },
+  {
+    "name": "Silver Solmail Beta +"
+  },
+  {
+    "name": "Silver Solbraces Beta +"
+  },
+  {
+    "name": "Silver Solcoil Beta +"
+  },
+  {
+    "name": "Silver Solgreaves Beta +"
+  },
+  {
+    "name": "Silver Solhelm Alpha +"
+  },
+  {
+    "name": "Silver Solmail Alpha +"
+  },
+  {
+    "name": "Silver Solbraces Alpha +"
+  },
+  {
+    "name": "Silver Solcoil Alpha +"
+  },
+  {
+    "name": "Silver Solgreaves Alpha +"
+  },
+  {
+    "name": "Golden Lunehelm Beta +"
+  },
+  {
+    "name": "Golden Lunemail Beta +"
+  },
+  {
+    "name": "Golden Lunebraces Beta +"
+  },
+  {
+    "name": "Golden Lunecoil Beta +"
+  },
+  {
+    "name": "Golden Lunegreaves Beta +"
+  },
+  {
+    "name": "Golden Lunehelm Alpha +"
+  },
+  {
+    "name": "Golden Lunemail Alpha +"
+  },
+  {
+    "name": "Golden Lunebraces Alpha +"
+  },
+  {
+    "name": "Golden Lunecoil Alpha +"
+  },
+  {
+    "name": "Golden Lunegreaves Alpha +"
+  },
+  {
+    "name": "Zinogre Helm Beta +"
+  },
+  {
+    "name": "Zinogre Mail Beta +"
+  },
+  {
+    "name": "Zinogre Braces Beta +"
+  },
+  {
+    "name": "Zinogre Coil Beta +"
+  },
+  {
+    "name": "Zinogre Greaves Beta +"
+  },
+  {
+    "name": "Zinogre Helm Alpha +"
+  },
+  {
+    "name": "Zinogre Mail Alpha +"
+  },
+  {
+    "name": "Zinogre Braces Alpha +"
+  },
+  {
+    "name": "Zinogre Coil Alpha +"
+  },
+  {
+    "name": "Zinogre Greaves Alpha +"
+  },
+  {
+    "name": "Garuga Helm Beta +"
+  },
+  {
+    "name": "Garuga Mail Beta +"
+  },
+  {
+    "name": "Garuga Vambraces Beta +"
+  },
+  {
+    "name": "Garuga Tassets Beta +"
+  },
+  {
+    "name": "Garuga Greaves Beta +"
+  },
+  {
+    "name": "Garuga Helm Alpha +"
+  },
+  {
+    "name": "Garuga Mail Alpha +"
+  },
+  {
+    "name": "Garuga Vambraces Alpha +"
+  },
+  {
+    "name": "Garuga Tassets Alpha +"
+  },
+  {
+    "name": "Garuga Greaves Alpha +"
+  },
+  {
+    "name": "Zorah Headgear Beta +"
+  },
+  {
+    "name": "Zorah Hide Beta +"
+  },
+  {
+    "name": "Zorah Claws Beta +"
+  },
+  {
+    "name": "Zorah Spine Beta +"
+  },
+  {
+    "name": "Zorah Spurs Beta +"
+  },
+  {
+    "name": "Zorah Headgear Alpha +"
+  },
+  {
+    "name": "Zorah Hide Alpha +"
+  },
+  {
+    "name": "Zorah Claws Alpha +"
+  },
+  {
+    "name": "Zorah Spine Alpha +"
+  },
+  {
+    "name": "Zorah Spurs Alpha +"
+  },
+  {
+    "name": "Shara Ishvalda Helm Beta +"
+  },
+  {
+    "name": "Shara Ishvalda Mail Beta +"
+  },
+  {
+    "name": "Shara Ishvalda Braces Beta +"
+  },
+  {
+    "name": "Shara Ishvalda Coil Beta +"
+  },
+  {
+    "name": "Shara Ishvalda Greaves Beta +"
+  },
+  {
+    "name": "Shara Ishvalda Helm Alpha +"
+  },
+  {
+    "name": "Shara Ishvalda Mail Alpha +"
+  },
+  {
+    "name": "Shara Ishvalda Braces Alpha +"
+  },
+  {
+    "name": "Shara Ishvalda Coil Alpha +"
+  },
+  {
+    "name": "Shara Ishvalda Greaves Alpha +"
+  },
+  {
+    "name": "Tentacle Cowl Beta +"
+  },
+  {
+    "name": "Tentacle Cloak Beta +"
+  },
+  {
+    "name": "Tentacle Gloves Beta +"
+  },
+  {
+    "name": "Tentacle Coil Beta +"
+  },
+  {
+    "name": "Tentacle Greaves Beta +"
+  },
+  {
+    "name": "Tentacle Cowl Alpha +"
+  },
+  {
+    "name": "Tentacle Cloak Alpha +"
+  },
+  {
+    "name": "Tentacle Gloves Alpha +"
+  },
+  {
+    "name": "Tentacle Coil Alpha +"
+  },
+  {
+    "name": "Tentacle Greaves Alpha +"
+  },
+  {
+    "name": "Kirin Horn Beta +"
+  },
+  {
+    "name": "Kirin Jacket Beta +"
+  },
+  {
+    "name": "Kirin Longarms Beta +"
+  },
+  {
+    "name": "Kirin Hoop Beta +"
+  },
+  {
+    "name": "Kirin Leg Guards Beta +"
+  },
+  {
+    "name": "Kirin Horn Alpha +"
+  },
+  {
+    "name": "Kirin Jacket Alpha +"
+  },
+  {
+    "name": "Kirin Longarms Alpha +"
+  },
+  {
+    "name": "Kirin Hoop Alpha +"
+  },
+  {
+    "name": "Kirin Leg Guards Alpha +"
+  },
+  {
+    "name": "Kushala Glare Beta +"
+  },
+  {
+    "name": "Kushala Cista Beta +"
+  },
+  {
+    "name": "Kushala Grip Beta +"
+  },
+  {
+    "name": "Kushala Cocoon Beta +"
+  },
+  {
+    "name": "Kushala Crus Beta +"
+  },
+  {
+    "name": "Kushala Glare Alpha +"
+  },
+  {
+    "name": "Kushala Cista Alpha +"
+  },
+  {
+    "name": "Kushala Grip Alpha +"
+  },
+  {
+    "name": "Kushala Cocoon Alpha +"
+  },
+  {
+    "name": "Kushala Crus Alpha +"
+  },
+  {
+    "name": "Kaiser Crown Beta +"
+  },
+  {
+    "name": "Kaiser Mail Beta +"
+  },
+  {
+    "name": "Kaiser Vambraces Beta +"
+  },
+  {
+    "name": "Kaiser Coil Beta +"
+  },
+  {
+    "name": "Kaiser Greaves Beta +"
+  },
+  {
+    "name": "Kaiser Crown Alpha +"
+  },
+  {
+    "name": "Kaiser Mail Alpha +"
+  },
+  {
+    "name": "Kaiser Vambraces Alpha +"
+  },
+  {
+    "name": "Kaiser Coil Alpha +"
+  },
+  {
+    "name": "Kaiser Greaves Alpha +"
+  },
+  {
+    "name": "Fellshroud Helm Beta +"
+  },
+  {
+    "name": "Fellshroud Mail Beta +"
+  },
+  {
+    "name": "Fellshroud Braces Beta +"
+  },
+  {
+    "name": "Fellshroud Coil Beta +"
+  },
+  {
+    "name": "Fellshroud Greaves Beta +"
+  },
+  {
+    "name": "Fellshroud Helm Alpha +"
+  },
+  {
+    "name": "Fellshroud Mail Alpha +"
+  },
+  {
+    "name": "Fellshroud Braces Alpha +"
+  },
+  {
+    "name": "Fellshroud Coil Alpha +"
+  },
+  {
+    "name": "Fellshroud Greaves Alpha +"
+  },
+  {
+    "name": "Rimeguard Helm Beta +"
+  },
+  {
+    "name": "Rimeguard Mail Beta +"
+  },
+  {
+    "name": "Rimeguard Vambraces Beta +"
+  },
+  {
+    "name": "Rimeguard Coil Beta +"
+  },
+  {
+    "name": "Rimeguard Greaves Beta +"
+  },
+  {
+    "name": "Rimeguard Helm Alpha +"
+  },
+  {
+    "name": "Rimeguard Mail Alpha +"
+  },
+  {
+    "name": "Rimeguard Vambraces Alpha +"
+  },
+  {
+    "name": "Rimeguard Coil Alpha +"
+  },
+  {
+    "name": "Rimeguard Greaves Alpha +"
+  },
+  {
+    "name": "Guild Palace Helm Beta +"
+  },
+  {
+    "name": "Guild Palace Mail Beta +"
+  },
+  {
+    "name": "Guild Palace Braces Beat +"
+  },
+  {
+    "name": "Guild Palace Coil Beta +"
+  },
+  {
+    "name": "Guild Palace Greaves Beta +"
+  },
+  {
+    "name": "Guild Palace Helm Alpha +"
+  },
+  {
+    "name": "Guild Palace Mail Alpha +"
+  },
+  {
+    "name": "Guild Palace Braces Alpha +"
+  },
+  {
+    "name": "Guild Palace Coil Alpha +"
+  },
+  {
+    "name": "Guild Palace Greaves Alpha +"
+  },
+  {
+    "name": "Esurient Helm Beta +"
+  },
+  {
+    "name": "Esurient Mail Beta +"
+  },
+  {
+    "name": "Esurient Vambraces Beta +"
+  },
+  {
+    "name": "Esurient Faulds Beta +"
+  },
+  {
+    "name": "Esurient Greaves Beta +"
+  },
+  {
+    "name": "Esurient Helm Alpha +"
+  },
+  {
+    "name": "Esurient Mail Alpha +"
+  },
+  {
+    "name": "Esurient Vambraces Alpha +"
+  },
+  {
+    "name": "Esurient Faulds Alpha +"
+  },
+  {
+    "name": "Esurient Greaves Alpha +"
+  },
+  {
+    "name": "Pride Helm Beta +"
+  },
+  {
+    "name": "Pride Mail Beta +"
+  },
+  {
+    "name": "Pride Vambraces Beta +"
+  },
+  {
+    "name": "Pride Coil Beta +"
+  },
+  {
+    "name": "Pride Greaves Beta +"
+  },
+  {
+    "name": "Pride Helm Alpha +"
+  },
+  {
+    "name": "Pride Mail Alpha +"
+  },
+  {
+    "name": "Pride Vambraces Alpha +"
+  },
+  {
+    "name": "Pride Coil Alpha +"
+  },
+  {
+    "name": "Pride Greaves Alpha +"
+  },
+  {
+    "name": "Damascus Helm Beta +"
+  },
+  {
+    "name": "Damascus Mail Beta +"
+  },
+  {
+    "name": "Damascus Vambraces Beta +"
+  },
+  {
+    "name": "Damascus Coil Beta +"
+  },
+  {
+    "name": "Damascus Greaves Beta +"
+  },
+  {
+    "name": "Damascus Helm Alpha +"
+  },
+  {
+    "name": "Damascus Mail Alpha +"
+  },
+  {
+    "name": "Damascus Vambraces Alpha +"
+  },
+  {
+    "name": "Damascus Coil Alpha +"
+  },
+  {
+    "name": "Damascus Greaves Alpha +"
+  },
+  {
+    "name": "Dober Helm Beta +"
+  },
+  {
+    "name": "Dober Mail Beta +"
+  },
+  {
+    "name": "Dober Vambraces Beta +"
+  },
+  {
+    "name": "Dober Coil Beta +"
+  },
+  {
+    "name": "Dober Greaves Beta +"
+  },
+  {
+    "name": "Dober Helm Alpha +"
+  },
+  {
+    "name": "Dober Mail Alpha +"
+  },
+  {
+    "name": "Dober Vambraces Alpha +"
+  },
+  {
+    "name": "Dober Coil Alpha +"
+  },
+  {
+    "name": "Dober Greaves Alpha +"
+  },
+  {
+    "name": "Black Belt Helm Beta +"
+  },
+  {
+    "name": "Black Belt Mail Beta +"
+  },
+  {
+    "name": "Black Belt Braces Beta +"
+  },
+  {
+    "name": "Black Belt Tassets Beta +"
+  },
+  {
+    "name": "Black Belt Greaves Beta +"
+  },
+  {
+    "name": "Black Belt Helm Alpha +"
+  },
+  {
+    "name": "Black Belt Mail Alpha +"
+  },
+  {
+    "name": "Black Belt Braces Alpha +"
+  },
+  {
+    "name": "Black Belt Tassets Alpha +"
+  },
+  {
+    "name": "Black Belt Greaves Alpha +"
+  },
+  {
+    "name": "Rex Roar Helm Beta +"
+  },
+  {
+    "name": "Rex Roar Mail Beta +"
+  },
+  {
+    "name": "Rex Roar Braces Beta +"
+  },
+  {
+    "name": "Rex Roar Coil Beta +"
+  },
+  {
+    "name": "Rex Roar Greaves Beta +"
+  },
+  {
+    "name": "Rex Roar Helm Alpha +"
+  },
+  {
+    "name": "Rex Roar Mail Alpha +"
+  },
+  {
+    "name": "Rex Roar Braces Alpha +"
+  },
+  {
+    "name": "Rex Roar Coil Alpha +"
+  },
+  {
+    "name": "Rex Roar Greaves Alpha +"
+  },
+  {
+    "name": "Tigrex Helm Beta +"
+  },
+  {
+    "name": "Tigrex Mail Beta +"
+  },
+  {
+    "name": "Tigrex Braces Beta +"
+  },
+  {
+    "name": "Tigrex Tassets Beta +"
+  },
+  {
+    "name": "Tigrex Greaves Beta +"
+  },
+  {
+    "name": "Tigrex Helm Alpha +"
+  },
+  {
+    "name": "Tigrex Mail Alpha +"
+  },
+  {
+    "name": "Tigrex Braces Alpha +"
+  },
+  {
+    "name": "Tigrex Tassets Alpha +"
+  },
+  {
+    "name": "Tigrex Greaves Alpha +"
+  },
+  {
+    "name": "Brachydios Helm Beta +"
+  },
+  {
+    "name": "Brachydios Mail Beta +"
+  },
+  {
+    "name": "Brachydios Braces Beta +"
+  },
+  {
+    "name": "Brachydios Faulds Beta +"
+  },
+  {
+    "name": "Brachydios Greaves Beta +"
+  },
+  {
+    "name": "Brachydios Helm Alpha +"
+  },
+  {
+    "name": "Brachydios Mail Alpha +"
+  },
+  {
+    "name": "Brachydios Braces Alpha +"
+  },
+  {
+    "name": "Brachydios Faulds Alpha +"
+  },
+  {
+    "name": "Brachydios Greaves Alpha +"
+  },
+  {
+    "name": "Acidic Glavenus Helm Beta +"
+  },
+  {
+    "name": "Acidic Glavenus Mail Beta +"
+  },
+  {
+    "name": "Acidic Glavenus Braces Beta +"
+  },
+  {
+    "name": "Acidic Glavenus Coil Beta +"
+  },
+  {
+    "name": "Acidic Glavenus Greaves Beta +"
+  },
+  {
+    "name": "Acidic Glavenus Helm Alpha +"
+  },
+  {
+    "name": "Acidic Glavenus Mail Alpha +"
+  },
+  {
+    "name": "Acidic Glavenus Braces Alpha +"
+  },
+  {
+    "name": "Acidic Glavenus Coil Alpha +"
+  },
+  {
+    "name": "Acidic Glavenus Greaves Alpha +"
+  },
+  {
+    "name": "Golden Headdress Beta +"
+  },
+  {
+    "name": "Golden Haori Beta +"
+  },
+  {
+    "name": "Golden Kote Beta +"
+  },
+  {
+    "name": "Golden Obi Beta +"
+  },
+  {
+    "name": "Golden Hakama Beta +"
+  },
+  {
+    "name": "Golden Headdress Alpha +"
+  },
+  {
+    "name": "Golden Haori Alpha +"
+  },
+  {
+    "name": "Golden Kote Alpha +"
+  },
+  {
+    "name": "Golden Obi Alpha +"
+  },
+  {
+    "name": "Golden Hakama Alpha +"
+  },
+  {
+    "name": "Glavenus Helm Beta +"
+  },
+  {
+    "name": "Glavenus Mail Beta +"
+  },
+  {
+    "name": "Glavenus Braces Beta +"
+  },
+  {
+    "name": "Glavenus Faulds Beta +"
+  },
+  {
+    "name": "Glavenus Greaves Beta +"
+  },
+  {
+    "name": "Glavenus Helm Alpha +"
+  },
+  {
+    "name": "Glavenus Mail Alpha +"
+  },
+  {
+    "name": "Glavenus Braces Alpha +"
+  },
+  {
+    "name": "Glavenus Faulds Alpha +"
+  },
+  {
+    "name": "Glavenus Greaves Alpha +"
+  },
+  {
+    "name": "Nargacuga Helm Beta +"
+  },
+  {
+    "name": "Nargacuga Mail Beta +"
+  },
+  {
+    "name": "Nargacuga Braces Beta +"
+  },
+  {
+    "name": "Nargacuga Faulds Beta +"
+  },
+  {
+    "name": "Nargacuga Greaves Beta +"
+  },
+  {
+    "name": "Nargacuga Helm Alpha +"
+  },
+  {
+    "name": "Nargacuga Mail Alpha +"
+  },
+  {
+    "name": "Nargacuga Braces Alpha +"
+  },
+  {
+    "name": "Nargacuga Faulds Alpha +"
+  },
+  {
+    "name": "Nargacuga Greaves Alpha +"
+  },
+  {
+    "name": "Uragaan Helm Beta +"
+  },
+  {
+    "name": "Uragaan Mail Beta +"
+  },
+  {
+    "name": "Uragaan Vambraces Beta +"
+  },
+  {
+    "name": "Uragaan Coil Beta +"
+  },
+  {
+    "name": "Uragaan Greaves Beta +"
+  },
+  {
+    "name": "Uragaan Helm Alpha +"
+  },
+  {
+    "name": "Uragaan Mail Alpha +"
+  },
+  {
+    "name": "Uragaan Vambraces Alpha +"
+  },
+  {
+    "name": "Uragaan Coil Alpha +"
+  },
+  {
+    "name": "Uragaan Greaves Alpha +"
+  },
+  {
+    "name": "Lavasioth Helm Beta +"
+  },
+  {
+    "name": "Lavasioth Mail Beta +"
+  },
+  {
+    "name": "Lavasioth Vambraces Beta +"
+  },
+  {
+    "name": "Lavasioth Coil Beta +"
+  },
+  {
+    "name": "Lavasioth Greaves Beta +"
+  },
+  {
+    "name": "Lavasioth Helm Alpha +"
+  },
+  {
+    "name": "Lavasioth Mail Alpha +"
+  },
+  {
+    "name": "Lavasioth Vambraces Alpha +"
+  },
+  {
+    "name": "Lavasioth Coil Alpha +"
+  },
+  {
+    "name": "Lavasioth Greaves Alpha +"
+  },
+  {
+    "name": "Death Garon Helm Beta +"
+  },
+  {
+    "name": "Death Garon Mail Beta +"
+  },
+  {
+    "name": "Death Garon Braces Beta +"
+  },
+  {
+    "name": "Death Garon Coil Beta +"
+  },
+  {
+    "name": "Death Garon Greaves Beta +"
+  },
+  {
+    "name": "Death Garon Helm Alpha +"
+  },
+  {
+    "name": "Death Garon Mail Alpha +"
+  },
+  {
+    "name": "Death Garon Braces Alpha +"
+  },
+  {
+    "name": "Death Garon Coil Alpha +"
+  },
+  {
+    "name": "Death Garon Greaves Alpha +"
+  },
+  {
+    "name": "Odogaron Helm Beta +"
+  },
+  {
+    "name": "Odogaron Mail Beta +"
+  },
+  {
+    "name": "Odogaron Vambraces Beta +"
+  },
+  {
+    "name": "Odogaron Coil Beta +"
+  },
+  {
+    "name": "Odogaron Greaves Beta +"
+  },
+  {
+    "name": "Odogaron Helm Alpha +"
+  },
+  {
+    "name": "Odogaron Mail Alpha +"
+  },
+  {
+    "name": "Odogaron Vambraces Alpha +"
+  },
+  {
+    "name": "Odogaron Coil Alpha +"
+  },
+  {
+    "name": "Odogaron Greaves Alpha +"
+  },
+  {
+    "name": "Hoarcry Helm Beta +"
+  },
+  {
+    "name": "Hoarcry Mail Beta +"
+  },
+  {
+    "name": "Hoarcry Vambraces Beta +"
+  },
+  {
+    "name": "Hoarcry Coil Beta +"
+  },
+  {
+    "name": "Hoarcry Greaves Beta +"
+  },
+  {
+    "name": "Hoarcry Helm Alpha +"
+  },
+  {
+    "name": "Hoarcry Mail Alpha +"
+  },
+  {
+    "name": "Hoarcry Vambraces Alpha +"
+  },
+  {
+    "name": "Hoarcry Coil Alpha +"
+  },
+  {
+    "name": "Hoarcry Greaves Alpha +"
+  },
+  {
+    "name": "Legiana Helm Beta +"
+  },
+  {
+    "name": "Legiana Mail Beta +"
+  },
+  {
+    "name": "Legiana Vambraces Beta +"
+  },
+  {
+    "name": "Legiana Coil Beta +"
+  },
+  {
+    "name": "Legiana Greaves Beta +"
+  },
+  {
+    "name": "Legiana Helm Alpha +"
+  },
+  {
+    "name": "Legiana Mail Alpha +"
+  },
+  {
+    "name": "Legiana Vambraces Alpha +"
+  },
+  {
+    "name": "Legiana Coil Alpha +"
+  },
+  {
+    "name": "Legiana Greaves Alpha +"
+  },
+  {
+    "name": "Diablos Nero Helm Beta +"
+  },
+  {
+    "name": "Diablos Nero Mail Beta +"
+  },
+  {
+    "name": "Diablos Nero Braces Beta +"
+  },
+  {
+    "name": "Diablos Nero Coil Beta +"
+  },
+  {
+    "name": "Diablos Nero Greaves Beta +"
+  },
+  {
+    "name": "Diablos Nero Helm Alpha +"
+  },
+  {
+    "name": "Diablos Nero Mail Alpha +"
+  },
+  {
+    "name": "Diablos Nero Braces Alpha +"
+  },
+  {
+    "name": "Diablos Nero Coil Alpha +"
+  },
+  {
+    "name": "Diablos Nero Greaves Alpha +"
+  },
+  {
+    "name": "Diablos Helm Beta +"
+  },
+  {
+    "name": "Diablos Mail Beta +"
+  },
+  {
+    "name": "Diablos Vambraces Beta +"
+  },
+  {
+    "name": "Diablos Coil Beta +"
+  },
+  {
+    "name": "Diablos Greaves Beta +"
+  },
+  {
+    "name": "Diablos Helm Alpha +"
+  },
+  {
+    "name": "Diablos Mail Alpha +"
+  },
+  {
+    "name": "Diablos Vambraces Alpha +"
+  },
+  {
+    "name": "Diablos Coil Alpha +"
+  },
+  {
+    "name": "Diablos Greaves Alpha +"
+  },
+  {
+    "name": "Rath Soul Helm Beta +"
+  },
+  {
+    "name": "Rath Soul Mail Beta +"
+  },
+  {
+    "name": "Rath Soul Braces Beta +"
+  },
+  {
+    "name": "Rath Soul Coil Beta +"
+  },
+  {
+    "name": "Rath Soul Greaves Beta +"
+  },
+  {
+    "name": "Rath Soul Helm Alpha +"
+  },
+  {
+    "name": "Rath Soul Mail Alpha +"
+  },
+  {
+    "name": "Rath Soul Braces Alpha +"
+  },
+  {
+    "name": "Rath Soul Coil Alpha +"
+  },
+  {
+    "name": "Rath Soul Greaves Alpha +"
+  },
+  {
+    "name": "Rathalos Helm Beta +"
+  },
+  {
+    "name": "Rathalos Mail Beta +"
+  },
+  {
+    "name": "Rathalos Vambraces Beta +"
+  },
+  {
+    "name": "Rathalos Coil Beta +"
+  },
+  {
+    "name": "Rathalos Greaves Beta +"
+  },
+  {
+    "name": "Rathalos Helm Alpha +"
+  },
+  {
+    "name": "Rathalos Mail Alpha +"
+  },
+  {
+    "name": "Rathalos Vambraces Alpha +"
+  },
+  {
+    "name": "Rathalos Coil Alpha +"
+  },
+  {
+    "name": "Rathalos Greaves Alpha +"
+  },
+  {
+    "name": "Barioth Helm Beta +"
+  },
+  {
+    "name": "Barioth Mail Beta +"
+  },
+  {
+    "name": "Barioth Vambraces Beta +"
+  },
+  {
+    "name": "Barioth Faulds Beta +"
+  },
+  {
+    "name": "Barioth Greaves Beta +"
+  },
+  {
+    "name": "Barioth Helm Alpha +"
+  },
+  {
+    "name": "Barioth Mail Alpha +"
+  },
+  {
+    "name": "Barioth Vambraces Alpha +"
+  },
+  {
+    "name": "Barioth Faulds Alpha +"
+  },
+  {
+    "name": "Barioth Greaves Alpha +"
+  },
+  {
+    "name": "Empress Crown Beta +"
+  },
+  {
+    "name": "Empress Mail Beta +"
+  },
+  {
+    "name": "Empress Vambraces Beta +"
+  },
+  {
+    "name": "Empress Coil Beta +"
+  },
+  {
+    "name": "Empress Greaves Beta +"
+  },
+  {
+    "name": "Empress Crown Alpha +"
+  },
+  {
+    "name": "Empress Mail Alpha +"
+  },
+  {
+    "name": "Empress Vambraces Alpha +"
+  },
+  {
+    "name": "Empress Coil Alpha +"
+  },
+  {
+    "name": "Empress Greaves Alpha +"
+  },
+  {
+    "name": "Claire's Head Alpha +"
+  },
+  {
+    "name": "Claire's Body Alpha +"
+  },
+  {
+    "name": "Claire's Arms Alpha +"
+  },
+  {
+    "name": "Claire's Torso Alpha +"
+  },
+  {
+    "name": "Claire's Legs Alpha +"
+  },
+  {
+    "name": "Leon's Head Alpha +"
+  },
+  {
+    "name": "Leon's Body Alpha +"
+  },
+  {
+    "name": "Leon's Arms Alpha +"
+  },
+  {
+    "name": "Leon's Torso Alpha +"
+  },
+  {
+    "name": "Leon's Legs Alpha +"
+  },
+  {
+    "name": "Stygian Helm Alpha +"
+  },
+  {
+    "name": "Stygian Mail Alpha +"
+  },
+  {
+    "name": "Stygian Vambraces Alpha +"
+  },
+  {
+    "name": "Stygian Coil Alpha +"
+  },
+  {
+    "name": "Stygian Greaves Alpha +"
+  },
+  {
+    "name": "Stygian Helm Beta +"
+  },
+  {
+    "name": "Stygian Mail Beta +"
+  },
+  {
+    "name": "Stygian Vambraces Beta +"
+  },
+  {
+    "name": "Stygian Coil Beta +"
+  },
+  {
+    "name": "Stygian Greaves Beta +"
+  },
+  {
+    "name": "Safi Crested Crown Alpha +"
+  },
+  {
+    "name": "Safi Crested Chest Alpha +"
+  },
+  {
+    "name": "Safi Crested Vambraces Alpha +"
+  },
+  {
+    "name": "Safi Crested Belt Alpha +"
+  },
+  {
+    "name": "Safi Crested Boots Alpha +"
+  },
+  {
+    "name": "Safi Crested Crown Beta +"
+  },
+  {
+    "name": "Safi Crested Chest Beta +"
+  },
+  {
+    "name": "Safi Crested Vambraces Beta +"
+  },
+  {
+    "name": "Safi Crested Belt Beta +"
+  },
+  {
+    "name": "Safi Crested Boots Beta +"
+  },
+  {
+    "name": "Oolong Hair Alpha +"
+  },
+  {
+    "name": "Oolong Vest Alpha +"
+  },
+  {
+    "name": "Oolong Sleeves Alpha +"
+  },
+  {
+    "name": "Oolong Waist Alpha +"
+  },
+  {
+    "name": "Oolong Boots Alpha +"
+  },
+  {
+    "name": "Buff Chest Alpha +"
+  },
+  {
+    "name": "Buff Arms Alpha +"
+  },
+  {
+    "name": "Buff Waist Alpha +"
+  },
+  {
+    "name": "Buff Legs Alpha +"
+  },
+  {
+    "name": "Duffel Penguin Mask Alpha +"
+  },
+  {
+    "name": "Sealed Dragon Cloth Alpha +"
+  },
+  {
+    "name": "Dragonseal Earrings Alpha"
+  },
+  {
+    "name": "Origin Helm"
+  },
+  {
+    "name": "Origin Mail"
+  },
+  {
+    "name": "Origin Vambraces"
+  },
+  {
+    "name": "Origin Coil"
+  },
+  {
+    "name": "Origin Greaves"
+  },
+  {
+    "name": "Pulverizing Feather"
+  },
+  {
+    "name": "Queen Beetle Vertex"
+  },
+  {
+    "name": "Queen Beetle Thorax"
+  },
+  {
+    "name": "Queen Beetle Brachia"
+  },
+  {
+    "name": "Queen Beetle Elytra"
+  },
+  {
+    "name": "Queen Beetle Crura"
+  },
+  {
+    "name": "Butterfly Vertex M"
+  },
+  {
+    "name": "Butterfly Thorax M"
+  },
+  {
+    "name": "Butterfly Brachia M"
+  },
+  {
+    "name": "Butterfly Elytra M"
+  },
+  {
+    "name": "Butterfly Crura M"
+  },
+  {
+    "name": "Queen Beetle Vertex Alpha"
+  },
+  {
+    "name": "Queen Beetle Thorax Alpha"
+  },
+  {
+    "name": "Queen Beetle Brachia Alpha"
+  },
+  {
+    "name": "Queen Beetle Elytra Alpha"
+  },
+  {
+    "name": "Queen Beetle Crura Alpha"
+  },
+  {
+    "name": "Queen Beetle Vertex Beta"
+  },
+  {
+    "name": "Queen Beetle Thorax Beta"
+  },
+  {
+    "name": "Queen Beetle Brachia Beta"
+  },
+  {
+    "name": "Queen Beetle Elytra Beta"
+  },
+  {
+    "name": "Queen Beetle Crura Beta"
+  },
+  {
+    "name": "Diver's Mask"
+  },
+  {
+    "name": "Diver's Suit"
+  },
+  {
+    "name": "Diver's Braces"
+  },
+  {
+    "name": "Diver's Belt"
+  },
+  {
+    "name": "Diver's Boots"
+  },
+  {
+    "name": "Diver's Mask Alpha"
+  },
+  {
+    "name": "Diver's Suit Alpha"
+  },
+  {
+    "name": "Diver's Braces Alpha"
+  },
+  {
+    "name": "Diver's Belt Alpha"
+  },
+  {
+    "name": "Diver's Boots Alpha"
+  },
+  {
+    "name": "Harvest Flor"
+  },
+  {
+    "name": "Harvest Tronco"
+  },
+  {
+    "name": "Harvest Trama"
+  },
+  {
+    "name": "Harvest Hoja"
+  },
+  {
+    "name": "Harvest Raiz"
+  },
+  {
+    "name": "Harvest Flor Alpha"
+  },
+  {
+    "name": "Harvest Tronco Alpha"
+  },
+  {
+    "name": "Harvest Trama Alpha"
+  },
+  {
+    "name": "Harvest Hoja Alpha"
+  },
+  {
+    "name": "Harvest Raiz Alpha"
+  },
+  {
+    "name": "Orion Cap"
+  },
+  {
+    "name": "Orion Vest"
+  },
+  {
+    "name": "Orion Vambraces"
+  },
+  {
+    "name": "Orion Coat"
+  },
+  {
+    "name": "Orion Boots"
+  },
+  {
+    "name": "Orion Cap Alpha"
+  },
+  {
+    "name": "Orion Vest Alpha"
+  },
+  {
+    "name": "Orion Vambraces Alpha"
+  },
+  {
+    "name": "Orion Coat Alpha"
+  },
+  {
+    "name": "Orion Boots Alpha"
+  },
+  {
+    "name": "Aloy's Head Alpha"
+  },
+  {
+    "name": "Aloy's Body Alpha"
+  },
+  {
+    "name": "Aloy's Arms Alpha"
+  },
+  {
+    "name": "Aloy's Torso Alpha"
+  },
+  {
+    "name": "Aloy's Leggings Alpha"
+  },
+  {
+    "name": "Aloy's Head Gamma"
+  },
+  {
+    "name": "Aloy's Body Gamma"
+  },
+  {
+    "name": "Aloy's Arms Gamma"
+  },
+  {
+    "name": "Aloy's Torso Gamma"
+  },
+  {
+    "name": "Aloy's Leggings Gamma"
+  },
+  {
+    "name": "Ryu's Head"
+  },
+  {
+    "name": "Ryu's Karate Gi"
+  },
+  {
+    "name": "Ryu's Arms"
+  },
+  {
+    "name": "Ryu's Torso"
+  },
+  {
+    "name": "Ryu's Legs"
+  },
+  {
+    "name": "Ryu's Head Alpha"
+  },
+  {
+    "name": "Ryu's Karate Gi Alpha"
+  },
+  {
+    "name": "Ryu's Arms Alpha"
+  },
+  {
+    "name": "Ryu's Torso Alpha"
+  },
+  {
+    "name": "Ryu's Legs Alpha"
+  },
+  {
+    "name": "Sakura's Head Alpha"
+  },
+  {
+    "name": "Sakura's Work Uniform Alpha"
+  },
+  {
+    "name": "Sakura's Arms Alpha"
+  },
+  {
+    "name": "Sakura's Skirt Alpha"
+  },
+  {
+    "name": "Sakura's Legs Alpha"
+  },
+  {
+    "name": "Geralt's Head Alpha"
+  },
+  {
+    "name": "Geralt's Body Alpha"
+  },
+  {
+    "name": "Geralt's Arms Alpha"
+  },
+  {
+    "name": "Geralt's Torso Alpha"
+  },
+  {
+    "name": "Geralt's Legs Alpha"
+  },
+  {
+    "name": "Ciri's Head Alpha"
+  },
+  {
+    "name": "Ciri's Body Alpha"
+  },
+  {
+    "name": "Ciri's Arms Alpha"
+  },
+  {
+    "name": "Ciri's Torso Alpha"
+  },
+  {
+    "name": "Ciri's Legs Alpha"
+  },
+  {
+    "name": "Acrobat Earrings Alpha +"
+  },
+  {
+    "name": "Showman Earrings Alpha +"
+  },
+  {
+    "name": "Astral Veil Alpha +"
+  },
+  {
+    "name": "Astral Cloth Alpha +"
+  },
+  {
+    "name": "Astral  Scarf Alpha +"
+  },
+  {
+    "name": "Astral Skirt Alpha +"
+  },
+  {
+    "name": "Astral Tights Alpha +"
+  },
+  {
+    "name": "Banuk Helm Alpha +"
+  },
+  {
+    "name": "Banuk Mail Alpha +"
+  },
+  {
+    "name": "Banuk Arms Alpha +"
+  },
+  {
+    "name": "Banuk Coil Alpha +"
+  },
+  {
+    "name": "Banuk Greaves Alpha +"
+  },
+  {
+    "name": "Wyverian Ears Alpha +"
+  },
+  {
+    "name": "Shield-Weaver Head +"
+  },
+  {
+    "name": "Shield-Weaver Chest +"
+  },
+  {
+    "name": "Shield-Weaver Arms +"
+  },
+  {
+    "name": "Shield-Weaver Torso +"
+  },
+  {
+    "name": "Shield-Weaver Legs +"
+  },
+  {
+    "name": "Defender Helm Alpha"
+  },
+  {
+    "name": "Defender Mail Alpha"
+  },
+  {
+    "name": "Defender Vambraces Alpha"
+  },
+  {
+    "name": "Defender Waist Alpha"
+  },
+  {
+    "name": "Defender Greaves Alpha"
+  },
+  {
+    "name": "Guardian Helm Alpha +"
+  },
+  {
+    "name": "Guardian Suit Alpha +"
+  },
+  {
+    "name": "Guardian Vambraces Alpha +"
+  },
+  {
+    "name": "Guardian Coil Alpha +"
+  },
+  {
+    "name": "Guardian Boots Alpha +"
+  },
+  {
+    "name": "Grand God's Peer Mask Alpha +"
+  },
+  {
+    "name": "Grand God's Peer Garb Alpha +"
+  },
+  {
+    "name": "Grand God's Peer Arms Alpha +"
+  },
+  {
+    "name": "Grand God's Peer Belt Alpha +"
+  },
+  {
+    "name": "Grand God's Peer Feet Alpha +"
+  },
+  {
+    "name": "Grand God's Peer Mask Beta +"
+  },
+  {
+    "name": "Grand God's Peer Garb Beta +"
+  },
+  {
+    "name": "Grand God's Peer Arms Beta +"
+  },
+  {
+    "name": "Grand God's Peer Belt Beta +"
+  },
+  {
+    "name": "Grand God's Peer Feet Beta +"
+  },
+  {
+    "name": "Brachydium Helm Alpha +"
+  },
+  {
+    "name": "Brachydium Mail Alpha +"
+  },
+  {
+    "name": "Brachydium Braces Alpha +"
+  },
+  {
+    "name": "Brachydium Faulds Alpha +"
+  },
+  {
+    "name": "Brachydium Greaves Alpha +"
+  },
+  {
+    "name": "Brachydium Helm Beta +"
+  },
+  {
+    "name": "Brachydium Mail Beta +"
+  },
+  {
+    "name": "Brachydium Braces Beta +"
+  },
+  {
+    "name": "Brachydium Faulds Beta +"
+  },
+  {
+    "name": "Brachydium Greaves Beta +"
+  },
+  {
+    "name": "Rose Headplace Alpha +"
+  },
+  {
+    "name": "Rose Jacket Alpha +"
+  },
+  {
+    "name": "Rose Arms Alpha +"
+  },
+  {
+    "name": "Rose Belt Alpha +"
+  },
+  {
+    "name": "Rose Boots Alpha +"
+  },
+  {
+    "name": "Kulve Taroth's Fury Alpha +"
+  },
+  {
+    "name": "Kulve Taroth's Ire Alpha +"
+  },
+  {
+    "name": "Kulve Taroth's Rage Alpha +"
+  },
+  {
+    "name": "Kulve Taroth's Malice Alpha +"
+  },
+  {
+    "name": "Kulve Taroth's Wrath Alpha +"
+  },
+  {
+    "name": "Kulve Taroth's Fury Beta +"
+  },
+  {
+    "name": "Kulve Taroth's Ire Beta +"
+  },
+  {
+    "name": "Kulve Taroth's Rage Beta +"
+  },
+  {
+    "name": "Kulve Taroth's Malice Beta +"
+  },
+  {
+    "name": "Kulve Taroth's Wrath Beta +"
+  },
+  {
+    "name": "Tentacle Cowl Gamma +"
+  },
+  {
+    "name": "Tentacle Cloak Gamma +"
+  },
+  {
+    "name": "Tentacle Gloves Gamma +"
+  },
+  {
+    "name": "Tentacle Coil Gamma +"
+  },
+  {
+    "name": "Escadora Wisdom Alpha +"
+  },
+  {
+    "name": "Escadora Soul Alpha +"
+  },
+  {
+    "name": "Escadora Armguards Alpha +"
+  },
+  {
+    "name": "Escadora Might Alpha +"
+  },
+  {
+    "name": "Escadora Sheath Alpha +"
+  },
+  {
+    "name": "Escadora Wisdom Beta +"
+  },
+  {
+    "name": "Escadora Soul Beta +"
+  },
+  {
+    "name": "Escadora Armguards Beta +"
+  },
+  {
+    "name": "Escadora Might Beta +"
+  },
+  {
+    "name": "Escadora Sheath Beta +"
+  },
+  {
+    "name": "Frostfang Helm Alpha +"
+  },
+  {
+    "name": "Frostfang Mail Alpha +"
+  },
+  {
+    "name": "Frostfang Vambraces Alpha +"
+  },
+  {
+    "name": "Frostfang Coil Alpha +"
+  },
+  {
+    "name": "Frostfang Greaves Alpha +"
+  },
+  {
+    "name": "Frostfang Helm Beta +"
+  },
+  {
+    "name": "Frostfang Mail Beta +"
+  },
+  {
+    "name": "Frostfang Vambraces Beta +"
+  },
+  {
+    "name": "Frostfang Coil Beta +"
+  },
+  {
+    "name": "Frostfang Greaves Beta +"
+  },
+  {
+    "name": "Passionate Headdress Alpha +"
+  },
+  {
+    "name": "Passionate Body Alpha +"
+  },
+  {
+    "name": "Passionate Arms Alpha +"
+  },
+  {
+    "name": "Passionate Belt Alpha +"
+  },
+  {
+    "name": "Passionate Leggings Alpha +"
+  }
+]
