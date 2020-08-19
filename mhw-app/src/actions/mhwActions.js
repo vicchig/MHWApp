@@ -54,6 +54,37 @@ export const getSkill = async (criteria) => {
     }
 }
 
+export const getEquipment = async (type, projection, query) => {
+    let url = 'https://mhw-db.com/' + type + "?p=" + (JSON.stringify(projection) ?? "")
+    if(query){
+        url += "&q=" + JSON.stringify(query)
+    }
+
+    const request = new Request(url, {
+        'Accept': 'application/json, text/plain',
+        'Content-Type': 'application/json',
+        'Cache-Control': 'private',
+    })
+
+    let result = await fetch(request).catch(err => {
+        return new ApiResponse(-1, null, constructErrorMsgUnableToFetch(err, url))
+    })
+    if(result.status === -1) return result
+
+    else if(result.status === 200 || result.status === 304){
+        let resultBody = await result.json().catch(err => {
+            return new ApiResponse(-1, null, constructErrorMsgUnableToFetch(err, url))
+        })
+        if(resultBody.status === -1) return resultBody
+
+        return new ApiResponse(result.status, {item: resultBody}, "")
+    }
+    else{
+        return new ApiResponse(result.status, null, constructErrorMsgCouldntReadServerResponse(result.status, '', url))
+    }
+
+}
+
 //helpers
 
 const filterDecos = (decoObjects, filters) => {
