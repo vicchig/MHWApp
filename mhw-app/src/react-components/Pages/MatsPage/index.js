@@ -26,6 +26,39 @@ class MatsPage extends React.Component{
     state = {
         searchbarText: "",
         selectedItems: [],
+        materialTallies: {}
+    }
+
+    updateMaterialTallies = (craftingData, type, item) => {
+        let newMaterialTallies = this.state.materialTallies
+        if(type === "armour"){
+            this.updateMaterialTally(craftingData.materials, newMaterialTallies)
+        }
+        else{
+            if(item.crafting.craftable){
+                this.updateMaterialTally(craftingData.craftingMaterials, newMaterialTallies)
+            }
+            else{
+                this.updateMaterialTally(craftingData.upgradeMaterials, newMaterialTallies)
+            }
+        }
+
+        return newMaterialTallies
+    }
+
+    updateMaterialTally = (materials, tally) => {
+        materials.forEach(material => {
+            if(tally[material.item.name] === undefined){
+                tally[material.item.name] = {
+                    description: material.item.description,
+                    id: material.item.id,
+                    count: material.quantity
+                }
+            }
+            else{
+                tally[material.item.name].count += material.quantity
+            }
+        })
     }
 
     handleSearchSelect = (e) => {
@@ -34,13 +67,16 @@ class MatsPage extends React.Component{
         }, async () => {
             const currentlySelected = this.state.selectedItems
             let item, res = null
+            let type = ""
 
             if(armourTypes.includes(e.value.type)){
+                type = "armour"
                 res = await getEquipment("armor", armorProjection, {id: e.value.id}).catch(err => {
                     console.error("An error occurred while waiting for server response. \n\n" + err)
                 })
             }
             else{ //should not be possible for something that is of not type 'armour' also not be of type 'weapon'
+                type = "weapon"
                 res = await getEquipment("weapons", weaponProjection, {id: e.value.id}).catch(err => {
                     console.error("An error occurred while waiting for server response. \n\n" + err)
                 })
@@ -49,8 +85,10 @@ class MatsPage extends React.Component{
             else item = res.data.item[0] //the endpoint returns an array even if it finds only a single item
 
             currentlySelected.push(item)
+
             this.setState({
-                    selectedItems: currentlySelected
+                    selectedItems: currentlySelected,
+                    materialTallies: this.updateMaterialTallies(item.crafting, type, item)
             })
         })
     }
