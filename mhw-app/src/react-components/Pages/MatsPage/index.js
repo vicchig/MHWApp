@@ -128,6 +128,7 @@ class MatsPage extends React.Component{
                     name={item.name}
                     closeButtonClickHandler={this.removeMatCardHandler}
                     id={item.internalID}
+                    displayType={1}
                 >
                     <div>{"Required materials:"}</div>
                     <ul>
@@ -176,6 +177,7 @@ class MatsPage extends React.Component{
                                             hasCount={true}
                                             count={this.state.materialTallies[key].count}
                                             name={key}
+                                            displayType={2}
                                         >
                                             <div>
                                                 {this.state.materialTallies[key].description}

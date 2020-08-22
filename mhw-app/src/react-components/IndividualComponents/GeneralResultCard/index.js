@@ -9,11 +9,12 @@ class GeneralResultCard extends React.Component{
 
     render(){
 
-        const {hasCloseButton, hasCount, hasIcon, iconSource, count, iconWidth, iconHeight, closeButtonClickHandler, name, id} = this.props
-        console.log(require("./../../../Images/bannerImg.jpg"))
+        const {hasCloseButton, hasCount, hasIcon, iconSource, count, iconWidth, iconHeight, closeButtonClickHandler, name, id,
+               displayType} = this.props
+        //console.log(require("./../../../Images/bannerImg.jpg"))
 
         const icon = (hasIcon ?? false ) ? <img src={iconSource}
-                                                alt="Image Error"
+                                                alt="No Image"
                                                 height={iconHeight}
                                                 width={iconWidth}
                                                 className={"cardIcon"}
@@ -29,7 +30,7 @@ class GeneralResultCard extends React.Component{
                                                          </IconButton> : null
 
         return(
-            <div className="mainCardDiv">
+            <div className={`mainCardDiv-${displayType}`}>
                 <table className="cardTable">
                     <tbody className="cardTBody">
                         <tr className="cardRow">
