@@ -9,6 +9,12 @@
     padding-top: 5px;
 }
 
+#selectionDiv{
+    position: relative;
+    margin-top: 2vh;
+    left: -20vw;
+}
+
 #searchbar.MuiOutlinedInput-input{
     color: rgb(161, 184, 98)
 }
@@ -17,4 +23,8 @@
     display: grid;
     grid-template-columns: 70% 30%;
     grid-template-rows: 0fr 0.5fr;
+}
+
+#loadingDiv{
+    margin-top: 5vh;
 }

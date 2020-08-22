@@ -7,6 +7,7 @@ import {getEquipment} from '../../../actions/mhwActions'
 import {processErrorWNav} from '../../../actions/utilities'
 import GeneralResultCard from '../../IndividualComponents/GeneralResultCard'
 import { uid } from 'react-uid';
+import BeatLoader from "react-spinners/BeatLoader";
 import './style.css'
 
 const weaponProjection = {
@@ -28,6 +29,7 @@ class MatsPage extends React.Component{
         selectedItems: [],
         materialTallies: {},
         nextMatCardID: 1,
+        loading: false
     }
 
     updateMaterialTallies = (craftingData, type, item) => {
@@ -65,6 +67,7 @@ class MatsPage extends React.Component{
     handleSearchSelect = (e) => {
         this.setState({
             searchbarText: e.value.name,
+            loading: true
         }, async () => {
             const currentlySelected = this.state.selectedItems
             let item, res = null
@@ -91,7 +94,8 @@ class MatsPage extends React.Component{
             this.setState({
                     selectedItems: currentlySelected,
                     materialTallies: this.updateMaterialTallies(item.crafting, type, item),
-                    nextMatCardID: this.state.nextMatCardID + 1
+                    nextMatCardID: this.state.nextMatCardID + 1,
+                    loading: false
             })
         })
     }
@@ -110,7 +114,7 @@ class MatsPage extends React.Component{
                     key={uid(item)}
                     hasCount={false}
                     hasCloseButton={true}
-                    hasIcon={item.assets?.icon === null ? false : true}
+                    hasIcon={(item.assets === null || item.assets?.icon === null) ? false : true}
                     iconWidth={"50vw"}
                     iconHeight={"70vh"}
                     iconSource={item.assets?.icon ?? null}
@@ -145,6 +149,9 @@ class MatsPage extends React.Component{
                     <SearchBar id={"searchbar1"} textFieldID={"searchbar"} buttonText={"Add"} searchFunction={getData} searchCategory={"equipmentNames"}      
                                parentContext={this} dataObjectName={"dataList"} onSetSelect={this.handleSearchSelect} placeholder={"Select a piece of equipment..."}
                     ></SearchBar>
+                </div>
+                <div id="loadingDiv">
+                    {this.state.loading ? <BeatLoader color="rgb(161, 184, 98)"></BeatLoader> : null}
                 </div>
                 <div id="selectionDiv">
                     {selection}
