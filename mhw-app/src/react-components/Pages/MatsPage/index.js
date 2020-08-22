@@ -55,7 +55,8 @@ class MatsPage extends React.Component{
                 tally[material.item.name] = {
                     description: material.item.description,
                     id: material.item.id,
-                    count: material.quantity
+                    count: material.quantity,
+                    rarity: material.item.rarity
                 }
             }
             else{
@@ -113,7 +114,7 @@ class MatsPage extends React.Component{
         else{
             materials = removedItem.crafting.upgradeMaterials
         }
-        
+
         materials.forEach(material => {
             newMaterialTallies[material.item.name].count -= material.quantity
         })
@@ -131,10 +132,10 @@ class MatsPage extends React.Component{
                     key={uid(item)}
                     hasCount={false}
                     hasCloseButton={true}
-                    hasIcon={(item.assets === null || (item.assets.icon ?? true)) ? false : true}
+                    hasIcon={(item.assets !== null && item.assets.icon !== null) ? true : false}
                     iconWidth={"50vw"}
                     iconHeight={"70vh"}
-                    iconSource={item.assets?.icon ?? null}
+                    iconSource={item?.assets?.icon ?? null}
                     name={item.name}
                     closeButtonClickHandler={this.removeMatCardHandler}
                     id={item.internalID}
@@ -186,7 +187,18 @@ class MatsPage extends React.Component{
                                             key={uid(key)}
                                             hasCount={true}
                                             count={this.state.materialTallies[key].count}
-                                            name={key}
+                                            name={key + " (" + (() => {
+                                                const rarity = this.state.materialTallies[key].rarity
+                                                if(rarity >= 1 && rarity <= 4){
+                                                    return "LR"
+                                                }
+                                                else if(rarity >= 5 && rarity <= 8){
+                                                    return "HR"
+                                                }
+                                                else{
+                                                    return "MR"
+                                                }
+                                            })() +")"}
                                             displayType={2}
                                         >
                                             <div>
@@ -214,10 +226,12 @@ class MatsPage extends React.Component{
                 <div id="loadingDiv">
                     {this.state.loading ? <BeatLoader color="rgb(161, 184, 98)"></BeatLoader> : null}
                 </div>
-                <div id="selectionDiv">
-                    {selection}
+                <div id="selectionResultsDiv">
+                    <h1 id="selectionHeader">Selection</h1>
+                    <h1 id="totalMatsHeader">Total Materials Required</h1>
+                    <div id="selectionDiv">{selection}</div>
+                    {materialTallyDisplay}
                 </div>
-                {materialTallyDisplay}
             </div>
         )
     }

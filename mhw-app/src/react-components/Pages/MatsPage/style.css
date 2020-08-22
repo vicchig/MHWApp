@@ -12,7 +12,7 @@
 #selectionDiv{
     position: relative;
     margin-top: 2vh;
-    left: -20vw;
+    float: left;
 }
 
 #searchbar.MuiOutlinedInput-input{
@@ -30,4 +30,24 @@
 }
 
 #materialTallyDiv{
+    float: left;
+    margin-left: 3vw;
+    margin-top: 2vh;
+}
+
+#selectionResultsDiv{
+
+}
+
+#selectionHeader{
+    display: block;
+    float: left;
+    margin-left: 3vw;
+    color: rgb(161, 184, 98);
+}
+
+#totalMatsHeader{
+    display: block;
+    margin-left: 55vw;
+    color: rgb(161, 184, 98);
 }
