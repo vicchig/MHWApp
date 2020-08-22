@@ -21,6 +21,27 @@ const armorProjection = {
 }
 
 const armourTypes = ["chest", "head", "waist", "legs", "gloves"]
+const equipmentToIconMap = {
+    "insect-glaive": "./../../../Images/ig.png",
+    "great-sword": "./../../../Images/gs.png",
+    "bow": "./../../../Images/b.png",
+    "switch-axe": "./../../../Images/sa.webp",
+    "long-sword": "./../../../Images/ls.jpg",
+    "sword-and-shiled": "./../../../Images/sns.png",
+    "dual-blades": "./../../../Images/db.png",
+    "hammer": "./../../../Images/h.png",
+    "hunting-horn": "./../../../Images/hh.png",
+    "lance": "./../../../Images/l.png",
+    "gunlance": "./../../../Images/gl.webp",
+    "charge-blade": "./../../../Images/cb.webp",
+    "light-bowgun": "./../../../Images/lbg.png",
+    "heavy-bowgun": "./../../../Images/hbg.png",
+    "head": "",
+    "chest": "",
+    "waist": "",
+    "gloves": "",
+    "legs": ""
+}
 
 class MatsPage extends React.Component{
 
@@ -140,6 +161,52 @@ class MatsPage extends React.Component{
         }
     }
 
+    getEquipmentIcon = (type) => {
+        switch(type){
+            case "insect-glaive": 
+                return require("./../../../Images/ig.png")
+            case "great-sword": 
+                return require("./../../../Images/gs.png")
+            case "bow": 
+                return require("./../../../Images/b.png")
+            case "switch-axe": 
+                return require("./../../../Images/sa.webp")
+            case "long-sword": 
+                return require("./../../../Images/ls.png")
+            case "sword-and-shield": 
+                return require("./../../../Images/sns.png")
+            case "dual-blades": 
+                return require("./../../../Images/db.png")
+            case "hammer": 
+                return require("./../../../Images/h.png")
+            case "hunting-horn": 
+                return require("./../../../Images/hh.png")
+            case "lance": 
+                return require("./../../../Images/l.png")
+            case "gunlance": 
+                return require("./../../../Images/gl.webp")
+            case "charge-blade": 
+                return require("./../../../Images/cb.webp")
+            case "light-bowgun": 
+                return require("./../../../Images/lbg.webp")
+            case "heavy-bowgun": 
+                return require("./../../../Images/hbg.webp")
+            case "head":
+                return require("./../../../Images/helmet.png")
+            case "chest":
+                return require("./../../../Images/chest.png")
+            case "waist":
+                return require("./../../../Images/waist.png")
+            case "gloves":
+                return require("./../../../Images/gloves.png")
+            case "legs":
+                return require("./../../../Images/legs.png")
+            default:
+                return null
+        }
+    }
+    
+
     render(){
         const selection = this.state.selectedItems.map(item => (
             (
@@ -147,10 +214,10 @@ class MatsPage extends React.Component{
                     key={uid(item)}
                     hasCount={false}
                     hasCloseButton={true}
-                    hasIcon={(item.assets !== null && item.assets.icon !== null && item.assets.icon !== undefined) ? true : false}
+                    hasIcon={true}
                     iconWidth={"50vw"}
                     iconHeight={"70vh"}
-                    iconSource={item?.assets?.icon ?? null}
+                    iconSource={item?.assets?.icon ?? this.getEquipmentIcon(item.type)}
                     name={item.name + " (" + this.convertRarityToRank(item.rarity) + ")"}
                     closeButtonClickHandler={this.removeMatCardHandler}
                     id={item.internalID}
