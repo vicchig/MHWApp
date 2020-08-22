@@ -96,7 +96,7 @@ class MatsPage extends React.Component{
                     materialTallies: this.updateMaterialTallies(item.crafting, type, item),
                     nextMatCardID: this.state.nextMatCardID + 1,
                     loading: false
-            })
+            }, () => {console.log(this.state.selectedItems)})
         })
     }
 
@@ -108,13 +108,12 @@ class MatsPage extends React.Component{
     }
 
     render(){
-
         const selection = this.state.selectedItems.map(item => ((
                 <GeneralResultCard
                     key={uid(item)}
                     hasCount={false}
                     hasCloseButton={true}
-                    hasIcon={(item.assets === null || item.assets?.icon === null) ? false : true}
+                    hasIcon={(item.assets === null || (item.assets.icon ?? true)) ? false : true}
                     iconWidth={"50vw"}
                     iconHeight={"70vh"}
                     iconSource={item.assets?.icon ?? null}
@@ -123,6 +122,20 @@ class MatsPage extends React.Component{
                     id={item.id}
                 >
                     <ul>
+                        {(() => {
+                            //apparently for armour the API sometimes uses crafting.materials and sometimes crafting.craftingMaterials
+                            if(item.crafting.craftingMaterials){
+                                return (item.crafting.craftingMaterials.map(mat => (
+                                    <li key={uid(mat)}>{"x"+mat.quantity + " " + mat.item.name}</li>
+                                )))
+                            }
+                            else if(item.crafting.materials){
+                                return (item.crafting.materials.map(mat => (
+                                    <li key={uid(mat)}>{"x"+mat.quantity + " " + mat.item.name}</li>
+                                )))
+                            }
+                        })()}
+                        
                         {/*another small hack, weapons that are only reachable 
                            by upgrading a previous version will have no crafting materials, but they will have 
                            upgrade materials which are basically the same thing as long as you have a previous 
@@ -131,9 +144,6 @@ class MatsPage extends React.Component{
                            NOTE: Might want to make an option for getting materials and including in the list all weapons
                                  that lead to the selected weapon?
                         */}
-                        {item.craftingMaterials !== undefined ? item.crafting.craftingMaterials.map(mat => (
-                            <li key={uid(mat)}>{"x"+mat.quantity + " " + mat.item.name}</li>
-                        )) : null}
                         {item.crafting.upgradeMaterials !== undefined ? item.crafting.upgradeMaterials.map(mat => (
                             <li key={uid(mat)}>{"x"+mat.quantity + " " + mat.item.name}</li>
                         )) : null}
