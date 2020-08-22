@@ -103,7 +103,17 @@ class MatsPage extends React.Component{
         const newSelectedItems = this.state.selectedItems.filter(item => item.internalID !== id)
         const newMaterialTallies = this.state.materialTallies
 
-        const materials = (removedItem.crafting.materials ?? (removedItem.crafting.craftingMaterials ?? removedItem.crafting.upgradeMaterials))
+        let materials = null
+        if(removedItem.crafting.materials && removedItem.crafting.materials.length > 0){
+            materials = removedItem.crafting.materials
+        }
+        else if(removedItem.crafting.craftingMaterials && removedItem.crafting.craftingMaterials.length > 0){
+            materials = removedItem.crafting.craftingMaterials
+        }
+        else{
+            materials = removedItem.crafting.upgradeMaterials
+        }
+        
         materials.forEach(material => {
             newMaterialTallies[material.item.name].count -= material.quantity
         })
