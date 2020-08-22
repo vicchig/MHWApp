@@ -26,7 +26,8 @@ class MatsPage extends React.Component{
     state = {
         searchbarText: "",
         selectedItems: [],
-        materialTallies: {}
+        materialTallies: {},
+        nextMatCardID: 1,
     }
 
     updateMaterialTallies = (craftingData, type, item) => {
@@ -84,12 +85,21 @@ class MatsPage extends React.Component{
             if(res.status !== 200 && res.status !== 304) processErrorWNav(this, res.status, res.errorMsg)
             else item = res.data.item[0] //the endpoint returns an array even if it finds only a single item
 
-            currentlySelected.push(item)
+            currentlySelected.push({...item, id: this.state.nextMatCardID})
+            
 
             this.setState({
                     selectedItems: currentlySelected,
-                    materialTallies: this.updateMaterialTallies(item.crafting, type, item)
+                    materialTallies: this.updateMaterialTallies(item.crafting, type, item),
+                    nextMatCardID: this.state.nextMatCardID + 1
             })
+        })
+    }
+
+    removeMatCardHandler = (id) => {
+        const newSelectedItems = this.state.selectedItems.filter(item => item.id !== id)
+        this.setState({
+            selectedItems: newSelectedItems
         })
     }
 
@@ -105,6 +115,8 @@ class MatsPage extends React.Component{
                     iconHeight={"70vh"}
                     iconSource={item.assets?.icon ?? null}
                     name={item.name}
+                    closeButtonClickHandler={this.removeMatCardHandler}
+                    id={item.id}
                 >
                     <ul>
                         {/*another small hack, weapons that are only reachable 

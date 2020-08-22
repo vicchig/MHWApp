@@ -9,7 +9,7 @@ class GeneralResultCard extends React.Component{
 
     render(){
 
-        const {hasCloseButton, hasCount, hasIcon, iconSource, count, iconWidth, iconHeight, closeButtonClickHandler, name} = this.props
+        const {hasCloseButton, hasCount, hasIcon, iconSource, count, iconWidth, iconHeight, closeButtonClickHandler, name, id} = this.props
         console.log(require("./../../../Images/bannerImg.jpg"))
 
         const icon = (hasIcon ?? false ) ? <img src={iconSource}
@@ -21,7 +21,7 @@ class GeneralResultCard extends React.Component{
         const countDisplay = (hasCount ?? false) ? <div className="countDiv">x<span className="cardCountText">{count}</span></div> : null
         const closeButton = (hasCloseButton ?? false) ? <IconButton
                                                             className={"cardIconButton"}
-                                                            onClick={() => {}}
+                                                            onClick={() => closeButtonClickHandler(id)}
                                                          >
                                                             <Clear
                                                                 width={"5pt"}
