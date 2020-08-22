@@ -111,8 +111,11 @@ class MatsPage extends React.Component{
         else if(removedItem.crafting.craftingMaterials && removedItem.crafting.craftingMaterials.length > 0){
             materials = removedItem.crafting.craftingMaterials
         }
-        else{
+        else if(removedItem.crafting.upgradeMaterials && removedItem.crafting.upgradeMaterials.length > 0){
             materials = removedItem.crafting.upgradeMaterials
+        }
+        else{
+            materials = []
         }
 
         materials.forEach(material => {
@@ -125,6 +128,18 @@ class MatsPage extends React.Component{
         })
     }
 
+    convertRarityToRank = (rarity) => {
+        if(rarity >= 1 && rarity <= 4){
+            return "LR"
+        }
+        else if(rarity >= 5 && rarity <= 8){
+            return "HR"
+        }
+        else{
+            return "MR"
+        }
+    }
+
     render(){
         const selection = this.state.selectedItems.map(item => (
             (
@@ -132,11 +147,11 @@ class MatsPage extends React.Component{
                     key={uid(item)}
                     hasCount={false}
                     hasCloseButton={true}
-                    hasIcon={(item.assets !== null && item.assets.icon !== null) ? true : false}
+                    hasIcon={(item.assets !== null && item.assets.icon !== null && item.assets.icon !== undefined) ? true : false}
                     iconWidth={"50vw"}
                     iconHeight={"70vh"}
                     iconSource={item?.assets?.icon ?? null}
-                    name={item.name}
+                    name={item.name + " (" + this.convertRarityToRank(item.rarity) + ")"}
                     closeButtonClickHandler={this.removeMatCardHandler}
                     id={item.internalID}
                     displayType={1}
@@ -187,18 +202,7 @@ class MatsPage extends React.Component{
                                             key={uid(key)}
                                             hasCount={true}
                                             count={this.state.materialTallies[key].count}
-                                            name={key + " (" + (() => {
-                                                const rarity = this.state.materialTallies[key].rarity
-                                                if(rarity >= 1 && rarity <= 4){
-                                                    return "LR"
-                                                }
-                                                else if(rarity >= 5 && rarity <= 8){
-                                                    return "HR"
-                                                }
-                                                else{
-                                                    return "MR"
-                                                }
-                                            })() +")"}
+                                            name={key + " (" + this.convertRarityToRank(this.state.materialTallies[key].rarity) +")"}
                                             displayType={2}
                                         >
                                             <div>
