@@ -87,23 +87,30 @@ class MatsPage extends React.Component{
             }
             if(res.status !== 200 && res.status !== 304) processErrorWNav(this, res.status, res.errorMsg)
             else item = res.data.item[0] //the endpoint returns an array even if it finds only a single item
-
-            currentlySelected.push({...item, id: this.state.nextMatCardID})
-            
+            currentlySelected.push({...item, internalID: this.state.nextMatCardID})
 
             this.setState({
                     selectedItems: currentlySelected,
                     materialTallies: this.updateMaterialTallies(item.crafting, type, item),
                     nextMatCardID: this.state.nextMatCardID + 1,
                     loading: false
-            }, () => {console.log(this.state.materialTallies)})
+            })
         })
     }
 
     removeMatCardHandler = (id) => {
-        const newSelectedItems = this.state.selectedItems.filter(item => item.id !== id)
+        const removedItem = this.state.selectedItems.filter(item => item.internalID === id)[0]
+        const newSelectedItems = this.state.selectedItems.filter(item => item.internalID !== id)
+        const newMaterialTallies = this.state.materialTallies
+
+        const materials = (removedItem.crafting.materials ?? (removedItem.crafting.craftingMaterials ?? removedItem.crafting.upgradeMaterials))
+        materials.forEach(material => {
+            newMaterialTallies[material.item.name].count -= material.quantity
+        })
+
         this.setState({
-            selectedItems: newSelectedItems
+            selectedItems: newSelectedItems,
+            materialTallies: newMaterialTallies
         })
     }
 
@@ -120,7 +127,7 @@ class MatsPage extends React.Component{
                     iconSource={item.assets?.icon ?? null}
                     name={item.name}
                     closeButtonClickHandler={this.removeMatCardHandler}
-                    id={item.id}
+                    id={item.internalID}
                 >
                     <div>{"Required materials:"}</div>
                     <ul>
@@ -165,6 +172,7 @@ class MatsPage extends React.Component{
                                 if(this.state.materialTallies[key].count > 0){
                                     tallies.push(
                                         <GeneralResultCard
+                                            key={uid(key)}
                                             hasCount={true}
                                             count={this.state.materialTallies[key].count}
                                             name={key}
