@@ -96,7 +96,7 @@ class MatsPage extends React.Component{
                     materialTallies: this.updateMaterialTallies(item.crafting, type, item),
                     nextMatCardID: this.state.nextMatCardID + 1,
                     loading: false
-            }, () => {console.log(this.state.selectedItems)})
+            }, () => {console.log(this.state.materialTallies)})
         })
     }
 
@@ -108,7 +108,8 @@ class MatsPage extends React.Component{
     }
 
     render(){
-        const selection = this.state.selectedItems.map(item => ((
+        const selection = this.state.selectedItems.map(item => (
+            (
                 <GeneralResultCard
                     key={uid(item)}
                     hasCount={false}
@@ -121,6 +122,7 @@ class MatsPage extends React.Component{
                     closeButtonClickHandler={this.removeMatCardHandler}
                     id={item.id}
                 >
+                    <div>{"Required materials:"}</div>
                     <ul>
                         {(() => {
                             //apparently for armour the API sometimes uses crafting.materials and sometimes crafting.craftingMaterials
@@ -152,6 +154,35 @@ class MatsPage extends React.Component{
             ))
         )
 
+        const materialTallyDisplay = (() => {
+            return (
+                <div id="materialTallyDiv">
+                    {
+                        (() => {
+                            let tallies = []
+                            let keys = Object.keys(this.state.materialTallies)
+                            keys.forEach(key => {
+                                if(this.state.materialTallies[key].count > 0){
+                                    tallies.push(
+                                        <GeneralResultCard
+                                            hasCount={true}
+                                            count={this.state.materialTallies[key].count}
+                                            name={key}
+                                        >
+                                            <div>
+                                                {this.state.materialTallies[key].description}
+                                            </div>
+                                        </GeneralResultCard>
+                                    )
+                                }
+                            })
+                            return tallies
+                        })()
+                    }
+                </div>
+            )
+        })()
+
         return(
             <div id="mainDiv">
                 <WebsiteHeader appContext={this.props.parentContext}/>
@@ -166,6 +197,7 @@ class MatsPage extends React.Component{
                 <div id="selectionDiv">
                     {selection}
                 </div>
+                {materialTallyDisplay}
             </div>
         )
     }
