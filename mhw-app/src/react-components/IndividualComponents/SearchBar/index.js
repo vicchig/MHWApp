@@ -28,15 +28,24 @@ class SearchBar extends React.Component{
         possibilities.forEach(obj => {
             let distance = getMatchingDistance(searchTerm, obj.name) 
             if(distance > 0.75 || (distance > 0.6 && this.state.inputText.length <= 2)){
-                topSuggestions.push({text: obj?.name ?? "", rank: distance, id: obj?.id ?? "", type: obj?.type ?? ""})
+                let suggestion = {rank: distance}
+                this.props.searchObjectProperties.forEach(property => {
+                    suggestion[property] = obj?.[property] ?? ""
+                })
+                topSuggestions.push(suggestion)
             }
         });
 
         topSuggestions.sort((a, b) => {if (a.rank < b.rank) return 1; else return -1})
         let sortedSuggestions = []
         topSuggestions.forEach(result => {
-            sortedSuggestions.push({value: {id: result.id, type: result.type, name: result.text}, label: result.text})
+            let finalSuggestionObject = {}
+            Object.keys(result).forEach(key => {
+                if(key !== "rank") finalSuggestionObject[key] = result[key]
+            })
+            sortedSuggestions.push({value: finalSuggestionObject, label: result.name})
         });
+        console.log(sortedSuggestions)
         return sortedSuggestions
     }
 

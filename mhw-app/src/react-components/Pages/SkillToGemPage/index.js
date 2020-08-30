@@ -79,7 +79,7 @@ class SkillToGemPage extends React.Component{
 
     handleSearchSelect = (e) => {
         this.setState({
-            searchbarText: e.value
+            searchbarText: e.value.name
         })
     }
 
@@ -217,6 +217,7 @@ class SkillToGemPage extends React.Component{
                                 onSearch={this.onSearchAction}
                                 onSetSelect={this.handleSearchSelect} buttonText={"Search"}
                                 hasButton={true} placeholder={"Select or type in the name of skill..."}
+                                searchObjectProperties={["name"]}
                         ></SearchBar>
                    
                     <div id="filtersDiv">

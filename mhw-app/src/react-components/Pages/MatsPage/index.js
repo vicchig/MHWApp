@@ -2,7 +2,7 @@ import React from 'react';
 import { withRouter } from 'react-router-dom';
 import WebsiteHeader from './../../IndividualComponents/WebsiteHeader'
 import SearchBar from './../../IndividualComponents/SearchBar'
-import {getData} from '../../../actions/dataActions'
+import {getData, getEquipmentInfo} from '../../../actions/dataActions'
 import {getEquipment} from '../../../actions/mhwActions'
 import {processErrorWNav} from '../../../actions/utilities'
 import GeneralResultCard from '../../IndividualComponents/GeneralResultCard'
@@ -55,7 +55,7 @@ class MatsPage extends React.Component{
 
     updateMaterialTallies = (craftingData, type, item) => {
         let newMaterialTallies = this.state.materialTallies
-        if(type === "armour"){
+        if(type === "armour" || type === "equipment"){
             this.updateMaterialTally(craftingData.materials, newMaterialTallies)
         }
         else{
@@ -94,19 +94,28 @@ class MatsPage extends React.Component{
             const currentlySelected = this.state.selectedItems
             let item, res = null
             let type = ""
-
-            if(armourTypes.includes(e.value.type)){
-                type = "armour"
-                res = await getEquipment("armor", armorProjection, {id: e.value.id}).catch(err => {
+            console.log(e.value)
+            if(e.value.rarity >= 9){
+                type = "equipment"
+                res = await getEquipmentInfo(e.value.name).catch(err => {
                     console.error("An error occurred while waiting for server response. \n\n" + err)
                 })
             }
-            else{ //should not be possible for something that is of not type 'armour' also not be of type 'weapon'
-                type = "weapon"
-                res = await getEquipment("weapons", weaponProjection, {id: e.value.id}).catch(err => {
-                    console.error("An error occurred while waiting for server response. \n\n" + err)
-                })
+            else{
+                if(armourTypes.includes(e.value.type)){
+                    type = "armour"
+                    res = await getEquipment("armor", armorProjection, {id: e.value.id}).catch(err => {
+                        console.error("An error occurred while waiting for server response. \n\n" + err)
+                    })
+                }
+                else{ //should not be possible for something that is of not type 'armour' also not be of type 'weapon'
+                    type = "weapon"
+                    res = await getEquipment("weapons", weaponProjection, {id: e.value.id}).catch(err => {
+                        console.error("An error occurred while waiting for server response. \n\n" + err)
+                    })
+                }
             }
+            
             if(res.status !== 200 && res.status !== 304) processErrorWNav(this, res.status, res.errorMsg)
             else item = res.data.item[0] //the endpoint returns an array even if it finds only a single item
             currentlySelected.push({...item, internalID: this.state.nextMatCardID})
@@ -292,6 +301,7 @@ class MatsPage extends React.Component{
                 <div id="searchbarDiv">
                     <SearchBar id={"searchbar1"} textFieldID={"searchbar"} buttonText={"Add"} searchFunction={getData} searchCategory={"equipmentNames"}      
                                parentContext={this} dataObjectName={"dataList"} onSetSelect={this.handleSearchSelect} placeholder={"Select a piece of equipment..."}
+                               searchObjectProperties={["name", "rarity", "id", "type"]}
                     ></SearchBar>
                 </div>
                 <div id="loadingDiv">
