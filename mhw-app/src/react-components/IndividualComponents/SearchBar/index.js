@@ -45,7 +45,6 @@ class SearchBar extends React.Component{
             })
             sortedSuggestions.push({value: finalSuggestionObject, label: result.name})
         });
-        console.log(sortedSuggestions)
         return sortedSuggestions
     }
 

@@ -20,28 +20,6 @@ const armorProjection = {
     crafting: true, rank: true, assets: true
 }
 
-const armourTypes = ["chest", "head", "waist", "legs", "gloves"]
-const equipmentToIconMap = {
-    "insect-glaive": "./../../../Images/ig.png",
-    "great-sword": "./../../../Images/gs.png",
-    "bow": "./../../../Images/b.png",
-    "switch-axe": "./../../../Images/sa.webp",
-    "long-sword": "./../../../Images/ls.jpg",
-    "sword-and-shiled": "./../../../Images/sns.png",
-    "dual-blades": "./../../../Images/db.png",
-    "hammer": "./../../../Images/h.png",
-    "hunting-horn": "./../../../Images/hh.png",
-    "lance": "./../../../Images/l.png",
-    "gunlance": "./../../../Images/gl.webp",
-    "charge-blade": "./../../../Images/cb.webp",
-    "light-bowgun": "./../../../Images/lbg.png",
-    "heavy-bowgun": "./../../../Images/hbg.png",
-    "head": "",
-    "chest": "",
-    "waist": "",
-    "gloves": "",
-    "legs": ""
-}
 
 class MatsPage extends React.Component{
 
