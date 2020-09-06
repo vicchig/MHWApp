@@ -56,16 +56,16 @@ class MatsPage extends React.Component{
     updateMaterialTally = (materials) => {
         let tally = this.state.materialTallies
         materials.forEach(material => {
-            if(tally[material.item.name] === undefined){
-                tally[material.item.name] = {
-                    description: material.item.description,
-                    id: material.item.id,
+            if(tally[material.name] === undefined){
+                tally[material.name] = {
+                    description: material.description,
+                    id: material.id,
                     count: material.quantity,
-                    rarity: material.item.rarity
+                    rarity: material.rarity
                 }
             }
             else{
-                tally[material.item.name].count += material.quantity
+                tally[material.name].count += material.quantity
             }
         })
 
@@ -85,10 +85,10 @@ class MatsPage extends React.Component{
             })
             
             if(res.status !== 200 && res.status !== 304) {processErrorWNav(this, res.status, res.errorMsg); return;}
-            else item = res.data.item[0] //the endpoint returns an array even if it finds only a single item
-
+            else item = res.data.item
+            console.log(item.type)
             currentlySelected.push({...item, internalID: this.state.nextMatCardID})
-            
+
             this.setState({
                     selectedItems: currentlySelected,
                     materialTallies: this.updateMaterialTally(item.crafting.materials),
@@ -106,7 +106,7 @@ class MatsPage extends React.Component{
         let materials = removedItem.crafting.materials
 
         materials.forEach(material => {
-            newMaterialTallies[material.item.name].count -= material.quantity
+            newMaterialTallies[material.name].count -= material.quantity
         })
 
         this.setState({
@@ -193,7 +193,7 @@ class MatsPage extends React.Component{
                     <ul>
                         {(() => {
                                 return (item.crafting.materials.map(mat => (
-                                    <li key={uid(mat)}>{"x"+mat.quantity + " " + mat.item.name}</li>
+                                    <li key={uid(mat)}>{"x"+mat.quantity + " " + mat.name}</li>
                                 )))
                         })()}
                     </ul>
