@@ -1,0 +1,25 @@
+#mainDiv{
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+    background-color: rgb(61, 61, 61);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+#searchbar.MuiOutlinedInput-input{
+    color: rgb(161, 184, 98)
+}
+
+#searchDiv{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 0fr 0.5fr;
+}
+
+#loadingDiv{
+    margin-top: 5vh;
+}
+
