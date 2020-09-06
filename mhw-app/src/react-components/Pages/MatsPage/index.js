@@ -84,10 +84,11 @@ class MatsPage extends React.Component{
                 console.error("An error occurred while waiting for server response. \n\n" + err)
             })
             
-            if(res.status !== 200 && res.status !== 304) processErrorWNav(this, res.status, res.errorMsg)
+            if(res.status !== 200 && res.status !== 304) {processErrorWNav(this, res.status, res.errorMsg); return;}
             else item = res.data.item[0] //the endpoint returns an array even if it finds only a single item
-            currentlySelected.push({...item, internalID: this.state.nextMatCardID})
 
+            currentlySelected.push({...item, internalID: this.state.nextMatCardID})
+            
             this.setState({
                     selectedItems: currentlySelected,
                     materialTallies: this.updateMaterialTally(item.crafting.materials),
