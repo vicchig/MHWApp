@@ -35,17 +35,15 @@ const ArmourPieceSchema = new mongoose.Schema(
                         required: true,
                         default: 0
                     },
-                    item: {
-                        name: {
-                            type: String,
-                            required: true,
-                            minLength: 1
-                        },
-                        description: {
-                            type: String,
-                            required: true,
-                            minLength: 0
-                        }
+                    name: {
+                        type: String,
+                        required: true,
+                        minLength: 1
+                    },
+                    description: {
+                        type: String,
+                        required: true,
+                        minLength: 0
                     }
                 }
             ]
