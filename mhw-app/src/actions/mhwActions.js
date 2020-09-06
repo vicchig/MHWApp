@@ -54,6 +54,7 @@ export const getSkill = async (criteria) => {
     }
 }
 
+
 //helpers
 
 const filterDecos = (decoObjects, filters) => {

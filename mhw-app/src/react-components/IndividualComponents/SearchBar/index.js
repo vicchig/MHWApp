@@ -15,27 +15,35 @@ class SearchBar extends React.Component{
 
     loadOptions = async () => {
 
-        let result = await this.props.searchFunction().catch(err => {
+        let result = await this.props.searchFunction(this.props.searchCategory).catch(err => {
             console.error("An error occurred while awaiting server response:\n\n" + err)
         })
         if (result.status === 200 || result.status === 304){
-            return this.computeBestMatches(this.state.inputText, result.data[this.props.searchTerm])
+            return this.computeBestMatches(this.state.inputText, result.data[this.props.dataObjectName])
         }
     }
 
     computeBestMatches = (searchTerm, possibilities) => {
         let topSuggestions = []
-        possibilities.forEach(word => {
-            let distance = getMatchingDistance(searchTerm, word.name) 
+        possibilities.forEach(obj => {
+            let distance = getMatchingDistance(searchTerm, obj.name) 
             if(distance > 0.75 || (distance > 0.6 && this.state.inputText.length <= 2)){
-                topSuggestions.push({text: word.name, rank: distance})
+                let suggestion = {rank: distance}
+                this.props.searchObjectProperties.forEach(property => {
+                    suggestion[property] = obj?.[property] ?? ""
+                })
+                topSuggestions.push(suggestion)
             }
         });
 
         topSuggestions.sort((a, b) => {if (a.rank < b.rank) return 1; else return -1})
         let sortedSuggestions = []
         topSuggestions.forEach(result => {
-            sortedSuggestions.push({value: result.text, label: result.text})
+            let finalSuggestionObject = {}
+            Object.keys(result).forEach(key => {
+                if(key !== "rank") finalSuggestionObject[key] = result[key]
+            })
+            sortedSuggestions.push({value: finalSuggestionObject, label: result.name})
         });
         return sortedSuggestions
     }
@@ -85,24 +93,24 @@ class SearchBar extends React.Component{
     }
 
     render(){
-        const {onSearch, id} = this.props
+        const {onSearch, id, buttonText, hasButton, placeholder} = this.props
         return(
             <div id={id}>
                 <div id="mainSearchBarDiv">
                     <AsyncSelect 
                         styles={this.customSelectStyles}
                         className={"searchbarSelect"}
-                        placeholder={"Select or type in the name of skill..."}
+                        placeholder={placeholder}
                         onInputChange={(input) => this.setState({inputText: input})}
                         onChange={(e) => {this.props.onSetSelect(e)}}
                         loadOptions={this.loadOptions}
                         name={"searchbarText"}
                         blurInputOnSelect={true}
                     ></AsyncSelect>
-                    <CustomButton
+                    {(hasButton ?? false) ? <CustomButton
                         width={"3vw"}
                         height={"3vh"}
-                        buttonText={"Search"}
+                        buttonText={buttonText}
                         borderColor={"rgb(161, 184, 98)"}
                         hoverColor={"rgb(79, 79, 79)"}
                         textColor={'rgb(161, 184, 98)'}
@@ -115,7 +123,7 @@ class SearchBar extends React.Component{
                         justifySelf={"start"}
                         left={"1vw"}
                         onClick={onSearch}
-                    />
+                    /> : null }
 
 
                 </div>

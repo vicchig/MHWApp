@@ -67,12 +67,12 @@ class Navbar extends React.Component{
                               borderColor={"rgb(164, 164, 164)"}
                               fontSize={"10pt"}
                               position={"absolute"}
-							  buttonText={"Armour Mats"}
+							  buttonText={"Equipment Materials"}
 							  position={"relative"}
 							  borderRadius={"10px"}
 							  hoverColor={"rgb(74, 74, 74)"}
                               hoverTextColor={"rgb(161, 184, 98)"}
-                              onClick={() => {this.switchpage("MonstHP")}}
+                              onClick={() => {this.switchpage("mats")}}
                 ></CustomButton>
 				<CustomButton id={"buildSuggestButton"}
                               border={"solid"}

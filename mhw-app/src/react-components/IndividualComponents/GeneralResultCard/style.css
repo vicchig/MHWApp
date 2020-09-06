@@ -1,0 +1,88 @@
+.mainCardDiv-1{
+    width: 50vw;
+    max-height: 20vh;
+    max-width: 50vw;
+    max-height: 50vh;
+    margin-bottom: 2vh;
+}
+
+.mainCardDiv-2{
+    width: 35vw;
+    max-height: 20vh;
+    max-width: 35vw;
+    max-height: 50vh;
+    margin-bottom: 2vh;
+}
+
+.cardTable{
+    width: inherit;
+    border: solid 1px rgb(170, 170, 170);
+    background: rgb(50, 50, 50);
+    border-radius: 25pt;
+    color: rgb(161, 184, 98);
+    padding: 5pt;
+}
+
+.cardTBody{
+    width: inherit;
+}
+
+.cardRow{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cardSection1{
+    width: 5vw;
+    height: inherit;
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 5pt;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cardSection2{
+    width: 70%;
+    height: inherit;
+    max-height: 20vh;
+    display: flex;
+
+}
+
+.cardItemNameSection{
+    padding: 4pt;
+    width: 10vw;
+    padding-left: 5pt;
+    height: inherit;
+}
+
+
+
+.countDiv{
+  padding-right: 10pt;
+}
+
+.cardIcon{
+    padding-top: 5pt;
+}
+
+.childDiv{
+    width: 90%;
+    word-wrap: break-word;
+}
+
+.MuiIconButton-root{
+    width: 30pt;
+    height: 30pt;
+    justify-self: start;
+    align-self: start;
+}
+
+.cardCloseButtonCell{
+    height: 100%;
+    min-height: 100%;
+}
+

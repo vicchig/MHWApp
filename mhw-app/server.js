@@ -21,6 +21,7 @@ app.use(session({
 const newsitemRoutes = require('./routes/newsitems')
 const userRoutes = require('./routes/user')
 const dataRoutes = require('./routes/files')
+const equipmentRoutes = require('./routes/equipment')
 
 //.env file load
 require('dotenv').config()
@@ -51,6 +52,8 @@ const { ObjectID } = require('mongodb')
 app.use('/newsitem', newsitemRoutes)
 app.use('/users', userRoutes)
 app.use('/data', dataRoutes)
+app.use('/equipment', equipmentRoutes)
+
 
 // mongoose and mongo connection
 const { mongoose } = require('./db/mongoose')

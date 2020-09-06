@@ -1,7 +1,7 @@
 import { constructErrorMsgCouldntReadServerResponse, ApiResponse, constructErrorMsgUnableToFetch, constructErrorMsgNoResponse, constructErrorMsgReqError } from './utilities'
 
-export const getDecoList = async () => {
-    const url = '/data/decoNames'
+export const getData = async (category) => {
+    const url = '/data/' + category
     const request = new Request(url, {
         method: 'GET',
         headers: {
@@ -21,15 +21,16 @@ export const getDecoList = async () => {
             return new ApiResponse(result.status, null, constructErrorMsgCouldntReadServerResponse(result.status, err, url))
         })
         if (responseBody.errorMsg) return responseBody
-        return new ApiResponse(result.status, {decoList: responseBody}, "")
+        return new ApiResponse(result.status, {dataList: responseBody}, "")
     }
     else{
         return new ApiResponse(result.status, null, constructErrorMsgReqError(result.status, url, result.errMsg))
     }
 }
 
-export const getSkillList = async () => {
-    const url = '/data/skillNames'
+
+export const getEquipmentInfo = async (name, type) => {
+    let url = `/equipment/${type}/${name}`
     const request = new Request(url, {
         method: 'GET',
         headers: {
@@ -49,7 +50,7 @@ export const getSkillList = async () => {
             return new ApiResponse(result.status, null, constructErrorMsgCouldntReadServerResponse(result.status, err, url))
         })
         if (responseBody.errorMsg) return responseBody
-        return new ApiResponse(result.status, {skillList: responseBody}, "")
+        return new ApiResponse(result.status, {item: responseBody}, "")
     }
     else{
         return new ApiResponse(result.status, null, constructErrorMsgReqError(result.status, url, result.errMsg))
