@@ -53,24 +53,8 @@ class MatsPage extends React.Component{
         loading: false
     }
 
-    updateMaterialTallies = (craftingData, type, item) => {
-        let newMaterialTallies = this.state.materialTallies
-        if(type === "armour" || type === "equipment"){
-            this.updateMaterialTally(craftingData.materials, newMaterialTallies)
-        }
-        else{
-            if(item.crafting.craftable){
-                this.updateMaterialTally(craftingData.craftingMaterials, newMaterialTallies)
-            }
-            else{
-                this.updateMaterialTally(craftingData.upgradeMaterials, newMaterialTallies)
-            }
-        }
-
-        return newMaterialTallies
-    }
-
-    updateMaterialTally = (materials, tally) => {
+    updateMaterialTally = (materials) => {
+        let tally = this.state.materialTallies
         materials.forEach(material => {
             if(tally[material.item.name] === undefined){
                 tally[material.item.name] = {
@@ -84,6 +68,8 @@ class MatsPage extends React.Component{
                 tally[material.item.name].count += material.quantity
             }
         })
+
+        return tally
     }
 
     handleSearchSelect = (e) => {
@@ -93,28 +79,10 @@ class MatsPage extends React.Component{
         }, async () => {
             const currentlySelected = this.state.selectedItems
             let item, res = null
-            let type = ""
-            console.log(e.value)
-            if(e.value.rarity >= 9){
-                type = "equipment"
-                res = await getEquipmentInfo(e.value.name).catch(err => {
-                    console.error("An error occurred while waiting for server response. \n\n" + err)
-                })
-            }
-            else{
-                if(armourTypes.includes(e.value.type)){
-                    type = "armour"
-                    res = await getEquipment("armor", armorProjection, {id: e.value.id}).catch(err => {
-                        console.error("An error occurred while waiting for server response. \n\n" + err)
-                    })
-                }
-                else{ //should not be possible for something that is of not type 'armour' also not be of type 'weapon'
-                    type = "weapon"
-                    res = await getEquipment("weapons", weaponProjection, {id: e.value.id}).catch(err => {
-                        console.error("An error occurred while waiting for server response. \n\n" + err)
-                    })
-                }
-            }
+
+            res = await getEquipmentInfo(e.value.name, e.value.type).catch(err => {
+                console.error("An error occurred while waiting for server response. \n\n" + err)
+            })
             
             if(res.status !== 200 && res.status !== 304) processErrorWNav(this, res.status, res.errorMsg)
             else item = res.data.item[0] //the endpoint returns an array even if it finds only a single item
@@ -122,7 +90,7 @@ class MatsPage extends React.Component{
 
             this.setState({
                     selectedItems: currentlySelected,
-                    materialTallies: this.updateMaterialTallies(item.crafting, type, item),
+                    materialTallies: this.updateMaterialTally(item.crafting.materials),
                     nextMatCardID: this.state.nextMatCardID + 1,
                     loading: false
             })
@@ -134,19 +102,7 @@ class MatsPage extends React.Component{
         const newSelectedItems = this.state.selectedItems.filter(item => item.internalID !== id)
         const newMaterialTallies = this.state.materialTallies
 
-        let materials = null
-        if(removedItem.crafting.materials && removedItem.crafting.materials.length > 0){
-            materials = removedItem.crafting.materials
-        }
-        else if(removedItem.crafting.craftingMaterials && removedItem.crafting.craftingMaterials.length > 0){
-            materials = removedItem.crafting.craftingMaterials
-        }
-        else if(removedItem.crafting.upgradeMaterials && removedItem.crafting.upgradeMaterials.length > 0){
-            materials = removedItem.crafting.upgradeMaterials
-        }
-        else{
-            materials = []
-        }
+        let materials = removedItem.crafting.materials
 
         materials.forEach(material => {
             newMaterialTallies[material.item.name].count -= material.quantity
@@ -235,30 +191,10 @@ class MatsPage extends React.Component{
                     <div>{"Required materials:"}</div>
                     <ul>
                         {(() => {
-                            //apparently for armour the API sometimes uses crafting.materials and sometimes crafting.craftingMaterials
-                            if(item.crafting.craftingMaterials){
-                                return (item.crafting.craftingMaterials.map(mat => (
-                                    <li key={uid(mat)}>{"x"+mat.quantity + " " + mat.item.name}</li>
-                                )))
-                            }
-                            else if(item.crafting.materials){
                                 return (item.crafting.materials.map(mat => (
                                     <li key={uid(mat)}>{"x"+mat.quantity + " " + mat.item.name}</li>
                                 )))
-                            }
                         })()}
-                        
-                        {/*another small hack, weapons that are only reachable 
-                           by upgrading a previous version will have no crafting materials, but they will have 
-                           upgrade materials which are basically the same thing as long as you have a previous 
-                           version of the weapon
-
-                           NOTE: Might want to make an option for getting materials and including in the list all weapons
-                                 that lead to the selected weapon?
-                        */}
-                        {item.crafting.upgradeMaterials !== undefined ? item.crafting.upgradeMaterials.map(mat => (
-                            <li key={uid(mat)}>{"x"+mat.quantity + " " + mat.item.name}</li>
-                        )) : null}
                     </ul>
                 </GeneralResultCard>
             ))
@@ -301,7 +237,7 @@ class MatsPage extends React.Component{
                 <div id="searchbarDiv">
                     <SearchBar id={"searchbar1"} textFieldID={"searchbar"} buttonText={"Add"} searchFunction={getData} searchCategory={"equipmentNames"}      
                                parentContext={this} dataObjectName={"dataList"} onSetSelect={this.handleSearchSelect} placeholder={"Select a piece of equipment..."}
-                               searchObjectProperties={["name", "rarity", "id", "type"]}
+                               searchObjectProperties={["name", "type"]}
                     ></SearchBar>
                 </div>
                 <div id="loadingDiv">

@@ -29,8 +29,8 @@ export const getData = async (category) => {
 }
 
 
-export const getEquipmentInfo = async (name) => {
-    let url = `/equipment/getEquipment/${name}`
+export const getEquipmentInfo = async (name, type) => {
+    let url = `/equipment/${type}/${name}`
     const request = new Request(url, {
         method: 'GET',
         headers: {
