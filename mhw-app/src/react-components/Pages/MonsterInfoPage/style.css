@@ -23,3 +23,30 @@
     margin-top: 5vh;
 }
 
+#filtersDiv{
+    display: grid;
+    grid-template-columns: 15% 40% 40%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    width: 30vw;
+    height: auto;
+}   
+
+.sortsAndFiltersHeader{
+    align-self: center;
+    justify-self: center;
+    color: rgb(161, 184, 98);
+}
+
+.optionSelect{
+    justify-self: center;
+    align-self: center;
+    width: 80%;
+}
+
+#searchbar1{
+    align-self: start;
+    position: relative;
+    top: 2vh;
+}
+
+
