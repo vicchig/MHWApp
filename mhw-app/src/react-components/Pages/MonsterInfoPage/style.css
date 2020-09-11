@@ -15,7 +15,7 @@
 
 #searchDiv{
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 60% 40%;
     grid-template-rows: 0fr 0.5fr;
 }
 
@@ -25,11 +25,15 @@
 
 #filtersDiv{
     display: grid;
-    grid-template-columns: 15% 40% 40%;
+    grid-template-columns: 15% 55% 55%;
     grid-template-rows: 20% 20% 20% 20% 20%;
     width: 30vw;
     height: auto;
 }   
+
+#mainSearchBarDiv{
+    max-width: 100%;
+}
 
 .sortsAndFiltersHeader{
     align-self: center;

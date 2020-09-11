@@ -98,16 +98,25 @@ class MonsterInfoPage extends React.Component{
 
     state = {
         searchbarText: "",
+        species: [],
+        threatLevel: -1,
+        weakness: [],
+        difficulty: [],
+        sortWeaknessVal: 0,
+        sortDifficultyVal: 0,
+        sortThreatVal: 0,
+        searchResultsToShow: []
     }
 
     handleSelect = (e, property) => {
         this.setState({
-            [property]: e.value
+            [property]: e
         })
     }
 
     //this function is also used on the SkillToGem page so could put it in an action file instead of copying it
     sortResults = (e, compareOn, sortOption) => {
+        console.log(e.value)
         if(e.value !== this.state[sortOption]){
             switch(e.value){
                 case 0:
@@ -156,7 +165,7 @@ class MonsterInfoPage extends React.Component{
                             optionColour="rgb(161, 184, 98)" controlBackgroundColour="rgb(61, 61, 61)"
                             controlBorderColor="rgb(100, 100, 100)" controlHoverBorderColor="rgb(161, 184, 98)"
                             singleValueColour="rgb(161, 184, 98)" placeholderColour="rgb(161, 184, 98)"
-                            valueContainerColour="rgb(161, 184, 98)"
+                            valueContainerColour="rgb(161, 184, 98)" isMulti={true}
                         ></CustomSelect>
 
                         <CustomSelect
@@ -165,7 +174,7 @@ class MonsterInfoPage extends React.Component{
                             optionColour="rgb(161, 184, 98)" controlBackgroundColour="rgb(61, 61, 61)"
                             controlBorderColor="rgb(100, 100, 100)" controlHoverBorderColor="rgb(161, 184, 98)"
                             singleValueColour="rgb(161, 184, 98)" placeholderColour="rgb(161, 184, 98)"
-                            valueContainerColour="rgb(161, 184, 98)" options={temperedRankOptions}
+                            valueContainerColour="rgb(161, 184, 98)" options={temperedRankOptions} isMulti={true}
                         ></CustomSelect>
                         <div className="emptyDiv"></div>
                         <CustomSelect
@@ -175,7 +184,7 @@ class MonsterInfoPage extends React.Component{
                             optionColour="rgb(161, 184, 98)" controlBackgroundColour="rgb(61, 61, 61)"
                             controlBorderColor="rgb(100, 100, 100)" controlHoverBorderColor="rgb(161, 184, 98)"
                             singleValueColour="rgb(161, 184, 98)" placeholderColour="rgb(161, 184, 98)"
-                            valueContainerColour="rgb(161, 184, 98)"
+                            valueContainerColour="rgb(161, 184, 98)" isMulti={true}
                         ></CustomSelect>
 
                         <CustomSelect
@@ -184,7 +193,7 @@ class MonsterInfoPage extends React.Component{
                             optionColour="rgb(161, 184, 98)" controlBackgroundColour="rgb(61, 61, 61)"
                             controlBorderColor="rgb(100, 100, 100)" controlHoverBorderColor="rgb(161, 184, 98)"
                             singleValueColour="rgb(161, 184, 98)" placeholderColour="rgb(161, 184, 98)"
-                            valueContainerColour="rgb(161, 184, 98)" options={difficultyRankOptions}
+                            valueContainerColour="rgb(161, 184, 98)" options={difficultyRankOptions} isMulti={true}
                         ></CustomSelect>
                        
                         <h1 className="sortsAndFiltersHeader">Sort:</h1>
