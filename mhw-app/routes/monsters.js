@@ -3,11 +3,14 @@ const router = express.Router()
 const { Monster } = require('../models/Monster')
 
 router.get("/", (req, res) => {
-    const proj = JSON.parse(req.query.p)
-    const query = JSON.parse(req.query.q)
-    if(!query || !proj || Object.keys(proj).length === 0 || Object.keys(query).length === 0 ){
-        res.status(400).send()
-        return
+    let proj = req.query.p ? JSON.parse(req.query.p) : null
+    let query = req.query.q ? JSON.parse(req.query.q) : null
+
+    if(!proj || Object.keys(proj).length === 0){
+        proj = {}
+    }
+    if(!query){
+        query = {}
     }
 
     if(proj._id === undefined){
