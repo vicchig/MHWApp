@@ -46,7 +46,7 @@ class CustomSelect extends React.Component{
     }
     
     render(){
-        const {name, onChange, className, placeholder, options, isSearchable} = this.props
+        const {name, onChange, className, placeholder, options, isSearchable, isMulti} = this.props
 
         return(
            <Select
@@ -57,6 +57,7 @@ class CustomSelect extends React.Component{
                 styles={this.customStyle}
                 options={options ?? []}
                 isSearchable={isSearchable ?? false}
+                isMulti={isMulti ?? false}
            ></Select>
         )
     }
