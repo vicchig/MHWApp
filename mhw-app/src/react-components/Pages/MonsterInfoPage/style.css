@@ -151,3 +151,8 @@
 .elementalWeaknessInlineDiv{
     width: 8vw;
 }
+
+.blankSpaceDiv{
+    width: 5px;
+    display: inline-block;
+}

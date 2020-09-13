@@ -318,14 +318,14 @@ class MonsterInfoPage extends React.Component{
 
                                             return <ul className={"ulNoBullets"}>
                                                 {elementalWeaknesses.map(weakness => (
-                                                    <li>
+                                                    <li key={uid(weakness)}>
                                                         <div className={"elementalWeaknessInlineDiv"}>
 
                                                             <img src={require("../../../Images/" + weakness.element + ".webp")}
                                                                 className={"elementIcon"}
                                                                 alt={"No Image"}
                                                             ></img>
-                                                            <nbspc> </nbspc>
+                                                            <div className={"blankSpaceDiv"}></div>
                                                             {(() => {
                                                                 if(weakness.stars === 0){
                                                                     if(weakness.condition){
@@ -334,7 +334,7 @@ class MonsterInfoPage extends React.Component{
                                                                                     className={"xIconInline"}
                                                                                     alt={"No Image"}
                                                                             ></img>
-                                                                            <nbspc> </nbspc>
+                                                                            <div className={"blankSpaceDiv"}></div>
                                                                             <span>{"("+weakness.condition+")"}</span>
                                                                         </div>
                                                                     }
@@ -352,7 +352,7 @@ class MonsterInfoPage extends React.Component{
                                                                                 className={"starIconInline"+weakness.stars}
                                                                                 alt={"No Image"}
                                                                             ></img>
-                                                                            <nbspc> </nbspc>
+                                                                            <div className={"blankSpaceDiv"}></div>
                                                                             <span>{"("+weakness.condition+")"}</span>
                                                                         </div>
                                                                     }
@@ -381,13 +381,13 @@ class MonsterInfoPage extends React.Component{
 
                                             return <ul className={"ulNoBullets"}>
                                                 {statusWeaknesses.map(weakness => (
-                                                    <li>
+                                                    <li key={uid(weakness)}>
                                                         <div className={"statusWeaknessInlineDiv"}>
                                                             <img src={require("../../../Images/" + weakness.element + ".webp")}
                                                                 className={"elementIcon"}
                                                                 alt={"No Image"}
                                                             ></img>
-                                                            <nbspc> </nbspc>
+                                                            <div className={"blankSpaceDiv"}></div>
                                                             {(() => {
                                                                 if(weakness.stars === 0){
                                                                     return <img src={require("../../../Images/redX.png")}
@@ -445,11 +445,17 @@ class MonsterInfoPage extends React.Component{
                                     <div className={"cardHeaderDiv"}>Health</div>
                                     <div className={"cardContentDiv"}>{
                                         <ul className={"ulNoBullets"}>
-                                            {item.health.map(val => (
-                                                <li>
-                                                    {val}
-                                                </li>
-                                            ))}
+                                            {
+                                                (() => {
+                                                    const elements = []
+                                                    for(let i = 0; i < item.health.length; i++){
+                                                        elements.push(<li key={uid(item.health[i] + i)}>
+                                                                          {item.health[i]}
+                                                                      </li>)
+                                                    }
+                                                    return elements
+                                                })()
+                                            }
                                         </ul>
                                     }</div>
                                 </td>
