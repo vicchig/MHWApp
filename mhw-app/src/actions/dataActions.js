@@ -58,9 +58,9 @@ export const getEquipmentInfo = async (name, type) => {
 }
 
 export const getMonsterInfo = async (filters, name = "") => {
-    let query = name === "" ? null : {name: name}
+    let query = (name === "" ? null : {name: name})
 
-    const url = "/monsters/" + (query ? "q=" + JSON.stringify(query) : "")
+    const url = "/monsters" + (query ? "?q=" + JSON.stringify(query) : "")
     const request = new Request(url, {
         method: 'GET',
         headers: {
@@ -125,7 +125,7 @@ const filterMonsters = (data, filters) => {
     }
 
     //run the species filter again as that takes precedence, unless there are multiple species filters
-    if(speciesFilterAmount === 1){
+    if(speciesFilterAmount === 1 && !useAllSpecies){
         filteredMonsters = filteredMonsters.filter(monster => monster.species === filters.species[0].value)
     }
 
