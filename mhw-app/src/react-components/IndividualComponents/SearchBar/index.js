@@ -43,7 +43,8 @@ class SearchBar extends React.Component{
             Object.keys(result).forEach(key => {
                 if(key !== "rank") finalSuggestionObject[key] = result[key]
             })
-            sortedSuggestions.push({value: finalSuggestionObject, label: result.name})
+            if(this.props.isMulti) sortedSuggestions.push({value: JSON.stringify(finalSuggestionObject), label: result.name})
+            else sortedSuggestions.push({value: finalSuggestionObject, label: result.name})
         });
         return sortedSuggestions
     }
@@ -93,7 +94,7 @@ class SearchBar extends React.Component{
     }
 
     render(){
-        const {onSearch, id, buttonText, hasButton, placeholder} = this.props
+        const {onSearch, id, buttonText, hasButton, placeholder, isMulti} = this.props
         return(
             <div id={id}>
                 <div id="mainSearchBarDiv">
@@ -106,6 +107,7 @@ class SearchBar extends React.Component{
                         loadOptions={this.loadOptions}
                         name={"searchbarText"}
                         blurInputOnSelect={true}
+                        isMulti={isMulti}
                     ></AsyncSelect>
                     {(hasButton ?? false) ? <CustomButton
                         width={"3vw"}
