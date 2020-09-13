@@ -54,3 +54,100 @@
 }
 
 
+.starIcon1{
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: -0.5vh;
+}
+
+.starIcon2{
+    width: 20px;
+    height: 10px;
+    position: relative;
+    top: -0.5vh;
+}
+
+.starIcon3{
+    width: 30px;
+    height: 10px;
+    position: relative;
+    top: -0.5vh;
+}
+
+.xIcon{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: -0.1vh;
+}
+
+.starIconInline1{
+    width: 10px;
+    height: 10px;
+}
+
+.starIconInline2{
+    width: 20px;
+    height: 10px;
+}
+
+.starIconInline3{
+    width: 30px;
+    height: 10px;
+}
+
+.xIconInline{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 0.3vh;
+}
+
+.elementIcon{
+    width: 20px;
+    height: 20px;
+}
+
+.ulNoBullets{
+    list-style-type: none;
+    padding: 0.2vw;
+
+}
+
+.inlineStarDiv{
+    display: inline;
+    position: relative;
+    top: -0.5vh;
+}
+
+.flexTD{
+    display: grid;
+    grid-template-rows: 15% auto;
+    grid-template-columns: 100%;
+    height: 15vh;
+}
+
+.cardContentDiv{
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    width: 5vw;
+}
+
+.cardHeaderDiv{
+    align-self: top;
+    justify-self: center;
+}
+
+.bufferDiv{
+    width: 20px;
+}
+
+.statusWeaknessInlineDiv{
+    width: 3vw;
+}
+
+.elementalWeaknessInlineDiv{
+    width: 8vw;
+}
