@@ -47,4 +47,4 @@ const arrayContains = (arr, element) => {
 
 export {ApiResponse, COULD_NOT_READ_SERVER_RESPONSE, REQUEST_ERROR, NO_RESPONSE, processErrorWNav,
         constructErrorMsgReqError, constructErrorMsgNoResponse, constructErrorMsgCouldntReadServerResponse,
-        constructErrorMsgUnableToFetch}
+        constructErrorMsgUnableToFetch, arrayContains}
