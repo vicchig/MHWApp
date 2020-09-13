@@ -23,15 +23,28 @@ router.get("/", (req, res) => {
         proj["weaknesses._id"] = 0
     }
 
-    Monster.find(query, proj, (err, doc) => {
-        if(err){
-            console.log(err)
-            res.status(500).send()
-            return
-        }
-
-        res.status(200).send(doc)
-    })
+    if(query.name.length === 0){
+        Monster.find({}, proj, (err, doc) => {
+            if(err){
+                console.log(err)
+                res.status(500).send()
+                return
+            }
+    
+            res.status(200).send(doc)
+        })
+    }
+    else{
+        Monster.find({name: {$in: query.name}}, proj, (err, doc) => {
+            if(err){
+                console.log(err)
+                res.status(500).send()
+                return
+            }
+    
+            res.status(200).send(doc)
+        })
+    }
 })
 
 module.exports = router
