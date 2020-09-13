@@ -102,10 +102,10 @@ class MonsterInfoPage extends React.Component{
     state = {
         searchbarValues: [],
         filters: {
-            species: [{field: "species", value: "all"}],
-            weakness: [{field: "weaknesses", element: "all", stars: "all"}],
-            difficulty: [{field: "difficulty", value: "all"}],
-            threatLevel: [{field: "temperedRank", value: "all"}],
+            species: [],
+            weakness: [],
+            difficulty: [],
+            threatLevel: [],
         },
         sorts: {
             sortWeaknessVal: 0,
@@ -134,10 +134,6 @@ class MonsterInfoPage extends React.Component{
                     results: result.data.monsters, //change this to be results
                     loading: false,
                     searchResultsToShow: result.data.monsters
-                }, () => { //TODO: NEED TO SORT RESULTS HERE
-                    this.sortResultsPrimitive(null, "difficulty", "sortDifficultyVal")
-                    this.sortResultsPrimitive(null, "threat", "sortThreatVal")
-                    this.sortResultsWeakness()
                 })
             }
         })
@@ -184,18 +180,39 @@ class MonsterInfoPage extends React.Component{
     //this function is also used on the SkillToGem page so could put it in an action file instead of copying it
     sortResultsPrimitive = (e, compareOn, sortOption) => {
         if(!e || e.value !== this.state.sorts[sortOption]){
+            const switchOn = e ? e.value : this.state.sorts[sortOption]
             //TODO: Probably want to put this in a separate function as well
-            switch((e ? e.value : this.state.sorts[sortOption])){
+            switch(switchOn){
                 case 0:
                     break
                 case 1:
                     this.setState({
                         searchResultsToShow: this.state.searchResultsToShow.sort((a, b) => {if(a[compareOn] < b[compareOn]) return -1; else return 1})
+                    }, () => {
+                        if(e){
+                            let newSorts = {}
+                            newSorts = this.state.sorts
+                            newSorts[sortOption] = e.value
+                    
+                            this.setState({
+                                sorts: newSorts
+                            })
+                        } 
                     })
                     break
                 case 2:
                     this.setState({
                         searchResultsToShow: this.state.searchResultsToShow.sort((a, b) => {if(a[compareOn] > b[compareOn]) return -1; else return 1})
+                    }, () => {
+                        if(e){
+                            let newSorts = {}
+                            newSorts = this.state.sorts
+                            newSorts[sortOption] = e.value
+                    
+                            this.setState({
+                                sorts: newSorts
+                            })
+                        } 
                     })
                     break
                 default:
@@ -203,15 +220,7 @@ class MonsterInfoPage extends React.Component{
             }
         }
 
-        if(e){
-            let newSorts = {}
-            newSorts = this.state.sorts
-            newSorts[sortOption] = e.value
-    
-            this.setState({
-                sorts: newSorts
-            })
-        }  
+         
     }
 
     sortResultsWeakness = (e) => {

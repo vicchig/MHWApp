@@ -58,7 +58,7 @@ export const getEquipmentInfo = async (name, type) => {
 }
 
 export const getMonsterInfo = async (filters, name = "") => {
-    let query = (name === "" ? null : {name: name})
+    let query = (name === [] ? null : {name: name})
 
     const url = "/monsters" + (query ? "?q=" + JSON.stringify(query) : "")
     const request = new Request(url, {
@@ -80,8 +80,14 @@ export const getMonsterInfo = async (filters, name = "") => {
             return new ApiResponse(result.status, null, constructErrorMsgCouldntReadServerResponse(result.status, err, url))
         })
         if (responseBody.errorMsg) return responseBody
+        let filteredResponseBody = responseBody
+        
+        if(name === []){
+            filteredResponseBody = filterMonsters(responseBody, filters)
+        }
 
-        const filteredResponseBody = filterMonsters(responseBody, filters)
+        filteredResponseBody  = filteredResponseBody.sort((a, b) => {if(a.name > b.name) {return 1} else return -1})
+
         return new ApiResponse(result.status, {monsters: filteredResponseBody}, "")
     }
     else{
