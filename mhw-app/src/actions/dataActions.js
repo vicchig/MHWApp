@@ -97,7 +97,7 @@ export const getMonsterInfo = async (filters, name = "") => {
 
 //helpers
 
-const filterMonsters = (data, filters) => {
+export const filterMonsters = (data, filters) => {
     const allFilters = [...filters.species, ...filters.difficulty, ...filters.threatLevel, ...filters.weakness]
     let filteredMonsters = []
     let useAllSpecies, useAllDifficulties, useAllThreatLevels, useAllWeaknesses = false

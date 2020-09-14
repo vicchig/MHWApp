@@ -4,7 +4,7 @@ import WebsiteHeader from './../../IndividualComponents/WebsiteHeader'
 import SearchBar from './../../IndividualComponents/SearchBar'
 import {getData} from './../../../actions/dataActions'
 import CustomSelect from './../../IndividualComponents/CustomSelect'
-import {getMonsterInfo} from '../../../actions/dataActions'
+import {getMonsterInfo, filterMonsters} from '../../../actions/dataActions'
 import {processErrorWNav, arrayContains} from '../../../actions/utilities'
 import GeneralResultCard from '../../IndividualComponents/GeneralResultCard'
 import { uid } from 'react-uid';
@@ -173,6 +173,14 @@ class MonsterInfoPage extends React.Component{
             //TODO: Still need to make sure that when filter is selected, it modifies searchResultsToShow
             this.setState({
                 filters: newFilters,
+                loading: true
+            }, () => {
+                const newSearchResultsToShow = filterMonsters(this.state.results, this.state.filters)
+
+                this.setState({
+                    loading: false,
+                    searchResultsToShow: newSearchResultsToShow
+                })
             })
         }
     }
