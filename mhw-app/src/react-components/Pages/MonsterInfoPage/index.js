@@ -97,6 +97,12 @@ const sortWeaknessOptions = [
     {value: 2, label: "Weakness Descending"}
 ]
 
+const sortAlphaOptions = [
+    {value: 0, label: "None"},
+    {value: 1, label: "Alphabetical Ascending"},
+    {value: 2, label: "Alphabetical Descending"}
+]
+
 class MonsterInfoPage extends React.Component{
 
     state = {
@@ -111,6 +117,7 @@ class MonsterInfoPage extends React.Component{
             sortWeaknessVal: 0,
             sortDifficultyVal: 0,
             sortThreatVal: 0,
+            sortAlphaVal: 0
         },
         results: [],
         searchResultsToShow: [],
@@ -561,6 +568,16 @@ class MonsterInfoPage extends React.Component{
                         <CustomSelect
                             name="threatSort" onChange={e => this.sortResultsPrimitive(e, "temperedRank", "sortThreatVal")} 
                             className="optionSelect" placeholder="Threat" menuBackgroundColour="rgb(100, 100, 100)" options={sortThreatOptions}
+                            menuBackgroundColour="rgb(100, 100, 100)" optionHoverBackgroundColour="rgb(120, 120, 120)"
+                            optionColour="rgb(161, 184, 98)" controlBackgroundColour="rgb(61, 61, 61)"
+                            controlBorderColor="rgb(100, 100, 100)" controlHoverBorderColor="rgb(161, 184, 98)"
+                            singleValueColour="rgb(161, 184, 98)" placeholderColour="rgb(161, 184, 98)"
+                            valueContainerColour="rgb(161, 184, 98)"
+                        ></CustomSelect>
+
+                        <CustomSelect
+                            name="alphaSort" onChange={e => this.sortResultsPrimitive(e, "name", "sortAlphaVal")} 
+                            className="optionSelect" placeholder="Alphabetical" menuBackgroundColour="rgb(100, 100, 100)" options={sortAlphaOptions}
                             menuBackgroundColour="rgb(100, 100, 100)" optionHoverBackgroundColour="rgb(120, 120, 120)"
                             optionColour="rgb(161, 184, 98)" controlBackgroundColour="rgb(61, 61, 61)"
                             controlBorderColor="rgb(100, 100, 100)" controlHoverBorderColor="rgb(161, 184, 98)"
