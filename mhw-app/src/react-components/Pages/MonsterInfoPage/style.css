@@ -1,0 +1,158 @@
+#mainDiv{
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+    background-color: rgb(61, 61, 61);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+#searchbar.MuiOutlinedInput-input{
+    color: rgb(161, 184, 98)
+}
+
+#searchDiv{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 0fr 0.5fr;
+}
+
+#loadingDiv{
+    margin-top: 5vh;
+}
+
+#filtersDiv{
+    display: grid;
+    grid-template-columns: 15% 55% 55%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    width: 30vw;
+    height: auto;
+}   
+
+#mainSearchBarDiv{
+    max-width: 100%;
+}
+
+.sortsAndFiltersHeader{
+    align-self: center;
+    justify-self: center;
+    color: rgb(161, 184, 98);
+}
+
+.optionSelect{
+    justify-self: center;
+    align-self: center;
+    width: 80%;
+}
+
+#searchbar1{
+    align-self: start;
+    position: relative;
+    top: 2vh;
+}
+
+
+.starIcon1{
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: -0.5vh;
+}
+
+.starIcon2{
+    width: 20px;
+    height: 10px;
+    position: relative;
+    top: -0.5vh;
+}
+
+.starIcon3{
+    width: 30px;
+    height: 10px;
+    position: relative;
+    top: -0.5vh;
+}
+
+.xIcon{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: -0.1vh;
+}
+
+.starIconInline1{
+    width: 10px;
+    height: 10px;
+}
+
+.starIconInline2{
+    width: 20px;
+    height: 10px;
+}
+
+.starIconInline3{
+    width: 30px;
+    height: 10px;
+}
+
+.xIconInline{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 0.3vh;
+}
+
+.elementIcon{
+    width: 20px;
+    height: 20px;
+}
+
+.ulNoBullets{
+    list-style-type: none;
+    padding: 0.2vw;
+
+}
+
+.inlineStarDiv{
+    display: inline;
+    position: relative;
+    top: -0.5vh;
+}
+
+.flexTD{
+    display: grid;
+    grid-template-rows: 15% auto;
+    grid-template-columns: 100%;
+    height: 15vh;
+}
+
+.cardContentDiv{
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    width: 5vw;
+}
+
+.cardHeaderDiv{
+    align-self: top;
+    justify-self: center;
+}
+
+.bufferDiv{
+    width: 20px;
+}
+
+.statusWeaknessInlineDiv{
+    width: 3vw;
+}
+
+.elementalWeaknessInlineDiv{
+    width: 8vw;
+}
+
+.blankSpaceDiv{
+    width: 5px;
+    display: inline-block;
+}

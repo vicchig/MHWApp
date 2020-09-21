@@ -34,7 +34,17 @@ const constructErrorMsgUnableToFetch = (err, url) => {
     return `${COULD_NOT_MAKE_REQUEST}\n ${url} \n\n ${url}`
 }
 
+const arrayContains = (arr, element) => {
+    let doesContain = false
+    arr.forEach(e => {
+        if(e === element) doesContain = true; return;
+    })
+    return doesContain
+}
 
 
 
-export {ApiResponse, COULD_NOT_READ_SERVER_RESPONSE, REQUEST_ERROR, NO_RESPONSE, processErrorWNav, constructErrorMsgReqError, constructErrorMsgNoResponse, constructErrorMsgCouldntReadServerResponse, constructErrorMsgUnableToFetch}
+
+export {ApiResponse, COULD_NOT_READ_SERVER_RESPONSE, REQUEST_ERROR, NO_RESPONSE, processErrorWNav,
+        constructErrorMsgReqError, constructErrorMsgNoResponse, constructErrorMsgCouldntReadServerResponse,
+        constructErrorMsgUnableToFetch, arrayContains}
