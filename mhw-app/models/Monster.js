@@ -42,6 +42,11 @@ const MonsterSchema = new mongoose.Schema(
             required: true,
             default: 0
         },
+        difficulty: {
+            type: Number,
+            required: false,
+            default: 0
+        },
         weaknesses: [
             {
                 element:  
