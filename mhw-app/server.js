@@ -23,6 +23,7 @@ const userRoutes = require('./routes/user')
 const dataRoutes = require('./routes/files')
 const equipmentRoutes = require('./routes/equipment')
 const monsterRoutes = require('./routes/monsters')
+const augmentRoutes = require('./routes/augments')
 
 //.env file load
 require('dotenv').config()
@@ -55,6 +56,7 @@ app.use('/users', userRoutes)
 app.use('/data', dataRoutes)
 app.use('/equipment', equipmentRoutes)
 app.use('/monsters', monsterRoutes)
+app.use('/augments', augmentRoutes)
 
 
 // mongoose and mongo connection
