@@ -1,0 +1,28 @@
+#mainDiv{
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+    background-color: rgb(61, 61, 61);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+#searchbar.MuiOutlinedInput-input{
+    color: rgb(161, 184, 98)
+}
+
+.optionSelect{
+    justify-self: center;
+    align-self: center;
+    width: 80%;
+}
+
+#filtersDiv{
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 33% 33% 33%;
+    
+
+}
