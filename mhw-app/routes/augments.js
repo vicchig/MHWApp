@@ -18,7 +18,8 @@ router.get("/", (req, res) => {
     }
 
     Augment.findOne(filter, {_id: false, __v: false, id: false, "materials._id": false}).then(doc => {
-        res.status(200).send(doc)
+        if(doc) res.status(200).send(doc)
+        else res.status(200).send({materials: []})
     }).catch(rej => {
         res.status(500).send()
         return
