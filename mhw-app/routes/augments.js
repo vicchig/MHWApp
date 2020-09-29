@@ -6,15 +6,15 @@ const fs = require('fs')
 
 
 router.get("/", (req, res) => {
-    if(!req.body.rarity || !req.body.augmentName || !req.body.level){
+    if(!req.query.rarity || !req.query.augmentName || !req.query.level){
         res.status(400).send()
         return
     }
 
     const filter = {
-        rarity: req.body.rarity,
-        augment: req.body.augmentName,
-        level: req.body.level
+        rarity: req.query.rarity,
+        augment: req.query.augmentName,
+        level: req.query.level
     }
 
     Augment.findOne(filter, {_id: false, __v: false, id: false, "materials._id": false}).then(doc => {

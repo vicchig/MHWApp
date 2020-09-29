@@ -2,6 +2,8 @@ import React from 'react';
 import { withRouter } from 'react-router-dom';
 import WebsiteHeader from './../../IndividualComponents/WebsiteHeader'
 import CustomSelect from './../../IndividualComponents/CustomSelect'
+import CustomButton from './../../IndividualComponents/CustomButton'
+import {getAugmentMaterials} from './../../../actions/dataActions'
 
 import './style.css'
 
@@ -21,13 +23,13 @@ const levelOptions = [
 ]
 
 const augmentOptions = [
-    {value: 1, label: "Extra Augmentation Slots"},
-    {value: 2, label: "Attack Increase"},
-    {value: 3, label: "Affinity Increase"},
-    {value: 4, label: "Defense Increase"},
-    {value: 5, label: "Decoration Slot"},
-    {value: 6, label: "Health Regen"},
-    {value: 7, label: "Element/Status Effect Up"}
+    {value: "Extra Augmentation Slots", label: "Extra Augmentation Slots"},
+    {value: "Attack Increase", label: "Attack Increase"},
+    {value: "Affinity Increase", label: "Affinity Increase"},
+    {value: "Defense Increase", label: "Defense Increase"},
+    {value: "Decoration Slot", label: "Decoration Slot"},
+    {value: "Health Regen", label: "Health Regen"},
+    {value: "Element/Status Effect Up", label: "Element/Status Effect Up"}
 ]
 
 class AugmentPage extends React.Component{
@@ -35,12 +37,33 @@ class AugmentPage extends React.Component{
     state = {
         rarity: 0,
         augment: 0,
-        level: 0
+        level: 0,
+        loading: false,
+        results: {}
     }
 
     handleSelect = (e, property) => {
         this.setState({
             [property]: e.value
+        })
+    }
+
+    loadAugmentMaterials = () => {
+        this.setState({
+            loading: true
+        }, async () => {
+            const augmentMats = await getAugmentMaterials(this.state.level, this.state.rarity, this.state.augment).catch(err => {
+                console.error("Error while fetching data.")
+            })
+
+            if(augmentMats.status === 200 || augmentMats.status === 304){
+                this.setState({
+                    results: augmentMats.data
+                })
+            }
+            else{
+                console.error("Error while fetchinf data." + augmentMats.status)
+            }
         })
     }
 
@@ -80,6 +103,24 @@ class AugmentPage extends React.Component{
                         valueContainerColour="rgb(161, 184, 98)" isMulti={false}
                     >     
                     </CustomSelect>
+                    <CustomButton
+                        id={"doSearchButton"}
+                        border={"solid"}
+                        textColor={"rgb(161, 184, 98)"}
+                        height={"30px"}
+                        width={"150px"}
+                        borderColor={"rgb(164, 164, 164)"}
+                        fontSize={"10pt"}
+                        position={"absolute"}
+                        buttonText={"Select"}
+                        position={"relative"}
+                        borderRadius={"10px"}
+                        hoverColor={"rgb(74, 74, 74)"}
+                        hoverTextColor={"rgb(161, 184, 98)"}
+                        onClick={() => {this.loadAugmentMaterials()}}
+                        justifySelf={"center"}
+                        alignSelf={"center"}
+                    ></CustomButton>
                 </div>
             </div>
         )

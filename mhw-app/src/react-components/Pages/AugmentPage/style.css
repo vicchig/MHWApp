@@ -22,7 +22,7 @@
 #filtersDiv{
     display: grid;
     grid-template-rows: 100%;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 33% 33% 33% 33%;
     
 
 }
