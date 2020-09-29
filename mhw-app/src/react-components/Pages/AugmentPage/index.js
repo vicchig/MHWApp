@@ -4,6 +4,9 @@ import WebsiteHeader from './../../IndividualComponents/WebsiteHeader'
 import CustomSelect from './../../IndividualComponents/CustomSelect'
 import CustomButton from './../../IndividualComponents/CustomButton'
 import {getAugmentMaterials} from './../../../actions/dataActions'
+import BeatLoader from "react-spinners/BeatLoader";
+import GeneralResultCard from '../../IndividualComponents/GeneralResultCard'
+import { uid } from 'react-uid';
 
 import './style.css'
 
@@ -39,7 +42,7 @@ class AugmentPage extends React.Component{
         augment: 0,
         level: 0,
         loading: false,
-        results: {}
+        results: []
     }
 
     handleSelect = (e, property) => {
@@ -58,7 +61,8 @@ class AugmentPage extends React.Component{
 
             if(augmentMats.status === 200 || augmentMats.status === 304){
                 this.setState({
-                    results: augmentMats.data
+                    results: augmentMats.data.materials,
+                    loading: false
                 })
             }
             else{
@@ -68,6 +72,20 @@ class AugmentPage extends React.Component{
     }
 
     render(){
+
+        const resultDisplay = this.state.results.map(item => (
+            <GeneralResultCard
+                key={uid(item)}
+                hasCount={true}
+                count={item.quantity}
+                name={item.name}
+                displayType={2}
+            >
+                <div>
+                    {item.description}
+                </div>
+            </GeneralResultCard>
+        ))
 
         return(
             <div id="mainDiv">
@@ -121,6 +139,12 @@ class AugmentPage extends React.Component{
                         justifySelf={"center"}
                         alignSelf={"center"}
                     ></CustomButton>
+                </div>
+                <div id="loaderDiv">
+                    {this.state.loading ? <BeatLoader color="rgb(161, 184, 98)"></BeatLoader> : null}
+                </div>
+                <div id="resultsDiv">
+                    {this.state.loading ? null : resultDisplay}
                 </div>
             </div>
         )

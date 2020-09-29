@@ -118,7 +118,7 @@ export const getAugmentMaterials = async (level, rarity, augment) => {
         })
         if (responseBody.errorMsg) return responseBody
         
-        return new ApiResponse(result.status, {data: responseBody}, "")
+        return new ApiResponse(result.status, responseBody, "")
     }
     else{
         return new ApiResponse(result.status, null, constructErrorMsgReqError(result.status, url, result.errMsg))
