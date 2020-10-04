@@ -48,7 +48,7 @@ class HomePage extends React.Component{
                             </div>
 
         return(
-            <div id="mainDiv">
+            <div id="mainDivHome">
                 <WebsiteHeader pageName={"home"} parentContext={this} appContext={this.props.parentContext}/>
 
                 <div id="newsfeed_mainDiv">
