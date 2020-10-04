@@ -208,9 +208,9 @@ class SkillToGemPage extends React.Component{
         let resultsComponent = this.generateResultComponent(items)
         
         return(
-            <div id="mainDiv">
+            <div id="mainDivSkill">
                 <WebsiteHeader appContext={this.props.parentContext}/>
-                <div id="searchDiv">
+                <div id="searchDivSkill">
                         <SearchBar id={"searchbar1"} textFieldID={"searchbar"} dataObjectName={"dataList"}
                                 searchFunction={getData} searchCategory={"skillNames"} value={this.state.searchbarText}
                                 parentContext={this} onChange={this.handleInput}
@@ -218,9 +218,10 @@ class SkillToGemPage extends React.Component{
                                 onSetSelect={this.handleSearchSelect} buttonText={"Search"}
                                 hasButton={true} placeholder={"Select or type in the name of skill..."}
                                 searchObjectProperties={["name"]}
+                                className={"Skill"}
                         ></SearchBar>
                    
-                    <div id="filtersDiv">
+                    <div id="filtersDivSkill">
                         <h1 className="sortsAndFiltersHeader">Filters:</h1>
                         <CustomSelect
                             name="slotsSelect" onChange={e => this.changeSlotSelect(e)} 

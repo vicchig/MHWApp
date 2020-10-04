@@ -1,4 +1,4 @@
-#mainDiv{
+#mainDivSkill{
     min-height: 100vh;
     height: auto;
     width: 100%;
@@ -13,7 +13,7 @@
     color: rgb(161, 184, 98)
 }
 
-#filtersDiv{
+#filtersDivSkill{
     display: grid;
     grid-template-columns: 15% 40% 40%;
     grid-template-rows: 33% 33% 33%;
@@ -30,7 +30,7 @@
     color: rgb(161, 184, 98);
 }
 
-#searchDiv{
+#searchDivSkill{
     display: grid;
     grid-template-columns: 70% 30%;
     grid-template-rows: 0fr 0.5fr;
@@ -81,10 +81,18 @@
     margin: 0pt;
 }
 
-#searchbar1{
+#searchbar1Skill{
     align-self: start;
     position: relative;
     top: 2vh;
+}
+
+.mainSearchBarDiv-Skill{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 50%;
+    padding: 2pt;
+    width: 65vw;
 }
 
 #loadSpinnerDiv{
