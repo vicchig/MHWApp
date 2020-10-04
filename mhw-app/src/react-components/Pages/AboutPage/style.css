@@ -1,0 +1,24 @@
+#mainDivAbout{
+    min-height: 100vh;
+    height: 200vh;
+    width: 100%;
+    background-color: rgb(61, 61, 61);
+    padding-top: 5px;
+}
+
+.aboutHeader{
+    color: rgb(164, 164, 164);
+    font-size: 30pt;
+    position: relative;
+    left: 10vw;
+    width: 50vw;
+}
+
+.aboutPara{
+    color: rgb(161, 184, 98);
+    width: 70vw;
+    margin-bottom: 5vh;
+    font-size: 14pt;
+    position: relative;
+    left: 15vw;
+}
