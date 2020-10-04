@@ -89,6 +89,21 @@ class Navbar extends React.Component{
                               hoverTextColor={"rgb(161, 184, 98)"}
                               onClick={() => {this.switchpage("monsters")}}
                 ></CustomButton>
+                <CustomButton id={"augmentInfoButton"}
+                              border={"solid"}
+                              textColor={"rgb(161, 184, 98)"}
+                              height={"30px"}
+                              width={"150px"}
+                              borderColor={"rgb(164, 164, 164)"}
+                              fontSize={"10pt"}
+                              position={"absolute"}
+							  buttonText={"Augments"}
+							  position={"relative"}
+							  borderRadius={"10px"}
+							  hoverColor={"rgb(74, 74, 74)"}
+                              hoverTextColor={"rgb(161, 184, 98)"}
+                              onClick={() => {this.switchpage("augments")}}
+                ></CustomButton>
                 {pageName === 'home' && !appContext.state.loggedInUser ? 
                     <CustomButton id={"signInButton"}
                         border={"solid"}

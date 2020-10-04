@@ -13,6 +13,7 @@ import Page500 from './react-components/Pages/ErrorPages/500Page'
 import UnknownError from './react-components/Pages/ErrorPages/UnknownError'
 import MatsPage from './react-components/Pages/MatsPage'
 import MonsterInfoPage from './react-components/Pages/MonsterInfoPage'
+import AugmentPage from './react-components/Pages/AugmentPage'
 
 //actions
 import {readCookie, login} from './actions/accActions'
@@ -74,6 +75,11 @@ class App extends React.Component{
             <Route
               exact path = {["/monsters"]}
               render={({history}) => <MonsterInfoPage history={history} parentContext={this}/>}
+            />
+
+            <Route
+              exact path = {["/augments"]}
+              render={({history}) => <AugmentPage history={history} parentContext={this}/>}
             />
 
             { /* 404 if URL isn't expected. */}
