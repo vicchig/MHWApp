@@ -227,7 +227,7 @@ class MatsPage extends React.Component{
         })()
 
         return(
-            <div id="mainDiv">
+            <div id="mainDiv-Mats">
                 <WebsiteHeader appContext={this.props.parentContext}/>
                 <div id="searchbarDiv">
                     <SearchBar id={"searchbar1"} textFieldID={"searchbar"}  searchFunction={getData} searchCategory={"equipmentNames"}      
