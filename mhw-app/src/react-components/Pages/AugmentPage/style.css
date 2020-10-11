@@ -1,12 +1,11 @@
-#mainDiv{
-    min-height: 100vh;
-    height: auto;
+#mainDivAugment{
     width: 100%;
     background-color: rgb(61, 61, 61);
     align-items: center;
     display: flex;
     flex-direction: column;
     padding-top: 5px;
+    min-height: 100vh;
 }
 
 #searchbar.MuiOutlinedInput-input{
@@ -19,18 +18,93 @@
     width: 80%;
 }
 
-#filtersDiv{
+#filtersDiv-Augment{
     display: grid;
     grid-template-rows: 100%;
     grid-template-columns: 33% 33% 33% 33%;
+    column-gap: 10px;
+    width: 50vw;
+    left: -10vw;
+    position: relative;
 }
 
-#resultsDiv{
+#resultsDivAugment{
     position: relative;
     top: 5vh;
+    width: 55vw;
 }
 
 #loaderDiv{
     position: relative;
     top: 2vh;
+}
+
+.mainCardDiv-2augment{
+    max-height: 20vh;
+    max-width: 35vw;
+    max-height: 50vh;
+    margin-bottom: 2vh;
+    width: 150%;
+}
+
+@media (max-width: 1550px) and (min-width: 951px){
+    #filtersDiv-Augment{
+        width: 50vw;
+        left: -10vw;
+        position: relative;
+    }
+    .mainCardDiv-2augment{
+        width: 150%;
+    }
+    #resultsDivAugment{
+        position: relative;
+        top: 5vh;
+        width: 55vw;
+    }
+    
+}
+
+@media (max-width: 950px) and (min-width: 730px){
+    #filtersDiv-Augment{
+        width: 60vw;
+        position: relative;
+        left: -10vw;
+    }
+    
+}
+
+@media (max-width: 729px) and (min-width: 680px){
+    #filtersDiv-Augment{
+        width: 70vw;
+        position: relative;
+        left: -12vw;
+    }
+    .mainCardDiv-2augment{
+        font-size: 9pt;
+    }
+}
+
+
+@media (max-width: 679px){
+    #filtersDiv-Augment{
+        width: 70vw;
+        grid-template-rows: 33% 33% 33% 33%;
+        grid-template-columns: 100%;
+        left: 0vw;
+    }
+}
+
+@media (max-height: 800px) and (min-height: 220px){
+    #mainDivAugment{
+        height: 350vh;
+    }
+    #filtersDiv-Augment{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-height: 219px) {
+    #mainDivAugment{
+        height: 500vh;
+    }
 }
