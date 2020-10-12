@@ -30,14 +30,14 @@ class GeneralResultCard extends React.Component{
 
         return(
             <div className={`mainCardDiv-${displayType}` + (className ?? "")}>
-                <table className="cardTable">
+                <table className={"cardTable" + (className ?? "")}>
                     <tbody className="cardTBody">
                         <tr className="cardRow">
                             <td className="cardSection1">
                                 {countDisplay}
                                 {icon}
                             </td>
-                            <td className="cardItemNameSection">{name}</td>
+                            <td className={"cardItemNameSection"+(className ?? "")}>{name}</td>
                             <td className="cardSection2"> 
                                 <div className="childDiv">{this.props.children}</div>
                             </td>
