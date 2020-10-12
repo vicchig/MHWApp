@@ -44,9 +44,16 @@ class ResultCard extends React.Component{
                                     {this.state.skillObj?.ranks.map((rank, index) => (() => {
                                         if(index === this.state.skillObj.level - 1){
                                             if(index === 0){
-                                                return <tr key={uid(rank)} className={"skillCardRow"}>
-                                                    <td className={"skillCardRankDescriptionTopLevel"}>{`Level ${index + 1}: ` + rank.description}</td>
-                                                </tr>
+                                                if(this.state.skillObj?.ranks.length === 1){
+                                                    return  <tr key={uid(rank)} className={"skillCardRow"}>
+                                                                <td className={"skillCardRankDescriptionLevel1"}>{`Level ${index + 1}: ` + rank.description}</td>
+                                                            </tr>
+                                                }
+                                                else{
+                                                    return  <tr key={uid(rank)} className={"skillCardRow"}>
+                                                                <td className={"skillCardRankDescriptionTopLevel"}>{`Level ${index + 1}: ` + rank.description}</td>
+                                                            </tr>
+                                                }
                                             }
                                             else{
                                                 return <tr key={uid(rank)} className={"skillCardRow"}>

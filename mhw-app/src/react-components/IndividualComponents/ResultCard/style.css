@@ -72,4 +72,9 @@
     padding-bottom: 10pt;
 }
 
-
+.skillCardRankDescriptionLevel1{
+    color: rgb(161, 184, 98);
+    padding-left: 7pt;
+    padding-bottom: 10pt;
+    border-top: 2pt solid rgb(120, 120, 120);
+}
