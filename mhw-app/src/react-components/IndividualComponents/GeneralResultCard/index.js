@@ -10,7 +10,7 @@ class GeneralResultCard extends React.Component{
     render(){
 
         const {hasCloseButton, hasCount, hasIcon, iconSource, count, iconWidth, iconHeight, closeButtonClickHandler, name, id,
-               displayType} = this.props
+               displayType, className} = this.props
         //console.log(require("./../../../Images/bannerImg.jpg"))
         const icon = (hasIcon ?? false ) ? <img src={iconSource}
                                                 alt="No Image"
@@ -29,15 +29,15 @@ class GeneralResultCard extends React.Component{
                                                          </IconButton> : null
 
         return(
-            <div className={`mainCardDiv-${displayType}`}>
-                <table className="cardTable">
+            <div className={`mainCardDiv-${displayType}` + (className ?? "")}>
+                <table className={"cardTable" + (className ?? "")}>
                     <tbody className="cardTBody">
                         <tr className="cardRow">
                             <td className="cardSection1">
                                 {countDisplay}
                                 {icon}
                             </td>
-                            <td className="cardItemNameSection">{name}</td>
+                            <td className={"cardItemNameSection"+(className ?? "")}>{name}</td>
                             <td className="cardSection2"> 
                                 <div className="childDiv">{this.props.children}</div>
                             </td>

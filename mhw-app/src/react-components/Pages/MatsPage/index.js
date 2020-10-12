@@ -149,9 +149,25 @@ class MatsPage extends React.Component{
                 return null
         }
     }
+
+    setIconSize = (iconSize) => {
+        const query = window.matchMedia("(max-width: 799px) and (min-width: 350px)")
+
+        if(query.matches){
+            iconSize.width = "30vw"
+            iconSize.height = "40vh"
+        }
+    }
     
 
     render(){
+        const iconSize = {
+            width: "50vw",
+            height: "70vh"
+        }
+
+        this.setIconSize(iconSize)
+
         const selection = this.state.selectedItems.map(item => (
             (
                 <GeneralResultCard
@@ -159,8 +175,8 @@ class MatsPage extends React.Component{
                     hasCount={false}
                     hasCloseButton={true}
                     hasIcon={true}
-                    iconWidth={"50vw"}
-                    iconHeight={"70vh"}
+                    iconWidth={iconSize.width}
+                    iconHeight={iconSize.height}
                     iconSource={item?.assets?.icon ?? this.getEquipmentIcon(item.type)}
                     name={item.name + " (" + this.convertRarityToRank(item.rarity) + ")"}
                     closeButtonClickHandler={this.removeMatCardHandler}
@@ -211,12 +227,12 @@ class MatsPage extends React.Component{
         })()
 
         return(
-            <div id="mainDiv">
+            <div id="mainDiv-Mats">
                 <WebsiteHeader appContext={this.props.parentContext}/>
                 <div id="searchbarDiv">
-                    <SearchBar id={"searchbar1"} textFieldID={"searchbar"} buttonText={"Add"} searchFunction={getData} searchCategory={"equipmentNames"}      
+                    <SearchBar id={"searchbar1"} textFieldID={"searchbar"}  searchFunction={getData} searchCategory={"equipmentNames"}      
                                parentContext={this} dataObjectName={"dataList"} onSetSelect={this.handleSearchSelect} placeholder={"Select a piece of equipment..."}
-                               searchObjectProperties={["name", "type"]}
+                               searchObjectProperties={["name", "type"]} className="Mats" 
                     ></SearchBar>
                 </div>
                 <div id="loadingDiv">

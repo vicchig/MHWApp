@@ -51,9 +51,9 @@ const sortAlphaOptions = [
     {value: 2, label: "Z-A"}
 ]
 
-const hoverOptions = {
+let hoverOptions = {
     followCursor: true,
-    shiftX: -500,
+    shiftX: -200,
     shiftY: -1000
 }
 
@@ -180,7 +180,27 @@ class SkillToGemPage extends React.Component{
         return resultsComponent
     }
 
+    setHoverOptions = () => {
+        let query = window.matchMedia("(max-width: 375px)")
+        let query2 = window.matchMedia("(min-width: 1200px)")
+        let query3 = window.matchMedia("(min-width: 401px) and (max-width: 800px)")
+
+        if(query.matches){
+            hoverOptions.shiftX = -300
+            hoverOptions.shiftY = -1300
+        }
+        if(query2.matches){
+            hoverOptions.shiftX = -600
+            hoverOptions.shiftY = -1200
+        }
+        if(query3.matches){
+            hoverOptions.shiftX = -300
+            hoverOptions.shiftY = -1200
+        }
+    }
+
     render(){
+        this.setHoverOptions()
         const items = this.state.searchResultsToShow.map(item => (
             <tr key={uid(item)}>
                 <td className="tdStyle">{item.slot}</td>
@@ -208,9 +228,9 @@ class SkillToGemPage extends React.Component{
         let resultsComponent = this.generateResultComponent(items)
         
         return(
-            <div id="mainDiv">
+            <div id="mainDivSkill">
                 <WebsiteHeader appContext={this.props.parentContext}/>
-                <div id="searchDiv">
+                <div id="searchDivSkill">
                         <SearchBar id={"searchbar1"} textFieldID={"searchbar"} dataObjectName={"dataList"}
                                 searchFunction={getData} searchCategory={"skillNames"} value={this.state.searchbarText}
                                 parentContext={this} onChange={this.handleInput}
@@ -218,9 +238,10 @@ class SkillToGemPage extends React.Component{
                                 onSetSelect={this.handleSearchSelect} buttonText={"Search"}
                                 hasButton={true} placeholder={"Select or type in the name of skill..."}
                                 searchObjectProperties={["name"]}
+                                className={"Skill"}
                         ></SearchBar>
                    
-                    <div id="filtersDiv">
+                    <div id="filtersDivSkill">
                         <h1 className="sortsAndFiltersHeader">Filters:</h1>
                         <CustomSelect
                             name="slotsSelect" onChange={e => this.changeSlotSelect(e)} 
@@ -278,7 +299,6 @@ class SkillToGemPage extends React.Component{
                 <div id={"resultsTableDiv"}>
                     {this.state.showHelperText ? <h5 id={"resultsTableHint"}>*Hover over the skill name to view skill info.</h5> : null }
                     {resultsComponent}
-
                 </div>
             </div>
         )
@@ -286,3 +306,4 @@ class SkillToGemPage extends React.Component{
 }
 
 export default withRouter(SkillToGemPage);
+//                    {this.state.searchResultsToShow[0]?.skills[0] ? <ResultCard skill={this.state.searchResultsToShow[0].skills[0]}></ResultCard> : null}

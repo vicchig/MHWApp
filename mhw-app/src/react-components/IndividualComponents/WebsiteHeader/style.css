@@ -19,10 +19,23 @@
 }
 
 .mainHeader{
-    font-size: 60pt;
+    font-size: 4vw;
     font-style: oblique;
     font-weight: 600;
     width: fit-content;
     height: fit-content;
     color: rgb(161, 184, 98);
+    align-self: center;
+}
+
+@media (max-width: 300px){
+    .mainHeader{
+        font-size: 15pt;
+    }
+}
+
+@media (min-width: 301px){
+    .mainHeader{
+        font-size: 42pt;
+    }
 }

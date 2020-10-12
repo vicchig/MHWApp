@@ -94,10 +94,10 @@ class SearchBar extends React.Component{
     }
 
     render(){
-        const {onSearch, id, buttonText, hasButton, placeholder, isMulti} = this.props
+        const {onSearch, id, buttonText, hasButton, placeholder, isMulti, className} = this.props
         return(
             <div id={id}>
-                <div id="mainSearchBarDiv">
+                <div className={"mainSearchBarDiv-" + className}>
                     <AsyncSelect 
                         styles={this.customSelectStyles}
                         className={"searchbarSelect"}
