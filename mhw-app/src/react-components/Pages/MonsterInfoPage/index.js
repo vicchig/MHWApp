@@ -328,6 +328,7 @@ class MonsterInfoPage extends React.Component{
                     id={item.internalID}
                     displayType={1}
                     iconSource={item.name === "Pukei-Pukei" ? null : require("./../../../Images/" + iconName)}
+                    className = {"MonsterInfo"}
                 >    
                     <table>
                         <tbody>
@@ -491,19 +492,19 @@ class MonsterInfoPage extends React.Component{
         ))
 
         return(
-            <div id="mainDiv">
+            <div id="mainDivMonsterInfo">
                 <WebsiteHeader appContext={this.props.parentContext}/>
-                <div id="searchDiv">
+                <div id="searchDivMonsterInfo">
                         <SearchBar id={"searchbar1"} textFieldID={"searchbar"} dataObjectName={"dataList"}
                                 searchFunction={getData} searchCategory={"monsterNames"} isMulti={true}
                                 parentContext={this}
                                 onSearch={this.onSearchAction}
                                 onSetSelect={e => this.handleSelect(e, "searchbarValues")} buttonText={"Search"}
                                 hasButton={true} placeholder={"Select a monster or monster group to dispaly the info for"}
-                                searchObjectProperties={["name"]}
+                                searchObjectProperties={["name"]} className={"MonsterInfo"}
                         ></SearchBar>
                    
-                    <div id="filtersDiv">
+                    <div id="filtersDivMonsterInfo">
                         <h1 className="sortsAndFiltersHeader">Filters:</h1>
                         <CustomSelect
                             name="weaknessSelect" onChange={e => this.handleSelect(e, "weakness")} 

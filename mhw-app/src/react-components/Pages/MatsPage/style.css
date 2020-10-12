@@ -1,4 +1,4 @@
-#mainDiv{
+#mainDiv-Mats{
     min-height: 100vh;
     height: auto;
     width: 100%;
@@ -50,4 +50,88 @@
     display: block;
     margin-left: 55vw;
     color: rgb(161, 184, 98);
+}
+
+.mainSearchBarDiv-Mats{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 50%;
+    padding: 2pt;
+    width: 65vw;
+}
+
+@media(max-width: 400px){
+
+}
+
+@media (max-width: 1200px) and (min-width: 800px){
+    .mainCardDiv-2{
+        width: 115%;
+    }
+}
+
+@media (max-width: 999px) and (min-width: 800px){
+    .mainCardDiv-2{
+        width: 120%;
+    }
+}
+
+@media (max-width: 799px) and (min-width: 350px){
+    .mainCardDiv-2{
+        width: 125%;
+        font-size: 9pt;
+    }
+
+    #selectionDiv{
+        position: relative;
+        margin-top: 2vh;
+        float: left;
+        left: 1vw;
+        margin-right: 2px;
+        font-size: 9pt;
+    }
+
+    #materialTallyDiv{
+        margin-left: 3vw;
+    }
+}
+
+
+@media (max-width: 470px) and (min-width: 450px){
+    #materialTallyDiv{
+        margin-left: 3vw;
+        left: 2vw;
+        position: relative;
+    }
+}
+
+@media (max-width: 449px){
+    #materialTallyDiv{
+        margin-left: 3vw;
+        margin-top: 2vh;
+        float: none;
+        width: 100vw;
+    }
+
+    #selectionHeader{
+        margin-left: 3vw;
+        color: rgb(161, 184, 98);
+    }
+
+    #selectionDiv{
+        position: relative;
+        margin-top: 2vh;
+        float: none;
+        margin-bottom: 4vh;
+    }
+
+    .mainCardDiv-2{
+        width: 100vw;
+        font-size: 9pt;
+    }
+
+    .cardItemNameSection{
+        margin-right: 30px;
+        margin-left: 10px;
+    }
 }

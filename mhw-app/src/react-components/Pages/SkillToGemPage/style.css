@@ -1,4 +1,4 @@
-#mainDiv{
+#mainDivSkill{
     min-height: 100vh;
     height: auto;
     width: 100%;
@@ -13,7 +13,7 @@
     color: rgb(161, 184, 98)
 }
 
-#filtersDiv{
+#filtersDivSkill{
     display: grid;
     grid-template-columns: 15% 40% 40%;
     grid-template-rows: 33% 33% 33%;
@@ -30,7 +30,7 @@
     color: rgb(161, 184, 98);
 }
 
-#searchDiv{
+#searchDivSkill{
     display: grid;
     grid-template-columns: 70% 30%;
     grid-template-rows: 0fr 0.5fr;
@@ -81,10 +81,18 @@
     margin: 0pt;
 }
 
-#searchbar1{
+#searchbar1Skill{
     align-self: start;
     position: relative;
     top: 2vh;
+}
+
+.mainSearchBarDiv-Skill{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 50%;
+    padding: 2pt;
+    width: 65vw;
 }
 
 #loadSpinnerDiv{
@@ -105,6 +113,7 @@
     position: relative;
 }
 
+
 .tdStyleRightEdge{
     text-align: center;
     border-top: 1px solid rgb(120, 120, 120);
@@ -112,4 +121,205 @@
 
 .thStyleRightEdge{
     color: rgb(164, 173, 136);
+}
+
+@media (max-width: 400px){   
+    #filtersDivSkill{
+        grid-template-columns: 19% 38% 38%;
+        grid-template-rows: 33% 33% 33%;
+        width: 100%;
+        height: 95%;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        align-self: center;
+        justify-self: center;
+        row-gap: 10px;
+        column-gap: 10px;
+    } 
+
+    .sortsAndFiltersHeader{
+        align-self: center;
+        justify-self: center;
+        font-size: 15pt;
+        color: rgb(161, 184, 98);
+    }
+
+    .skillToGemSelect{
+        justify-self: center;
+        align-self: center;
+        width: 100%;
+    }
+
+    #searchDivSkill{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 40% 60%;
+        width: 90vw;
+        margin-bottom: 15px;
+    }    
+
+    #resultsTableDiv{
+        width: 80%;
+        position: relative;
+        left: -20vw;
+    }
+
+    .resultCardMainDiv{
+        width: 7 0vw;
+        
+    }
+    
+}
+
+
+@media (min-width: 401px) and (max-width: 800px){   
+    #filtersDivSkill{
+        grid-template-columns: 19% 38% 38%;
+        grid-template-rows: 33% 33% 33%;
+        width: 100%;
+        height: 95%;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        align-self: center;
+        justify-self: center;
+        row-gap: 10px;
+        column-gap: 10px;
+    } 
+
+    .sortsAndFiltersHeader{
+        align-self: center;
+        justify-self: center;
+        font-size: 15pt;
+        color: rgb(161, 184, 98);
+    }
+
+    .skillToGemSelect{
+        justify-self: center;
+        align-self: center;
+        width: 100%;
+    }
+
+    #searchDivSkill{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 40% 60%;
+        width: 90vw;
+        margin-bottom: 15px;
+    }    
+
+    #resultsTableDiv{
+        width: 93%;
+        position: relative;
+        left: -20vw;
+    }
+
+    .resultCardMainDiv{
+        width: 50vw;
+        
+    }
+
+    #resultsTable{
+        width: 100%;
+        min-width: 50%;
+        max-width: 90%;
+        border: 1px solid rgb(120, 120, 120);
+        color: rgb(161, 184, 98);
+        border-radius: 25pt;
+        margin-bottom: 5vh;
+        position: relative;
+        left: 25%;
+    }
+}
+
+
+@media (min-width: 801px) and (max-width: 1200px){   
+    #filtersDivSkill{
+        grid-template-columns: 19% 38% 38%;
+        grid-template-rows: 33% 33% 33%;
+        width: 100%;
+        height: 95%;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        align-self: center;
+        justify-self: center;
+        row-gap: 10px;
+        column-gap: 10px;
+    } 
+
+    .sortsAndFiltersHeader{
+        align-self: center;
+        justify-self: center;
+        font-size: 15pt;
+        color: rgb(161, 184, 98);
+    }
+
+    .skillToGemSelect{
+        justify-self: center;
+        align-self: center;
+        width: 100%;
+    }
+
+    #searchDivSkill{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 40% 60%;
+        width: 90vw;
+        margin-bottom: 15px;
+    }    
+
+    #resultsTableDiv{
+        width: 70%;
+        position: relative;
+        left: -14vw;
+    }
+
+    .resultCardMainDiv{
+        width: 50vw;
+        
+    }
+
+    #resultsTable{
+        width: 100%;
+        min-width: 50%;
+        max-width: 90%;
+        border: 1px solid rgb(120, 120, 120);
+        color: rgb(161, 184, 98);
+        border-radius: 25pt;
+        margin-bottom: 5vh;
+        position: relative;
+        left: 25%;
+    }
+}
+
+@media (min-width: 1201px){
+    #searchDivSkill{
+        grid-template-columns: 65% 35%;
+        grid-template-rows: 0fr 0.5fr;
+        margin-bottom: 15px;
+    }
+
+    #filtersDivSkill{
+        grid-template-columns: 30% 38% 38%;
+        grid-template-rows: 33% 33% 33%;
+        align-self: center;
+        justify-self: center;
+    } 
+
+    .resultCardMainDiv{
+        width: 35vw;
+        
+    }
+}
+
+@media(min-width: 1500px){
+    .resultCardMainDiv{
+        width: 25vw;
+        
+    }
 }
