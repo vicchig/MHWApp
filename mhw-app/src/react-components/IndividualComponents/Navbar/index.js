@@ -66,7 +66,7 @@ class Navbar extends React.Component{
                               border={"solid"}
                               textColor={"rgb(161, 184, 98)"}
                               height={"30px"}
-                              width={"185px"}
+                              width={"200px"}
                               borderColor={"rgb(164, 164, 164)"}
                               fontSize={"10pt"}
 							  buttonText={"Equipment Materials"}
