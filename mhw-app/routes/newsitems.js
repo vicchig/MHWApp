@@ -10,7 +10,7 @@ router.get('/getInterval', (req, res) =>  {
     let skipAmnt = req.query.skip ? parseInt(req.query.skip, 10) : 10
     let left = 0
 
-    if (amnt == undefined || skipAmnt == undefined) res.status(400).send()
+    if (amnt === undefined || skipAmnt === undefined) res.status(400).send()
 
     NewsItem.countDocuments((err, count) => {
         if (err) res.status(500).send({errMsg: err})
