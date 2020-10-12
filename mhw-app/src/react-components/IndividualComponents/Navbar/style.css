@@ -20,7 +20,7 @@
 @media (max-width: 519px) and (min-width: 376px){
 	.navbarDiv{
 		grid-template-rows: 50px 50px 50px 50px;
-		grid-template-columns: 160px 160px;
+		grid-template-columns: 195px 160px;
 		grid-auto-flow: row;
 	}
 }
@@ -28,7 +28,7 @@
 @media (max-width: 710px) and (min-width: 520px){
 	.navbarDiv{
 		grid-template-rows: 50px 50px 50px;
-		grid-template-columns: 160px 160px 160px;
+		grid-template-columns: 160px 160px 195px;
 		grid-auto-flow: row;
 	}
 }
@@ -36,7 +36,7 @@
 @media (max-width: 895px) and (min-width: 711px){
 	.navbarDiv{
 		grid-template-rows: 50px 50px;
-		grid-template-columns: 160px 160px 160px 160px;
+		grid-template-columns: 160px 160px 195px 160px;
 		grid-auto-flow: row;
 		justify-content: unset;
 	}
@@ -45,7 +45,7 @@
 @media (max-width: 1060px) and (min-width: 896px){
 	.navbarDiv{
 		grid-template-rows: 50px 50px;
-		grid-template-columns: 160px 160px 160px 160px 160px;
+		grid-template-columns: 160px 160px 195px 160px 160px;
 		grid-auto-flow: row;
 		justify-content: unset;
 	}
@@ -54,7 +54,7 @@
 @media (max-width: 1240px) and (min-width: 1061px){
 	.navbarDiv{
 		grid-template-rows: 50px 50px;
-		grid-template-columns: 160px 160px 160px 160px 160px 160px;
+		grid-template-columns: 160px 160px 195px 160px 160px 160px;
 		grid-auto-flow: row;
 		justify-content: unset;
 	}
@@ -63,7 +63,7 @@
 @media (min-width: 1241px){
 	.navbarDiv{
 		grid-template-rows: 50px;
-		grid-template-columns: 160px 160px 160px 160px 160px 160px 160px;
+		grid-template-columns: 160px 160px 185px 160px 160px 160px 160px;
 		grid-auto-flow: row;
 		justify-content: unset;
 	}
