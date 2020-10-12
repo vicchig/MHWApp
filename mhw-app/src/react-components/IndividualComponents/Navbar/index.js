@@ -17,7 +17,7 @@ class Navbar extends React.Component{
             console.error(`Could not log out due to an error. \n ${err}`)
         })
 
-        if(response.status != 200) processErrorWNav(this, response.status, response.errorMsg)
+        if(response.status !== 200) processErrorWNav(this, response.status, response.errorMsg)
         else{
             this.props.appContext.setState({loggedInUser: null})
             this.props.history.push("/")

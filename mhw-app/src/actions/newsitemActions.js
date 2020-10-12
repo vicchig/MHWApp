@@ -7,7 +7,7 @@ const processResponse = async (req) => {
   })
   if (res.errorMsg !== undefined) return res
 
-  if(res.status != 200) {
+  if(res.status !== 200) {
     const responseBody = await res.json().catch(err => {
       return new ApiResponse(res.status, null, constructErrorMsgCouldntReadServerResponse(res.status, err, req.url))
     })

@@ -54,7 +54,7 @@ class NewsItemScroll extends React.Component {
       items: this.state.items.filter(item => item.id !== id)
     }, () => {
       deleteNewsItem(id).then(res => {
-        if (res.status != 200) processErrorWNav(this, res.status, res.errorMsg)
+        if (res.status !== 200) processErrorWNav(this, res.status, res.errorMsg)
       }, rej => {
           console.error("Promise rejected. Could not delete item. \n" + rej)
       })
@@ -73,7 +73,7 @@ class NewsItemScroll extends React.Component {
       items: tempItems
     }, () => {
       updateItem(id, text).then(res => {
-        if (res.status != 200) processErrorWNav(this, res.status, res.errorMsg)
+        if (res.status !== 200) processErrorWNav(this, res.status, res.errorMsg)
       }, rej => {
         console.error("Promise rejected. Could not update item. \n" + rej)
       })
