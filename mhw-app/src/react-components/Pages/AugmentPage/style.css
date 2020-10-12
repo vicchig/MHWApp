@@ -108,3 +108,20 @@
         height: 500vh;
     }
 }
+
+.cardItemNameSectionaugment{
+    padding: 4pt;
+    width: 10vw;
+    padding-left: 5pt;
+    height: inherit;
+}
+
+.cardTableaugment{
+    width: inherit;
+    border: solid 1px rgb(170, 170, 170);
+    background: rgb(50, 50, 50);
+    border-radius: 25pt;
+    color: rgb(161, 184, 98);
+    padding: 5pt;
+}
+
