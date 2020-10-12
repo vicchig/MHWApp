@@ -1,6 +1,6 @@
-#mainDiv{
+#mainDivMonsterInfo{
     min-height: 100vh;
-    height: auto;
+    height: 300vh;
     width: 100%;
     background-color: rgb(61, 61, 61);
     align-items: center;
@@ -13,22 +13,24 @@
     color: rgb(161, 184, 98)
 }
 
-#searchDiv{
+#searchDivMonsterInfo{
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 59% 60%;
     grid-template-rows: 0fr 0.5fr;
+    column-gap: 10px;
 }
 
 #loadingDiv{
     margin-top: 5vh;
 }
 
-#filtersDiv{
+#filtersDivMonsterInfo{
     display: grid;
     grid-template-columns: 15% 55% 55%;
     grid-template-rows: 20% 20% 20% 20% 20%;
-    width: 30vw;
+    width: 32vw;
     height: auto;
+    row-gap: 5px;
 }   
 
 #mainSearchBarDiv{
@@ -155,4 +157,81 @@
 .blankSpaceDiv{
     width: 5px;
     display: inline-block;
+}
+
+
+.mainSearchBarDiv-MonsterInfo{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 50%;
+    padding: 2pt;
+    width: 50vw;
+}
+
+.mainCardDiv-1MonsterInfo{
+    width: 50vw;
+    max-width: 50vw;
+    max-height: 100vh;
+    margin-bottom: 2vh;
+}
+
+.cardItemNameSectionMonsterInfo{
+    padding: 4pt;
+    width: 10vw;
+    padding-left: 5pt;
+    height: inherit;
+}
+
+.cardTableMonsterInfo{
+    width: inherit;
+    border: solid 1px rgb(170, 170, 170);
+    background: rgb(50, 50, 50);
+    border-radius: 25pt;
+    color: rgb(161, 184, 98);
+    padding: 5pt;
+}
+
+
+@media (max-width: 920px){
+    #searchDivMonsterInfo{
+        grid-template-columns: 100%;
+        row-gap: 30px;
+        grid-template-rows: 20% 30vh;
+        column-gap: 10px;
+    }
+
+    .mainSearchBarDiv-MonsterInfo{
+        width: 80vw;
+    }
+
+    #filtersDivMonsterInfo{
+        display: grid;
+        grid-template-columns: 15% 55% 55%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        width: 60vw;
+        height: auto;
+        row-gap: 5px;
+        column-gap: 10px;
+    }   
+    
+}
+
+@media (max-width: 1250px) and (min-width: 800px){
+    .mainCardDiv-1MonsterInfo{
+        max-height: 150vh;
+    }
+    .cardTableMonsterInfo{
+        max-height: 100vh;
+    } 
+}
+
+@media (max-width: 799px) and (min-width: 200px){
+    .mainCardDiv-1MonsterInfo{
+        position: relative;
+        left: -10vw;
+    }
+
+    .cardItemNameSectionMonsterInfo{
+        margin-left: 5px;
+    }
 }

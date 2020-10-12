@@ -80,6 +80,7 @@ class AugmentPage extends React.Component{
                 count={item.quantity}
                 name={item.name}
                 displayType={2}
+                className={"augment"}
             >
                 <div>
                     {item.description}
@@ -88,9 +89,9 @@ class AugmentPage extends React.Component{
         ))
 
         return(
-            <div id="mainDiv">
+            <div id="mainDivAugment">
                 <WebsiteHeader appContext={this.props.parentContext}/>
-                <div id="filtersDiv">
+                <div id="filtersDiv-Augment">
                     <CustomSelect
                         name="raritySelect" onChange={e => this.handleSelect(e, "rarity")} 
                         className="optionSelect" placeholder="Rarity" options={rarityOptions}
@@ -143,7 +144,7 @@ class AugmentPage extends React.Component{
                 <div id="loaderDiv">
                     {this.state.loading ? <BeatLoader color="rgb(161, 184, 98)"></BeatLoader> : null}
                 </div>
-                <div id="resultsDiv">
+                <div id="resultsDivAugment">
                     {this.state.loading ? null : resultDisplay}
                 </div>
             </div>

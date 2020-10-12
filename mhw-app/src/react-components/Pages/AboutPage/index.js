@@ -36,7 +36,7 @@ class AboutPage extends React.Component{
                     score for most monsters. This is not a perfect measure, but it does take into account the monster's rank (stars), health, elemental weaknesses and speed run time data to determine how difficult a monster is.
                 </p>
                 <h1 className="aboutHeader">Augment Page</h1>
-                <p className="aboutPara">
+                <p className="aboutParaEnd">
                     Here you can select the rarity of your weapon as well as the level of the augment you want and have the materials required for it displayed. The description of each material
                     lets you know where to obtain it from and the display has quantities required for each material. This is especially useful if you have not fought every single monster in the guiding lands
                     including tempered variants of every monster.

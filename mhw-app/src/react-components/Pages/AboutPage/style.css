@@ -1,6 +1,4 @@
 #mainDivAbout{
-    min-height: 100vh;
-    height: 200vh;
     width: 100%;
     background-color: rgb(61, 61, 61);
     padding-top: 5px;
@@ -21,4 +19,13 @@
     font-size: 14pt;
     position: relative;
     left: 15vw;
+}
+
+.aboutParaEnd{
+    color: rgb(161, 184, 98);
+    width: 70vw;
+    font-size: 14pt;
+    position: relative;
+    left: 15vw;
+    margin-bottom: 0;
 }
