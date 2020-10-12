@@ -105,6 +105,25 @@ class SkillToGemPage extends React.Component{
         })
     }
 
+    sortOnSearch = (compareOn, stateField) => {
+        switch(this.state[stateField]){
+            case 0:
+                break
+            case 1:
+                this.setState({
+                    searchResultsToShow: this.state.searchResultsToShow.sort((a, b) => {if(a[compareOn] < b[compareOn]) return -1; else return 1})
+                })
+                break
+            case 2:
+                this.setState({
+                    searchResultsToShow: this.state.searchResultsToShow.sort((a, b) => {if(a[compareOn] > b[compareOn]) return -1; else return 1})
+                })
+                break
+            default:
+                break
+        }
+    }
+
     changeSlotSelect = (e) => {
         this.setState({
             filters: {
@@ -146,10 +165,10 @@ class SkillToGemPage extends React.Component{
                     break
             }
         }
-
         this.setState({
             [sortOption]: e.value
         })
+        
     }
 
     generateResultComponent = (items) => {
@@ -306,4 +325,3 @@ class SkillToGemPage extends React.Component{
 }
 
 export default withRouter(SkillToGemPage);
-//                    {this.state.searchResultsToShow[0]?.skills[0] ? <ResultCard skill={this.state.searchResultsToShow[0].skills[0]}></ResultCard> : null}
