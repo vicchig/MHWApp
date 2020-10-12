@@ -167,7 +167,7 @@ class SkillToGemPage extends React.Component{
                                             <th className={"thStyle"}>Slot</th>
                                             <th className={"thStyle"}>Rarity</th>
                                             <th className={"thStyle"}>Name</th>
-                                            <th className={"thStyle"}>Skills</th>
+                                            <th className={"thStyleRightEdge"}>Skills</th>
                                         </tr>
                                         {items}
                                     </tbody>
@@ -206,7 +206,7 @@ class SkillToGemPage extends React.Component{
                 <td className="tdStyle">{item.slot}</td>
                 <td className="tdStyle">{item.rarity}</td>
                 <td className="tdStyle">{item.name}</td>
-                <td className="tdStyle">
+                <td className="tdStyleRightEdge">
                     <ul className="listStyle">{
                         item.skills.map(skill => (<li key={uid(skill)}>
                                                     <div className="hoverItem">

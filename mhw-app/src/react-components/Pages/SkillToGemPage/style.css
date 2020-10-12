@@ -113,6 +113,16 @@
     position: relative;
 }
 
+
+.tdStyleRightEdge{
+    text-align: center;
+    border-top: 1px solid rgb(120, 120, 120);
+}
+
+.thStyleRightEdge{
+    color: rgb(164, 173, 136);
+}
+
 @media (max-width: 400px){   
     #filtersDivSkill{
         grid-template-columns: 19% 38% 38%;
