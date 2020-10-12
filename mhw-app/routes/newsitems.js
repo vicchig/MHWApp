@@ -13,7 +13,7 @@ router.get('/getInterval', (req, res) =>  {
     if (amnt === undefined || skipAmnt === undefined) res.status(400).send()
 
     NewsItem.countDocuments((err, count) => {
-        if (err) res.status(500).send({errMsg: err})
+        if (err) {res.status(500).send({errMsg: err}); return}
         else left = count
     })
 
@@ -36,7 +36,7 @@ router.delete('/delete/:id',  (req, res, next) => {security.auth(req, res, next)
     }
 
     NewsItem.deleteOne({id: id}, (err) => {
-        if(err) res.status(500).send({errMsg: err})
+        if(err) {res.status(500).send({errMsg: err}); return}
         else res.status(200).send()
     })
 })

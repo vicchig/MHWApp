@@ -12,7 +12,7 @@ router.get('/armour/:name', (req, res) => {
     }
     else{
         ArmourPiece.findOne({name: passedName}, {_id: false}, (err, doc) => {
-            if(err) res.status(500).send({errMsg: err})
+            if(err) {res.status(500).send({errMsg: err}); return }
             else res.status(200).send(doc)
         })
     }
