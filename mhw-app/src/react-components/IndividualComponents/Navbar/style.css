@@ -3,6 +3,7 @@
 	min-height: 30px;
 	max-height: 45vh;
 	margin-bottom: 50pt;
+	grid-template-columns: 150px 150px 185px 150px 150px auto;
 	display: grid;
 	align-self: center;
 	justify-content: center;
