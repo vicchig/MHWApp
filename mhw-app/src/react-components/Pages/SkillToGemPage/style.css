@@ -110,6 +110,7 @@
 #resultsTableHint{
     color: rgb(161, 184, 98);
     left: 25%;
+    max-width: 50vw;
     position: relative;
 }
 
