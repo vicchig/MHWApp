@@ -56,7 +56,7 @@ class NewsItemScroll extends React.Component {
       deleteNewsItem(id).then(res => {
         if (res.status !== 200) processErrorWNav(this, res.status, res.errorMsg)
       }, rej => {
-          console.error("Promise rejected. Could not delete item. \n" + rej)
+          console.error("An error occured")
       })
     })
   }
@@ -75,7 +75,7 @@ class NewsItemScroll extends React.Component {
       updateItem(id, text).then(res => {
         if (res.status !== 200) processErrorWNav(this, res.status, res.errorMsg)
       }, rej => {
-        console.error("Promise rejected. Could not update item. \n" + rej)
+        console.error("An error occured")
       })
     })
     
@@ -87,7 +87,7 @@ class NewsItemScroll extends React.Component {
       async () => {
         try{
           let response = await getNewsItemInterval(10, this.state.skipAmount).catch(err => {
-            console.error("Could not fetch request\n" + err)
+            console.error("An error occured")
           })
           let nextItems
 
@@ -116,7 +116,7 @@ class NewsItemScroll extends React.Component {
         }
         catch (err){
           this.props.history.push('/unknownError')
-          console.error("An error occurred:\n" + err)
+          console.error("An error occurred\n")
         }
     });
   }

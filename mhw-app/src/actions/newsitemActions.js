@@ -9,7 +9,7 @@ const processResponse = async (req) => {
 
   if(res.status !== 200) {
     const responseBody = await res.json().catch(err => {
-      return new ApiResponse(res.status, null, constructErrorMsgCouldntReadServerResponse(res.status, err, req.url))
+      return new ApiResponse(res.status, null, constructErrorMsgCouldntReadServerResponse(res.status, "An error occured", req.url))
     })
     if (responseBody.errorMsg !== undefined) return responseBody
     return new ApiResponse(res.status, null, constructErrorMsgReqError(res.status, req.url, responseBody.errMsg))
@@ -34,7 +34,7 @@ export const getNewsItemInterval = async (amount = 0, skipAmount = 0) => {
 
   if(res.status === 200){
     let parsedResponse = await res.json().catch(err => {
-      return new ApiResponse(res.status, null, constructErrorMsgCouldntReadServerResponse(err, url))
+      return new ApiResponse(res.status, null, constructErrorMsgCouldntReadServerResponse("An error occured", url))
     })
     if (parsedResponse.errorMsg !== undefined) return parsedResponse
 
@@ -56,7 +56,7 @@ export const deleteNewsItem = async (id) => {
   })
 
   return await processResponse(req).catch(err => {
-    return new ApiResponse(-1, null, constructErrorMsgUnableToFetch(err, url))
+    return new ApiResponse(-1, null, constructErrorMsgUnableToFetch("An error occured", url))
   })
 }
 
@@ -72,7 +72,7 @@ export const updateItem = async (id, text) => {
   })
 
   return await processResponse(req).catch(err => {
-    return new ApiResponse(-1, null, constructErrorMsgUnableToFetch(err, url))
+    return new ApiResponse(-1, null, constructErrorMsgUnableToFetch("An error occured", url))
   })
 }
 
@@ -91,12 +91,12 @@ export const createItem = async (text) => {
 
   let maxID = -1
   const res = await fetch(reqForId).catch(err => {
-    return new ApiResponse(-1, null, constructErrorMsgUnableToFetch(err, url))
+    return new ApiResponse(-1, null, constructErrorMsgUnableToFetch("An error occured", url))
   })
   if (res.errorMsg !== undefined) return res
   if (res.status === 200){
     let responseBody = await res.json().catch(err => {
-      return new ApiResponse(-1, null, constructErrorMsgCouldntReadServerResponse(res.status, err, url))
+      return new ApiResponse(-1, null, constructErrorMsgCouldntReadServerResponse(res.status, "An error occured", url))
     })
     if (responseBody.errorMsg !== undefined) return responseBody
     else maxID = responseBody[0].id + 1
@@ -114,7 +114,7 @@ export const createItem = async (text) => {
   })
 
   return await processResponse(req).catch(err => {
-    return new ApiResponse(-1, null, constructErrorMsgUnableToFetch(err, url))
+    return new ApiResponse(-1, null, constructErrorMsgUnableToFetch("An error occured", url))
   })
 }
 

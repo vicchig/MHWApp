@@ -25,7 +25,7 @@ class CreateCardFloat extends React.Component {
             displayCardCreationFloat: false
         }, async () => {
             let res = await createItem(this.state.newCardText).catch(err => {
-                console.error("An error occurred while attempting to fetch request.\n" + err)
+                console.error("An error occured")
             })
             if (res.status === 200) console.log("Add to other items")
             else processErrorWNav(this, res.status, res.errorMsg)

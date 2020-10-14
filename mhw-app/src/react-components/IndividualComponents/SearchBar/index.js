@@ -16,7 +16,7 @@ class SearchBar extends React.Component{
     loadOptions = async () => {
 
         let result = await this.props.searchFunction(this.props.searchCategory).catch(err => {
-            console.error("An error occurred while awaiting server response:\n\n" + err)
+            console.error("An error occured")
         })
         if (result.status === 200 || result.status === 304){
             return this.computeBestMatches(this.state.inputText, result.data[this.props.dataObjectName])

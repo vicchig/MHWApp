@@ -59,7 +59,7 @@ class MatsPage extends React.Component{
             let item, res = null
 
             res = await getEquipmentInfo(e.value.name, e.value.type).catch(err => {
-                console.error("An error occurred while waiting for server response. \n\n" + err)
+                console.error("An error occured")
             })
             
             if(res.status !== 200 && res.status !== 304) {processErrorWNav(this, res.status, res.errorMsg); return;}

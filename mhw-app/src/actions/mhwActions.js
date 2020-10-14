@@ -11,13 +11,13 @@ export const getDecorationsWSkill = async (filters) => {
     })
 
     let result = await fetch(request).catch(err => {
-        return new ApiResponse(-1, null, constructErrorMsgUnableToFetch(err, url))
+        return new ApiResponse(-1, null, constructErrorMsgUnableToFetch("An error occured", url))
     })
     if(result.status === -1) return result
 
     else if(result.status === 200 || result.status === 304){
         let resultBody = await result.json().catch(err => {
-            return new ApiResponse(-1, null, constructErrorMsgUnableToFetch(err, url))
+            return new ApiResponse(-1, null, constructErrorMsgUnableToFetch("An error occured", url))
         })
         if(resultBody.status === -1) return resultBody
 
@@ -39,12 +39,12 @@ export const getSkill = async (criteria) => {
     })
 
     const result = await fetch(req).catch(err => {
-        return new ApiResponse(-1, null, constructErrorMsgUnableToFetch(err, url))
+        return new ApiResponse(-1, null, constructErrorMsgUnableToFetch("An error occured", url))
     })
     if(result.status === -1) return result
     else if(result.status === 200){
         const responseBody = await result.json().catch(err => {
-            return new ApiResponse(-1, null, constructErrorMsgUnableToFetch(err, url))
+            return new ApiResponse(-1, null, constructErrorMsgUnableToFetch("An error occured", url))
         })
         if(responseBody.status === -1) return responseBody
         return new ApiResponse(result.status, {skill: responseBody}, "")

@@ -127,7 +127,7 @@ class MonsterInfoPage extends React.Component{
     onSearchAction = async () => {
         this.setState({loading: true}, async () => {
             const result = await getMonsterInfo(this.state.filters, this.state.searchbarValues).catch(err => {
-                console.error("An error has occurred while attempting to fetch data.\n" + err)
+                console.error("An error occured")
             })
 
             if(!result){

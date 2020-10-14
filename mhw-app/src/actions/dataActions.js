@@ -12,13 +12,13 @@ export const getData = async (category) => {
     })
 
     let result = await fetch(request).catch(err => {
-        return new ApiResponse(-1, null, constructErrorMsgUnableToFetch(err, url))
+        return new ApiResponse(-1, null, constructErrorMsgUnableToFetch("An error occured", url))
     })
 
     if (result.status === -1) return result
     else if (result.status === 200 || result.status === 304){
         let responseBody = await result.json().catch(err => {
-            return new ApiResponse(result.status, null, constructErrorMsgCouldntReadServerResponse(result.status, err, url))
+            return new ApiResponse(result.status, null, constructErrorMsgCouldntReadServerResponse(result.status, "An error occured", url))
         })
         if (responseBody.errorMsg) return responseBody
         return new ApiResponse(result.status, {dataList: responseBody}, "")
@@ -41,13 +41,13 @@ export const getEquipmentInfo = async (name, type) => {
     })
 
     let result = await fetch(request).catch(err => {
-        return new ApiResponse(-1, null, constructErrorMsgUnableToFetch(err, url))
+        return new ApiResponse(-1, null, constructErrorMsgUnableToFetch("An error occured", url))
     })
 
     if (result.status === -1) return result
     else if (result.status === 200 || result.status === 304){
         let responseBody = await result.json().catch(err => {
-            return new ApiResponse(result.status, null, constructErrorMsgCouldntReadServerResponse(result.status, err, url))
+            return new ApiResponse(result.status, null, constructErrorMsgCouldntReadServerResponse(result.status, "An error occured", url))
         })
         if (responseBody.errorMsg) return responseBody
         return new ApiResponse(result.status, {item: responseBody}, "")
@@ -71,13 +71,13 @@ export const getMonsterInfo = async (filters, name = "") => {
     })
 
     let result = await fetch(request).catch(err => {
-        return new ApiResponse(-1, null, constructErrorMsgUnableToFetch(err, url))
+        return new ApiResponse(-1, null, constructErrorMsgUnableToFetch("An error occured", url))
     })
 
     if (result.status === -1) return result
     else if (result.status === 200 || result.status === 304){
         let responseBody = await result.json().catch(err => {
-            return new ApiResponse(result.status, null, constructErrorMsgCouldntReadServerResponse(result.status, err, url))
+            return new ApiResponse(result.status, null, constructErrorMsgCouldntReadServerResponse(result.status,"An error occured", url))
         })
         if (responseBody.errorMsg) return responseBody
         let filteredResponseBody = responseBody
@@ -108,13 +108,13 @@ export const getAugmentMaterials = async (level, rarity, augment) => {
     })
 
     let result = await fetch(request).catch(err => {
-        return new ApiResponse(-1, null, constructErrorMsgUnableToFetch(err, url))
+        return new ApiResponse(-1, null, constructErrorMsgUnableToFetch("An error occured", url))
     })
 
     if (result.status === -1) return result
     else if (result.status === 200 || result.status === 304){
         let responseBody = await result.json().catch(err => {
-            return new ApiResponse(result.status, null, constructErrorMsgCouldntReadServerResponse(result.status, err, url))
+            return new ApiResponse(result.status, null, constructErrorMsgCouldntReadServerResponse(result.status, "An error occured", url))
         })
         if (responseBody.errorMsg) return responseBody
         

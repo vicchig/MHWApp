@@ -56,7 +56,7 @@ class AugmentPage extends React.Component{
             loading: true
         }, async () => {
             const augmentMats = await getAugmentMaterials(this.state.level, this.state.rarity, this.state.augment).catch(err => {
-                console.error("Error while fetching data.")
+                console.error("An error occured")
             })
 
             if(augmentMats.status === 200 || augmentMats.status === 304){
@@ -66,7 +66,7 @@ class AugmentPage extends React.Component{
                 })
             }
             else{
-                console.error("Error while fetchinf data." + augmentMats.status)
+                console.error("An error occured")
             }
         })
     }

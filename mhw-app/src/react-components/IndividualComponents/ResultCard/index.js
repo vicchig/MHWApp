@@ -17,7 +17,7 @@ class ResultCard extends React.Component{
             loading: true
         }, async () => {
             const skillInfo = await getSkill({id: this.props.skill.skill}).catch(err => {
-                console.error("An error occurred while waiting for server response. \n\n" + err)
+                console.error("An error occured")
             })
             if(skillInfo.status !== 200 && skillInfo.status !== 304) processErrorWNav(this, skillInfo.status, skillInfo.errorMsg)
             else{

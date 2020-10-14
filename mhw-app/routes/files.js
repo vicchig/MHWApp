@@ -8,7 +8,7 @@ router.get('/decoNames', (req, res) => {
     try{
        fileContents = fs.readFileSync('./src/Data/decorationNames.json', 'utf8');
     }catch(err){
-        res.status(500).send({errMsg: err})
+        res.status(500).send({errMsg: "An error occured on the server during the processing of the request."})
         return
     }
 
@@ -21,7 +21,7 @@ router.get('/skillNames', (req, res) => {
     try{
        fileContents = fs.readFileSync('./src/Data/skillNames.json', 'utf8');
     }catch(err){
-        res.status(500).send({errMsg: err})
+        res.status(500).send({errMsg: "An error occured on the server during the processing of the request."})
         return
     }
 
@@ -34,7 +34,7 @@ router.get('/equipmentNames', (req, res) => {
     try{
        fileContents = fs.readFileSync('./src/Data/equipmentNames.json', 'utf8');
     }catch(err){
-        res.status(500).send({errMsg: err})
+        res.status(500).send({errMsg: "An error occured on the server during the processing of the request."})
         return
     }
 
@@ -47,7 +47,7 @@ router.get('/monsterNames', (req, res) => {
     try{
        fileContents = fs.readFileSync('./src/Data/monsterNames.json', 'utf8');
     }catch(err){
-        res.status(500).send({errMsg: err})
+        res.status(500).send({errMsg: "An error occured on the server during the processing of the request."})
         return
     }
 

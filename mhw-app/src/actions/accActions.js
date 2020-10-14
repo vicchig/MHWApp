@@ -11,13 +11,13 @@ export const getUserById = async (idIn) => {
     });
   
     const res = await fetch(request).catch(err => {
-      return new ApiResponse(-1, null, constructErrorMsgNoResponse(err, url))
+      return new ApiResponse(-1, null, constructErrorMsgNoResponse("An error occured", url))
     })
     if(res.status === -1) return res
 
     if(res.status === 200){
       let responseBody = await res.json().catch((err) => {
-        return new ApiResponse(res.status, null, constructErrorMsgCouldntReadServerResponse(err, url))
+        return new ApiResponse(res.status, null, constructErrorMsgCouldntReadServerResponse("An error occured", url))
       })
       if (responseBody.errorMsg !== undefined) return responseBody
       return new ApiResponse(res.status, {user_id: responseBody.currentUser.id}, "")
@@ -42,7 +42,6 @@ export const getUserById = async (idIn) => {
             if (json && json.currentUser) {
               getUserById(json.currentUser).then((res) => {
                 if(!res){
-                  console.log("No user currently logged in.")
                   app.setState({ loggedInUser: null })
                 }
                 else{
@@ -52,7 +51,7 @@ export const getUserById = async (idIn) => {
             }
         })
         .catch(error => {
-            console.log(error);
+            console.log("An error occured");
         });
   };
 
@@ -62,7 +61,7 @@ export const getUserById = async (idIn) => {
         headers: {
             Accept: "application/json, text/plain",
                     "Content-Type": "application/json",
-            Authorization: " Basic " + new Buffer(usernameIn + ":" + passwordIn).toString("base64")
+            Authorization: " Basic " + new Buffer.from(usernameIn + ":" + passwordIn).toString("base64")
         }
       })
 
@@ -75,17 +74,15 @@ export const getUserById = async (idIn) => {
               context.setState({loggedInUser: res.user.id})
             }
             else{
-              console.log("User was not retrieved properly.\n")
+              console.error("An error occured")
             }
           }, rej => {
-            console.log("Promise rejected.\n")
-            console.log(rej)
+            console.error("Promise rejected.\n")
           })
         }
       }
       catch(err){
-        console.log("An error occurred during account retrieval.\n")
-        console.log(err)
+        console.error("An error occurred")
       }
       finally{
         return {status: result.status}
@@ -102,7 +99,7 @@ export const getUserById = async (idIn) => {
     })
 
     let res = await fetch(req).catch( err => {
-      return new ApiResponse(-1, null, constructErrorMsgNoResponse(err, '/users/logout'))
+      return new ApiResponse(-1, null, constructErrorMsgNoResponse("An error occured", '/users/logout'))
     })
     if(res.errorMsg !== undefined) return res
     return new ApiResponse(res.status, null, "")
