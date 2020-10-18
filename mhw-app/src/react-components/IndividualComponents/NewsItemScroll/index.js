@@ -9,17 +9,16 @@ import {deleteNewsItem, updateItem} from '../../../actions/newsitemActions'
 import "./style.css"
 
 class NewsItemScroll extends React.Component {
-  constructor(props) {
-    super(props);
 
-    this.state = {
-      skipAmount: -10,
-      error: false,
-      hasMore: true,
-      isLoading: false,
-      items: [],
-    };
+  state = {
+    skipAmount: -10,
+    error: false,
+    hasMore: true,
+    isLoading: false,
+    items: [],
+  };
 
+  componentDidMount() {
     // Binds our scroll event handler
     window.onscroll = debounce(() => {
       const {
@@ -42,9 +41,7 @@ class NewsItemScroll extends React.Component {
         loadItems();
       }
     }, 100);
-  }
-
-  componentDidMount() {
+  
     //initial load
     this.loadItems();
   }
@@ -130,7 +127,7 @@ class NewsItemScroll extends React.Component {
       error,
       hasMore,
       isLoading,
-      items: items,
+      items,
     } = this.state;
 
     return (
