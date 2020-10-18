@@ -6,6 +6,20 @@ const session = require('express-session')
 const bodyParser = require('body-parser') 
 const cors = require('cors')
 const app = express()
+const csp = require(`helmet-csp`)
+
+app.use(csp({
+    directives: {
+        defaultSrc: ['none'],
+        scriptSrc: ['self'],
+        objectSrc: ['self'],
+        objectSrc: ['none'],
+        imgSrc: ['self', 'mhw-db.com'],
+        fontSrc: ['self'],
+        mediaSrc: ['self']
+    },
+    reportOnly: true
+}))
 
 //session cookie
 app.use(session({
