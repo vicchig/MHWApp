@@ -64,7 +64,6 @@ class MatsPage extends React.Component{
             
             if(res.status !== 200 && res.status !== 304) {processErrorWNav(this, res.status, res.errorMsg); return;}
             else item = res.data.item
-            console.log(item.type)
             currentlySelected.push({...item, internalID: this.state.nextMatCardID})
 
             this.setState({

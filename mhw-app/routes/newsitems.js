@@ -64,7 +64,6 @@ router.patch('/update/:id', (req, res, next) => {security.auth(req, res, next)},
 })
 
 router.post("/create", (req, res, next) => {security.auth(req, res, next)}, (req, res) => {
-    console.log(req.body)
     let item = new NewsItem({
         text: req.body.text,
         date: Date.now(),

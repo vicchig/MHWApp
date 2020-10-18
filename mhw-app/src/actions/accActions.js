@@ -51,7 +51,7 @@ export const getUserById = async (idIn) => {
             }
         })
         .catch(error => {
-            console.log("An error occured");
+            console.error("An error occured");
         });
   };
 
