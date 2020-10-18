@@ -11,13 +11,6 @@ class AboutPage extends React.Component{
         return(
             <div id="mainDivAbout">
                 <WebsiteHeader appContext={this.props.parentContext}/>
-                <h1 className="aboutHeader">About this Project</h1>
-                <p className="aboutPara">
-                    I enjoy playing Monster Hunter World from time to time with my friends, however we found that some information that comes up quite often is a little bit annoying to find in game or has to be searched for on various wikis. 
-                    So I decided to put together this small website to address this problem and offer a way to make our MHW experience more enjoyable and efficient. This website combines functionalities for searching
-                    for different kind of information that can be tedious in game such as figuring our Augmentation materials for the first time when all of them are just denoted by ??? or keeping track of how much of each 
-                    material you need to craft multiple pieces of equipment from different sets. Hopefully it can be helpful to others as well.
-                </p>
                 <p className="aboutPara"><strong>PLEASE NOTE THAT THIS INFORMATION IS MEANT FOR MASTER RANK ONLY.</strong></p>
                 <h1 className="aboutHeader">Skill to Deco Page</h1>
                 <p className="aboutPara">
