@@ -18,7 +18,7 @@ app.use(csp({
         fontSrc: ['self'],
         mediaSrc: ['self']
     },
-    reportOnly: true
+    reportOnly: false
 }))
 
 //session cookie
