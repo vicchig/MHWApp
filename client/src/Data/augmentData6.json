@@ -1,0 +1,1777 @@
+{
+  
+  "rarity10": {
+    "Extra Augmentation Slots": [
+      [
+        {
+          "quantity": 3,
+          "name": "Spiritvein Slogbone",
+          "augmentRarity": 10,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Fierce Dragonvein Bone",
+          "augmentRarity": 10,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Tempered Great Horn",
+          "augmentRarity": 10,
+          "augmentLevel": 3
+        }
+      ],
+      [
+        {
+          "quantity": 1,
+          "name": "Spiritvein Gem",
+          "augmentRarity": 10,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Spiritvein Solidbone",
+          "augmentRarity": 10,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Tempered Glimmerpelt",
+          "augmentRarity": 10,
+          "augmentLevel": 3
+        }
+      ],
+      [
+        {
+          "quantity": 1,
+          "name": "Great Spiritvein Gem",
+          "augmentRarity": 10,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Elder Spiritvein Bone",
+          "augmentRarity": 10,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Annihilating Temperhorn",
+          "augmentRarity": 10,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 3,
+          "name": "Tempered Icefang",
+          "augmentRarity": 10,
+          "augmentLevel": 4
+        }
+      ]
+    ],
+    "Attack Increase": [
+      [
+        {
+          "quantity": 9,
+          "name": "Flickering Flamepelt",
+          "augmentRarity": 10,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Fierce Dragonvein Bone",
+          "augmentRarity": 10,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 5,
+          "name": "Wasteland Cragbone",
+          "augmentRarity": 10,
+          "augmentLevel": 3
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Twisted Temperhorn",
+          "augmentRarity": 10,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Crackling Thunderpelt",
+          "augmentRarity": 10,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Dragonvein Solidbone",
+          "augmentRarity": 10,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 3,
+          "name": "Tempered Cragbone",
+          "augmentRarity": 10,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Jaw",
+          "augmentRarity": 10,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Tempered Red Scale",
+          "augmentRarity": 10,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Spiritvein Solidbone",
+          "augmentRarity": 10,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 1,
+          "name": "Guiding Wasteland Dragonbone",
+          "augmentRarity": 10,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Glimmerpelt",
+          "augmentRarity": 10,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Heavy Jaw",
+          "augmentRarity": 10,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Spiritvein Solidbone",
+          "augmentRarity": 10,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 3,
+          "name": "Simmering Wildbone",
+          "augmentRarity": 10,
+          "augmentLevel": 4
+        }
+      ]
+    ],
+    "Affinity Increase": [
+      [
+        {
+          "quantity": 9,
+          "name": "Colorful Plume",
+          "augmentRarity": 10,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Fierce Dragonvein Bone",
+          "augmentRarity": 10,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Decayed Crystal",
+          "augmentRarity": 10,
+          "augmentLevel": 3
+        }
+      ],
+      [
+        {
+          "quantity": 9,
+          "name": "Stormcall Steelwing",
+          "augmentRarity": 10,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Assassin Cutwing",
+          "augmentRarity": 10,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Dragonvein Solidbone",
+          "augmentRarity": 10,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 5,
+          "name": "Forest Crystal",
+          "augmentRarity": 10,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Cutwing",
+          "augmentRarity": 10,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Tempered Cathode",
+          "augmentRarity": 10,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Spiritvein Solidbone",
+          "augmentRarity": 10,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 3,
+          "name": "Prosperous Crystal",
+          "augmentRarity": 10,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Blastscale",
+          "augmentRarity": 10,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Incandescent Magmafin",
+          "augmentRarity": 10,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Spiritvein Solidbone",
+          "augmentRarity": 10,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 5,
+          "name": "Magma Crystal",
+          "augmentRarity": 10,
+          "augmentLevel": 4
+        }
+      ]
+    ],
+    "Defense Increase": [
+      [
+        {
+          "quantity": 9,
+          "name": "Rugged Mane",
+          "augmentRarity": 10,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Fierce Dragonvein Bone",
+          "augmentRarity": 10,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Mossy Greatbone",
+          "augmentRarity": 10,
+          "augmentLevel": 3
+        }
+      ],
+      [
+        {
+          "quantity": 9,
+          "name": "Fragrant Poison Sac",
+          "augmentRarity": 10,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Fierce Dragonvein Bone",
+          "augmentRarity": 10,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 5,
+          "name": "Woodland Greatbone",
+          "augmentRarity": 10,
+          "augmentLevel": 3
+        }
+      ],
+      [
+        {
+          "quantity": 9,
+          "name": "Obsidian Fur",
+          "augmentRarity": 10,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Fierce Dragonvein Bone",
+          "augmentRarity": 10,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Slumbering Greatbone",
+          "augmentRarity": 10,
+          "augmentLevel": 3
+        }
+      ],
+      [
+        {
+          "quantity": 9,
+          "name": "King's Scale",
+          "augmentRarity": 10,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Ancient Great Horn",
+          "augmentRarity": 10,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Heavy Dragonvein Bone",
+          "augmentRarity": 10,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 1,
+          "name": "Guiding Forest Dragonbone",
+          "augmentRarity": 10,
+          "augmentLevel": 4
+        }
+      ]
+    ],
+    "Decoration Slot": [
+      [
+        {
+          "quantity": 9,
+          "name": "Blackcurl Tyranthorn",
+          "augmentRarity": 10,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Crackling Thunderpelt",
+          "augmentRarity": 10,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Heavy Dragonvein Bone",
+          "augmentRarity": 10,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 5,
+          "name": "Wasteland Crystal",
+          "augmentRarity": 10,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 9,
+          "name": "Moonlight Scale",
+          "augmentRarity": 10,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Charged Deathly Shocker",
+          "augmentRarity": 10,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Dragonvein Solidbone",
+          "augmentRarity": 10,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 3,
+          "name": "Serene Crystal",
+          "augmentRarity": 10,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Azure Mane",
+          "augmentRarity": 10,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Tempered Hide",
+          "augmentRarity": 10,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Elder Spiritvein Bone",
+          "augmentRarity": 10,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 1,
+          "name": "Guiding Wasteland Crystal",
+          "augmentRarity": 10,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Gold Scale",
+          "augmentRarity": 10,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Metallic Scute",
+          "augmentRarity": 10,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Elder Spiritvein Bone",
+          "augmentRarity": 10,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 5,
+          "name": "Melted Crystal",
+          "augmentRarity": 10,
+          "augmentLevel": 4
+        }
+      ]
+    ],
+    "Health Regen": [
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Rendclaw",
+          "augmentRarity": 10,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Inkstained Oilshell +",
+          "augmentRarity": 10,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Spiritvein Slogbone",
+          "augmentRarity": 10,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 5,
+          "name": "Effluvial Frenzybone",
+          "augmentRarity": 10,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Tailblade",
+          "augmentRarity": 10,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Strongman's Jaw",
+          "augmentRarity": 10,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Spiritvein Solidbone",
+          "augmentRarity": 10,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 3,
+          "name": "Afflicted Frenzybone",
+          "augmentRarity": 10,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Twilight Fang",
+          "augmentRarity": 10,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Tempered Talon",
+          "augmentRarity": 10,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Elder Spiritvein Bone",
+          "augmentRarity": 10,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 1,
+          "name": "Guiding Rotted Dragonbone",
+          "augmentRarity": 10,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Silver Scale",
+          "augmentRarity": 10,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Crimson Blastscale",
+          "augmentRarity": 10,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Elder Spiritvein Bone",
+          "augmentRarity": 10,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 5,
+          "name": "Volcanic Wildbone",
+          "augmentRarity": 10,
+          "augmentLevel": 4
+        }
+      ]
+    ],
+    "Element/Status Effect Up": [
+      [
+        {
+          "quantity": 9,
+          "name": "Dazzling Photophore +",
+          "augmentRarity": 10,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Fierce Dragonvein Bone",
+          "augmentRarity": 10,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Pale Crystal",
+          "augmentRarity": 10,
+          "augmentLevel": 3
+        }
+      ],
+      [
+        {
+          "quantity": 9,
+          "name": "Smooth Icehide",
+          "augmentRarity": 10,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Rubbery Shell",
+          "augmentRarity": 10,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Heavy Dragonvein Bone",
+          "augmentRarity": 10,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 5,
+          "name": "Reef Crystal",
+          "augmentRarity": 10,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 9,
+          "name": "Enchancting Finehide",
+          "augmentRarity": 10,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Honed Tailblade",
+          "augmentRarity": 10,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Elder Dragonvein Bone",
+          "augmentRarity": 10,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 3,
+          "name": "Deepsea Crystal",
+          "augmentRarity": 10,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Azure Horn",
+          "augmentRarity": 10,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Tempered Pink Scale",
+          "augmentRarity": 10,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Elder Spiritvein Bone",
+          "augmentRarity": 10,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 1,
+          "name": "Guiding Reef Crystal",
+          "augmentRarity": 10,
+          "augmentLevel": 4
+        }
+      ]
+    ]
+  },
+  "rarity11": {
+    "Extra Augmentation Slots": [
+      [
+        {
+          "quantity": 1,
+          "name": "Spiritvein Gem",
+          "augmentRarity": 11,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Spiritvein Solidbone",
+          "augmentRarity": 11,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Tempered Crownhorn",
+          "augmentRarity": 11,
+          "augmentLevel": 3
+        }
+      ],
+      [
+        {
+          "quantity": 1,
+          "name": "Great Spiritvein Gem",
+          "augmentRarity": 11,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Elder Spiritvein Bone",
+          "augmentRarity": 11,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 4,
+          "name": "Tempered Glimmerpelt",
+          "augmentRarity": 11,
+          "augmentLevel": 3
+        }
+      ],
+      [
+        {
+          "quantity": 1,
+          "name": "Great Spiritvein Gem",
+          "augmentRarity": 11,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Elder Spiritvein Bone",
+          "augmentRarity": 11,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 4,
+          "name": "Annihilating Temperhorn",
+          "augmentRarity": 11,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 4,
+          "name": "Tempered Frosthide",
+          "augmentRarity": 11,
+          "augmentLevel": 4
+        }
+      ]
+    ],
+    "Attack Increase": [
+      [
+        {
+          "quantity": 9,
+          "name": "Fatal Rendclaw",
+          "augmentRarity": 11,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Ancient Great Horn",
+          "augmentRarity": 11,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Heavy Dragonvein Bone",
+          "augmentRarity": 11,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 3,
+          "name": "Vibrant Crimsonbone",
+          "augmentRarity": 11,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 9,
+          "name": "Scorching Scale",
+          "augmentRarity": 11,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Solemn Azure Horn",
+          "augmentRarity": 11,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Elder Dragonvein Bone",
+          "augmentRarity": 11,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 1,
+          "name": "Guiding Reef Dragonbone",
+          "augmentRarity": 11,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Dragonhold",
+          "augmentRarity": 11,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Tempered Frosthide",
+          "augmentRarity": 11,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Elder Spiritvein Bone",
+          "augmentRarity": 11,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 1,
+          "name": "Guiding Tundra Dragonbone",
+          "augmentRarity": 11,
+          "augmentLevel": 4
+        }
+      ]
+    ],
+    "Affinity Increase": [
+      [
+        {
+          "quantity": 9,
+          "name": "Sinister Silverpelt",
+          "augmentRarity": 11,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Crackling Thunderpelt",
+          "augmentRarity": 11,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Heavy Dragonvein Bone",
+          "augmentRarity": 11,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 3,
+          "name": "Prosperous Crystal",
+          "augmentRarity": 11,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Azure Scale",
+          "augmentRarity": 11,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Tempered Thunderpelt",
+          "augmentRarity": 11,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Spiritvein Slogbone",
+          "augmentRarity": 11,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 1,
+          "name": "Guiding Forest Crystal",
+          "augmentRarity": 11,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Blastscale",
+          "augmentRarity": 11,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Tempered Magmafin",
+          "augmentRarity": 11,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Spiritvein Slogbone",
+          "augmentRarity": 11,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 3,
+          "name": "Hellfire Crystal",
+          "augmentRarity": 11,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Dragonhold",
+          "augmentRarity": 11,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Coldblooded Icefang",
+          "augmentRarity": 11,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Spiritvein Solidbone",
+          "augmentRarity": 11,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 5,
+          "name": "Frozen Crystal",
+          "augmentRarity": 11,
+          "augmentLevel": 4
+        }
+      ]
+    ],
+    "Defense Increase": [
+      [
+        {
+          "quantity": 9,
+          "name": "Muddy Crown",
+          "augmentRarity": 11,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Fierce Dragonvein Bone",
+          "augmentRarity": 11,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Cracked Crystal",
+          "augmentRarity": 11,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 3,
+          "name": "Weathered Cragbone",
+          "augmentRarity": 11,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 9,
+          "name": "Queen's Scale",
+          "augmentRarity": 11,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Fierce Dragonvein Bone",
+          "augmentRarity": 11,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 5,
+          "name": "Wasteland Crystal",
+          "augmentRarity": 11,
+          "augmentLevel": 3
+        }
+      ],
+      [
+        {
+          "quantity": 9,
+          "name": "Twisted Bravehorn",
+          "augmentRarity": 11,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Heavy Dragonvein Bone",
+          "augmentRarity": 11,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Serene Crystal",
+          "augmentRarity": 11,
+          "augmentLevel": 3
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Crown",
+          "augmentRarity": 11,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Spiritvein Slogbone",
+          "augmentRarity": 11,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 1,
+          "name": "Guiding Wasteland Crystal",
+          "augmentRarity": 11,
+          "augmentLevel": 3
+        }
+      ]
+    ],
+    "Decoration Slot": [
+      [
+        {
+          "quantity": 9,
+          "name": "Hellfire Mane",
+          "augmentRarity": 11,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Tempered Flamepelt",
+          "augmentRarity": 11,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Elder Dragonvein Bone",
+          "augmentRarity": 11,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 3,
+          "name": "Tempered Cragbone",
+          "augmentRarity": 11,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Ebonshell",
+          "augmentRarity": 11,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Tempered Scute",
+          "augmentRarity": 11,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Spiritvein Solidbone",
+          "augmentRarity": 11,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 5,
+          "name": "Volcanic Wildbone",
+          "augmentRarity": 11,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Azure Mane",
+          "augmentRarity": 11,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Enticing Viperthorn",
+          "augmentRarity": 11,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Elder Dragonvein Bone",
+          "augmentRarity": 11,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 5,
+          "name": "Hoary Icebone",
+          "augmentRarity": 11,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Gold Scale",
+          "augmentRarity": 11,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Tempered Viperthorn",
+          "augmentRarity": 11,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Elder Dragonvein Bone",
+          "augmentRarity": 11,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 5,
+          "name": "Tundra Icebone",
+          "augmentRarity": 11,
+          "augmentLevel": 4
+        }
+      ]
+    ],
+    "Health Regen": [
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Silverpelt",
+          "augmentRarity": 11,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Tempered Poison Sac",
+          "augmentRarity": 11,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Spiritvein Solidbone",
+          "augmentRarity": 11,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 3,
+          "name": "Slumbering Greatbone",
+          "augmentRarity": 11,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Spattered Hide",
+          "augmentRarity": 11,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Tempered Green Scale",
+          "augmentRarity": 11,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Spiritvein Solidbone",
+          "augmentRarity": 11,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 1,
+          "name": "Guiding Forest Dragonbone",
+          "augmentRarity": 11,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Annihilating Temperhorn",
+          "augmentRarity": 11,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Crystal Frozenhide",
+          "augmentRarity": 11,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Elder Dragonvein Bone",
+          "augmentRarity": 11,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 5,
+          "name": "Rime Crystal",
+          "augmentRarity": 11,
+          "augmentLevel": 4
+        }
+      ]
+    ],
+    "Element/Status Effect Up": [
+      [
+        {
+          "quantity": 9,
+          "name": "Night Hood",
+          "augmentRarity": 11,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Fierce Dragonvein Bone",
+          "augmentRarity": 11,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Distorted Crystal",
+          "augmentRarity": 11,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 3,
+          "name": "Malformed Frenzybone",
+          "augmentRarity": 11,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 9,
+          "name": "Strongman's Jaw",
+          "augmentRarity": 11,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Inkstained Oilshell +",
+          "augmentRarity": 11,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Heavy Dragonvein Bone",
+          "augmentRarity": 11,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 5,
+          "name": "Effluvial Crystal",
+          "augmentRarity": 11,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 9,
+          "name": "Twilight Fang",
+          "augmentRarity": 11,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Soulrender Talon",
+          "augmentRarity": 11,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Elder Dragonvein Bone",
+          "augmentRarity": 11,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 3,
+          "name": "Twilight Crystal",
+          "augmentRarity": 11,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Annihilating Temperhorn",
+          "augmentRarity": 11,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Gushing Dragonhold",
+          "augmentRarity": 11,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Elder Dragonvein Bone",
+          "augmentRarity": 11,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 3,
+          "name": "Daybreak Crystal",
+          "augmentRarity": 11,
+          "augmentLevel": 4
+        }
+      ]
+    ]
+  },
+  "rarity12": {
+    "Extra Augmentation Slots": [
+      [
+        {
+          "quantity": 1,
+          "name": " Great Spiritvein Gem",
+          "augmentRarity": 12,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Elder Spiritvein Bone",
+          "augmentRarity": 12,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 5,
+          "name": "E",
+          "augmentRarity": 12,
+          "augmentLevel": 3
+        }
+      ],
+      [
+        {
+          "quantity": 1,
+          "name": "Great Spiritvein Gem",
+          "augmentRarity": 12,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Elder Spiritvein Bone",
+          "augmentRarity": 12,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 5,
+          "name": "Tempered Glimmerpelt",
+          "augmentRarity": 12,
+          "augmentLevel": 3
+        }
+      ],
+      [
+        {
+          "quantity": 1,
+          "name": "Great Spiritvein Gem",
+          "augmentRarity": 12,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Elder Spiritvein Bone",
+          "augmentRarity": 12,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 5,
+          "name": "Annihilating Temperhorn",
+          "augmentRarity": 12,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 5,
+          "name": "Tempered Dragonhold",
+          "augmentRarity": 12,
+          "augmentLevel": 4
+        }
+      ]
+    ],
+    "Attack Increase": [
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Steelwing",
+          "augmentRarity": 12,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Bloodstained Ebonhide",
+          "augmentRarity": 12,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Elder Spiritvein Bone",
+          "augmentRarity": 12,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 5,
+          "name": "Slumbering Greatbone",
+          "augmentRarity": 12,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Silver Scale",
+          "augmentRarity": 12,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Bloodthirsty Glimmerpelt",
+          "augmentRarity": 12,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Spiritvein Solidbone",
+          "augmentRarity": 12,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 3,
+          "name": "Dragonscorched Wildbone",
+          "augmentRarity": 12,
+          "augmentLevel": 4
+        }
+      ]
+    ],
+    "Affinity Increase": [
+      [
+        {
+          "quantity": 9,
+          "name": "Smoldering Tailedge",
+          "augmentRarity": 12,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Heavy Dragonvein Bone",
+          "augmentRarity": 12,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Serene Crystal",
+          "augmentRarity": 12,
+          "augmentLevel": 3
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Crimson Mane",
+          "augmentRarity": 12,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Azure Mane",
+          "augmentRarity": 12,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Elder Spiritvein Bone",
+          "augmentRarity": 12,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 1,
+          "name": "Guiding Wasteland Crystal",
+          "augmentRarity": 12,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Annihilating Temperhorn",
+          "augmentRarity": 12,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Tempered Icefang",
+          "augmentRarity": 12,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Elder Spiritvein Bone",
+          "augmentRarity": 12,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 1,
+          "name": "Guiding Rime Crystal",
+          "augmentRarity": 12,
+          "augmentLevel": 4
+        }
+      ]
+    ],
+    "Defense Increase": [
+      [
+        {
+          "quantity": 9,
+          "name": "Rubbery Shell",
+          "augmentRarity": 12,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Fierce Dragonvein Bone",
+          "augmentRarity": 12,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Vivid Crimsonbone",
+          "augmentRarity": 12,
+          "augmentLevel": 3
+        }
+      ],
+      [
+        {
+          "quantity": 9,
+          "name": "Hydrated Sac",
+          "augmentRarity": 12,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Fierce Dragonvein Bone",
+          "augmentRarity": 12,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 5,
+          "name": "Coral Crimsonbone",
+          "augmentRarity": 12,
+          "augmentLevel": 3
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Icehide",
+          "augmentRarity": 12,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Heavy Dragonvein Bone",
+          "augmentRarity": 12,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Vibrant Crimsonbone",
+          "augmentRarity": 12,
+          "augmentLevel": 3
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Ebonshell",
+          "augmentRarity": 12,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Heavy Jaw",
+          "augmentRarity": 12,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Dragonscorched Wildbone",
+          "augmentRarity": 12,
+          "augmentLevel": 3
+        }
+      ]
+    ],
+    "Decoration Slot": [
+      [
+        {
+          "quantity": 7,
+          "name": "Blackcurl Temperhorn",
+          "augmentRarity": 12,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Aurora Crownhorn",
+          "augmentRarity": 12,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Dragonvein Solidbone",
+          "augmentRarity": 12,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 1,
+          "name": "Guiding Wasteland Dragonbone",
+          "augmentRarity": 12,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Gold Scale",
+          "augmentRarity": 12,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Gushing Dragonhold",
+          "augmentRarity": 12,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Dragonvein Solidbone",
+          "augmentRarity": 12,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 3,
+          "name": "Everfrost Icebone",
+          "augmentRarity": 12,
+          "augmentLevel": 4
+        }
+      ]
+    ],
+    "Health Regen": [
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Trancehide",
+          "augmentRarity": 12,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Charged Deathly Shocker",
+          "augmentRarity": 12,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Elder Spiritvein Bone",
+          "augmentRarity": 12,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 1,
+          "name": "Guiding Reef Dragonbone",
+          "augmentRarity": 12,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Silver Scale",
+          "augmentRarity": 12,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 3,
+          "name": "Tempered Blastscale",
+          "augmentRarity": 12,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Elder Spiritvein Bone",
+          "augmentRarity": 12,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 1,
+          "name": "Guiding Volcanic Dragonbone",
+          "augmentRarity": 12,
+          "augmentLevel": 4
+        }
+      ]
+    ],
+    "Element/Status Effect Up": [
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Oilshell +",
+          "augmentRarity": 12,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Fatal Rendclaw",
+          "augmentRarity": 12,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Spiritvein Slogbone",
+          "augmentRarity": 12,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 3,
+          "name": "Twilight Crystal",
+          "augmentRarity": 12,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 9,
+          "name": "Shuddering Darkjaw",
+          "augmentRarity": 12,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Twilight Fang",
+          "augmentRarity": 12,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Elder Dragonvein Bone",
+          "augmentRarity": 12,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 1,
+          "name": "Guiding Effluvial Crystal",
+          "augmentRarity": 12,
+          "augmentLevel": 4
+        }
+      ],
+      [
+        {
+          "quantity": 7,
+          "name": "Tempered Gold Scale",
+          "augmentRarity": 12,
+          "augmentLevel": 1
+        },
+        {
+          "quantity": 5,
+          "name": "Glossy Ebonshell",
+          "augmentRarity": 12,
+          "augmentLevel": 2
+        },
+        {
+          "quantity": 3,
+          "name": "Spiritvein Solidbone",
+          "augmentRarity": 12,
+          "augmentLevel": 3
+        },
+        {
+          "quantity": 1,
+          "name": "Guiding Magma Crystal",
+          "augmentRarity": 12,
+          "augmentLevel": 4
+        }
+      ]
+    ]
+  }
+}

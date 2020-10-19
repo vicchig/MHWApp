@@ -1,0 +1,1886 @@
+[
+  
+  {
+    "level": 1,
+    "augment": "Extra Augmentation Slots",
+    "rarity": 10,
+    "id": 1,
+    "materials": [
+      {
+        "name": "Spiritvein Slogbone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Imbued with the same power as a streamstone.",
+        "quantity": 3
+      },
+      {
+        "name": "Fierce Dragonvein Bone",
+        "description": "Bone obtained from large monsters in the Guiding Lands. Visibly stronger for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Tempered Great Horn",
+        "description": "Very rare Tempered Banbaro material. A product of the brutal power struggle of the Guiding Lands.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "augment": "Extra Augmentation Slots",
+    "rarity": 10,
+    "id": 2,
+    "materials": [
+      {
+        "name": "Spiritvein Gem",
+        "description": "Gem obtained from tempered monsters in the Guiding Lands. Raw subterranean power given form.",
+        "quantity": 1
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Drew in earthen energy to slake its endless thirst.",
+        "quantity": 3
+      },
+      {
+        "name": "Tempered Glimmerpelt",
+        "description": "Very rare Tempered Rajang material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "augment": "Extra Augmentation Slots",
+    "rarity": 10,
+    "id": 3,
+    "materials": [
+      {
+        "name": "Great Spiritvein Gem",
+        "description": " Gem obtained from tempered monsters in the Guiding Lands. Rife with power from the dawn of creation.",
+        "quantity": 1
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Proof of  their status as true masters of the land.",
+        "quantity": 3
+      },
+      {
+        "name": "Annihilating Temperhorn",
+        "description": "Very rare Tempered Ruiner Nergigante material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 3
+      },
+      {
+        "name": "Tempered Icefang",
+        "description": "Very rare Tempered Barioth material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 1,
+    "augment": "Attack Increase",
+    "rarity": 10,
+    "id": 4,
+    "materials": [
+      {
+        "name": "Flickering Flamepelt",
+        "description": "Very rare Anjanath material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 9
+      },
+      {
+        "name": "Fierce Dragonvein Bone",
+        "description": "Bone obtained from large monsters in the Guiding Lands. Visibly stronger for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Wasteland Cragbone",
+        "description": "Bone obtained in the Guiding Lands' wildspire region. Weathered as it is, its weight attests to its power.",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "augment": "Attack Increase",
+    "rarity": 10,
+    "id": 5,
+    "materials": [
+      {
+        "name": "Twisted Temperhorn",
+        "description": "Very rare Tempered Diablos material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Crackling Thunderpelt",
+        "description": "Very rare Fulgur Anjanath material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "description": "Bone obtained from large monsters in the Guiding Lands. Strong as steel after absorbing earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Tempered Cragbone",
+        "description": " Bone obtained in the Guiding Lands' wildspire region. Its curious form suggests untold potential.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "augment": "Attack Increase",
+    "rarity": 10,
+    "id": 6,
+    "materials": [
+      {
+        "name": "Tempered Jaw",
+        "description": "Very rare Tempered Tigrex material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Tempered Red Scale",
+        "description": " Very rare Tempered Rathalos material. A product of the brutal power struggle in the Guilding Lands.",
+        "quantity": 3
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Drew in earthen energy to slake its endless thirst.",
+        "quantity": 3
+      },
+      {
+        "name": "Guiding Wasteland Dragonbone",
+        "description": "Bone obtained in the Guiding Lands' wildspire region. Traces of a bygone overlord, drawn by an unknown force.",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "augment": "Attack Increase",
+    "rarity": 10,
+    "id": 7,
+    "materials": [
+      {
+        "name": "Tempered Glimmerpelt",
+        "description": "Very rare Tempered Rajang material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Heavy Jaw",
+        "description": "Very rare Dodogama material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Drew in earthen energy to slake its endless thirst.",
+        "quantity": 3
+      },
+      {
+        "name": "Simmering Wildbone",
+        "description": "Bone obtained in the Guiding Lands' volcanic region. Subterranean energy has altered its material properties.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 1,
+    "augment": "Affinity Increase",
+    "rarity": 10,
+    "id": 8,
+    "materials": [
+      {
+        "name": "Colorful Plume",
+        "description": "Very rare Kulu-Ya-Ku material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 9
+      },
+      {
+        "name": "Fierce Dragonvein Bone",
+        "description": "Bone obtained from large monsters in the Guiding Lands. Visibly stronger for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Decayed Crystal",
+        "description": "Ore obtained in the Guiding Lands' forest region. Subterranean energy has caused the ore to crystallize.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "augment": "Affinity Increase",
+    "rarity": 10,
+    "id": 9,
+    "materials": [
+      {
+        "name": "Stormcall Steelwing",
+        "description": "Very rare Kushala Daora material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 9
+      },
+      {
+        "name": "Assassin Cutwing",
+        "description": "Very rare Nargacuga material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "description": "Bone obtained from large monsters in the Guiding Lands. Strong as steel after absorbing earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Forest Crystal",
+        "description": "Ore obtained in the Guiding Lands' forest region. Greater underground energy yielded larger crystals.",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "augment": "Affinity Increase",
+    "rarity": 10,
+    "id": 10,
+    "materials": [
+      {
+        "name": "Tempered Cutwing",
+        "description": "Very rare Tempered Nargacuga material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Tempered Cathode",
+        "description": "Very rare Tobi-Kadachi material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 3
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Drew in earthen energy to slake its endless thirst.",
+        "quantity": 3
+      },
+      {
+        "name": "Prosperous Crystal",
+        "description": "Ore obtained in the Guiding Lands' forest region. The energy it holds is palpable to the touch.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "augment": "Affinity Increase",
+    "rarity": 10,
+    "id": 11,
+    "materials": [
+      {
+        "name": "Tempered Blastscale",
+        "description": "Very rare Tempered Seething Bazelgeuse material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Incandescent Magmafin",
+        "description": "Very rare Lavasioth material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Drew in earthen energy to slake its endless thirst.",
+        "quantity": 3
+      },
+      {
+        "name": "Magma Crystal",
+        "description": "Ore obtained in the Guiding Lands' volcanic region. Greater underground energy has yielded larger crystals.",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "level": 1,
+    "augment": "Defense Increase",
+    "rarity": 10,
+    "id": 12,
+    "materials": [
+      {
+        "name": "Rugged Mane",
+        "description": "Very rare Great Jagras material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 9
+      },
+      {
+        "name": "Fierce Dragonvein Bone",
+        "description": "Bone obtained from large monsters in the Guiding Lands. Visibly stronger for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Mossy Greatbone",
+        "description": "Bone obtained in the Guiding Lands' forest region. Subterranean energy has altered its material properties.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "augment": "Defense Increase",
+    "rarity": 10,
+    "id": 13,
+    "materials": [
+      {
+        "name": "Fragrant Poison Sac",
+        "description": "Very rare Pukei-Pukei material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 9
+      },
+      {
+        "name": "Fierce Dragonvein Bone",
+        "description": "Bone obtained from large monsters in the Guiding Lands. Visibly stronger for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Woodland Greatbone",
+        "description": "Bone obtained in the Guiding Lands' forest region. Weathered as it is, its weight attests to its power.",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "augment": "Defense Increase",
+    "rarity": 10,
+    "id": 14,
+    "materials": [
+      {
+        "name": "Obsidian Fur",
+        "description": "Very rare Nightshade Paolumu material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 9
+      },
+      {
+        "name": "Fierce Dragonvein Bone",
+        "description": "Bone obtained from large monsters in the Guiding Lands. Visibly stronger for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Slumbering Greatbone",
+        "description": "Bone obtained in the Guiding Lands' forest region. Its curious form suggests untold potential.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "augment": "Defense Increase",
+    "rarity": 10,
+    "id": 15,
+    "materials": [
+      {
+        "name": "King's Scale",
+        "description": "Very rare Rathalos material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 9
+      },
+      {
+        "name": "Ancient Great Horn",
+        "description": "Very rare Banbaro material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "description": "Bone obtained from large monsters in the Guiding Lands. Notably heavier for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Guiding Forest Dragonbone",
+        "description": "Bone obtained in the Guiding Lands' forest region. Traces of a bygone overlord, drawn by an unknown force.",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "level": 1,
+    "augment": "Decoration Slot",
+    "rarity": 10,
+    "id": 16,
+    "materials": [
+      {
+        "name": "Blackcurl Tyranthorn",
+        "description": "Very rare Black Diablos material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 9
+      },
+      {
+        "name": "Crackling Thunderpelt",
+        "description": "Very rare Fulgur Anjanath material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "description": "Bone obtained from large monsters in the Guiding Lands. Notably heavier for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Wasteland Crystal",
+        "description": "Ore obtained in the Guiding Lands' wildspire region. Greater underground energy has yielded larger crystals.",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "augment": "Decoration Slot",
+    "rarity": 10,
+    "id": 17,
+    "materials": [
+      {
+        "name": "Moonlight Scale",
+        "description": "Very rare Gold Rathian material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 9
+      },
+      {
+        "name": "Charged Deathly Shocker",
+        "description": "Very rare Zinogre material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "description": "Bone obtained from large monsters in the Guiding Lands. Strong as steel after absorbing earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Serene Crystal",
+        "description": "Ore obtained in the Guiding Lands' wildspire region. The energy it holds is palpable to the touch.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "augment": "Decoration Slot",
+    "rarity": 10,
+    "id": 18,
+    "materials": [
+      {
+        "name": "Tempered Azure Mane",
+        "description": "Very rare Tempered Lunastra material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Tempered Hide",
+        "description": "Very rare Tempered Nightshade Paolumu material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 3
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Proof of  their status as true masters of the land.",
+        "quantity": 3
+      },
+      {
+        "name": "Guiding Wasteland Crystal",
+        "description": "Ore obtained in the Guiding Lands' wildspire region. A massive crystal formed by miraculous earthen energy.",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "augment": "Decoration Slot",
+    "rarity": 10,
+    "id": 19,
+    "materials": [
+      {
+        "name": "Tempered Gold Scale",
+        "description": "Very rare Tempered Gold Rathian material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Metallic Scute",
+        "description": "Very rare Uragaan material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Proof of  their status as true masters of the land.",
+        "quantity": 3
+      },
+      {
+        "name": "Melted Crystal",
+        "description": "Ore obtained in the Guiding Lands' volcanic region. Subterranean energy has caused the ore to crystallize.",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "level": 1,
+    "augment": "Health Regen",
+    "rarity": 10,
+    "id": 20,
+    "materials": [
+      {
+        "name": "Tempered Rendclaw",
+        "description": "Very rare Tempered Odogaron material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Inkstained Oilshell +",
+        "description": "Very rare Radobaan material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Imbued with the same power as a streamstone.",
+        "quantity": 3
+      },
+      {
+        "name": "Effluvial Frenzybone",
+        "description": "Bone obtained in the Guiding Lands' rotted region. Weathered as it is, its weight attests to its power.",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "augment": "Health Regen",
+    "rarity": 10,
+    "id": 21,
+    "materials": [
+      {
+        "name": "Tempered Tailblade",
+        "description": "Very rare Tempered Acidic Glavenus material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Strongman's Jaw",
+        "description": "Very rare Tigrex material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Drew in earthen energy to slake its endless thirst.",
+        "quantity": 3
+      },
+      {
+        "name": "Afflicted Frenzybone",
+        "description": "A bone obtained in the Guiding Lands' rotted region. Its curious form suggests untold potential.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "augment": "Health Regen",
+    "rarity": 10,
+    "id": 22,
+    "materials": [
+      {
+        "name": "Tempered Twilight Fang",
+        "description": " Very rare Tempered Blackveil Vaal Hazak material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Tempered Talon",
+        "description": "Very rare Tempered Ebony Odogaron material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 3
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Proof of  their status as true masters of the land.",
+        "quantity": 3
+      },
+      {
+        "name": "Guiding Rotted Dragonbone",
+        "description": "Bone obtained in the Guiding Lands' rotted region. Traces of a bygone overlord, drawn by an unknown force.",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "augment": "Health Regen",
+    "rarity": 10,
+    "id": 23,
+    "materials": [
+      {
+        "name": "Tempered Silver Scale",
+        "description": "Very rare Tempered Silver Rathalos material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Crimson Blastscale",
+        "description": "Very rare Seething Bazelgeuse material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Proof of  their status as true masters of the land.",
+        "quantity": 3
+      },
+      {
+        "name": "Volcanic Wildbone",
+        "description": "Bone obtained in the Guiding Lands' volcanic region. Weathered as it is, its weight attests to its power.",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "level": 1,
+    "augment": "Element/Status Effect Up",
+    "rarity": 10,
+    "id": 24,
+    "materials": [
+      {
+        "name": "Dazzling Photophore +",
+        "description": "Very rare Tzitzi-Ya-Ku material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 9
+      },
+      {
+        "name": "Fierce Dragonvein Bone",
+        "description": "Bone obtained from large monsters in the Guiding Lands. Visibly stronger for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Pale Crystal",
+        "description": "Ore obtained in the Guiding Lands' coral region. Subterranean energy has caused the ore to crystallize.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "augment": "Element/Status Effect Up",
+    "rarity": 10,
+    "id": 25,
+    "materials": [
+      {
+        "name": "Smooth Icehide",
+        "description": "Very rare Legiana material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 9
+      },
+      {
+        "name": "Rubbery Shell",
+        "description": "Very rare Paolumu material. The Guiding Lands' energy forties the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "description": "Bone obtained from large monsters in the Guiding Lands. Notably heavier for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Reef Crystal",
+        "description": "Ore obtained in the Guiding Lands' coral region. Greater underground energy has yielded larger crystals.",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "augment": "Element/Status Effect Up",
+    "rarity": 10,
+    "id": 26,
+    "materials": [
+      {
+        "name": "Enchancting Finehide",
+        "quantity": 9
+      },
+      {
+        "name": "Honed Tailblade",
+        "description": "Very rare Acidic Glavenus material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "description": "Bone obtained from elder dragons in the Guiding Lands. More imposing for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Deepsea Crystal",
+        "description": "Ore obtained in the Guiding Lands' coral region. The energy it holds is palpable to the touch.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "augment": "Element/Status Effect Up",
+    "rarity": 10,
+    "id": 27,
+    "materials": [
+      {
+        "name": "Tempered Azure Horn",
+        "description": "Very rare Tempered Kirin material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Tempered Pink Scale",
+        "description": "Very rare Tempered Pink Rathian material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 3
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Proof of  their status as true masters of the land.",
+        "quantity": 3
+      },
+      {
+        "name": "Guiding Reef Crystal",
+        "description": "Ore obtained in the Guiding Lands' coral region. The energy it holds is palpable to the touch.",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "level": 1,
+    "augment": "Extra Augmentation Slots",
+    "rarity": 11,
+    "id": 28,
+    "materials": [
+      {
+        "name": "Spiritvein Gem",
+        "description": "Gem obtained from tempered monsters in the Guiding Lands. Raw subterranean power given form.",
+        "quantity": 1
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Drew in earthen energy to slake its endless thirst.",
+        "quantity": 3
+      },
+      {
+        "name": "Tempered Crownhorn",
+        "description": "Very rare Tempered Velkhana material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "augment": "Extra Augmentation Slots",
+    "rarity": 11,
+    "id": 29,
+    "materials": [
+      {
+        "name": "Great Spiritvein Gem",
+        "description": " Gem obtained from tempered monsters in the Guiding Lands. Rife with power from the dawn of creation.",
+        "quantity": 1
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Proof of  their status as true masters of the land.",
+        "quantity": 5
+      },
+      {
+        "name": "Tempered Glimmerpelt",
+        "description": "Very rare Tempered Rajang material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "augment": "Extra Augmentation Slots",
+    "rarity": 11,
+    "id": 30,
+    "materials": [
+      {
+        "name": "Great Spiritvein Gem",
+        "description": " Gem obtained from tempered monsters in the Guiding Lands. Rife with power from the dawn of creation.",
+        "quantity": 1
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Proof of  their status as true masters of the land.",
+        "quantity": 3
+      },
+      {
+        "name": "Annihilating Temperhorn",
+        "description": "Very rare Tempered Ruiner Nergigante material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 4
+      },
+      {
+        "name": "Tempered Frosthide",
+        "description": "Very rare Tempered Shrieking Legiana material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "level": 1,
+    "augment": "Attack Increase",
+    "rarity": 11,
+    "id": 31,
+    "materials": [
+      {
+        "name": "Fatal Rendclaw",
+        "description": "Very rare Odogaron material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 9
+      },
+      {
+        "name": "Ancient Great Horn",
+        "description": "Very rare Banbaro material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "description": "Bone obtained from large monsters in the Guiding Lands. Notably heavier for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Vibrant Crimsonbone",
+        "description": "Bone obtained in the Guiding Lands' coral region. Its curious form suggests untold potential.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "augment": "Attack Increase",
+    "rarity": 11,
+    "id": 32,
+    "materials": [
+      {
+        "name": "Scorching Scale",
+        "description": "Very rare Silver Rathalos material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 9
+      },
+      {
+        "name": "Solemn Azure Horn",
+        "description": "Very rare Kirin material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "description": "Bone obtained from elder dragons in the Guiding Lands. More imposing for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Guiding Reef Dragonbone",
+        "description": "Bone obtained in the Guiding Lands' coral region. Trace of a bygone overlord, drawn by an unknown force.",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "augment": "Attack Increase",
+    "rarity": 11,
+    "id": 33,
+    "materials": [
+      {
+        "name": "Tempered Dragonhold",
+        "description": "Very rare Tempered Stygian Zinogre material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Tempered Frosthide",
+        "description": "Very rare Tempered Shrieking Legiana material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 5
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Proof of  their status as true masters of the land.",
+        "quantity": 3
+      },
+      {
+        "name": "Guiding Tundra Dragonbone",
+        "description": "Bone obtained in the Guiding Lands' tundra region. Traces of a bygone overlord, drawn by an unknown force.",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "level": 1,
+    "augment": "Affinity Increase",
+    "rarity": 11,
+    "id": 34,
+    "materials": [
+      {
+        "name": "Sinister Silverpelt",
+        "description": "Very rare Yian Garuga material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 9
+      },
+      {
+        "name": "Crackling Thunderpelt",
+        "description": "Very rare Fulgur Anjanath material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "description": "Bone obtained from large monsters in the Guiding Lands. Notably heavier for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Prosperous Crystal",
+        "description": "Ore obtained in the Guiding Lands' forest region. The energy it holds is palpable to the touch.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "augment": "Affinity Increase",
+    "rarity": 11,
+    "id": 35,
+    "materials": [
+      {
+        "name": "Tempered Azure Scale",
+        "description": "Very rare Tempered Azure Rathalos material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Tempered Thunderpelt",
+        "description": "Very rare Tempered Fulgur Anjanath material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 3
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Imbued with the same power as a streamstone.",
+        "quantity": 3
+      },
+      {
+        "name": "Guiding Forest Crystal",
+        "description": "Ore obtained in the Guiding Lands' forest region. A massive crystal formed by miraculous earthen energy.",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "augment": "Affinity Increase",
+    "rarity": 11,
+    "id": 36,
+    "materials": [
+      {
+        "name": "Tempered Blastscale",
+        "description": "Very rare Tempered Seething Bazelgeuse material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Tempered Magmafin",
+        "description": "Very rare Tempered Lavasioth material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 3
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Imbued with the same power as a streamstone.",
+        "quantity": 3
+      },
+      {
+        "name": "Hellfire Crystal",
+        "description": "Ore obtained in the Guiding Lands' volcanic region. The energy it holds is palpable to the touch.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "augment": "Affinity Increase",
+    "rarity": 11,
+    "id": 37,
+    "materials": [
+      {
+        "name": "Tempered Dragonhold",
+        "description": "Very rare Tempered Stygian Zinogre material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Coldblooded Icefang",
+        "description": "Very rare Barioth material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Drew in earthen energy to slake its endless thirst.",
+        "quantity": 3
+      },
+      {
+        "name": "Frozen Crystal",
+        "description": "Ore obtained in the Guiding Lands' tundra region. Subterranean energy has caused the ore to crystallize.",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "level": 1,
+    "augment": "Defense Increase",
+    "rarity": 11,
+    "id": 38,
+    "materials": [
+      {
+        "name": "Muddy Crown",
+        "description": "Very rare Barroth material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 9
+      },
+      {
+        "name": "Fierce Dragonvein Bone",
+        "description": "Bone obtained from large monsters in the Guiding Lands. Visibly stronger for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Cracked Crystal",
+        "description": "Ore obtained in the Guiding Lands' wildspire region. Subterranean energy has caused the ore to crystallize.",
+        "quantity": 3
+      },
+      {
+        "name": "Weathered Cragbone",
+        "description": "Bone obtained in the Guiding Lands' wildspire region. Subterranean energy has altered its material properties.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "augment": "Defense Increase",
+    "rarity": 11,
+    "id": 39,
+    "materials": [
+      {
+        "name": "Queen's Scale",
+        "description": "Very rare Rathian material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 9
+      },
+      {
+        "name": "Fierce Dragonvein Bone",
+        "description": "Bone obtained from large monsters in the Guiding Lands. Visibly stronger for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Wasteland Crystal",
+        "description": "Ore obtained in the Guiding Lands' wildspire region. Greater underground energy has yielded larger crystals.",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "augment": "Defense Increase",
+    "rarity": 11,
+    "id": 40,
+    "materials": [
+      {
+        "name": "Twisted Bravehorn",
+        "description": "Very rare Diablos material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 9
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "description": "Bone obtained from large monsters in the Guiding Lands. Notably heavier for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Serene Crystal",
+        "description": "Ore obtained in the Guiding Lands' wildspire region. The energy it holds is palpable to the touch.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "augment": "Defense Increase",
+    "rarity": 11,
+    "id": 41,
+    "materials": [
+      {
+        "name": "Tempered Crown",
+        "description": "Very rare Tempered Barroth material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Imbued with the same power as a streamstone.",
+        "quantity": 3
+      },
+      {
+        "name": "Guiding Wasteland Crystal",
+        "description": "Ore obtained in the Guiding Lands' wildspire region. A massive crystal formed by miraculous earthen energy.",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "level": 1,
+    "augment": "Decoration Slot",
+    "rarity": 11,
+    "id": 42,
+    "materials": [
+      {
+        "name": "Hellfire Mane",
+        "description": "Very rare Teostra material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 9
+      },
+      {
+        "name": "Tempered Flamepelt",
+        "description": "Very rare Tempered Anjanath material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 3
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "description": "Bone obtained from elder dragons in the Guiding Lands. More imposing for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Tempered Cragbone",
+        "description": " Bone obtained in the Guiding Lands' wildspire region. Its curious form suggests untold potential.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "augment": "Decoration Slot",
+    "rarity": 11,
+    "id": 43,
+    "materials": [
+      {
+        "name": "Tempered Ebonshell",
+        "description": "Very rare Tempered Brachydios material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Tempered Scute",
+        "description": "Very rare Tempered Uragaan material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 3
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Drew in earthen energy to slake its endless thirst.",
+        "quantity": 3
+      },
+      {
+        "name": "Volcanic Wildbone",
+        "description": "Bone obtained in the Guiding Lands' volcanic region. Weathered as it is, its weight attests to its power.",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "augment": "Decoration Slot",
+    "rarity": 11,
+    "id": 44,
+    "materials": [
+      {
+        "name": "Tempered Azure Mane",
+        "description": "Very rare Tempered Lunastra material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Enticing Viperthorn",
+        "quantity": 5
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "description": "Bone obtained from elder dragons in the Guiding Lands. More imposing for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Hoary Icebone",
+        "description": "Bone obtained in the Guiding Lands' tundra region. Subterranean energy has alterered its material properties.",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "augment": "Decoration Slot",
+    "rarity": 11,
+    "id": 45,
+    "materials": [
+      {
+        "name": "Tempered Gold Scale",
+        "description": "Very rare Tempered Gold Rathian material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Tempered Viperthorn",
+        "quantity": 3
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "description": "Bone obtained from elder dragons in the Guiding Lands. More imposing for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Tundra Icebone",
+        "description": "Bone obtained in the Guiding Lands' tundra region. Weathered as it is, its weight attests to its power.",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "level": 1,
+    "augment": "Health Regen",
+    "rarity": 11,
+    "id": 46,
+    "materials": [
+      {
+        "name": "Tempered Silverpelt",
+        "description": "Very rare Tempered Scarred Yian Garuga material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Tempered Poison Sac",
+        "description": "Very rare Tempered Pukei-Pukei material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 3
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Drew in earthen energy to slake its endless thirst.",
+        "quantity": 3
+      },
+      {
+        "name": "Slumbering Greatbone",
+        "description": "Bone obtained in the Guiding Lands' forest region. Its curious form suggests untold potential.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "augment": "Health Regen",
+    "rarity": 11,
+    "id": 47,
+    "materials": [
+      {
+        "name": "Spattered Hide",
+        "description": "Very rare Tempered Savage Deviljho material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Tempered Green Scale",
+        "description": "Very rare Tempered Rathian material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 3
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Drew in earthen energy to slake its endless thirst.",
+        "quantity": 3
+      },
+      {
+        "name": "Guiding Forest Dragonbone",
+        "description": "Bone obtained in the Guiding Lands' forest region. Traces of a bygone overlord, drawn by an unknown force.",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "augment": "Health Regen",
+    "rarity": 11,
+    "id": 48,
+    "materials": [
+      {
+        "name": "Annihilating Temperhorn",
+        "description": "Very rare Tempered Ruiner Nergigante material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Crystal Frozenhide",
+        "description": "Very rare Shrieking Legiana material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "description": "Bone obtained from elder dragons in the Guiding Lands. More imposing for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Rime Crystal",
+        "description": "Ore obtained in the Guiding Lands' tundra region. Greater underground energy has yielded larger crystals.",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "level": 1,
+    "augment": "Element/Status Effect Up",
+    "rarity": 11,
+    "id": 49,
+    "materials": [
+      {
+        "name": "Night Hood",
+        "description": "Very rare Great Girros material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 9
+      },
+      {
+        "name": "Fierce Dragonvein Bone",
+        "description": "Bone obtained from large monsters in the Guiding Lands. Visibly stronger for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Distorted Crystal",
+        "description": "Ore obtained in the Guiding Lands' rotted region. Subterranean energy has caused the ore to crystallize.",
+        "quantity": 3
+      },
+      {
+        "name": "Malformed Frenzybone",
+        "description": "Bone obtained in the Guiding Lands' rotten region. Subterranean energy has altered its material properties.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "augment": "Element/Status Effect Up",
+    "rarity": 11,
+    "id": 50,
+    "materials": [
+      {
+        "name": "Strongman's Jaw",
+        "description": "Very rare Tigrex material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 9
+      },
+      {
+        "name": "Inkstained Oilshell +",
+        "description": "Very rare Radobaan material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "description": "Bone obtained from large monsters in the Guiding Lands. Notably heavier for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Effluvial Crystal",
+        "description": "Ore obtained in the Guiding Lands' rotted region. Greater underground energy has yielded larger crystals.",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "augment": "Element/Status Effect Up",
+    "rarity": 11,
+    "id": 51,
+    "materials": [
+      {
+        "name": "Twilight Fang",
+        "description": "Very rare Blackveil Vaal Hazak material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 9
+      },
+      {
+        "name": "Soulrender Talon",
+        "description": "Very rare Ebony Odogaron material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "description": "Bone obtained from elder dragons in the Guiding Lands. More imposing for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Twilight Crystal",
+        "description": "Ore obtained in the Guiding Lands' rotted region. The energy it holds is palpable to the touch.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "augment": "Element/Status Effect Up",
+    "rarity": 11,
+    "id": 52,
+    "materials": [
+      {
+        "name": "Annihilating Temperhorn",
+        "description": "Very rare Tempered Ruiner Nergigante material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Gushing Dragonhold",
+        "description": "Very rare Stygian Zinogre material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "description": "Bone obtained from elder dragons in the Guiding Lands. More imposing for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Daybreak Crystal",
+        "description": "Ore obtained in the Guiding Lands' tundra region. The energy it holds is palpalable to the touch.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 1,
+    "augment": "Extra Augmentation Slots",
+    "rarity": 12,
+    "id": 53,
+    "materials": [
+      {
+        "name": " Great Spiritvein Gem",
+        "quantity": 1
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Proof of  their status as true masters of the land.",
+        "quantity": 3
+      },
+      {
+        "name": "E",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "augment": "Extra Augmentation Slots",
+    "rarity": 12,
+    "id": 54,
+    "materials": [
+      {
+        "name": "Great Spiritvein Gem",
+        "description": " Gem obtained from tempered monsters in the Guiding Lands. Rife with power from the dawn of creation.",
+        "quantity": 1
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Proof of  their status as true masters of the land.",
+        "quantity": 5
+      },
+      {
+        "name": "Tempered Glimmerpelt",
+        "description": "Very rare Tempered Rajang material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "augment": "Extra Augmentation Slots",
+    "rarity": 12,
+    "id": 55,
+    "materials": [
+      {
+        "name": "Great Spiritvein Gem",
+        "description": " Gem obtained from tempered monsters in the Guiding Lands. Rife with power from the dawn of creation.",
+        "quantity": 1
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Proof of  their status as true masters of the land.",
+        "quantity": 5
+      },
+      {
+        "name": "Annihilating Temperhorn",
+        "description": "Very rare Tempered Ruiner Nergigante material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 5
+      },
+      {
+        "name": "Tempered Dragonhold",
+        "description": "Very rare Tempered Stygian Zinogre material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "level": 1,
+    "augment": "Attack Increase",
+    "rarity": 12,
+    "id": 56,
+    "materials": [
+      {
+        "name": "Tempered Steelwing",
+        "description": "Very rare Tempered Kushala Daora material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Bloodstained Ebonhide",
+        "description": "Very rare Savage Deviljho material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Proof of  their status as true masters of the land.",
+        "quantity": 3
+      },
+      {
+        "name": "Slumbering Greatbone",
+        "description": "Bone obtained in the Guiding Lands' forest region. Its curious form suggests untold potential.",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "augment": "Attack Increase",
+    "rarity": 12,
+    "id": 57,
+    "materials": [
+      {
+        "name": "Tempered Silver Scale",
+        "description": "Very rare Tempered Silver Rathalos material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Bloodthirsty Glimmerpelt",
+        "description": "Very rare Rajang material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Drew in earthen energy to slake its endless thirst.",
+        "quantity": 3
+      },
+      {
+        "name": "Dragonscorched Wildbone",
+        "description": "Bone obtained in the Guiding Lands' volcanic region. Its curious form suggests untold potential.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 1,
+    "augment": "Affinity Increase",
+    "rarity": 12,
+    "id": 58,
+    "materials": [
+      {
+        "name": "Smoldering Tailedge",
+        "description": "Very rare Glavenus material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 9
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "description": "Bone obtained from large monsters in the Guiding Lands. Notably heavier for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Serene Crystal",
+        "description": "Ore obtained in the Guiding Lands' wildspire region. The energy it holds is palpable to the touch.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "augment": "Affinity Increase",
+    "rarity": 12,
+    "id": 59,
+    "materials": [
+      {
+        "name": "Tempered Crimson Mane",
+        "description": "Very rare Tempered Teostra material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Azure Mane",
+        "description": "Very rare Lunastra material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Proof of  their status as true masters of the land.",
+        "quantity": 3
+      },
+      {
+        "name": "Guiding Wasteland Crystal",
+        "description": "Ore obtained in the Guiding Lands' wildspire region. A massive crystal formed by miraculous earthen energy.",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "augment": "Affinity Increase",
+    "rarity": 12,
+    "id": 60,
+    "materials": [
+      {
+        "name": "Annihilating Temperhorn",
+        "description": "Very rare Tempered Ruiner Nergigante material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Tempered Icefang",
+        "description": "Very rare Tempered Barioth material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 5
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Proof of  their status as true masters of the land.",
+        "quantity": 3
+      },
+      {
+        "name": "Guiding Rime Crystal",
+        "description": "Ore obtained in the Guiding Lands' tundra region. A massive crystal formed by miraculous earthen energy.",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "level": 1,
+    "augment": "Defense Increase",
+    "rarity": 12,
+    "id": 61,
+    "materials": [
+      {
+        "name": "Rubbery Shell",
+        "description": "Very rare Paolumu material. The Guiding Lands' energy forties the monsters living there.",
+        "quantity": 9
+      },
+      {
+        "name": "Fierce Dragonvein Bone",
+        "description": "Bone obtained from large monsters in the Guiding Lands. Visibly stronger for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Vivid Crimsonbone",
+        "description": "Bone obtained in the Guiding Lands' coral region. Subterranean energy has altered its material properties.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "augment": "Defense Increase",
+    "rarity": 12,
+    "id": 62,
+    "materials": [
+      {
+        "name": "Hydrated Sac",
+        "description": "Very rare Coral Pukei-Pukei material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 9
+      },
+      {
+        "name": "Fierce Dragonvein Bone",
+        "description": "Bone obtained from large monsters in the Guiding Lands. Visibly stronger for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Coral Crimsonbone",
+        "description": "Bone obtained in the Guiding Lands' coral region. Weathered as it is, its weight attests to its power.",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "augment": "Defense Increase",
+    "rarity": 12,
+    "id": 63,
+    "materials": [
+      {
+        "name": "Tempered Icehide",
+        "description": "Very rare Tempered Legiana material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "description": "Bone obtained from large monsters in the Guiding Lands. Notably heavier for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Vibrant Crimsonbone",
+        "description": "Bone obtained in the Guiding Lands' coral region. Its curious form suggests untold potential.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "augment": "Defense Increase",
+    "rarity": 12,
+    "id": 64,
+    "materials": [
+      {
+        "name": "Tempered Ebonshell",
+        "description": "Very rare Tempered Brachydios material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Heavy Jaw",
+        "description": "Very rare Dodogama material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Dragonscorched Wildbone",
+        "description": "Bone obtained in the Guiding Lands' volcanic region. Its curious form suggests untold potential.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 1,
+    "augment": "Decoration Slot",
+    "rarity": 12,
+    "id": 65,
+    "materials": [
+      {
+        "name": "Blackcurl Temperhorn",
+        "description": "Very rare Tempered Black Diablos material. A product of the brutal power of struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Aurora Crownhorn",
+        "description": "Very rare Velkhana material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "description": "Bone obtained from large monsters in the Guiding Lands. Strong as steel after absorbing earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Guiding Wasteland Dragonbone",
+        "description": "Bone obtained in the Guiding Lands' wildspire region. Traces of a bygone overlord, drawn by an unknown force.",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "augment": "Decoration Slot",
+    "rarity": 12,
+    "id": 66,
+    "materials": [
+      {
+        "name": "Tempered Gold Scale",
+        "description": "Very rare Tempered Gold Rathian material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Gushing Dragonhold",
+        "description": "Very rare Stygian Zinogre material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "description": "Bone obtained from large monsters in the Guiding Lands. Strong as steel after absorbing earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Everfrost Icebone",
+        "description": "Bone obtained in the Guiding Lands' tundra region. Its curious form suggests untold potential.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 1,
+    "augment": "Health Regen",
+    "rarity": 12,
+    "id": 67,
+    "materials": [
+      {
+        "name": "Tempered Trancehide",
+        "description": "Very rare Tempered Namielle material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Charged Deathly Shocker",
+        "description": "Very rare Zinogre material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Proof of  their status as true masters of the land.",
+        "quantity": 3
+      },
+      {
+        "name": "Guiding Reef Dragonbone",
+        "description": "Bone obtained in the Guiding Lands' coral region. Trace of a bygone overlord, drawn by an unknown force.",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "augment": "Health Regen",
+    "rarity": 12,
+    "id": 68,
+    "materials": [
+      {
+        "name": "Tempered Silver Scale",
+        "description": "Very rare Tempered Silver Rathalos material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Tempered Blastscale",
+        "description": "Very rare Tempered Seething Bazelgeuse material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 3
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Proof of  their status as true masters of the land.",
+        "quantity": 3
+      },
+      {
+        "name": "Guiding Volcanic Dragonbone",
+        "description": "Bone obtained in the Guiding Lands' volcanic region. Traces of a bygone overlord, drawn by an unknown force.",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "level": 1,
+    "augment": "Element/Status Effect Up",
+    "rarity": 12,
+    "id": 69,
+    "materials": [
+      {
+        "name": "Tempered Oilshell +",
+        "description": "Very rare Tempered Radobaan material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Fatal Rendclaw",
+        "description": "Very rare Odogaron material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Imbued with the same power as a streamstone.",
+        "quantity": 3
+      },
+      {
+        "name": "Twilight Crystal",
+        "description": "Ore obtained in the Guiding Lands' rotted region. The energy it holds is palpable to the touch.",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "augment": "Element/Status Effect Up",
+    "rarity": 12,
+    "id": 70,
+    "materials": [
+      {
+        "name": "Shuddering Darkjaw",
+        "description": "Very rare Brute Tigrex material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 9
+      },
+      {
+        "name": "Twilight Fang",
+        "description": "Very rare Blackveil Vaal Hazak material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "description": "Bone obtained from elder dragons in the Guiding Lands. More imposing for having absorbed earthen energy.",
+        "quantity": 3
+      },
+      {
+        "name": "Guiding Effluvial Crystal",
+        "description": "Ore obtained in the Guiding Lands' rotted region. A massive crystal formed by miraculous earthen energy.",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "augment": "Element/Status Effect Up",
+    "rarity": 12,
+    "id": 71,
+    "materials": [
+      {
+        "name": "Tempered Gold Scale",
+        "description": "Very rare Tempered Gold Rathian material. A product of the brutal power struggle in the Guiding Lands.",
+        "quantity": 7
+      },
+      {
+        "name": "Glossy Ebonshell",
+        "description": "Very rare Brachydios material. The Guiding Lands' energy fortifies the monsters living there.",
+        "quantity": 5
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "description": "Bone obtained from tempered monsters in the Guiding Lands. Drew in earthen energy to slake its endless thirst.",
+        "quantity": 3
+      },
+      {
+        "name": "Guiding Magma Crystal",
+        "description": "Ore obtained in the Guiding Lands' volcanic region. A massive crystal formed by miraculous earthen energy.",
+        "quantity": 1
+      }
+    ]
+  }
+]

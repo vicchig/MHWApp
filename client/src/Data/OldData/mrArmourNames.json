@@ -1,0 +1,6774 @@
+[
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Bone Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Bone Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Bone Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Bone Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Bone Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Alloy Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Alloy Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Alloy Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Alloy Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Alloy Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Vespoid Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Vespoid Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Vespoid Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Vespoid Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Vespoid Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Hornetaur Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Hornetaur Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Hornetaur Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Hornetaur Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Hornetaur Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Kestodon Guards Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Gajau Boots Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Shamos Goggles Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Gastodon Horn Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Barnos Jacket Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Wulg Scarf Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Cortos Cape Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Jagras Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Jagras Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Jagras Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Jagras Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Jagras Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Tzitzi Headgear Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Tzitzi Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Tzitzi Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Tzitzi Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Tzitzi Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Girros Headgear Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Girros Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Girros Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Girros Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Girros Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Dodogama Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Dodogama Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Dodogama Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Dodogama Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Dodogama Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Kulu Headpiece Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Kulu Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Kulu Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Kulu Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Kulu Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Pukei Hat Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Pukei Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Pukei Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Pukei Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Pukei Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Pukei Lagoon Hat Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Pukei Lagoon Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Pukei Lagoon Braces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Pukei Lagoon Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Pukei Lagoon Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Barroth Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Barroth Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Barroth Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Barroth Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Barroth Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Jyura Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Jyura Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Jyura Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Jyura Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Jyura Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Beo Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Beo Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Beo Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Beo Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Beo Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Kadachi Hat Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Kadachi Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Kadachi Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Kadachi Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Kadachi Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Viper Kadachi Hat Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Viper Kadachi Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Viper Kadachi Braces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Viper Kadachi Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Viper Kadachi Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "High Metal Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "High Metal Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "High Metal Braces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "High Metal Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "High Metal Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Banbaro Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Banbaro Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Banbaro Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Banbaro Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Banbaro Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Anja Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Anja Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Anjanath Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Anja Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Anjanath Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Fulgur Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Fulgur Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Fulgur Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Fulgur Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Fulgur Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Rathian Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Rathian Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Rathian Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Rathian Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Rathian Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Rath Heart Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Rath Heart Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Rath Heart Braces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Rath Heart Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Rath Heart Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Lumu Hat Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Lumu Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Lumu Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Lumu Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Lumu Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Lumu Phantasm Hood Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Lumu Phantasm Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Lumu Phantasm Braces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Lumu Phantasm Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Lumu Phantasm Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Baan Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Baan Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Baan Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Baan Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Baan Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Bone Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Bone Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Bone Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Bone Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Bone Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Alloy Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Alloy Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Alloy Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Alloy Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Alloy Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Vespoid Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Vespoid Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Vespoid Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Vespoid Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Vespoid Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Hornetaur Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Hornetaur Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Hornetaur Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Hornetaur Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Hornetaur Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Kestodon Guards Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Gajau Boots Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Shamos Goggles Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Gastodon Horn Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Barnos Jacket Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Wulg Scarf Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Cortos Cape Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Jagras Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Jagras Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Jagras Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Jagras Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Jagras Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Tzitzi Headgear Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Tzitzi Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Tzitzi Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Tzitzi Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Tzitzi Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Girros Headgear Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Girros Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Girros Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Girros Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Girros Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Dodogama Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Dodogama Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Dodogama Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Dodogama Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Dodogama Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Kulu Headpiece Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Kulu Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Kulu Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Kulu Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Kulu Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Pukei Hat Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Pukei Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Pukei Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Pukei Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Pukei Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Pukei Lagoon Hat Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Pukei Lagoon Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Pukei Lagoon Braces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Pukei Lagoon Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Pukei Lagoon Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Barroth Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Barroth Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Barroth Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Barroth Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Barroth Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Jyura Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Jyura Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Jyura Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Jyura Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Jyura Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Beo Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Beo Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Beo Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Beo Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Beo Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Kadachi Hat Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Kadachi Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Kadachi Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Kadachi Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Kadachi Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Viper Kadachi Hat Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Viper Kadachi Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Viper Kadachi Braces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Viper Kadachi Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Viper Kadachi Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "High Metal Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "High Metal Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "High Metal Braces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "High Metal Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "High Metal Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Banbaro Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Banbaro Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Banbaro Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Banbaro Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Banbaro Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Anja Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Anja Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Anja Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Anja Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Anja Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Fulgur Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Fulgur Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Fulgur Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Fulgur Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Fulgur Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Rathian Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Rathian Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Rathian Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Rathian Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Rathian Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Rath Heart Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Rath Heart Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Rath Heart Braces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Rath Heart Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Rath Heart Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Lumu Hat Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Lumu Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Lumu Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Lumu Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Lumu Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Lumu Phantasm Hood Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Lumu Phantasm Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Lumu Phantasm Braces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Lumu Phantasm Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Lumu Phantasm Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Baan Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Baan Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Baan Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Baan Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Baan Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Artian Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Artian Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Artian Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Artian Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Artian Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Artian Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Artian Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Artian Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Artian Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Artian Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Clockwork Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Clockwork Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Clockwork Braces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Clockwork Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Clockwork Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Clockwork Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Clockwork Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Clockwork Braces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Clockwork Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Clockwork Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Ingot Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Ingot Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Ingot Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Ingot Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Ingot Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Ingot Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Ingot Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Ingot Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Ingot Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Ingot Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Pearlspring Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Guildwork Head Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Guildwork Body Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Guildwork Braces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Guildwork Waist Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Guildwork Feet Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Guildwork Head Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Guildwork Body Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Guildwork Braces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Guildwork Waist Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Guildwork Feet Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Ruinous Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Ruinous Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Ruinous Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Ruinous Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Ruinous Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Ruinous Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Ruinous Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Ruinous Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Ruinous Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Ruinous Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Silver Solhelm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Silver Solmail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Silver Solbraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Silver Solcoil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Silver Solgreaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Silver Solhelm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Silver Solmail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Silver Solbraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Silver Solcoil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Silver Solgreaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Golden Lunehelm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Golden Lunemail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Golden Lunebraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Golden Lunecoil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Golden Lunegreaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Golden Lunehelm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Golden Lunemail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Golden Lunebraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Golden Lunecoil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Golden Lunegreaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Zinogre Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Zinogre Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Zinogre Braces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Zinogre Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Zinogre Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Zinogre Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Zinogre Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Zinogre Braces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Zinogre Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Zinogre Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Garuga Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Garuga Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Garuga Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Garuga Tassets Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Garuga Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Garuga Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Garuga Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Garuga Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Garuga Tassets Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Garuga Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Zorah Headgear Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Zorah Hide Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Zorah Claws Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Zorah Spine Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Zorah Spurs Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Zorah Headgear Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Zorah Hide Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Zorah Claws Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Zorah Spine Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Zorah Spurs Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Shara Ishvalda Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Shara Ishvalda Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Shara Ishvalda Braces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Shara Ishvalda Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Shara Ishvalda Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Shara Ishvalda Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Shara Ishvalda Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Shara Ishvalda Braces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Shara Ishvalda Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Shara Ishvalda Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Tentacle Cowl Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Tentacle Cloak Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Tentacle Gloves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Tentacle Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Tentacle Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Tentacle Cowl Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Tentacle Cloak Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Tentacle Gloves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Tentacle Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Tentacle Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Kirin Horn Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Kirin Jacket Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Kirin Longarms Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Kirin Hoop Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Kirin Leg Guards Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Kirin Horn Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Kirin Jacket Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Kirin Longarms Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Kirin Hoop Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Kirin Leg Guards Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Kushala Glare Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Kushala Cista Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Kushala Grip Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Kushala Cocoon Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Kushala Crus Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Kushala Glare Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Kushala Cista Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Kushala Grip Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Kushala Cocoon Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Kushala Crus Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Kaiser Crown Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Kaiser Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Kaiser Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Kaiser Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Kaiser Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Kaiser Crown Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Kaiser Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Kaiser Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Kaiser Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Kaiser Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Fellshroud Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Fellshroud Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Fellshroud Braces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Fellshroud Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Fellshroud Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Fellshroud Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Fellshroud Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Fellshroud Braces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Fellshroud Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Fellshroud Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Rimeguard Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Rimeguard Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Rimeguard Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Rimeguard Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Rimeguard Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Rimeguard Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Rimeguard Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Rimeguard Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Rimeguard Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Rimeguard Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Guild Palace Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Guild Palace Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Guild Palace Braces Beat +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Guild Palace Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Guild Palace Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Guild Palace Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Guild Palace Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Guild Palace Braces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Guild Palace Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Guild Palace Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Esurient Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Esurient Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Esurient Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Esurient Faulds Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Esurient Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Esurient Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Esurient Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Esurient Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Esurient Faulds Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Esurient Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Pride Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Pride Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Pride Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Pride Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Pride Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Pride Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Pride Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Pride Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Pride Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Pride Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Damascus Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Damascus Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Damascus Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Damascus Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Damascus Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Damascus Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Damascus Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Damascus Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Damascus Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Damascus Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Dober Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Dober Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Dober Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Dober Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Dober Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Dober Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Dober Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Dober Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Dober Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Dober Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Black Belt Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Black Belt Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Black Belt Braces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Black Belt Tassets Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Black Belt Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Black Belt Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Black Belt Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Black Belt Braces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Black Belt Tassets Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Black Belt Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Rex Roar Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Rex Roar Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Rex Roar Braces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Rex Roar Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Rex Roar Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Rex Roar Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Rex Roar Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Rex Roar Braces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Rex Roar Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Rex Roar Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Tigrex Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Tigrex Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Tigrex Braces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Tigrex Tassets Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Tigrex Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Tigrex Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Tigrex Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Tigrex Braces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Tigrex Tassets Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Tigrex Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Brachydios Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Brachydios Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Brachydios Braces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Brachydios Faulds Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Brachydios Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Brachydios Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Brachydios Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Brachydios Braces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Brachydios Faulds Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Brachydios Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Acidic Glavenus Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Acidic Glavenus Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Acidic Glavenus Braces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Acidic Glavenus Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Acidic Glavenus Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Acidic Glavenus Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Acidic Glavenus Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Acidic Glavenus Braces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Acidic Glavenus Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Acidic Glavenus Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Golden Headdress Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Golden Haori Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Golden Kote Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Golden Obi Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Golden Hakama Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Golden Headdress Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Golden Haori Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Golden Kote Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Golden Obi Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Golden Hakama Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Glavenus Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Glavenus Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Glavenus Braces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Glavenus Faulds Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Glavenus Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Glavenus Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Glavenus Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Glavenus Braces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Glavenus Faulds Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Glavenus Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Nargacuga Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Nargacuga Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Nargacuga Braces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Nargacuga Faulds Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Nargacuga Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Nargacuga Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Nargacuga Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Nargacuga Braces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Nargacuga Faulds Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Nargacuga Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Uragaan Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Uragaan Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Uragaan Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Uragaan Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Uragaan Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Uragaan Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Uragaan Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Uragaan Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Uragaan Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Uragaan Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Lavasioth Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Lavasioth Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Lavasioth Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Lavasioth Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Lavasioth Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Lavasioth Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Lavasioth Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Lavasioth Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Lavasioth Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Lavasioth Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Death Garon Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Death Garon Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Death Garon Braces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Death Garon Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Death Garon Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Death Garon Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Death Garon Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Death Garon Braces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Death Garon Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Death Garon Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Odogaron Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Odogaron Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Odogaron Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Odogaron Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Odogaron Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Odogaron Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Odogaron Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Odogaron Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Odogaron Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Odogaron Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Hoarcry Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Hoarcry Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Hoarcry Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Hoarcry Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Hoarcry Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Hoarcry Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Hoarcry Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Hoarcry Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Hoarcry Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Hoarcry Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Legiana Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Legiana Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Legiana Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Legiana Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Legiana Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Legiana Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Legiana Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Legiana Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Legiana Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Legiana Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Diablos Nero Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Diablos Nero Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Diablos Nero Braces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Diablos Nero Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Diablos Nero Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Diablos Nero Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Diablos Nero Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Diablos Nero Braces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Diablos Nero Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Diablos Nero Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Diablos Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Diablos Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Diablos Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Diablos Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Diablos Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Diablos Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Diablos Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Diablos Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Diablos Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Diablos Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Rath Soul Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Rath Soul Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Rath Soul Braces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Rath Soul Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Rath Soul Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Rath Soul Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Rath Soul Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Rath Soul Braces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Rath Soul Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Rath Soul Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Rathalos Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Rathalos Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Rathalos Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Rathalos Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Rathalos Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Rathalos Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Rathalos Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Rathalos Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Rathalos Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Rathalos Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Barioth Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Barioth Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Barioth Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Barioth Faulds Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Barioth Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Barioth Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Barioth Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Barioth Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Barioth Faulds Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Barioth Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Empress Crown Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Empress Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Empress Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Empress Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Empress Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Empress Crown Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Empress Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Empress Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Empress Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Empress Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Claire's Head Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Claire's Body Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Claire's Arms Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Claire's Torso Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Claire's Legs Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Leon's Head Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Leon's Body Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Leon's Arms Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Leon's Torso Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Leon's Legs Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Stygian Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Stygian Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Stygian Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Stygian Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Stygian Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Stygian Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Stygian Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Stygian Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Stygian Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Stygian Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Safi Crested Crown Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Safi Crested Chest Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Safi Crested Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Safi Crested Belt Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Safi Crested Boots Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Safi Crested Crown Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Safi Crested Chest Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Safi Crested Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Safi Crested Belt Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Safi Crested Boots Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Oolong Hair Alpha +",
+        "crafting": {
+            "materials": [
+                {
+                    "quantity": 1,
+                    "item": {
+                        "id": 1204,
+                        "rarity": 9,
+                        "carryLimit": 99,
+                        "value": 400,
+                        "name": "Joyful Ticket",
+                        "description": "A ticket you receive for attending the Holiday Joy Fest. Exchange it for special equipment or items."
+                    }
+                },
+                {
+                    "quantity": 2,
+                    "item": {
+                        "id": 663,
+                        "rarity": 9,
+                        "carryLimit": 99,
+                        "value": 1280,
+                        "name": "Spiritvein Crystal",
+                        "description": "Mined from master rank areas. Little is known about these crystals save the complexity of their balance."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Oolong Vest Alpha +",
+        "crafting": {
+            "materials": [
+                {
+                    "quantity": 1,
+                    "item": {
+                        "id": 1204,
+                        "rarity": 9,
+                        "carryLimit": 99,
+                        "value": 400,
+                        "name": "Joyful Ticket",
+                        "description": "A ticket you receive for attending the Holiday Joy Fest. Exchange it for special equipment or items."
+                    }
+                },
+                {
+                    "quantity": 3,
+                    "item": {
+                        "id": 604,
+                        "rarity": 9,
+                        "carryLimit": 99,
+                        "value": 1280,
+                        "name": "Eltalite Ore",
+                        "description": "Ore obtained from mining outcrops. This transcendent ore refines into metal even stronger than carbalite."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Oolong Sleeves Alpha +",
+        "crafting": {
+            "materials": [
+                {
+                    "quantity": 1,
+                    "item": {
+                        "id": 1204,
+                        "rarity": 9,
+                        "carryLimit": 99,
+                        "value": 400,
+                        "name": "Joyful Ticket",
+                        "description": "A ticket you receive for attending the Holiday Joy Fest. Exchange it for special equipment or items."
+                    }
+                },
+                {
+                    "quantity": 3,
+                    "item": {
+                        "id": 604,
+                        "rarity": 9,
+                        "carryLimit": 99,
+                        "value": 1280,
+                        "name": "Eltalite Ore",
+                        "description": "Ore obtained from mining outcrops. This transcendent ore refines into metal even stronger than carbalite."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Oolong Waist Alpha +",
+        "crafting": {
+            "materials": [
+                {
+                    "quantity": 1,
+                    "item": {
+                        "id": 1204,
+                        "rarity": 9,
+                        "carryLimit": 99,
+                        "value": 400,
+                        "name": "Joyful Ticket",
+                        "description": "A ticket you receive for attending the Holiday Joy Fest. Exchange it for special equipment or items."
+                    }
+                },
+                {
+                    "quantity": 2,
+                    "item": {
+                        "id": 663,
+                        "rarity": 9,
+                        "carryLimit": 99,
+                        "value": 1280,
+                        "name": "Spiritvein Crystal",
+                        "description": "Mined from master rank areas. Little is known about these crystals save the complexity of their balance."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Oolong Boots Alpha +",
+        "crafting": {
+            "materials": [
+                {
+                    "quantity": 1,
+                    "item": {
+                        "id": 1204,
+                        "rarity": 9,
+                        "carryLimit": 99,
+                        "value": 400,
+                        "name": "Joyful Ticket",
+                        "description": "A ticket you receive for attending the Holiday Joy Fest. Exchange it for special equipment or items."
+                    }
+                },
+                {
+                    "quantity": 2,
+                    "item": {
+                        "id": 663,
+                        "rarity": 9,
+                        "carryLimit": 99,
+                        "value": 1280,
+                        "name": "Spiritvein Crystal",
+                        "description": "Mined from master rank areas. Little is known about these crystals save the complexity of their balance."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Buff Chest Alpha +",
+        "crafting": {
+            "materials": [
+                {
+                    "quantity": 1,
+                    "item": {
+                        "id": 1201,
+                        "rarity": 10,
+                        "carryLimit": 99,
+                        "value": 800,
+                        "name": "Buff Ticket",
+                        "description": "The product of you defining those muscles and getting pumped up! Show it to the Smithy!"
+                    }
+                },
+                {
+                    "quantity": 3,
+                    "item": {
+                        "id": 739,
+                        "rarity": 11,
+                        "carryLimit": 99,
+                        "value": 6690,
+                        "name": "Rajang Wildpelt",
+                        "description": "Very rare Rajang material. Mostly obtained as a reward. Supple, used to craft gear."
+                    }
+                },
+                {
+                    "quantity": 1,
+                    "item": {
+                        "id": 735,
+                        "rarity": 11,
+                        "carryLimit": 99,
+                        "value": 21000,
+                        "name": "Gold Rajang Pelt+",
+                        "description": "Very rare Rajang material. Hard to obtain, but greatly increases the effectiveness of equipment."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Buff Arms Alpha +",
+        "crafting": {
+            "materials": [
+                {
+                    "quantity": 1,
+                    "item": {
+                        "id": 1201,
+                        "rarity": 10,
+                        "carryLimit": 99,
+                        "value": 800,
+                        "name": "Buff Ticket",
+                        "description": "The product of you defining those muscles and getting pumped up! Show it to the Smithy!"
+                    }
+                },
+                {
+                    "quantity": 3,
+                    "item": {
+                        "id": 1153,
+                        "rarity": 11,
+                        "carryLimit": 99,
+                        "value": 8990,
+                        "name": "Rajang Hardfang",
+                        "description": "Very rare Rajang material. Mostly obtained by carving. Sharp, used in many weapons."
+                    }
+                },
+                {
+                    "quantity": 3,
+                    "item": {
+                        "id": 738,
+                        "rarity": 11,
+                        "carryLimit": 99,
+                        "value": 9180,
+                        "name": "Rajang Hardclaw",
+                        "description": "Very rare Rajang, material. Obtained by breaking its forelimbs. Sharp, used in many weapons."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Buff Waist Alpha +",
+        "crafting": {
+            "materials": [
+                {
+                    "quantity": 1,
+                    "item": {
+                        "id": 1201,
+                        "rarity": 10,
+                        "carryLimit": 99,
+                        "value": 800,
+                        "name": "Buff Ticket",
+                        "description": "The product of you defining those muscles and getting pumped up! Show it to the Smithy!"
+                    }
+                },
+                {
+                    "quantity": 3,
+                    "item": {
+                        "id": 739,
+                        "rarity": 11,
+                        "carryLimit": 99,
+                        "value": 6690,
+                        "name": "Rajang Wildpelt",
+                        "description": "Very rare Rajang material. Mostly obtained as a reward. Supple, used to craft gear."
+                    }
+                },
+                {
+                    "quantity": 2,
+                    "item": {
+                        "id": 737,
+                        "rarity": 11,
+                        "carryLimit": 99,
+                        "value": 9750,
+                        "name": "Rajang Tail",
+                        "description": "Very Rare Rajang material. Obtained by breaking its tail. Stiff, used to craft gear."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Buff Legs Alpha +",
+        "crafting": {
+            "materials": [
+                {
+                    "quantity": 1,
+                    "item": {
+                        "id": 1201,
+                        "rarity": 10,
+                        "carryLimit": 99,
+                        "value": 800,
+                        "name": "Buff Ticket",
+                        "description": "The product of you defining those muscles and getting pumped up! Show it to the Smithy!"
+                    }
+                },
+                {
+                    "quantity": 3,
+                    "item": {
+                        "id": 1153,
+                        "rarity": 11,
+                        "carryLimit": 99,
+                        "value": 8990,
+                        "name": "Rajang Hardfang",
+                        "description": "Very rare Rajang material. Mostly obtained by carving. Sharp, used in many weapons."
+                    }
+                },
+                {
+                    "quantity": 1,
+                    "item": {
+                        "id": 735,
+                        "rarity": 11,
+                        "carryLimit": 99,
+                        "value": 21000,
+                        "name": "Gold Rajang Pelt+",
+                        "description": "Very rare Rajang material. Hard to obtain, but greatly increases the effectiveness of equipment."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Duffel Penguin Mask Alpha +",
+        "crafting": {
+            "materials": [
+                {
+                    "quantity": 1,
+                    "item": {
+                        "id": 1200,
+                        "rarity": 10,
+                        "carryLimit": 99,
+                        "value": 800,
+                        "name": "Penguin Ticket",
+                        "description": "A pair of Duffel Penguis adorn this ticket. Their expression is unreadable. Show it to the Smithy!"
+                    }
+                },
+                {
+                    "quantity": 1,
+                    "item": {
+                        "id": 723,
+                        "rarity": 9,
+                        "carryLimit": 99,
+                        "value": 2550,
+                        "name": "Large Kulu-Ya-Ku Beak",
+                        "description": "Very rare Kulu-Ya-Ku material. Obtained by breaking its head. Hard, used in many weapons."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Sealed Dragon Cloth Alpha +",
+        "crafting": {
+            "materials": [
+                {
+                    "quantity": 1,
+                    "item": {
+                        "id": 1199,
+                        "rarity": 10,
+                        "carryLimit": 99,
+                        "value": 800,
+                        "name": "Sealed Dragon Cloth",
+                        "description": "Proof of your friendly relations with the Wyverians. A mysterious seal is printed on it. Show it to the Smithy!"
+                    }
+                },
+                {
+                    "quantity": 2,
+                    "item": {
+                        "id": 944,
+                        "rarity": 11,
+                        "carryLimit": 99,
+                        "value": 6740,
+                        "name": "Deathweaver Membrane",
+                        "description": "Very rare Blackveil Vaal Hazak material. Obtained from rare drops. Grants dragon element properties."
+                    }
+                },
+                {
+                    "quantity": 2,
+                    "item": {
+                        "id": 969,
+                        "rarity": 11,
+                        "carryLimit": 99,
+                        "value": 4800,
+                        "name": "Pure Dragon Blood",
+                        "description": "Elder dragon blood that contains a more potent mix of its mysterious ingredient."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Acrobat Earrings Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Showman Earrings Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Astral Veil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 9,
+        "name": "Astral Cloth Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 9,
+        "name": "Astral  Scarf Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 9,
+        "name": "Astral Skirt Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 9,
+        "name": "Astral Tights Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Banuk Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Banuk Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Banuk Arms Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Banuk Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Banuk Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 9,
+        "name": "Wyverian Ears Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Shield-Weaver Head +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Shield-Weaver Chest +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Shield-Weaver Arms +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Shield-Weaver Torso +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Shield-Weaver Legs +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Grand God's Peer Mask Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Grand God's Peer Garb Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Grand God's Peer Arms Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Grand God's Peer Belt Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Grand God's Peer Feet Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Grand God's Peer Mask Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Grand God's Peer Garb Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Grand God's Peer Arms Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Grand God's Peer Belt Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Grand God's Peer Feet Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Brachydium Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Brachydium Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Brachydium Braces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Brachydium Faulds Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Brachydium Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Brachydium Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Brachydium Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Brachydium Braces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Brachydium Faulds Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Brachydium Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Rose Headplace Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Rose Jacket Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Rose Arms Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Rose Belt Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Rose Boots Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Kulve Taroth's Fury Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Kulve Taroth's Ire Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Kulve Taroth's Rage Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Kulve Taroth's Malice Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Kulve Taroth's Wrath Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Kulve Taroth's Fury Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Kulve Taroth's Ire Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Kulve Taroth's Rage Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Kulve Taroth's Malice Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Kulve Taroth's Wrath Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Tentacle Cowl Gamma +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Tentacle Cloak Gamma +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Tentacle Gloves Gamma +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Tentacle Coil Gamma +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Escadora Wisdom Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Escadora Soul Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Escadora Armguards Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Escadora Might Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Escadora Sheath Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 12,
+        "name": "Escadora Wisdom Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 12,
+        "name": "Escadora Soul Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 12,
+        "name": "Escadora Armguards Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 12,
+        "name": "Escadora Might Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 12,
+        "name": "Escadora Sheath Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Frostfang Helm Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Frostfang Mail Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Frostfang Vambraces Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Frostfang Coil Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Frostfang Greaves Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 11,
+        "name": "Frostfang Helm Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 11,
+        "name": "Frostfang Mail Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 11,
+        "name": "Frostfang Vambraces Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 11,
+        "name": "Frostfang Coil Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 11,
+        "name": "Frostfang Greaves Beta +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "head",
+        "rarity": 10,
+        "name": "Passionate Headdress Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "chest",
+        "rarity": 10,
+        "name": "Passionate Body Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "gloves",
+        "rarity": 10,
+        "name": "Passionate Arms Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "waist",
+        "rarity": 10,
+        "name": "Passionate Belt Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    },
+    {
+        "type": "legs",
+        "rarity": 10,
+        "name": "Passionate Leggings Alpha +",
+        "crafting": {
+            "materials": []
+        }
+    }
+]

@@ -1,0 +1,122 @@
+{
+  
+  "rarity10": {
+    "Extra Augmentation Slots": [
+      [ "Effect: Adds 1 Extra Slot", "", "1x Spiritvein Gem", "3x Spiritvein Solidbone", "3x Tempered Crownhorn", "Research Points: 800" ],
+      [ "Effect: Adds 1 Extra Slot", "", "1x Great Spiritvein Gem", "5x Elder Spiritvein Bone", "4x Tempered Glimmerpelt", "Research Points: 1000" ],
+      [ "Effect: Adds 2 Extra Slots", "", "1x Great Spiritvein Gem", "3x Elder Spiritvein Bone", "4x Annihilating Temperhorn", "4x Tempered Frosthide", "Research Points: 1200" ]
+    ],
+    "Attack Increase": [
+      [ "Effect: +5 True Raw Damage", "", "Augmentation Slot Cost: 3", "9x Fatal Rendclaw", "5x Ancient Great Horn", "3x Heavy Dragonvein Bone", "3x Vibrant Crimsonbone", "Research Points: 500" ],
+      [ "Effect: +5 True Raw Damage", "", "Augmentation Slot Cost: 2", "9x Scorching Scale", "5x Solemn Azure Horn", "3x Elder Dragonvein Bone", "1x Guiding Reef Dragonbone", "Research Points: ???" ],
+      [ "Effect: +5 True Raw Damage", "", "Augmentation Slot Cost: 2", "7x Tempered Dragonhold", "5x Tempered Frosthide", "3x Elder Spiritvein Bone", "1x Guiding Tundra Dragonbone", "Research Points: ???" ]
+    ],
+    "Affinity Increase": [
+      [ "Effect: +10% Affinity", "", "Augmentation Slot Cost: 2", "9x Colorful Plume", "3x Fierce Dragonvein Bone", "3x Decayed Crystal", "Research Points: 400" ],
+      [ "Effect: +5% Affinity", "", "Augmentation Slot Cost:", "9x Stormcall Steelwing", "5x Assassin Cutwing", "3x Dragonvein Solidbone", "5x Forest Crystal", "Research Points: ???" ],
+      [ "Effect: +5% Affinity", "", "Augmentation Slot Cost:", "7x Tempered Cutwing", "3x Tempered Cathode", "3x Spiritvein Solidbone", "3x Prosperous Crystal", "Research Points: ???" ],
+      [ "Effect: +5% Affinity", "", "Augmentation Slot Cost:", "7x Tempered Blastscale", "5x Incandescent Magmafin", "3x Spiritvein Solidbone", "5x Magma Crystal", "Research Points: ???" ]
+    ],
+    "Defense Increase": [
+      [ "Effect: +15 Defense, Small chance to reduce damage taken", "", "Augmentation Slot Cost: 1", "9x Rugged Mane", "3x Fierce Dragonvein Bone", "3x Mossy Greatbone", "Research Points: 300" ],
+      [ "Effect: +10 Defense, Increased chance to reduce damage taken", "", "Augmentation Slot Cost:", "9x Fragrant Poison Sac", "3x Fierce Dragonvein Bone", "5x Woodland Greatbone", "Research Points: ???" ],
+      [ "Effect: +10 Defense, Increased chance to reduce damage taken", "", "Augmentation Slot Cost:", "9x Obsidian Fur", "3x Fierce Dragonvein Bone", "3x Slumbering Greatbone", "Research Points: ???" ],
+      [ "Effect: +15 Defense, Increased chance to reduce damage taken", "", "Augmentation Slot Cost:", "9x King's Scale", "5x Ancient Great Horn", "3x Heavy Dragonvein Bone", "1x Guiding Forest Dragonbone", "Research Points: ???" ]
+    ],
+    "Decoration Slot": [
+      [ "Effect: Adds Lvl 1 Decoration Slot", "", "Augmentation Slot Cost: 3", "9x Blackcurl Tyranthorn", "5x Crackling Thunderpelt", "3x Heavy Dragonvein Bone", "5x Wasteland Crystal", "Research Points: 400" ],
+      [ "Effect: Upgrades to Lvl 2 Decoration Slot", "", "Augmentation Slot Cost:", "9x Moonlight Scale", "5x Charged Deathly Shocker", "3x Dragonvein Solidbone", "3x Serene Crystal", "Research Points: ???" ],
+      [ "Effect: Upgrades to Lvl 3 Decoration Slot", "", "Augmentation Slot Cost:", "7x Tempered Azure Mane", "3x Tempered Hide", "3x Elder Spiritvein Bone", "1x Guiding Wasteland Crystal", "Research Points: ???" ],
+      [ "Effect: Upgrades to Lvl 4 Decoration Slot", "", "Augmentation Slot Cost:", "7x Tempered Gold Scale", "5x Metallic Scute", "3x Elder Spiritvein Bone", "5x Melted Crystal", "Research Points: ???" ]
+    ],
+    "Health Regen": [
+      [ "Effect: Heals 7.5% of the damage dealt", "", "Augmentation Slot Cost: 3", "7x Tempered Rendclaw", "5x Inkstained Oilshell +", "3x Spiritvein Slogbone", "5x Effluvial Frenzybone", "Research Points: 400" ],
+      [ "Effect: Heals 9% of the damage dealt", "", "Augmentation Slot Cost:", "7x Tempered Tailblade", "5x Strongman's Jaw", "3x Spiritvein Solidbone", "3x Afflicted Frenzybone", "Research Points: ???" ],
+      [ "Effect: Heals 11% of the damage dealt", "", "Augmentation Slot Cost:", "7x Tempered Twilight Fang", "3x Tempered Talon", "3x Elder Spiritvein Bone", "1x Guiding Rotted Dragonbone", "Research Points: ???" ],
+      [ "Effect: Heals 14% of the damage dealt", "", "Augmentation Slot Cost:", "7x Tempered Silver Scale", "5x Crimson Blastscale", "3x Elder Spiritvein Bone", "5x Volcanic Wildbone", "Research Points: ???" ]
+    ],
+    "Element/Status Effect Up": [
+      [ "Effect: +30 Element/Status ", "", "Augmentation Slot Cost: 1", "9x Dazzling Photophore +", "3x Fierce Dragonvein Bone", "3x Pale Crystal", "Research Points: 400" ],
+      [ "Effect: +40 Element/Status ", "", "Augmentation Slot Cost: 2", "9x Smooth Icehide", "5x Rubbery Shell", "3x Heavy Dragonvein Bone", "5x Reef Crystal", "Research Points: ???" ],
+      [ "Effect: +30 Element/Status ", "", "Augmentation Slot Cost:", "9x Enchanting Finehide", "5x Honed Tailblade", "3x Elder Dragonvein Bone", "3x Deepsea Crystal", "Research Points: ???" ],
+      [ "Effect: +30 Element/Status ", "", "Augmentation Slot Cost:", "7x Tempered Azure Horn", "3x Tempered Pink Scale", "3x Elder Spiritvein Bone", "1x Guiding Reef Crystal", "Research Points: ???" ]
+    ]
+  },
+  "rarity11": {
+    "Extra Augmentation Slots": [
+      [ "Effect: Adds 1 Extra Slot", "", "1x Spiritvein Gem", "3x Spiritvein Solidbone", "3x Tempered Crownhorn", "Research Points: 800" ],
+      [ "Effect: Adds 1 Extra Slot", "", "1x Great Spiritvein Gem", "5x Elder Spiritvein Bone", "4x Tempered Glimmerpelt", "Research Points: 1000" ],
+      [ "Effect: Adds 2 Extra Slots", "", "1x Great Spiritvein Gem", "3x Elder Spiritvein Bone", "4x Annihilating Temperhorn", "4x Tempered Frosthide", "Research Points: 1200" ]
+    ],
+    "Attack Increase": [
+      [ "Effect: +5 True Raw Damage", "", "Augmentation Slot Cost: 3", "9x Fatal Rendclaw", "5x Ancient Great Horn", "3x Heavy Dragonvein Bone", "3x Vibrant Crimsonbone", "Research Points: 500" ],
+      [ "Effect: +5 True Raw Damage", "", "Augmentation Slot Cost: 2", "9x Scorching Scale", "5x Solemn Azure Horn", "3x Elder Dragonvein Bone", "1x Guiding Reef Dragonbone", "Research Points: ???" ],
+      [ "Effect: +5 True Raw Damage", "", "Augmentation Slot Cost: 2", "7x Tempered Dragonhold", "5x Tempered Frosthide", "3x Elder Spiritvein Bone", "1x Guiding Tundra Dragonbone", "Research Points: ???" ]
+    ],
+    "Affinity Increase": [
+      [ "Effect: +10% Affinity", "", "Augmentation Slot Cost: 2", "9x Sinister Silverpelt", "5x Crackling Thunderpelt", "3x Heavy Dragonvein Bone", "3x Prosperous Crystal", "Research Points: 500" ],
+      [ "Effect: +5% Affinity", "", "Augmentation Slot Cost: 2", "7x Tempered Azure Scale", "3x Tempered Thunderpelt", "3x Spiritvein Slogbone", "1x Guiding Forest Crystal", "Research Points: 600" ],
+      [ "Effect: +5% Affinity", "", "Augmentation Slot Cost: 2", "7x Tempered Blastscale", "3x Tempered Magmafin", "3x Spiritvein Slogbone", "3x Hellfire Crystal", "Research Points: ???" ],
+      [ "Effect: +5% Affinity", "", "Augmentation Slot Cost: 2", "7x Tempered Dragonhold", "5x Coldblooded Icefang", "3x Spiritvein Solidbone", "5x Frozen Crystal", "Research Points: ???" ]
+    ],
+    "Defense Increase": [
+      [ "", "Effect: +15 Defense, Small chance to reduce damage taken", "", "Augmentation Slot Cost: 1", "9x Muddy Crown", "3x Fierce Dragonvein Bone", "3x Cracked Crystal", "3x Weathered Cragbone", "Research Points: 400" ],
+      [ "Effect: +10 Defense, Increased chance to reduce damage taken", "", "Augmentation Slot Cost: 1", "9x Queen's Scale", "3x Fierce Dragonvein Bone", "5x Wasteland Crystal", "Research Points: 500" ],
+      [ "Effect: +10 Defense. Increased chance to reduce damage taken", "", "Augmentation Slot Cost: 1", "9x Twisted Bravehorn", "3x Heavy Dragonvein Bone", "3x Serene Crystal", "Research Points: ???" ],
+      [ "Effect: +15 Defense. Increased chance to reduce damage taken", "", "Augmentation Slot Cost: 1", "7x Tempered Crown", "3x Spiritvein Slogbone", "1x Guiding Wasteland Crystal", "Research Points: ???" ]
+    ],
+    "Decoration Slot": [
+      [ "Effect: Adds Lvl 1 Decoration Slot", "", "Augmentation Slot Cost: 3", "9x Hellfire Mane", "3x Tempered Flamepelt", "3x Elder Dragonvein Bone", "3x Tempered Cragbone", "Research Points: 500" ],
+      [ "Effect: Upgrades to Lvl 2 Decoration Slot", "", "Augmentation Slot Cost: 2", "7x Tempered Ebonshell", "3x Tempered Scute", "3x Spiritvein Solidbone", "5x Volcanic Wildbone", "Research Points: ???" ],
+      [ "Effect: Upgrades to Lvl 3 Decoration Slot", "", "Augmentation Slot Cost: 2", "7x Tempered Azure Mane", "5x Enticing Viperthorn", "3x Elder Dragonvein Bone", "5x Hoary Icebone", "Research Points: ???" ],
+      [ "Effect: Upgrades to Lvl 4 Decoration Slot", "", "Augmentation Slot Cost: 1", "7x Tempered Gold Scale", "3x Tempered Viperthorn", "3x Elder Dragonvein Bone", "5x Tundra Icebone", "Research Points: ???" ]
+    ],
+    "Health Regen": [
+      [ "Effect: Heals 7.5% of the damage dealt", "", "Augmentation Slot Cost: 3", "7x Tempered Silverpelt", "3x Tempered Poison Sac", "3x Spiritvein Solidbone", "3x Slumbering Greatbone", "Research Points: 500" ],
+      [ "Effect: Heals 9% of the damage dealt", "", "Augmentation Slot Cost: 2", "7x Spattered Hide", "3x Tempered Green Scale", "3x Spiritvein Solidbone", "1x Guiding Forest Dragonbone", "Research Points: 600" ],
+      [ "Effect: Heals 11% of the damage dealt", "", "Augmentation Slot Cost: 2", "7x Annihilating Temperhorn", "5x Crystal Frozenhide", "3x Elder Dragonvein Bone", "5x Rime Crystal", "Research Points: ???" ]
+    ],
+    "Element/Status Effect Up": [
+      [ "Effect: +30 Element/Status", "", "Augmentation Slot Cost: 1", "9x Night Hood", "3x Fierce Dragonvein Bone", "3x Distorted Crystal", "3x Malformed Frenzybone", "Research Points: 500" ],
+      [ "Effect: +30 Element/Status", "", "Augmentation Slot Cost: 2", "9x Strongman's Jaw", "5x Inkstained Oilshell +", "3x Heavy Dragonvein Bone", "5x Effluvial Crystal", "Research Points: ???" ],
+      [ "Effect: +30 Element/Status", "", "Augmentation Slot Cost: 2", "9x Twilight Fang", "5x Soulrender Talon", "3x Elder Dragonvein Bone", "3x Twilight Crystal", "Research Points: ???" ],
+      [ "Effect: +30 Element/Status", "", "Augmentation Slot Cost: 2", "7x Annihilating Temperhorn", "5x Gushing Dragonhold", "3x Elder Dragonvein Bone", "3x Daybreak Crystal", "Research Points: ???" ]
+    ]
+  },
+  "rarity12": {
+    "Extra Augmentation Slots": [
+      [ "Effect: Adds 1 Extra Slot", "", "1x Great Spiritvein Gem", "3x Elder Spiritvein Bone", "5x Extinction Greathorn", "Research Points: 1000" ],
+      [ "Effect: Adds 1 Extra Slot", "", "1x Great Spiritvein Gem", "5x Elder Spiritvein Bone", "5x Tempered Glimmerpelt", "Research Points: ???" ],
+      [ "Effect: Adds 1 Extra Slot", "", "1x Great Spiritvein Gem", "5x Elder Spiritvein Bone", "5x Annihilating Temperhorn", "5x Tempered Dragonhold", "Research Points: ???" ]
+    ],
+    "Attack Increase": [
+      [ "Effect: +5 True Raw Damage", "", "Augmentation Slot Cost: 3", "7x Tempered Steelwing", "5x Bloodstained Ebonhide", "3x Elder Spiritvein Bone", "5x Slumbering Greatbone", "Research Points: 600" ],
+      [ "Effect: +5 True Raw Damage", "", "Augmentation Slot Cost:", "7x Tempered Silver Scale", "5x Bloodthirsty Glimmerpelt", "3x Spiritvein Solidbone", "3x Dragonscorched Wildbone", "Research Points: ???" ]
+    ],
+    "Affinity Increase": [
+      [ "Effect: +10% Affinity", "", "Augmentation Slot Cost: 2", "9x Smoldering Tailedge", "3x Heavy Dragonvein Bone", "3x Serene Crystal", "Research Points: 600" ],
+      [ "Effect: +5% Affinity", "", "Augmentation Slot Cost:", "7x Tempered Crimson Mane", "5x Azure Mane", "3x Elder Spiritvein Bone", "1x Guiding Wasteland Crystal", "", "Research Points: ???" ],
+      [ "Effect: +5% Affinity", "", "Augmentation Slot Cost:", "7x Annihilating Temperhorn", "5x Tempered Icefang", "3x Elder Spiritvein Bone", "1x Guiding Rime Crystal", "Research Points: ???" ]
+    ],
+    "Defense Increase": [
+      [ "Effect: +15 Defense, Small chance to reduce damage taken", "", "Augmentation Slot Cost: 1", "9x Rubbery Shell", "3x Fierce Dragonvein Bone", "3x Vivid Crimsonbone", "Research Points: 500" ],
+      [ "Effect: +10 Defense, Increased chance to reduce damage taken", "", "Augmentation Slot Cost:", "9x Hydrated Sac", "3x Fierce Dragonvein Bone", "5x Coral Crimsonbone", "Research Points: ???" ],
+      [ "Effect: +10 Defense, Increased chance to reduce damage taken", "", "Augmentation Slot Cost:", "7x Tempered Icehide", "3x Heavy Dragonvein Bone", "3x Vibrant Crimsonbone", "Research Points: ???" ],
+      [ "Effect: +15 Defense, Increased chance to reduce damage taken", "", "Augmentation Slot Cost:", "7x Tempered Ebonshell", "5x Heavy Jaw", "3x Dragonscorched Wildbone", "Research Points: ???" ]
+    ],
+    "Decoration Slot": [
+      [ "Effect: Adds Lvl 1 Decoration Slot", "", "Augmentation Slot Cost: 3", "7x Blackcurl Temperhorn", "5x Aurora Crownhorn", "3x Dragonvein Solidbone", "1x Guiding Wasteland Dragonbone", "Research Points: 600" ],
+      [ "Effect: Upgrades to Lvl 2 Decoration Slot", "", "Augmentation Slot Cost: 3", "7x Tempered Gold Scale", "5x Gushing Dragonhold", "3x Dragonvein Solidbone", "3x Everfrost Icebone", "Research Points: ???" ],
+      [ " --" ]
+    ],
+    "Health Regen": [
+      [ "Effect: Heals 7.5% of the damage dealt", "", "Augmentation Slot Cost: 3", "7x Tempered Trancehide", "5x Charged Deathly Shocker", "3x Elder Spiritvein Bone", "1x Guiding Reef Dragonbone", "Research Points: 600" ],
+      [ "Effect: Heals 9% of the damage dealt", "", "Augmentation Slot Cost: 2", "7x Tempered Silver Scale", "3x Tempered Blastscale", "3x Elder Spiritvein Bone", "1x Guiding Volcanic Dragonbone", "Research Points: 700" ]
+    ],
+    "Element/Status Effect Up": [
+      [ "Effect: +30 Element/Status", "", "Augmentation Slot Cost: 1", "7x Tempered Oilshell +", "5x Fatal Rendclaw", "3x Spiritvein Slogbone", "3x Twilight Crystal", "Research Points: 600" ],
+      [ "Effect: +30 Element/Status", "", "Augmentation Slot Cost: 2", "9x Shuddering Darkjaw", "5x Twilight Fang", "3x Elder Dragonvein Bone", "1x Guiding Effluvial Crystal", "Research Points: 700" ],
+      [ "Effect: +30 Element/Status", "", "Augmentation Slot Cost:", "7x Tempered Gold Scale", "5x Glossy Ebonshell", "3x Spiritvein Solidbone", "1x Guiding Magma Crystal", "Research Points: ???" ]
+    ]
+  }
+}
