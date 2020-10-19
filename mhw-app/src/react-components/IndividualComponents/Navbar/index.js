@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import CustomButton from "./../CustomButton"
 import { withRouter } from 'react-router-dom';
-import {logOut, readCookie} from '../../../actions/accActions'
+import {logOut} from '../../../actions/accActions'
 import {processErrorWNav} from '../../../actions/utilities'
 
 class Navbar extends React.Component{

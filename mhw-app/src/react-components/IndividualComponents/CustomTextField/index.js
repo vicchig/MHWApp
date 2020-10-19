@@ -1,12 +1,7 @@
 import React from 'react';
 import TextField from '@material-ui/core/TextField'
-import styled from 'styled-components';
 import {
-    fade,
-    ThemeProvider,
-    withStyles,
     makeStyles,
-    createMuiTheme
   } from '@material-ui/core/styles';
 
 import './style.css'
@@ -77,7 +72,6 @@ export default function CreateCustomTextField(props) {
           rows={rows ?? 1}
           placeholder={placeholder ?? ""}
           onBlur={onBlur ?? (() => {})}
-          onClick={onClick ?? (() => {})}
           id={id ?? "css-custom-outlined-input"}
         />
     );

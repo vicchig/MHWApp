@@ -13,7 +13,7 @@ class GeneralResultCard extends React.Component{
                displayType, className} = this.props
 
         const icon = (hasIcon ?? false ) ? <img src={iconSource}
-                                                alt="No Image"
+                                                alt="Content Unavailable"
                                                 height={iconHeight}
                                                 width={iconWidth}
                                                 className={"cardIcon"}

@@ -2,7 +2,7 @@ import React from 'react';
 import { withRouter } from 'react-router-dom';
 import CustomButton from './../CustomButton'
 import {getMatchingDistance} from '../../../actions/algorithms'
-import AsyncSelect, {makeAsyncSelect} from 'react-select/async'
+import AsyncSelect from 'react-select/async'
 import "./style.css"
 
 class SearchBar extends React.Component{

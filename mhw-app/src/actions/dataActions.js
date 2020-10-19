@@ -1,4 +1,4 @@
-import { constructErrorMsgCouldntReadServerResponse, ApiResponse, constructErrorMsgUnableToFetch, constructErrorMsgNoResponse, constructErrorMsgReqError } from './utilities'
+import { constructErrorMsgCouldntReadServerResponse, ApiResponse, constructErrorMsgUnableToFetch, constructErrorMsgReqError } from './utilities'
 
 export const getData = async (category) => {
     const url = '/data/' + category

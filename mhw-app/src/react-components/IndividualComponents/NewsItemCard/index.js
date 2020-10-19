@@ -89,7 +89,6 @@ class NewsItemCard extends React.Component{
         const deleteButton = <CustomButton
                                 buttonText={"Delete"}
                                 display={"block"}
-                                buttonText={"Delete"}
                                 borderColor={"rgb(133, 156, 72)"}
                                 hoverColor={"rgb(79, 79, 79)"}
                                 textColor={'rgb(133, 156, 72)'}

@@ -323,7 +323,6 @@ class MonsterInfoPage extends React.Component{
                     hasCount={false}
                     iconWidth={"50vw"}
                     iconHeight={"60vh"}
-                    iconSource={null}
                     name={item.name}
                     id={item.internalID}
                     displayType={1}
@@ -348,7 +347,7 @@ class MonsterInfoPage extends React.Component{
 
                                                             <img src={require("../../../Images/" + weakness.element + ".webp")}
                                                                 className={"elementIcon"}
-                                                                alt={"No Image"}
+                                                                alt={"Content Unavailable"}
                                                             ></img>
                                                             <div className={"blankSpaceDiv"}></div>
                                                             {(() => {
@@ -357,7 +356,7 @@ class MonsterInfoPage extends React.Component{
                                                                         return <div className={"inlineStarDiv"}>
                                                                             <img src={require("../../../Images/redX.png")}
                                                                                     className={"xIconInline"}
-                                                                                    alt={"No Image"}
+                                                                                    alt={"Content Unavailable"}
                                                                             ></img>
                                                                             <div className={"blankSpaceDiv"}></div>
                                                                             <span>{"("+weakness.condition+")"}</span>
@@ -366,7 +365,7 @@ class MonsterInfoPage extends React.Component{
                                                                     else{
                                                                         return <img src={require("../../../Images/redX.png")}
                                                                                     className={"xIcon"}
-                                                                                    alt={"No Image"}
+                                                                                    alt={"Content Unavailable"}
                                                                                 ></img>
                                                                     }
                                                                 }
@@ -375,7 +374,7 @@ class MonsterInfoPage extends React.Component{
                                                                         return <div className={"inlineStarDiv"}>
                                                                             <img src={require("../../../Images/star" + weakness.stars + ".png")}
                                                                                 className={"starIconInline"+weakness.stars}
-                                                                                alt={"No Image"}
+                                                                                alt={"Content Unavailable"}
                                                                             ></img>
                                                                             <div className={"blankSpaceDiv"}></div>
                                                                             <span>{"("+weakness.condition+")"}</span>
@@ -384,7 +383,7 @@ class MonsterInfoPage extends React.Component{
                                                                     else{
                                                                         return <img src={require("../../../Images/star" + weakness.stars + ".png")}
                                                                                     className={"starIcon"+weakness.stars}
-                                                                                    alt={"No Image"}
+                                                                                    alt={"Content Unavailable"}
                                                                                 ></img>
                                                                     }
                                                                 }
@@ -410,20 +409,20 @@ class MonsterInfoPage extends React.Component{
                                                         <div className={"statusWeaknessInlineDiv"}>
                                                             <img src={require("../../../Images/" + weakness.element + ".webp")}
                                                                 className={"elementIcon"}
-                                                                alt={"No Image"}
+                                                                alt={"Content Unavailable"}
                                                             ></img>
                                                             <div className={"blankSpaceDiv"}></div>
                                                             {(() => {
                                                                 if(weakness.stars === 0){
                                                                     return <img src={require("../../../Images/redX.png")}
                                                                                 className={"xIcon"}
-                                                                                alt={"No Image"}
+                                                                                alt={"Content Unavailable"}
                                                                         ></img>
                                                                 }
                                                                 else if(weakness.stars > 0){
                                                                     return <img src={require("../../../Images/star" + weakness.stars + ".png")}
                                                                                 className={"starIcon"+weakness.stars}
-                                                                                alt={"No Image"}
+                                                                                alt={"Content Unavailable"}
                                                                         ></img>
                                                                 }
                                                             })()}
@@ -509,7 +508,7 @@ class MonsterInfoPage extends React.Component{
                         <CustomSelect
                             name="weaknessSelect" onChange={e => this.handleSelect(e, "weakness")} 
                             className="optionSelect" placeholder="Weakness" options={weaknessOptions}
-                            menuBackgroundColour="rgb(100, 100, 100)" menuBackgroundColour="rgb(100, 100, 100)" optionHoverBackgroundColour="rgb(120, 120, 120)"
+                            menuBackgroundColour="rgb(100, 100, 100)" optionHoverBackgroundColour="rgb(120, 120, 120)"
                             optionColour="rgb(161, 184, 98)" controlBackgroundColour="rgb(61, 61, 61)"
                             controlBorderColor="rgb(100, 100, 100)" controlHoverBorderColor="rgb(161, 184, 98)"
                             singleValueColour="rgb(161, 184, 98)" placeholderColour="rgb(161, 184, 98)"
@@ -528,7 +527,7 @@ class MonsterInfoPage extends React.Component{
                         <CustomSelect
                             name="speciesSelect" onChange={e => this.handleSelect(e, "species")} 
                             className="optionSelect" placeholder="Species" options={speciesOptions}
-                            menuBackgroundColour="rgb(100, 100, 100)" menuBackgroundColour="rgb(100, 100, 100)" optionHoverBackgroundColour="rgb(120, 120, 120)"
+                            menuBackgroundColour="rgb(100, 100, 100)"  optionHoverBackgroundColour="rgb(120, 120, 120)"
                             optionColour="rgb(161, 184, 98)" controlBackgroundColour="rgb(61, 61, 61)"
                             controlBorderColor="rgb(100, 100, 100)" controlHoverBorderColor="rgb(161, 184, 98)"
                             singleValueColour="rgb(161, 184, 98)" placeholderColour="rgb(161, 184, 98)"
@@ -548,7 +547,7 @@ class MonsterInfoPage extends React.Component{
                         <CustomSelect
                             name="weaknessSort" onChange={e => this.sortResultsWeakness(e)} 
                             className="optionSelect" placeholder="Weakness" options={sortWeaknessOptions}
-                            menuBackgroundColour="rgb(100, 100, 100)" menuBackgroundColour="rgb(100, 100, 100)" optionHoverBackgroundColour="rgb(120, 120, 120)"
+                            menuBackgroundColour="rgb(100, 100, 100)"  optionHoverBackgroundColour="rgb(120, 120, 120)"
                             optionColour="rgb(161, 184, 98)" controlBackgroundColour="rgb(61, 61, 61)"
                             controlBorderColor="rgb(100, 100, 100)" controlHoverBorderColor="rgb(161, 184, 98)"
                             singleValueColour="rgb(161, 184, 98)" placeholderColour="rgb(161, 184, 98)"
@@ -557,7 +556,7 @@ class MonsterInfoPage extends React.Component{
 
                         <CustomSelect
                             name="difficultySort" onChange={e => this.sortResultsPrimitive(e, "difficulty", "sortDifficultyVal")} 
-                            className="optionSelect" placeholder="Difficulty" menuBackgroundColour="rgb(100, 100, 100)" options={sortDifficultyOptions}
+                            className="optionSelect" placeholder="Difficulty"  options={sortDifficultyOptions}
                             menuBackgroundColour="rgb(100, 100, 100)" optionHoverBackgroundColour="rgb(120, 120, 120)"
                             optionColour="rgb(161, 184, 98)" controlBackgroundColour="rgb(61, 61, 61)"
                             controlBorderColor="rgb(100, 100, 100)" controlHoverBorderColor="rgb(161, 184, 98)"
@@ -568,7 +567,7 @@ class MonsterInfoPage extends React.Component{
 
                         <CustomSelect
                             name="threatSort" onChange={e => this.sortResultsPrimitive(e, "temperedRank", "sortThreatVal")} 
-                            className="optionSelect" placeholder="Threat" menuBackgroundColour="rgb(100, 100, 100)" options={sortThreatOptions}
+                            className="optionSelect" placeholder="Threat"  options={sortThreatOptions}
                             menuBackgroundColour="rgb(100, 100, 100)" optionHoverBackgroundColour="rgb(120, 120, 120)"
                             optionColour="rgb(161, 184, 98)" controlBackgroundColour="rgb(61, 61, 61)"
                             controlBorderColor="rgb(100, 100, 100)" controlHoverBorderColor="rgb(161, 184, 98)"
@@ -578,7 +577,7 @@ class MonsterInfoPage extends React.Component{
 
                         <CustomSelect
                             name="alphaSort" onChange={e => this.sortResultsPrimitive(e, "name", "sortAlphaVal")} 
-                            className="optionSelect" placeholder="Alphabetical" menuBackgroundColour="rgb(100, 100, 100)" options={sortAlphaOptions}
+                            className="optionSelect" placeholder="Alphabetical" options={sortAlphaOptions}
                             menuBackgroundColour="rgb(100, 100, 100)" optionHoverBackgroundColour="rgb(120, 120, 120)"
                             optionColour="rgb(161, 184, 98)" controlBackgroundColour="rgb(61, 61, 61)"
                             controlBorderColor="rgb(100, 100, 100)" controlHoverBorderColor="rgb(161, 184, 98)"
