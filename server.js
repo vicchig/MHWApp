@@ -6,20 +6,23 @@ const session = require('express-session')
 const bodyParser = require('body-parser') 
 const cors = require('cors')
 const app = express()
-const csp = require(`helmet-csp`)
+const csp = require(`helmet`)
 
-app.use(csp({
+/*
+app.use(csp.contentSecurityPolicy({
     directives: {
-        defaultSrc: ['none'],
-        scriptSrc: ['self'],
-        objectSrc: ['self'],
-        objectSrc: ['none'],
-        imgSrc: ['self', 'mhw-db.com'],
-        fontSrc: ['self'],
-        mediaSrc: ['self']
+        defaultSrc: ['\'self\''],
+        scriptSrc: ['\'self\''],
+        objectSrc: ['\'self\''],
+        imgSrc: ['\'self\'', 'mhw-db.com'],
+        fontSrc: ['\'self\''],
+        mediaSrc: ['\'self\''],
+        upgradeInsecureRequests: []
     },
     reportOnly: false
-}))
+}))*/
+
+
 
 //session cookie
 app.use(session({
@@ -27,7 +30,7 @@ app.use(session({
     resave: false,
     saveUninitialized: false,
     cookie: {
-        maxAge: 300000,
+        maxAge: 3000,
         httpOnly: true,
         sameSite: true
     }
@@ -127,6 +130,12 @@ app.get("/users/check-session", (req, res) => {
     } else {
         res.status(401).send();
     }
+});
+
+
+app.use(function(req, res, next) {
+    res.setHeader("Content-Security-Policy", "script-src 'self' default-src 'none' object-src 'self' script-src 'self' img-src 'self' font-src 'self' media-src 'self' upgradeInsecureRequests");
+    return next();
 });
 
 
