@@ -26,7 +26,7 @@ router.get("/", (req, res) => {
     if(query.name.length === 0){
         Monster.find({}, proj, (err, doc) => {
             if(err){
-                console.log(err)
+                console.error("An error occurred.")
                 res.status(500).send()
                 return
             }
@@ -37,7 +37,7 @@ router.get("/", (req, res) => {
     else{
         Monster.find({name: {$in: query.name}}, proj, (err, doc) => {
             if(err){
-                console.log(err)
+                console.error("An error occurred.")
                 res.status(500).send()
                 return
             }

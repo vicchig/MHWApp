@@ -91,7 +91,7 @@ class SkillToGemPage extends React.Component{
             showHelperText: false,
         }, async () => {
             let res = await getDecorationsWSkill(this.state.filters).catch(err => {
-                console.error("An error occurred while waiting for server response. \n\n" + err)
+                console.error("An error occurred")
             })
             if(res.status !== 200 && res.status !== 304) processErrorWNav(this, res.status, res.errorMsg)
             else{
@@ -302,7 +302,7 @@ class SkillToGemPage extends React.Component{
                             singleValueColour="rgb(161, 184, 98)" placeholderColour="rgb(161, 184, 98)"
                             valueContainerColour="rgb(161, 184, 98)"
                         ></CustomSelect>
-                        <h1 className="sortsAndFiltersHeader"></h1>
+                        <h1 className="sortsAndFiltersHeader"> </h1>
                         <CustomSelect
                             name="alphabeticalSort" onChange={e => this.sortResults(e, "name", "sortAlphaVal")} 
                             className="skillToGemSelect" placeholder="Alphabetical" options={sortAlphaOptions}

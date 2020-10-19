@@ -20203,5 +20203,25 @@
   {
     "name": "Black Fatalis Blade",
     "type": "weapon"
+  },
+  {
+    "name": "Rimeguard Mail Gamma +",
+    "type": "armour"
+  },
+  {
+    "name": "Rimeguard Vambraces Gamma +",
+    "type": "armour"
+  },
+  {
+    "name": "Rimeguard Coil Gamma +",
+    "type": "armour"
+  },
+  {
+    "name": "Rimeguard Greaves Gamma +",
+    "type": "armour"
+  },
+  {
+    "name": "Rimeguard Helm Gamma +",
+    "type": "armour"
   }
 ]

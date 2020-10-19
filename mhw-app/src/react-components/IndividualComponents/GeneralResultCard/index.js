@@ -11,9 +11,9 @@ class GeneralResultCard extends React.Component{
 
         const {hasCloseButton, hasCount, hasIcon, iconSource, count, iconWidth, iconHeight, closeButtonClickHandler, name, id,
                displayType, className} = this.props
-        //console.log(require("./../../../Images/bannerImg.jpg"))
+
         const icon = (hasIcon ?? false ) ? <img src={iconSource}
-                                                alt="No Image"
+                                                alt="Content Unavailable"
                                                 height={iconHeight}
                                                 width={iconWidth}
                                                 className={"cardIcon"}

@@ -22,9 +22,6 @@ import {readCookie, login} from './actions/accActions'
 
 
 class App extends React.Component{
-  constructor(props){
-    super(props)
-  }
 
   state = {
     loggedInUser: null
@@ -48,10 +45,12 @@ class App extends React.Component{
         case 404:
           onUserNotFound()
           break
+        default:
+          console.error("Unknown Error")
+          break
       }
     }, rej => {
       console.log("Promise rejected.\n")
-      console.log(rej)
     })
   }
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { withRouter } from 'react-router-dom';
 import CustomButton from './../CustomButton'
 import {getMatchingDistance} from '../../../actions/algorithms'
-import AsyncSelect, {makeAsyncSelect} from 'react-select/async'
+import AsyncSelect from 'react-select/async'
 import "./style.css"
 
 class SearchBar extends React.Component{
@@ -16,7 +16,7 @@ class SearchBar extends React.Component{
     loadOptions = async () => {
 
         let result = await this.props.searchFunction(this.props.searchCategory).catch(err => {
-            console.error("An error occurred while awaiting server response:\n\n" + err)
+            console.error("An error occured")
         })
         if (result.status === 200 || result.status === 304){
             return this.computeBestMatches(this.state.inputText, result.data[this.props.dataObjectName])

@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import CustomButton from "./../CustomButton"
 import { withRouter } from 'react-router-dom';
-import {logOut, readCookie} from '../../../actions/accActions'
+import {logOut} from '../../../actions/accActions'
 import {processErrorWNav} from '../../../actions/utilities'
 
 class Navbar extends React.Component{
@@ -14,7 +14,7 @@ class Navbar extends React.Component{
 
     handleLogOut = async () => {
         let response = await logOut().catch((err) => {
-            console.error(`Could not log out due to an error. \n ${err}`)
+            console.error("An error occured")
         })
 
         if(response.status !== 200) processErrorWNav(this, response.status, response.errorMsg)

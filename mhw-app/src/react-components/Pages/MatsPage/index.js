@@ -3,22 +3,11 @@ import { withRouter } from 'react-router-dom';
 import WebsiteHeader from './../../IndividualComponents/WebsiteHeader'
 import SearchBar from './../../IndividualComponents/SearchBar'
 import {getData, getEquipmentInfo} from '../../../actions/dataActions'
-import {getEquipment} from '../../../actions/mhwActions'
 import {processErrorWNav} from '../../../actions/utilities'
 import GeneralResultCard from '../../IndividualComponents/GeneralResultCard'
 import { uid } from 'react-uid';
 import BeatLoader from "react-spinners/BeatLoader";
 import './style.css'
-
-const weaponProjection = {
-    id: true, name: true, type: true, rarity: true,
-    crafting: true, assets: true
-}
-
-const armorProjection = {
-    id: true, name: true, type: true, rarity: true,
-    crafting: true, rank: true, assets: true
-}
 
 
 class MatsPage extends React.Component{
@@ -59,12 +48,11 @@ class MatsPage extends React.Component{
             let item, res = null
 
             res = await getEquipmentInfo(e.value.name, e.value.type).catch(err => {
-                console.error("An error occurred while waiting for server response. \n\n" + err)
+                console.error("An error occured")
             })
             
             if(res.status !== 200 && res.status !== 304) {processErrorWNav(this, res.status, res.errorMsg); return;}
             else item = res.data.item
-            console.log(item.type)
             currentlySelected.push({...item, internalID: this.state.nextMatCardID})
 
             this.setState({

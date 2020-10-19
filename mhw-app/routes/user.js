@@ -11,7 +11,7 @@ router.get('/findUserByID/:id', (req, res) => {
     
     User.findOne({id: id}, {_id: false, password: false, __v: false}, (err, doc) => {
         if(err){
-            res.status(500).send({errMsg: err})
+            res.status(500).send({errMsg: "An error occured on the server during the processing of the request."})
             return
         }
 

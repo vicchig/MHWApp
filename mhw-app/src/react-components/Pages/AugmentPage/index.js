@@ -56,7 +56,7 @@ class AugmentPage extends React.Component{
             loading: true
         }, async () => {
             const augmentMats = await getAugmentMaterials(this.state.level, this.state.rarity, this.state.augment).catch(err => {
-                console.error("Error while fetching data.")
+                console.error("An error occured")
             })
 
             if(augmentMats.status === 200 || augmentMats.status === 304){
@@ -66,7 +66,7 @@ class AugmentPage extends React.Component{
                 })
             }
             else{
-                console.error("Error while fetchinf data." + augmentMats.status)
+                console.error("An error occured")
             }
         })
     }
@@ -95,7 +95,7 @@ class AugmentPage extends React.Component{
                     <CustomSelect
                         name="raritySelect" onChange={e => this.handleSelect(e, "rarity")} 
                         className="optionSelect" placeholder="Rarity" options={rarityOptions}
-                        menuBackgroundColour="rgb(100, 100, 100)" menuBackgroundColour="rgb(100, 100, 100)" optionHoverBackgroundColour="rgb(120, 120, 120)"
+                        menuBackgroundColour="rgb(100, 100, 100)"  optionHoverBackgroundColour="rgb(120, 120, 120)"
                         optionColour="rgb(161, 184, 98)" controlBackgroundColour="rgb(61, 61, 61)"
                         controlBorderColor="rgb(100, 100, 100)" controlHoverBorderColor="rgb(161, 184, 98)"
                         singleValueColour="rgb(161, 184, 98)" placeholderColour="rgb(161, 184, 98)"
@@ -105,7 +105,7 @@ class AugmentPage extends React.Component{
                     <CustomSelect
                         name="augmentSelect" onChange={e => this.handleSelect(e, "augment")} 
                         className="optionSelect" placeholder="Augment" options={augmentOptions}
-                        menuBackgroundColour="rgb(100, 100, 100)" menuBackgroundColour="rgb(100, 100, 100)" optionHoverBackgroundColour="rgb(120, 120, 120)"
+                        menuBackgroundColour="rgb(100, 100, 100)"  optionHoverBackgroundColour="rgb(120, 120, 120)"
                         optionColour="rgb(161, 184, 98)" controlBackgroundColour="rgb(61, 61, 61)"
                         controlBorderColor="rgb(100, 100, 100)" controlHoverBorderColor="rgb(161, 184, 98)"
                         singleValueColour="rgb(161, 184, 98)" placeholderColour="rgb(161, 184, 98)"
@@ -115,7 +115,7 @@ class AugmentPage extends React.Component{
                     <CustomSelect
                         name="levelSelect" onChange={e => this.handleSelect(e, "level")} 
                         className="optionSelect" placeholder="Level" options={levelOptions}
-                        menuBackgroundColour="rgb(100, 100, 100)" menuBackgroundColour="rgb(100, 100, 100)" optionHoverBackgroundColour="rgb(120, 120, 120)"
+                        menuBackgroundColour="rgb(100, 100, 100)"  optionHoverBackgroundColour="rgb(120, 120, 120)"
                         optionColour="rgb(161, 184, 98)" controlBackgroundColour="rgb(61, 61, 61)"
                         controlBorderColor="rgb(100, 100, 100)" controlHoverBorderColor="rgb(161, 184, 98)"
                         singleValueColour="rgb(161, 184, 98)" placeholderColour="rgb(161, 184, 98)"
@@ -130,7 +130,6 @@ class AugmentPage extends React.Component{
                         width={"150px"}
                         borderColor={"rgb(164, 164, 164)"}
                         fontSize={"10pt"}
-                        position={"absolute"}
                         buttonText={"Select"}
                         position={"relative"}
                         borderRadius={"10px"}

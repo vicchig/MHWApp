@@ -13,43 +13,43 @@ router.get('/getInterval', (req, res) =>  {
     if (amnt === undefined || skipAmnt === undefined) res.status(400).send()
 
     NewsItem.countDocuments((err, count) => {
-        if (err) {res.status(500).send({errMsg: err}); return}
+        if (err) {res.status(500).send({errMsg: "An error occured on the server during the processing of the request."}); return}
         else left = count
     })
 
     NewsItem.find(null, {_id: false}).limit(amnt).skip(skipAmnt).then((items) => {
         res.status(200).send({items: items, count: left})
     }).catch((error) => {
-        res.status(500).send({errMsg: error})
+        res.status(500).send({errMsg: "An error occured on the server during the processing of the request."})
     })
 })
 
 router.delete('/delete/:id',  (req, res, next) => {security.auth(req, res, next)}, (req, res) => {
-    if(req.params.id === undefined || req.params.id === null) res.status(400).send({errMsg: "ID was not of a valid type."})
+    if(req.params.id === undefined || req.params.id === null) res.status(400).send({errMsg: "An error occured on the server during the processing of the request."})
 
     let id = -1
     try{
         id = parseInt(req.params.id)
     }
     catch(err){
-        res.status(400).send({errMsg: err})
+        res.status(400).send({errMsg: "An error occured on the server during the processing of the request."})
     }
 
     NewsItem.deleteOne({id: id}, (err) => {
-        if(err) {res.status(500).send({errMsg: err}); return}
+        if(err) {res.status(500).send({errMsg: "An error occured on the server during the processing of the request."}); return}
         else res.status(200).send()
     })
 })
 
 
 router.patch('/update/:id', (req, res, next) => {security.auth(req, res, next)}, (req, res) => {
-    if(req.params.id === undefined || req.params.id === null) {res.status(400).send({errMsg: "ID was not of a valid type."}); return}
+    if(req.params.id === undefined || req.params.id === null) {res.status(400).send({errMsg: "An error occured"}); return}
     let id = -1
     try{
         id = parseInt(req.params.id)
     }
     catch(err){
-        res.status(400).send({errMsg: "ID was not of a valid type. \n" + err})
+        res.status(400).send({errMsg: "An error occured on the server during the processing of the request."})
         return
     }
 
@@ -58,13 +58,12 @@ router.patch('/update/:id', (req, res, next) => {security.auth(req, res, next)},
     }
 
     NewsItem.findOneAndUpdate({id: id}, updatedItem, {fields: {_id: false, __v: false}}, (err, doc) => {
-        if (err) {res.status(500).send({errMsg: "An error occured while attempting to update document. \n" + err}); return}
+        if (err) {res.status(500).send({errMsg: "An error occured on the server during the processing of the request."}); return}
         res.status(200).send(doc)
     })
 })
 
 router.post("/create", (req, res, next) => {security.auth(req, res, next)}, (req, res) => {
-    console.log(req.body)
     let item = new NewsItem({
         text: req.body.text,
         date: Date.now(),
@@ -73,9 +72,9 @@ router.post("/create", (req, res, next) => {security.auth(req, res, next)}, (req
     item.save().then(resolve => {
         res.status(200).send()
     }, rej => {
-        res.status(500).send({errMsg: "An error occurred. \n" + rej})
+        res.status(500).send({errMsg: "An error occured on the server during the processing of the request."})
     }).catch(err => {
-        res.status(500).send({errMsg: "An error occurred. \n" + err})
+        res.status(500).send({errMsg: "An error occured on the server during the processing of the request."})
     })
 })
 
@@ -83,9 +82,9 @@ router.get('/index', (req, res) => {
     NewsItem.find({}, {id: true, _id: false}).sort({id: -1}).limit(1).then(doc => {
         res.status(200).send(doc)
     }, rej => {
-        res.status(500).send({errMsg: "An error occurred. \n " + rej})
+        res.status(500).send({errMsg: "An error occured on the server during the processing of the request."})
     }).catch(err => {
-        res.status(500).send({errMsg: "An error occurred. \n" + err})
+        res.status(500).send({errMsg: "An error occured on the server during the processing of the request."})
     })
 })
 
