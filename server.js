@@ -6,22 +6,25 @@ const session = require('express-session')
 const bodyParser = require('body-parser') 
 const cors = require('cors')
 const app = express()
+const path = require('path')
 const csp = require(`helmet-csp`)
 
 app.use(csp({
     directives: {
-        defaultSrc: ['none'],
-        scriptSrc: ['self'],
-        objectSrc: ['self'],
-        objectSrc: ['none'],
-        imgSrc: ['self', 'mhw-db.com'],
-        fontSrc: ['self'],
-        mediaSrc: ['self']
+        defaultSrc: ["\'self\'", "mhw-db.com"],
+        scriptSrc: ["\'self\'", "\'unsafe-inline\'"],
+        objectSrc: ["\'self\'"],
+        imgSrc: ["\'self\'"],
+        fontSrc: ["\'self\'"],
+        mediaSrc: ["\'self\'"],
+        styleSrc: ["\'self\'", "\'unsafe-inline\'"],
+        upgradeInsecureRequests: []
     },
     reportOnly: false
 }))
 
 //session cookie
+/*
 app.use(session({
     secret: ''+process.env.SECRET,
     resave: false,
@@ -32,6 +35,7 @@ app.use(session({
         sameSite: true
     }
 }));
+*/
 
 const newsitemRoutes = require('./routes/newsitems')
 const userRoutes = require('./routes/user')
@@ -47,7 +51,12 @@ require('dotenv').config()
 // using Express middleware
 app.use(express.static(__dirname + '/pub'))
 // Serve the build
-app.use(express.static(__dirname + "/client/build"));
+app.use(express.static(__dirname + "/build"));
+
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, "/build"))
+})
+
 
 //parsers and session 
 app.use(bodyParser.json())
