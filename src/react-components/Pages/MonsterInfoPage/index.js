@@ -312,6 +312,9 @@ class MonsterInfoPage extends React.Component{
                 if(iconName === "great-jagras" || iconName === "seething-bazelgeuse"){
                     iconName += ".png"
                 }
+                else if(iconName === "fatalis"){
+                    iconName += ".jpg"
+                }
                 else{
                     iconName += ".webp"
                 }
