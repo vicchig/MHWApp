@@ -160,7 +160,8 @@ class Navbar extends React.Component{
                         borderRadius={"10px"}
                         hoverColor={"rgb(74, 74, 74)"}
                         hoverTextColor={"rgb(161, 184, 98)"}
-                        justifySelf={"end"}
+                        justifySelf={"center"}
+                        alignSelf={"center"}
                         onClick={this.handleLogOut}
                     ></CustomButton>
         
