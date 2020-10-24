@@ -5,7 +5,7 @@ import "./style.css"
 class Page404 extends React.Component{
     render(){
         return(
-            <div id="mainDiv">
+            <div id="mainDiv404">
                 <div id="headerContainer">
                     <header className="mainHeader">
                         404 Not Found

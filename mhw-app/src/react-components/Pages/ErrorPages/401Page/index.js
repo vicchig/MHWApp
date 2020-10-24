@@ -5,7 +5,7 @@ import "./style.css"
 class Page401 extends React.Component{
     render(){
         return(
-            <div id="mainDiv">
+            <div id="mainDiv401">
                 <div id="headerContainer">
                     <header className="mainHeader">
                         401 Unauthorized Request

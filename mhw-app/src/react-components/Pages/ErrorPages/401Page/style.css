@@ -2,3 +2,13 @@
     color: rgb(161, 184, 98);
     font-size: 20pt;
 }
+
+#mainDiv401{
+    width: 100%;
+    background-color: rgb(61, 61, 61);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    min-height: 100vh;
+}

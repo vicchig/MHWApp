@@ -5,7 +5,7 @@ import "./style.css"
 class UnknownError extends React.Component{
     render(){
         return(
-            <div id="mainDiv">
+            <div id="mainDivUnknownErr">
                 <div id="headerContainer">
                     <header className="mainHeader">
                         Error
