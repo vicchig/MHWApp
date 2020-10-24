@@ -309,7 +309,7 @@ class MonsterInfoPage extends React.Component{
                 }
 
                 //a couple special cases
-                if(iconName === "great-jagras" || iconName === "seething-bazelgeuse"){
+                if(iconName === "great-jagras" || iconName === "seething-bazelgeuse" || iconName === 'yian-garuga' || iconName === 'velkhana' || iconName === 'fatalis'){
                     iconName += ".png"
                 }
                 else{
