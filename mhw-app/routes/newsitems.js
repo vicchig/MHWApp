@@ -17,7 +17,7 @@ router.get('/getInterval', (req, res) =>  {
         else left = count
     })
 
-    NewsItem.find(null, {_id: false}).limit(amnt).skip(skipAmnt).then((items) => {
+    NewsItem.find(null, {_id: false}).limit(amnt).skip(skipAmnt).sort({date: -1}).then((items) => {
         res.status(200).send({items: items, count: left})
     }).catch((error) => {
         res.status(500).send({errMsg: "An error occured on the server during the processing of the request."})
