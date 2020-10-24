@@ -1,6 +1,7 @@
 #mainDivMonsterInfo{
     min-height: 100vh;
-    height: 300vh;
+    max-height: 5000vh;
+    height: fit-content;
     width: 100%;
     background-color: rgb(61, 61, 61);
     align-items: center;
