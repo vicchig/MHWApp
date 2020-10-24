@@ -5,7 +5,7 @@ import "./style.css"
 class Page400 extends React.Component{
     render(){
         return(
-            <div id="mainDiv">
+            <div id="mainDiv400">
                 <div id="headerContainer">
                     <header className="mainHeader">
                         400 Bad Request
