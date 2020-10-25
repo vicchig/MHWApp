@@ -112,6 +112,11 @@ const sortAlphaOptions = [
     {value: 2, label: "Alphabetical Descending"}
 ]
 
+const logicalOperatorOptions = [
+    {value: false, label: "AND"},
+    {value: true, label: "OR"}
+]
+
 class MonsterInfoPage extends React.Component{
 
     state = {
@@ -130,7 +135,8 @@ class MonsterInfoPage extends React.Component{
         },
         results: [],
         searchResultsToShow: [],
-        loading: false
+        loading: false,
+        useORFilters: false
     }
 
     onSearchAction = async () => {
@@ -146,10 +152,10 @@ class MonsterInfoPage extends React.Component{
                 processErrorWNav(this, result.status, result.errorMsg)
             }
             else{
-                const newSearchResultsToShow = filterMonsters(result.data.monsters, this.state.filters, false)
+                const newSearchResultsToShow = filterMonsters(result.data.monsters, this.state.filters, this.state.useORFilters)
 
                 this.setState({
-                    results: result.data.monsters, //change this to be results
+                    results: newSearchResultsToShow, //result.data.monsters
                     loading: false,
                     searchResultsToShow: newSearchResultsToShow
                 })
@@ -193,7 +199,7 @@ class MonsterInfoPage extends React.Component{
                 filters: newFilters,
                 loading: true
             }, () => {
-                const newSearchResultsToShow = filterMonsters(this.state.results, this.state.filters, false)
+                const newSearchResultsToShow = filterMonsters(this.state.results, this.state.filters, this.state.useORFilters)
 
                 this.setState({
                     loading: false,
@@ -201,6 +207,10 @@ class MonsterInfoPage extends React.Component{
                 })
             })
         }
+    }
+
+    onSelectOperator = (e) => {
+        this.setState({useORFilters: e.value})
     }
 
     //this function is also used on the SkillToGem page so could put it in an action file instead of copying it
@@ -589,6 +599,16 @@ class MonsterInfoPage extends React.Component{
                         <CustomSelect
                             name="alphaSort" onChange={e => this.sortResultsPrimitive(e, "name", "sortAlphaVal")} 
                             className="optionSelect" placeholder="Alphabetical" options={sortAlphaOptions}
+                            menuBackgroundColour="rgb(100, 100, 100)" optionHoverBackgroundColour="rgb(120, 120, 120)"
+                            optionColour="rgb(161, 184, 98)" controlBackgroundColour="rgb(61, 61, 61)"
+                            controlBorderColor="rgb(100, 100, 100)" controlHoverBorderColor="rgb(161, 184, 98)"
+                            singleValueColour="rgb(161, 184, 98)" placeholderColour="rgb(161, 184, 98)"
+                            valueContainerColour="rgb(161, 184, 98)"
+                        ></CustomSelect>
+                        <h1 className="sortsAndFiltersHeader">Logic:</h1>
+                        <CustomSelect
+                            name="logicSelect" onChange={(e) => this.onSelectOperator(e)} 
+                            className="optionSelect" placeholder="Operator" options={logicalOperatorOptions}
                             menuBackgroundColour="rgb(100, 100, 100)" optionHoverBackgroundColour="rgb(120, 120, 120)"
                             optionColour="rgb(161, 184, 98)" controlBackgroundColour="rgb(61, 61, 61)"
                             controlBorderColor="rgb(100, 100, 100)" controlHoverBorderColor="rgb(161, 184, 98)"
