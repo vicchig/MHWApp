@@ -34,7 +34,13 @@
     }
 }
 
-@media (min-width: 301px){
+@media (max-width: 414px) and (min-width: 301px){
+    .mainHeader{
+        font-size: 15pt;
+    }
+}
+
+@media (min-width: 415px){
     .mainHeader{
         font-size: 42pt;
     }
