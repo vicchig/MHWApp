@@ -14,33 +14,42 @@ import './style.css'
 
 const weaknessOptions = [
     {value: JSON.stringify({field: "weaknesses", element: "all", stars: "all"}), label: "All"},
+    {value: JSON.stringify({field: "weaknesses", element: "ice", stars: 0}), label: "Ice Resist"},
     {value: JSON.stringify({field: "weaknesses", element: "ice", stars: 1}), label: "Ice 1"},
     {value: JSON.stringify({field: "weaknesses", element: "ice", stars: 2}), label: "Ice 2"},
     {value: JSON.stringify({field: "weaknesses", element: "ice", stars: 3}), label: "Ice 3"},
+    {value: JSON.stringify({field: "weaknesses", element: "water", stars: 0}), label: "Water Resist"},
     {value: JSON.stringify({field: "weaknesses", element: "water", stars: 1}), label: "Water 1"},
     {value: JSON.stringify({field: "weaknesses", element: "water", stars: 2}), label: "Water 2"},
     {value: JSON.stringify({field: "weaknesses", element: "water", stars: 3}), label: "Water 3"},
     {value: JSON.stringify({field: "weaknesses", element: "fire", stars: 1}), label: "Fire 1"},
     {value: JSON.stringify({field: "weaknesses", element: "fire", stars: 2}), label: "Fire 2"},
     {value: JSON.stringify({field: "weaknesses", element: "fire", stars: 3}), label: "Fire 3"},
+    {value: JSON.stringify({field: "weaknesses", element: "thunder", stars: 0}), label: "Thunder Resist"},
     {value: JSON.stringify({field: "weaknesses", element: "thunder", stars: 1}), label: "Thunder 1"},
     {value: JSON.stringify({field: "weaknesses", element: "thunder", stars: 2}), label: "Thunder 2"},
     {value: JSON.stringify({field: "weaknesses", element: "thunder", stars: 3}), label: "Thunder 3"},
+    {value: JSON.stringify({field: "weaknesses", element: "dragon", stars: 0}), label: "Dragon Resist"},
     {value: JSON.stringify({field: "weaknesses", element: "dragon", stars: 1}), label: "Dragon 1"},
     {value: JSON.stringify({field: "weaknesses", element: "dragon", stars: 2}), label: "Dragon 2"},
     {value: JSON.stringify({field: "weaknesses", element: "dragon", stars: 3}), label: "Dragon 3"},
+    {value: JSON.stringify({field: "weaknesses", element: "sleep", stars: 0}), label: "Sleep Resist"},
     {value: JSON.stringify({field: "weaknesses", element: "sleep", stars: 1}), label: "Sleep 1"},
     {value: JSON.stringify({field: "weaknesses", element: "sleep", stars: 2}), label: "Sleep 2"},
     {value: JSON.stringify({field: "weaknesses", element: "sleep", stars: 3}), label: "Sleep 3"},
+    {value: JSON.stringify({field: "weaknesses", element: "paralysis", stars: 0}), label: "Paralysis Resist"},
     {value: JSON.stringify({field: "weaknesses", element: "paralysis", stars: 1}), label: "Paralysis 1"},
     {value: JSON.stringify({field: "weaknesses", element: "paralysis", stars: 2}), label: "Paralysis 2"},
     {value: JSON.stringify({field: "weaknesses", element: "paralysis", stars: 3}), label: "Paralysis 3"},
+    {value: JSON.stringify({field: "weaknesses", element: "stun", stars: 0}), label: "Stun Resist"},
     {value: JSON.stringify({field: "weaknesses", element: "stun", stars: 1}), label: "Stun 1"},
     {value: JSON.stringify({field: "weaknesses", element: "stun", stars: 2}), label: "Stun 2"},
     {value: JSON.stringify({field: "weaknesses", element: "stun", stars: 3}), label: "Stun 3"},
+    {value: JSON.stringify({field: "weaknesses", element: "poison", stars: 0}), label: "Poison Resist"},
     {value: JSON.stringify({field: "weaknesses", element: "poison", stars: 1}), label: "Poison 1"},
     {value: JSON.stringify({field: "weaknesses", element: "poison", stars: 2}), label: "Poison 2"},
     {value: JSON.stringify({field: "weaknesses", element: "poison", stars: 3}), label: "Poison 3"},
+    {value: JSON.stringify({field: "weaknesses", element: "blast", stars: 0}), label: "Blast Resist"},
     {value: JSON.stringify({field: "weaknesses", element: "blast", stars: 1}), label: "Blast 1"},
     {value: JSON.stringify({field: "weaknesses", element: "blast", stars: 1}), label: "Blast 2"},
     {value: JSON.stringify({field: "weaknesses", element: "blast", stars: 1}), label: "Blast 3"}
@@ -137,10 +146,12 @@ class MonsterInfoPage extends React.Component{
                 processErrorWNav(this, result.status, result.errorMsg)
             }
             else{
+                const newSearchResultsToShow = filterMonsters(result.data.monsters, this.state.filters, false)
+
                 this.setState({
                     results: result.data.monsters, //change this to be results
                     loading: false,
-                    searchResultsToShow: result.data.monsters
+                    searchResultsToShow: newSearchResultsToShow
                 })
             }
         })
@@ -182,7 +193,7 @@ class MonsterInfoPage extends React.Component{
                 filters: newFilters,
                 loading: true
             }, () => {
-                const newSearchResultsToShow = filterMonsters(this.state.results, this.state.filters)
+                const newSearchResultsToShow = filterMonsters(this.state.results, this.state.filters, false)
 
                 this.setState({
                     loading: false,

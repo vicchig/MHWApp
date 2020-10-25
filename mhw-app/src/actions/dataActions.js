@@ -127,8 +127,10 @@ export const getAugmentMaterials = async (level, rarity, augment) => {
 
 //helpers
 
-export const filterMonsters = (data, filters) => {
+export const filterMonsters = (data, filters, useORFilters = true) => {
+
     const allFilters = [...filters.species, ...filters.difficulty, ...filters.threatLevel, ...filters.weakness]
+
     let filteredMonsters = []
     let useAllSpecies, useAllDifficulties, useAllThreatLevels, useAllWeaknesses = false
     const speciesFilterAmount = filters.species.length
@@ -138,26 +140,46 @@ export const filterMonsters = (data, filters) => {
     useAllThreatLevels = (filters.threatLevel.filter(level => level.value === "all")).length > 0 ? true : false
     useAllWeaknesses = (filters.weakness.filter(weakness => weakness.element === "all")).length > 0 ? true : false
 
-    if(useAllSpecies || useAllDifficulties || useAllThreatLevels || useAllWeaknesses){
+    if(useAllSpecies && useAllDifficulties && useAllThreatLevels && useAllWeaknesses){
         filteredMonsters = [...data]
     }
     else{
-        allFilters.forEach(filter => {
-            let monstersToInclude = []
+        if(useORFilters){
+            allFilters.forEach(filter => {
+                let monstersToInclude = []
+        
+                if(filter.field === "weaknesses" && !useAllWeaknesses){
+                    data.forEach(monster => {
+                        if (monster.weaknesses.filter(weakness => weakness.stars === filter.stars && weakness.element === filter.element).length > 0){
+                            monstersToInclude.push(monster)
+                        }
+                    })
+                }
+                else{
+                    monstersToInclude = data.filter(monster => monster[filter.field] === filter.value)
+                }
     
-            if(filter.field === "weaknesses" && !useAllWeaknesses){
-                data.forEach(monster => {
-                    if (monster.weaknesses.filter(weakness => weakness.stars === filter.stars && weakness.element === filter.element).length > 0){
-                        monstersToInclude.push(monster)
+                filteredMonsters.push(...monstersToInclude)
+            })
+        }
+        else{
+            data.forEach(monster => {
+                let passedAllFilters = 1
+
+                allFilters.forEach(filter => {
+                    if(filter.field === "weaknesses" && !useAllWeaknesses && monster["weaknesses"].filter(weakness => weakness.stars === filter.stars && weakness.element === filter.element).length === 0){
+                        passedAllFilters = 0
+                    }
+                    else if(filter.field !== "weaknesses" && monster[filter.field] !== filter.value){
+                        passedAllFilters = 0
                     }
                 })
-            }
-            else{
-                monstersToInclude = data.filter(monster => monster[filter.field] === filter.value)
-            }
 
-            filteredMonsters.push(...monstersToInclude)
-        })
+                if(passedAllFilters){
+                    filteredMonsters.push(monster)
+                }
+            })
+        }
     }
 
     //run the species filter again as that takes precedence, unless there are multiple species filters
