@@ -6,6 +6,8 @@
     flex-direction: column;
     padding-top: 5px;
     min-height: 100vh;
+    height: 200vh;
+    max-height: 5000vh;
 }
 
 #searchbar.MuiOutlinedInput-input{
@@ -85,12 +87,108 @@
 }
 
 
-@media (max-width: 679px){
+@media (max-width: 679px) and (min-width: 560px){
     #filtersDiv-Augment{
         width: 70vw;
         grid-template-rows: 33% 33% 33% 33%;
         grid-template-columns: 100%;
         left: 0vw;
+    }
+    #mainDivAugment{
+        height: 150vh;
+    }
+    #resultsDivAugment{
+        position: relative;
+        top: 5vh;
+        width: 75vw;
+    }
+    .mainCardDiv-2augment{
+        width: 200%;
+        font-size: 9pt;
+    }
+}
+
+@media (max-width: 559px) and (min-width: 548px){
+    #filtersDiv-Augment{
+        width: 70vw;
+        grid-template-rows: 33% 33% 33% 33%;
+        grid-template-columns: 100%;
+        left: 0vw;
+    }
+    #mainDivAugment{
+        height: 150vh;
+    }
+    #resultsDivAugment{
+        position: relative;
+        top: 5vh;
+        width: 75vw;
+    }
+    .mainCardDiv-2augment{
+        width: 200%;
+        font-size: 8pt;
+    }
+}
+
+@media (max-width: 547px) and (min-width: 396px){
+    #filtersDiv-Augment{
+        width: 70vw;
+        grid-template-rows: 33% 33% 33% 33%;
+        grid-template-columns: 100%;
+        left: 0vw;
+    }
+    #mainDivAugment{
+        height: 150vh;
+    }
+    #resultsDivAugment{
+        position: relative;
+        top: 5vh;
+        width: 75vw;
+    }
+    .mainCardDiv-2augment{
+        width: 200%;
+        font-size: 7pt;
+    }
+}
+
+@media (max-width: 395px) and (min-width: 300px){
+    #filtersDiv-Augment{
+        width: 70vw;
+        grid-template-rows: 33% 33% 33% 33%;
+        grid-template-columns: 100%;
+        left: 0vw;
+    }
+    #mainDivAugment{
+        height: 150vh;
+    }
+    #resultsDivAugment{
+        position: relative;
+        top: 5vh;
+        width: 75vw;
+    }
+    .mainCardDiv-2augment{
+        width: 200%;
+        font-size: 6pt;
+    }
+}
+
+@media (max-width: 299px){
+    #filtersDiv-Augment{
+        width: 70vw;
+        grid-template-rows: 33% 33% 33% 33%;
+        grid-template-columns: 100%;
+        left: 0vw;
+    }
+    #mainDivAugment{
+        height: 150vh;
+    }
+    #resultsDivAugment{
+        position: relative;
+        top: 5vh;
+        width: 75vw;
+    }
+    .mainCardDiv-2augment{
+        width: 200%;
+        font-size: 5pt;
     }
 }
 
