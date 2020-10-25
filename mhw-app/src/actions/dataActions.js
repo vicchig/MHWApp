@@ -140,7 +140,7 @@ export const filterMonsters = (data, filters, useORFilters = true) => {
     useAllThreatLevels = (filters.threatLevel.filter(level => level.value === "all")).length > 0 ? true : false
     useAllWeaknesses = (filters.weakness.filter(weakness => weakness.element === "all")).length > 0 ? true : false
 
-    if(useAllSpecies && useAllDifficulties && useAllThreatLevels && useAllWeaknesses){
+    if(useORFilters && (useAllSpecies || useAllDifficulties || useAllThreatLevels || useAllWeaknesses)){
         filteredMonsters = [...data]
     }
     else{
@@ -163,22 +163,43 @@ export const filterMonsters = (data, filters, useORFilters = true) => {
             })
         }
         else{
-            data.forEach(monster => {
-                let passedAllFilters = 1
-
-                allFilters.forEach(filter => {
-                    if(filter.field === "weaknesses" && !useAllWeaknesses && monster["weaknesses"].filter(weakness => weakness.stars === filter.stars && weakness.element === filter.element).length === 0){
-                        passedAllFilters = 0
-                    }
-                    else if(filter.field !== "weaknesses" && monster[filter.field] !== filter.value){
-                        passedAllFilters = 0
+            if(useAllSpecies || useAllDifficulties || useAllThreatLevels || useAllWeaknesses){
+                data.forEach(monster => {
+                    let passedAllFilters = 1
+    
+                    allFilters.forEach(filter => {
+                        if(filter.field === "weaknesses" && filter.value !== "all" && !useAllWeaknesses && monster["weaknesses"].filter(weakness => weakness.stars === filter.stars && weakness.element === filter.element).length === 0){
+                            passedAllFilters = 0
+                        }
+                        else if(filter.field !== "weaknesses" && filter.value !== "all" && monster[filter.field] !== filter.value){
+                            passedAllFilters = 0
+                        }
+                    })
+    
+                    if(passedAllFilters){
+                        filteredMonsters.push(monster)
                     }
                 })
+            }
+            else{
+                data.forEach(monster => {
+                    let passedAllFilters = 1
+    
+                    allFilters.forEach(filter => {
+                        if(filter.field === "weaknesses" && !useAllWeaknesses && monster["weaknesses"].filter(weakness => weakness.stars === filter.stars && weakness.element === filter.element).length === 0){
+                            passedAllFilters = 0
+                        }
+                        else if(filter.field !== "weaknesses" && monster[filter.field] !== filter.value){
+                            passedAllFilters = 0
+                        }
+                    })
+    
+                    if(passedAllFilters){
+                        filteredMonsters.push(monster)
+                    }
+                })
+            }
 
-                if(passedAllFilters){
-                    filteredMonsters.push(monster)
-                }
-            })
         }
     }
 
