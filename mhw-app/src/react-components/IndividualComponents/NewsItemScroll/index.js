@@ -35,7 +35,7 @@ class NewsItemScroll extends React.Component {
 
       // Load more items when scrolled to bottom
       if (
-        window.innerHeight + document.documentElement.scrollTop
+        window.innerHeight + document.documentElement.scrollTop + 25
         >= document.documentElement.offsetHeight
       ) {
         loadItems();
