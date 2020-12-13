@@ -28,7 +28,7 @@ On this page the user can search for information on monsters using the various f
 ![MonsterInfoSingle](./mhw-app/Screenshots/MonsterInfoSingle.png)</br>
 
 
-![MonsterInfoMulti](./mhw-app/Screenshots/MonsterInfoMulti.png)</br>
+![MonsterInfoMulti](./mhw-app/Screenshots/MonsterInfoMultiple.png)</br>
 
 ![MonsterInfoMulti2](./mhw-app/Screenshots/MonsterInfoMulti2.png)</br>
 
