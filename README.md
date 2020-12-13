@@ -11,7 +11,7 @@ This is a webapp I decided to make to make it easier to my friends and I to find
 ![SkillToDecoBase](./mhw-app/Screenshots/SkillToDecoBase1.png)</br>
 On this page the user can search for a skill given they preferred filter and sorting criteria and see all decorations that provide that skill. </br>
 
-![SkillToDecoResult](./Screenshots/SkillToDecoResult.png)</br>
+![SkillToDecoResult](./mhw-app/Screenshots/SkillToDecoResult.png)</br>
 *Query result.*</br>
 
 By hovering over the skill name, the user can also see what bonuses the skill offers. </br>
